@@ -1,0 +1,34 @@
+---
+title: "Deep Policy Lab"
+css: /custom.css
+#image: files/logo.jpeg
+#page-layout: full
+
+#listing:
+#  - id: featured-projects
+#    contents: /projects
+#    type: grid
+#    max-items: 3
+#    page-size: 0 #set as 0 will remove the page setting
+#    sort: 
+#      - "date desc"
+#      - "title asc"
+---
+
+::: {.content-block}
+
+### Data driven
+
+### Evidence based
+
+### Energy and climate 
+
+### Policy insights for energy decisions and climate actions
+
+:::
+
+<!--
+:::{#featured-projects}
+:::
+-->
+

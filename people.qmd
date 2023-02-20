@@ -1,0 +1,23 @@
+---
+title: "People"
+#image: files/group.jpeg
+#page-layout: full
+---
+
+The Deep Energy and Climate Policy Lab (Deep Policy Lab) provides data-driven, evidence based, enabled by big data and AI, energy and climate policy analysis and research to support energy decisions and climate actions.
+
+
+## Director
+
+Gang He
+
+## Researchers
+
+
+
+## Collaborators
+
+
+## Advisors
+
+Jiang Lin

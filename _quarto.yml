@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Deep Policy Lab"
+#  image: "/files/logo.jpeg"
+  description: "Data Driven, Evidence based, Energy, Environmental, and Climate Policy"
+ 
+  navbar:
+    background: light
+    left:
+      - text: About
+        href: about.qmd
+      - text: People
+        href: people.qmd
+      - text: Projects
+        href: projects.qmd     
+      - text: Support
+        href: support.qmd   
+    right:
+      - icon: github
+        href: https://github.com/deeppolicylab
+      - icon: twitter 
+        href: https://twitter.com/deeppolicylab  
+  page-navigation: true
+  page-footer: 
+    left: "&copy; 2023 [Deep Policy Lab](http://deeppolicylab.github.io)." 
+    right:  
+      - icon: github
+        href: https://github.com/deeppolicylab
+      - icon: twitter 
+        href: https://twitter.com/deeppolicylab
+  search:
+    location: navbar
+    type: textbox
+  reader-mode: true
+  repo-url: https://github.com/deeppolicylab/deeppolicylab.github.io
+  repo-actions: [edit, issue, source]
+  open-graph: true
+  twitter-card: true 
+#  card-style: summary      
+  site-url: "http://deeppolicylab.github.io"
+  google-analytics:
+    tracking-id: "G-TEC97F8RGK"
+    anonymize-ip: true 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-icon: false
+    link-external-newwindow: true 
+
+
+
