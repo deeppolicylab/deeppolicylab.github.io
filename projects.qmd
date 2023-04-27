@@ -4,8 +4,8 @@ subtitle: "What we do"
 listing:
   contents: projects
   sort: "date desc"
-  type: default
-  page-size: 50
+  type: grid
+  page-size: 25
   categories: false
   sort-ui: false
   filter-ui: false

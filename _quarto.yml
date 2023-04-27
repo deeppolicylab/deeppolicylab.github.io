@@ -14,7 +14,7 @@ website:
         href: about.qmd
       - text: People
         href: people.qmd
-      - text: Projects
+      - text: Research
         href: projects.qmd     
       - text: Support
         href: support.qmd   
@@ -36,7 +36,7 @@ website:
     type: textbox
   reader-mode: true
   repo-url: https://github.com/deeppolicylab/deeppolicylab.github.io
-  repo-actions: [edit, issue, source]
+#  repo-actions: [edit, issue, source]
   open-graph: true
   twitter-card: true 
 #  card-style: summary      

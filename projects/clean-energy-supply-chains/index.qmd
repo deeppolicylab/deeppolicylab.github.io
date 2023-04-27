@@ -1,0 +1,20 @@
+---
+title: "Sustainable, Resilient, Just Global Clean Energy Supply Chains"
+description: "Ensuring a secure global clean energy supply chains to achieve climate goals."
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+image: "featured.jpeg"
+#css: /custom.css
+---
+
+## Overview
+
+Achieving carbon neutrality requires deploying renewable energy at unprecedented speed and scale, yet countries sometimes implement decoupling policies that might impede continuous cost declining. International climate policy and renewable energy deployment policy now face a crossroads: continue relying on global supply chains, or pivot towards domestic technology development and production. 
+
+This project will evaluate the carbon mitigation, air quality, and human health benefits achieved by global clean energy supply chains, using solar PV, a globally trade clean energy product, as an example. This project will be one of a series of evidence-based research and analysis to show the importance to maintain a sustainable and resilient clean energy global supply chains to achieve climate goals.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
