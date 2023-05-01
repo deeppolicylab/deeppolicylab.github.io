@@ -4,4 +4,8 @@ image: files/framework.jpeg
 #page-layout: full
 ---
 
-The Deep Energy and Climate Policy Lab (Deep Policy Lab) provides data-driven, evidence based, enabled by big data and AI, energy and climate policy analysis and research to support energy decisions and climate actions. Deep Policy Lab aims to advance actionable and evidence-based energy and climate solutions through data-driven analysis and dialogue. Deep Policy Lab leverages big data, machine learning, and systems modeling to inform policy decisions on renewable energy, clean energy supply chains, land use changes, deep decarbonization, and other topics related to the energy transition and carbon neutrality. Deep Policy Lab collaborates with academic institutions, government agencies, industry partners, and civil society organizations to foster innovation and impact in the field of energy and climate policy.
+The Deep Energy and Climate Policy Lab (Deep Policy Lab) provides data-driven, evidence based, enabled by big data and AI, energy and climate policy analysis and research to support energy decisions and climate actions. 
+
+Deep Policy Lab aims to advance actionable and evidence-based energy and climate solutions through data-driven analysis and dialogue. Deep Policy Lab leverages big data, machine learning, and systems modeling to inform policy decisions on renewable energy, clean energy supply chains, land use changes, deep decarbonization, and other topics related to the energy transition and carbon neutrality. 
+
+Deep Policy Lab collaborates with academic institutions, government agencies, industry partners, and civil society organizations to foster innovation and impact in the field of energy and climate policy.

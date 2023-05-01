@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.313">
+<meta name="generator" content="quarto-1.4.6">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,11 +71,11 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Deep Policy Lab - People">
-<meta property="og:description" content="">
+<meta property="og:image" content="https://drganghe.github.io/files/gang-he-profile.jpeg">
 <meta property="og:site-name" content="Deep Policy Lab">
 <meta name="twitter:title" content="Deep Policy Lab - People">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://drganghe.github.io/files/gang-he-profile.jpeg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -171,20 +171,90 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 
 </header>
 
-<p>The Deep Energy and Climate Policy Lab (Deep Policy Lab) provides data-driven, evidence based, enabled by big data and AI, energy and climate policy analysis and research to support energy decisions and climate actions.</p>
 <section id="director" class="level2">
 <h2 class="anchored" data-anchor-id="director">Director</h2>
-<p><a href="https://drganghe.github.io">Gang He</a></p>
+<div class="grid">
+<!--Lecture 1-2-->
+<div class="g-col-12 g-col-md-4">
+<p><img src="https://drganghe.github.io/files/gang-he-profile.jpeg" class="img-fluid"></p>
+<center>
+<a href="https://drganghe.github.io">Gang He</a>
+</center>
+</div>
+</div>
 </section>
 <section id="researchers" class="level2">
 <h2 class="anchored" data-anchor-id="researchers">Researchers</h2>
 </section>
 <section id="collaborators" class="level2">
 <h2 class="anchored" data-anchor-id="collaborators">Collaborators</h2>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gps.ucsd.edu/_images/people/faculty/faculty_davidson.jpg" style="height:2.77778in" class="figure-img"></p>
+</figure>
+</div>
+<center>
+<a href="https://gps.ucsd.edu/faculty-directory/michael-davidson.html">Michael Davidson</a>
+</center>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://avatars.githubusercontent.com/u/9012994?v=4.png" style="height:2.77778in" class="figure-img"></p>
+</figure>
+</div>
+<center>
+<a href="https://www.jhelvy.com/">John Helveston</a>
+</center>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://eta-intranet.lbl.gov/sites/default/files/styles/staff_public_photo_336x_480/public/user-photos/dsc05635-edit.jpg?itok=mTRQ12QR" style="height:2.77778in" class="figure-img"></p>
+</figure>
+</div>
+<center>
+<a href="https://eta.lbl.gov/people/liqun-peng-0">Liqun Peng</a>
+</center>
+</div>
+</div>
 </section>
 <section id="advisors" class="level2">
 <h2 class="anchored" data-anchor-id="advisors">Advisors</h2>
-<p>Jiang Lin</p>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://kammen.berkeley.edu/images/Kammen_solar.jpg" style="height:2.77778in" class="figure-img"></p>
+</figure>
+</div>
+<center>
+<a href="https://kammen.berkeley.edu/">Daniel Kammen</a>
+</center>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://are.berkeley.edu/sites/are.berkeley.edu/files/styles/user_big_picture/public/pictures/picture-13749-1602716599.jpg?itok=i8mLR_AR" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<center>
+<a href="https://are.berkeley.edu/users/jiang-lin">Jiang Lin</a>
+</center>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://cee.princeton.edu/sites/g/files/toruqf2216/files/styles/3x4_750w_1000h/public/people/mauzerall.jpg?itok=ilA0fH9K" style="height:2.77778in" class="figure-img"></p>
+</figure>
+</div>
+<center>
+<a href="https://mauzerall.scholar.princeton.edu/">Denise L. Mauzerall</a>
+</center>
+</div>
+</div>
 
 
 </section>
@@ -296,6 +366,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children.length > 2) {
+          for (let i = 0; i < 2; i++) {
+            container.appendChild(note.children[i].cloneNode(true));
+          }
+          return container.innerHTML
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return note.innerHTML;
+      }
     });
   }
       let selectedAnnoteEl;

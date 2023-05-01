@@ -1,5 +1,5 @@
 ---
-title: "Sustainable, Resilient, Just Global Clean Energy Supply Chains"
+title: "Sustainable, Resilient, and Just Global Clean Energy Supply Chains"
 description: "Ensuring a secure global clean energy supply chains to achieve climate goals."
 #author: "DEEP Lab"
 #date: "2023-03-20"

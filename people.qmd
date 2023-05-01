@@ -4,12 +4,23 @@ title: "People"
 #page-layout: full
 ---
 
-The Deep Energy and Climate Policy Lab (Deep Policy Lab) provides data-driven, evidence based, enabled by big data and AI, energy and climate policy analysis and research to support energy decisions and climate actions.
-
-
 ## Director
 
-[Gang He](https://drganghe.github.io)
+::: {.grid}
+
+<!--Lecture 1-2-->
+
+::: {.g-col-12 .g-col-md-4}
+
+![](https://drganghe.github.io/files/gang-he-profile.jpeg)
+
+<center>[Gang He](https://drganghe.github.io)</center>
+
+:::
+
+:::
+
+
 
 ## Researchers
 
@@ -17,7 +28,60 @@ The Deep Energy and Climate Policy Lab (Deep Policy Lab) provides data-driven, e
 
 ## Collaborators
 
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+![](https://gps.ucsd.edu/_images/people/faculty/faculty_davidson.jpg){height="200pt" fig-align="center"}
+
+<center>[Michael Davidson](https://gps.ucsd.edu/faculty-directory/michael-davidson.html)</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+![](https://avatars.githubusercontent.com/u/9012994?v=4){height="200pt" fig-align="center"}
+
+<center>[John Helveston](https://www.jhelvy.com/)</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+![](https://eta-intranet.lbl.gov/sites/default/files/styles/staff_public_photo_336x_480/public/user-photos/dsc05635-edit.jpg?itok=mTRQ12QR){height="200pt" fig-align="center"}
+
+<center>[Liqun Peng](https://eta.lbl.gov/people/liqun-peng-0)</center>
+
+:::
+
+:::
 
 ## Advisors
 
-Jiang Lin
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+![](https://kammen.berkeley.edu/images/Kammen_solar.jpg){height="200pt" fig-align="center"}
+
+<center>[Daniel Kammen](https://kammen.berkeley.edu/)</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+![](https://are.berkeley.edu/sites/are.berkeley.edu/files/styles/user_big_picture/public/pictures/picture-13749-1602716599.jpg?itok=i8mLR_AR){fig-align="center"}
+
+<center>[Jiang Lin](https://are.berkeley.edu/users/jiang-lin)</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+![](https://cee.princeton.edu/sites/g/files/toruqf2216/files/styles/3x4_750w_1000h/public/people/mauzerall.jpg?itok=ilA0fH9K){height="200pt" fig-align="center"}
+
+<center>[Denise L. Mauzerall](https://mauzerall.scholar.princeton.edu/)</center>
+
+:::
+
+:::

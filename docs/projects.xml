@@ -9,10 +9,10 @@
 <link>http://deeppolicylab.github.io/projects.html</link>
 <atom:link href="http://deeppolicylab.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>Data Driven, Evidence based, Energy, Environmental, and Climate Policy</description>
-<generator>quarto-1.3.313</generator>
-<lastBuildDate>Mon, 24 Apr 2023 20:56:17 GMT</lastBuildDate>
+<generator>quarto-1.4.6</generator>
+<lastBuildDate>Sat, 29 Apr 2023 17:50:37 GMT</lastBuildDate>
 <item>
-  <title>Sustainable, Resilient, Just Global Clean Energy Supply Chains</title>
+  <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
   <link>http://deeppolicylab.github.io/projects/clean-energy-supply-chains/index.html</link>
   <description><![CDATA[ 
 
@@ -38,7 +38,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/projects/clean-energy-supply-chains/index.html</guid>
-  <pubDate>Mon, 24 Apr 2023 20:56:17 GMT</pubDate>
+  <pubDate>Sat, 29 Apr 2023 17:50:37 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/projects/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
