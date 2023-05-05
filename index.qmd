@@ -15,17 +15,11 @@ css: /custom.css
 #      - "title asc"
 ---
 
-::: {.content-block}
+<p align="center" style="font-size:48px;">We use data-drive, evidence-base approach to study energy and climate policy and offer policy insights for energy decisions and climate actions to achieve carbon neutrality.</p>
 
-### Data driven
-
-### Evidence based
-
-### Energy and climate 
-
-### Policy insights for energy decisions and climate actions
-
-:::
+::: {.hero-buttons}
+[Learn more](about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+::: 
 
 <!--
 :::{#featured-projects}
