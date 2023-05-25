@@ -15,7 +15,7 @@ website:
       - text: People
         href: people.qmd
       - text: Research
-        href: projects.qmd     
+        href: research.qmd     
       - text: Support
         href: support.qmd   
     right:

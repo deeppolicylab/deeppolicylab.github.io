@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Ensuring a secure global clean energy supply chains to achieve climate goals.">
 
-<title>Deep Policy Lab - Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
+<title>Deep Policy Lab - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,6 +60,35 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
 <script type="text/javascript">
@@ -69,15 +99,17 @@ gtag('js', new Date());
 gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Deep Policy Lab - Sustainable, Resilient, and Just Global Clean Energy Supply Chains">
-<meta property="og:description" content="Ensuring a secure global clean energy supply chains to achieve climate goals.">
-<meta property="og:image" content="http://deeppolicylab.github.io/projects/clean-energy-supply-chains/featured.jpeg">
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="Deep Policy Lab" href="research.xml"><meta property="og:title" content="Deep Policy Lab - Research">
+<meta property="og:description" content="What we do">
+<meta property="og:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
 <meta property="og:site-name" content="Deep Policy Lab">
-<meta name="twitter:title" content="Deep Policy Lab - Sustainable, Resilient, and Just Global Clean Energy Supply Chains">
-<meta name="twitter:description" content="Ensuring a secure global clean energy supply chains to achieve climate goals.">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/projects/clean-energy-supply-chains/featured.jpeg">
+<meta name="twitter:title" content="Deep Policy Lab - Research">
+<meta name="twitter:description" content="What we do">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -88,7 +120,7 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
   </div>
@@ -99,19 +131,19 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html" rel="" target="">
+    <a class="nav-link" href="./people.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html" rel="" target="">
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../support.html" rel="" target="">
+    <a class="nav-link" href="./support.html" rel="" target="">
  <span class="menu-text">Support</span></a>
   </li>  
 </ul>
@@ -143,27 +175,17 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sustainable, Resilient, and Just Global Clean Energy Supply Chains</h1>
+<h1 class="title">Research</h1>
+<p class="subtitle lead">What we do</p>
 </div>
 
-<div>
-  <div class="description">
-    Ensuring a secure global clean energy supply chains to achieve climate goals.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -176,25 +198,39 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 
 </header>
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Achieving carbon neutrality requires deploying renewable energy at unprecedented speed and scale, yet countries sometimes implement decoupling policies that might impede continuous cost declining. International climate policy and renewable energy deployment policy now face a crossroads: continue relying on global supply chains, or pivot towards domestic technology development and production.</p>
-<p>This project will evaluate the carbon mitigation, air quality, and human health benefits achieved by global clean energy supply chains, using solar PV, a globally trade clean energy product, as an example. This project will be one of a series of evidence-based research and analysis to show the importance to maintain a sustainable and resilient clean energy global supply chains to achieve climate goals.</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_twitter"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_mastodon"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_email"></a></p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1684854625591" data-listing-reading-time-sort="1">
+<a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./research/clean-energy-supply-chains/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sustainable, Resilient, and Just Global Clean Energy Supply Chains
+</h5>
+<div class="card-text listing-description">
+Ensuring a secure global clean energy supply chains to achieve climate goals.
 </div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-
-</section>
-
-</main> <!-- /main -->
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

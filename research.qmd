@@ -2,9 +2,10 @@
 title: "Research"
 subtitle: "What we do"
 listing:
-  contents: projects
+  contents: research
   sort: "date desc"
   type: grid
+  grid-columns: 2
   page-size: 25
   categories: false
   sort-ui: false

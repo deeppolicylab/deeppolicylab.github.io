@@ -8,6 +8,9 @@ image: "featured.jpeg"
 #css: /custom.css
 ---
 
+![](featured.jpeg)
+
+
 ## Overview
 
 Achieving carbon neutrality requires deploying renewable energy at unprecedented speed and scale, yet countries sometimes implement decoupling policies that might impede continuous cost declining. International climate policy and renewable energy deployment policy now face a crossroads: continue relying on global supply chains, or pivot towards domestic technology development and production. 

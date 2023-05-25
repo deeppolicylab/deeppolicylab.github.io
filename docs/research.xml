@@ -6,18 +6,19 @@
       version="2.0">
 <channel>
 <title>Deep Policy Lab</title>
-<link>http://deeppolicylab.github.io/projects.html</link>
-<atom:link href="http://deeppolicylab.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<link>http://deeppolicylab.github.io/research.html</link>
+<atom:link href="http://deeppolicylab.github.io/research.xml" rel="self" type="application/rss+xml"/>
 <description>Data Driven, Evidence based, Energy, Environmental, and Climate Policy</description>
 <generator>quarto-1.4.6</generator>
-<lastBuildDate>Fri, 05 May 2023 13:30:22 GMT</lastBuildDate>
+<lastBuildDate>Thu, 25 May 2023 12:28:51 GMT</lastBuildDate>
 <item>
   <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
-  <link>http://deeppolicylab.github.io/projects/clean-energy-supply-chains/index.html</link>
+  <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/index.html</link>
   <description><![CDATA[ 
 
 
 
+<p><img src="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" class="img-fluid"></p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Achieving carbon neutrality requires deploying renewable energy at unprecedented speed and scale, yet countries sometimes implement decoupling policies that might impede continuous cost declining. International climate policy and renewable energy deployment policy now face a crossroads: continue relying on global supply chains, or pivot towards domestic technology development and production.</p>
@@ -37,9 +38,9 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
  ]]></description>
-  <guid>http://deeppolicylab.github.io/projects/clean-energy-supply-chains/index.html</guid>
-  <pubDate>Fri, 05 May 2023 13:30:22 GMT</pubDate>
-  <media:content url="http://deeppolicylab.github.io/projects/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
+  <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/index.html</guid>
+  <pubDate>Thu, 25 May 2023 12:28:51 GMT</pubDate>
+  <media:content url="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
