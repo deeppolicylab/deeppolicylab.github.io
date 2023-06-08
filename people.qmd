@@ -68,6 +68,7 @@ title: "People"
 
 :::
 
+<!--
 ## Advisors
 
 ::: {.grid}
@@ -97,3 +98,4 @@ title: "People"
 :::
 
 :::
+-->

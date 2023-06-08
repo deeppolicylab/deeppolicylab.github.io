@@ -4,14 +4,14 @@
     "href": "research/clean-energy-supply-chains/index.html#overview",
     "title": "Sustainable, Resilient, and Just Global Clean Energy Supply Chains",
     "section": "Overview",
-    "text": "Overview\nAchieving carbon neutrality requires deploying renewable energy at unprecedented speed and scale, yet countries sometimes implement decoupling policies that might impede continuous cost declining. International climate policy and renewable energy deployment policy now face a crossroads: continue relying on global supply chains, or pivot towards domestic technology development and production.\nThis project will evaluate the carbon mitigation, air quality, and human health benefits achieved by global clean energy supply chains, using solar PV, a globally trade clean energy product, as an example. This project will be one of a series of evidence-based research and analysis to show the importance to maintain a sustainable and resilient clean energy global supply chains to achieve climate goals."
+    "text": "Overview\nThis research theme aims at evidence-based analysis to understand the importance of a sustainable and resilient clean energy global supply chains to achieve climate goals. We evaluate the economic costs, carbon mitigation, air quality, and human health benefits achieved by global clean energy supply chains."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Sustainable, Resilient, and Just Global Clean Energy Supply Chains\n\n\nEnsuring a secure global clean energy supply chains to achieve climate goals.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Power Systems Carbon Neutrality\n\n\nClean power system transition\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSustainable, Resilient, and Just Global Clean Energy Supply Chains\n\n\nEnsuring a secure global clean energy supply chains to achieve climate goals.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "support.html",
@@ -68,5 +68,26 @@
     "title": "People",
     "section": "Advisors",
     "text": "Advisors\n\n\n\n\n\n\n\n\nDaniel Kammen\n\n\n\n\n\n\n\n\n\nJiang Lin\n\n\n\n\n\n\n\n\n\nDenise L. Mauzerall"
+  },
+  {
+    "objectID": "research/power-systems-carbon-neutrality/index.html#overview",
+    "href": "research/power-systems-carbon-neutrality/index.html#overview",
+    "title": "Power Systems Carbon Neutrality",
+    "section": "Overview",
+    "text": "Overview\nElectrifying energy, and decarbonizing electricity. Power system is at the center of global energy transtion. This research theme explores the pathways and their environmental, climate, human health, and socio-economic implications."
+  },
+  {
+    "objectID": "research/power-systems-carbon-neutrality/index.html#featured-publications",
+    "href": "research/power-systems-carbon-neutrality/index.html#featured-publications",
+    "title": "Power Systems Carbon Neutrality",
+    "section": "Featured publications",
+    "text": "Featured publications\nHe, Gang*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke*. 2020. Rapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China’s Power System. Nature Communications 11 (1): 2486. doi: 10.1038/s41467-020-16184-x. [pdf]\nLin, Jiang*, Nikit Abhyankar, Gang He, Xu Liu, and Shengfei Yin. 2022. Large Balancing Areas and Dispersed Renewable Investment Enhances Grid Flexibility in a Renewable-Dominant Power System in China. iScience 25(2): 103749. doi: 10.1016/j.isci.2022.103749. [pdf]\nLi, Bo, Minyou Chen*, Ziming Ma, Gang He, Wei Dai, Dongran Liu, Chi Zhang, and Haiwang Zhong. 2022. Modelling Integrated Power and Transportation Sectors Decarbonization with Hydrogen Energy Storage. IEEE Transactions on Industry Applications 58(2): 2677–2693. doi: 10.1109/TIA.2021.3116916. [pdf]\nHe, Gang*, Anne-Perrine Avrin, James H. Nelson, Josiah Johnston, Ana Mileva, Jianwei Tian, and Daniel M. Kammen*. 2016. SWITCH-China:A Systems Approach to Decarbonizing China’s Power System. Environmental Science and Technology 50(11): 5467–5473. doi: 10.1021/acs.est.6b01345. [pdf]"
+  },
+  {
+    "objectID": "research/clean-energy-supply-chains/index.html#featured-publications",
+    "href": "research/clean-energy-supply-chains/index.html#featured-publications",
+    "title": "Sustainable, Resilient, and Just Global Clean Energy Supply Chains",
+    "section": "Featured publications",
+    "text": "Featured publications\nJohn Helveston, Gang He*, and Michael Davidson. 2022. Quantifying the Cost Savings of Global Solar Photovoltaic Supply Chains. Nature 612: 83–87. doi: 10.1038/s41586-022-05316-6. [pdf]"
   }
 ]

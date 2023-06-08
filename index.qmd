@@ -15,9 +15,6 @@ css: /custom.css
 #      - "title asc"
 ---
 
-
-
-
 <p align="center" style="font-size:48px;">We use data-drive, evidence-base approach to study energy and climate policy and offer policy insights for energy decisions and climate actions to achieve carbon neutrality.</p>
 
 <center>
