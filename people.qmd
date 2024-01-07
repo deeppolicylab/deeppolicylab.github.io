@@ -12,7 +12,7 @@ title: "People"
 
 ::: {.g-col-12 .g-col-md-4}
 
-![](https://drganghe.github.io/files/gang-he-profile.jpeg)
+![](https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg)
 
 <center>[Gang He](https://drganghe.github.io)</center>
 

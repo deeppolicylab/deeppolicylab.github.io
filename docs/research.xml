@@ -9,49 +9,13 @@
 <link>http://deeppolicylab.github.io/research.html</link>
 <atom:link href="http://deeppolicylab.github.io/research.xml" rel="self" type="application/rss+xml"/>
 <description>Data Driven, Evidence based, Energy, Environmental, and Climate Policy</description>
-<generator>quarto-1.4.6</generator>
-<lastBuildDate>Wed, 07 Jun 2023 18:00:45 GMT</lastBuildDate>
-<item>
-  <title>Power Systems Carbon Neutrality</title>
-  <link>http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><img src="http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/featured.jpeg" class="img-fluid"></p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Electrifying energy, and decarbonizing electricity. Power system is at the center of global energy transtion. This research theme explores the pathways and their environmental, climate, human health, and socio-economic implications.</p>
-</section>
-<section id="featured-publications" class="level2">
-<h2 class="anchored" data-anchor-id="featured-publications">Featured publications</h2>
-<p><strong>He, Gang</strong>*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke*. 2020. <a href="https://www.nature.com/articles/s41467-020-16184-x">Rapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China’s Power System</a>. <em>Nature Communications</em> 11 (1): 2486. doi: <a href="https://doi.org/10.1038/s41467-020-16184-x">10.1038/s41467-020-16184-x</a>. [<a href="https://www.nature.com/articles/s41467-020-16184-x.pdf">pdf</a>]</p>
-<p>Lin, Jiang*, Nikit Abhyankar, <strong>Gang He</strong>, Xu Liu, and Shengfei Yin. 2022. <a href="https://www.cell.com/iscience/fulltext/S2589-0042(22)00019-0">Large Balancing Areas and Dispersed Renewable Investment Enhances Grid Flexibility in a Renewable-Dominant Power System in China</a>. <em>iScience</em> 25(2): 103749. doi: <a href="https://doi.org/10.1016/j.isci.2022.103749">10.1016/j.isci.2022.103749</a>. [<a href="https://www.cell.com/action/showPdf?pii=S2589-0042%2822%2900019-0">pdf</a>]</p>
-<p>Li, Bo, Minyou Chen*, Ziming Ma, <strong>Gang He</strong>, Wei Dai, Dongran Liu, Chi Zhang, and Haiwang Zhong. 2022. <a href="../../posts/2022-04-ieeetia-hydrogen-integrated-power-and-transport/index.qmd">Modelling Integrated Power and Transportation Sectors Decarbonization with Hydrogen Energy Storage</a>. <em>IEEE Transactions on Industry Applications</em> 58(2): 2677–2693. doi: <a href="https://doi.org/10.1109/TIA.2021.3116916">10.1109/TIA.2021.3116916</a>. [<a href="https://drganghe.github.io/files/papers/2022-IEEE-ModelingIntegratedPowerAndTransportationSystems.pdf">pdf</a>]</p>
-<p><strong>He, Gang</strong>*, Anne-Perrine Avrin, James H. Nelson, Josiah Johnston, Ana Mileva, Jianwei Tian, and Daniel M. Kammen*. 2016. <a href="http://pubs.acs.org/doi/abs/10.1021/acs.est.6b01345">SWITCH-China:A Systems Approach to Decarbonizing China’s Power System</a>. <em>Environmental Science and Technology</em> 50(11): 5467–5473. doi: <a href="http://dx.doi.org/10.1021/acs.est.6b01345">10.1021/acs.est.6b01345</a>. [<a href="https://drganghe.github.io/files/papers/2016-EST-SWITCH-China.pdf">pdf</a>]</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_twitter"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_mastodon"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-</section>
-
- ]]></description>
-  <guid>http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/index.html</guid>
-  <pubDate>Wed, 07 Jun 2023 18:00:45 GMT</pubDate>
-  <media:content url="http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/featured.jpeg" medium="image" type="image/jpeg"/>
-</item>
+<generator>quarto-1.4.471</generator>
+<lastBuildDate>Sat, 25 Nov 2023 14:52:20 GMT</lastBuildDate>
 <item>
   <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
-  <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/index.html</link>
+  <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -78,9 +42,47 @@ https://quarto.org/docs/authoring/includes.html
 </section>
 
  ]]></description>
-  <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/index.html</guid>
-  <pubDate>Wed, 07 Jun 2023 18:00:45 GMT</pubDate>
+  <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</guid>
+  <pubDate>Sat, 25 Nov 2023 14:52:20 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Power Systems Carbon Neutrality</title>
+  <link>http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/featured.jpeg" class="img-fluid"></p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Electrifying energy, and decarbonizing electricity. Power system is at the center of global energy transtion. This research theme explores the pathways and their environmental, climate, human health, and socio-economic implications.</p>
+</section>
+<section id="featured-publications" class="level2">
+<h2 class="anchored" data-anchor-id="featured-publications">Featured publications</h2>
+<p><strong>He, Gang</strong>*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke*. 2020. <a href="https://www.nature.com/articles/s41467-020-16184-x">Rapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China’s Power System</a>. <em>Nature Communications</em> 11 (1): 2486. doi: <a href="https://doi.org/10.1038/s41467-020-16184-x">10.1038/s41467-020-16184-x</a>. [<a href="https://www.nature.com/articles/s41467-020-16184-x.pdf">pdf</a>]</p>
+<p>Lin, Jiang*, Nikit Abhyankar, <strong>Gang He</strong>, Xu Liu, and Shengfei Yin. 2022. <a href="https://www.cell.com/iscience/fulltext/S2589-0042(22)00019-0">Large Balancing Areas and Dispersed Renewable Investment Enhances Grid Flexibility in a Renewable-Dominant Power System in China</a>. <em>iScience</em> 25(2): 103749. doi: <a href="https://doi.org/10.1016/j.isci.2022.103749">10.1016/j.isci.2022.103749</a>. [<a href="https://www.cell.com/action/showPdf?pii=S2589-0042%2822%2900019-0">pdf</a>]</p>
+<p>Li, Bo, Minyou Chen*, Ziming Ma, <strong>Gang He</strong>, Wei Dai, Dongran Liu, Chi Zhang, and Haiwang Zhong. 2022. <a href="../..\posts/2022-04-ieeetia-hydrogen-integrated-power-and-transport/index.qmd">Modelling Integrated Power and Transportation Sectors Decarbonization with Hydrogen Energy Storage</a>. <em>IEEE Transactions on Industry Applications</em> 58(2): 2677–2693. doi: <a href="https://doi.org/10.1109/TIA.2021.3116916">10.1109/TIA.2021.3116916</a>. [<a href="https://drganghe.github.io/files/papers/2022-IEEE-ModelingIntegratedPowerAndTransportationSystems.pdf">pdf</a>]</p>
+<p><strong>He, Gang</strong>*, Anne-Perrine Avrin, James H. Nelson, Josiah Johnston, Ana Mileva, Jianwei Tian, and Daniel M. Kammen*. 2016. <a href="http://pubs.acs.org/doi/abs/10.1021/acs.est.6b01345">SWITCH-China:A Systems Approach to Decarbonizing China’s Power System</a>. <em>Environmental Science and Technology</em> 50(11): 5467–5473. doi: <a href="http://dx.doi.org/10.1021/acs.est.6b01345">10.1021/acs.est.6b01345</a>. [<a href="https://drganghe.github.io/files/papers/2016-EST-SWITCH-China.pdf">pdf</a>]</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_twitter"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_mastodon"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+
+ ]]></description>
+  <guid>http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/</guid>
+  <pubDate>Sat, 25 Nov 2023 14:52:20 GMT</pubDate>
+  <media:content url="http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
