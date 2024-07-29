@@ -25,7 +25,7 @@ website:
         href: https://twitter.com/deeppolicylab  
   page-navigation: true
   page-footer: 
-    left: "&copy; 2023 [Deep Policy Lab](http://deeppolicylab.github.io)." 
+    left: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>." 
     right:  
       - icon: github
         href: https://github.com/deeppolicylab

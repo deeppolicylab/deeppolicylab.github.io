@@ -1,6 +1,7 @@
 ---
 title: "Support"
 title-block-banner: false
+page-layout: full
 ---
 
 <center>

@@ -5,13 +5,13 @@ listing:
   contents: research
   sort: "date desc"
   type: grid
-  grid-columns: 2
+  grid-columns: 3
   page-size: 25
   categories: false
   sort-ui: false
   filter-ui: false
   feed: true
-#page-layout: full
+page-layout: full
 page-navigation: true
 title-block-banner: false
 ---
