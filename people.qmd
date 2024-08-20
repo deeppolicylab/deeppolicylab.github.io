@@ -7,6 +7,8 @@ listing:  #an example of listing external links
 - id: lab-member
   sort: "title asc"
   type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
   grid-columns: 4
   image-height: 250px
 #  categories: true
@@ -15,32 +17,61 @@ listing:  #an example of listing external links
   contents:
     - path: https://drganghe.github.io
       image: https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg
-      title: "Gang He"
+      title: "Gang HE"
 #      author: 
-      description: "Assistant Professor, CUNY-Baruch College"
+      subtitle: "Assistant Professor, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://kaifangluo.com
       image: /files/headshots/kaifang-luo.jpeg
-      title: "Kaifang Luo"
+      title: "Kaifang LUO"
 #      author: 
-      description: "Post-doc, CUNY-Baruch College"
+      subtitle: "Post-doc, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://giselle1119.github.io/
       image: https://giselle1119.github.io/images/WengeRao.png
-      title: "Wenge Rao"
+      title: "Wenge RAO"
 #      author: 
-      description: "Visiting PhD Student, CUNY-Baruch College"
+      subtitle: "Visiting PhD Student, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
 
+- id: lab-alumni
+  sort: "title asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
+  grid-columns: 4
+  image-height: 250px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile
+      image: https://media.licdn.com/dms/image/C4E03AQHjmzgiuHhh-w/profile-displayphoto-shrink_200_200/0/1574827633673?e=2147483647&v=beta&t=SIy5lyl6RVArH6RqR1Ju0cCkekSgwSnNIPcpipdMSms
+      title: "Kately ARRIAGE"
+#      author: 
+      subtitle: "MPA Student, CUNY-Baruch College"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://www.linkedin.com/in/nicolo-antonucci-73a89a216
+      image: https://media.licdn.com/dms/image/v2/C4D03AQGPajFlvlXQ_w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625693949569?e=2147483647&v=beta&t=WAdd8HeHzq7Szm2vp79g-N5U6qGtmcdCd4XRBJKjD6g
+      title: "Nicolo ANTONUCCI"
+#      author: 
+      subtitle: "MIA Student, CUNY-Baruch College"
+#      date: "2024-03-12"
+#      categories: [] 
+
 - id: lab-collaborator
   sort: "title asc"
   type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
   grid-columns: 4
   image-height: 250px
 #  categories: true
@@ -49,57 +80,126 @@ listing:  #an example of listing external links
   contents:
     - path: https://www.jhelvy.com/
       image: /files/headshots/john-helveston.png
-      title: "John Helveston"
+      title: "John HELVESTON"
 #      author: 
-      description: "Assistant Professor, George Washington University"
+      subtitle: "Assistant Professor, George Washington University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+
+    - path: https://ccci.berkeley.edu/people/ccci-dai-fan
+      image: https://ccci.berkeley.edu/sites/default/files/styles/unfurl_square_inside_800x800/public/Fan%20Dai.jpg
+      title: "Fan DAI"
+#      author: 
+      subtitle: "Director, California-China Climate Institute"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://liqunpeng.com
       image: /files/headshots/liqun-peng.jpeg
-      title: "Liqun Peng"
+      title: "Liqun PENG"
 #      author: 
-      description: "Post-doc, Lawrence Berkeley National Laboratory"
+      subtitle: "Post-doc, Lawrence Berkeley National Laboratory"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://gps.ucsd.edu/faculty-directory/michael-davidson.html
       image: https://gps.ucsd.edu/_images/people/faculty/faculty_davidson.jpg
-      title: "Michael Davidson"
+      title: "Michael DAVIDSON"
 #      author: 
-      description: "Assistant Professor, University of California, San Diego"
+      subtitle: "Assistant Professor, University of California, San Diego"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://es.ucsb.edu/people/ranjit-deshmukh
       image: https://es.ucsb.edu/sites/default/files/styles/max_650x650/public/2024-07/Deshmukh%2C%20Ranjit.jpg
-      title: "Ranjit Deshmukh"
+      title: "Ranjit DESHMUKH"
 #      author: 
-      description: "Assistant Professor, University of California, Santa Barbara"
+      subtitle: "Assistant Professor, University of California, Santa Barbara"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://scholar.google.com/citations?user=tH4ODHUAAAAJ&hl=en
+      image: https://bren.ucsb.edu/sites/default/files/styles/headshot/public/2020-06/Haozhe%20Yang_Bren%20Grad%202019_01.jpg
+      title: "Haozhe YANG"
+#      author: 
+      subtitle: "Post-doc, Princeton"
 #      date: "2024-03-12"
 #      categories: [] 
 
 
     - path: https://www.geog.hku.hk/lb-liu
       image: https://liulaibao.quarto.pub/lab/files/images/Photo_LiuLaibao.png
-      title: "Laibao Liu"
+      title: "Laibao LIU"
 #      author: 
-      description: "Assistant Professor, Hong Kong University"
+      subtitle: "Assistant Professor, Hong Kong University"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://sem.tongji.edu.cn/semen/12413.html
       image: https://sem.tongji.edu.cn/semen/wp-content/uploads/sites/3/2015/08/zhangchao.jpg
-      title: "Chao Zhang"
+      title: "Chao ZHANG"
 #      author: 
-      description: "Professor, Tongji University"
+      subtitle: "Professor, Tongji University"
 #      date: "2024-03-12"
 #      categories: [] 
+
+    - path: http://scholar.pku.edu.cn/qinyue/english
+      image: https://cese.pku.edu.cn/images/content/2021-05/20210519144250510226.jpg
+      title: "Yue QIN"
+#      author: 
+      subtitle: "Associate Professor, Peking University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://mhqiu.github.io/
+      image: https://www.stonybrook.edu/commcms/somas/people/_profiles/images/minghao-qiu.jpg
+      title: "Minghao QIU"
+#      author: 
+      subtitle: "Assistant Professor, Stony Brook University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: http://faculty.dess.tsinghua.edu.cn/liuzhu/en/index.htm
+      image: http://faculty.dess.tsinghua.edu.cn/_tsf/00/01/2mmAjiJNrmqq.png
+      title: "Zhu LIU"
+#      author: 
+      subtitle: "Professor, Tsinghua University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://environment.fudan.edu.cn/5b/8e/c26241a351118/page.htm
+      image: https://environment.fudan.edu.cn/_upload/article/images/7d/fa/eca42c684c10b92aea0e95cec531/4c635dba-fa36-430c-ba9d-86a05cb473ee.jpg
+      title: "Hongliang ZHANG"
+#      author: 
+      subtitle: "Professor, Fudan University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://www.tsinghua.edu.cn/enven/info/1052/1977.htm
+      image: https://www.tsinghua.edu.cn/__local/E/89/16/1FC96223449A59CE0A0F2150E2E_13611419_299E.jpg
+      title: "Xi LU"
+#      author: 
+      subtitle: "Professor, Tsinghua University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+
+    - path: https://sustainablesolutions.stanford.edu/people/shi-chen
+      image: https://sustainablesolutions.stanford.edu/sites/g/files/sbiybj31186/files/styles/medium_square/public/media/image/chen_1.jpg
+      title: "Shi CHEN"
+#      author: 
+      subtitle: "Post-doc, Carnegie Science"
+#      date: "2024-03-12"
+#      categories: [] 
+
 
 
 - id: lab-advisor
   sort: "title asc"
   type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
   grid-columns: 4
   image-height: 250px
 #  categories: true
@@ -108,17 +208,17 @@ listing:  #an example of listing external links
   contents:
     - path: https://kammen.berkeley.edu/
       image: https://erg.berkeley.edu/wp-content/uploads/2023/07/IMG_1912-scaled-e1688583339173.jpg
-      title: "Daniel M. Kammen"
+      title: "Daniel M. KAMMEN"
 #      author: 
-      description: "Professor, Univeristy of California, Berkeley"
+      subtitle: "Professor, Univeristy of California, Berkeley"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://eta.lbl.gov/people/jiang-lin
       image: https://are.berkeley.edu/sites/are.berkeley.edu/files/styles/user_big_picture/public/pictures/picture-13749-1602716599.jpg
-      title: "Jiang Lin"
+      title: "Jiang LIN"
 #      author: 
-      description: "Staff Scientist, Lawrence Berkeley National Laboratory"
+      subtitle: "Staff Scientist, Lawrence Berkeley National Laboratory"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -145,6 +245,8 @@ format:
 
 ## Collaborators
 
+We are fortunate to have collaborated with many researchers and practitioners. Please visit their websites to learn more about their amazing work.
+
 :::{#lab-collaborator}
 :::
 
@@ -153,6 +255,8 @@ format:
 
 :::{#lab-advisor}
 :::
+
+
 
 <!--
 

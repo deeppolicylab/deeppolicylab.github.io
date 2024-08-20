@@ -4,6 +4,28 @@ title-block-banner: false
 page-layout: full
 ---
 
+We acknowledge the support of the following grant funders:
+
+- ClimateWorks Foundation
+- Environmental Defense Fund
+- National Science Foundation
+- New York State Department of Environmental Conservation
+- Lawrence Berkeley National Laboratory
+- University of California, Berkeley
+- Stanford University
+- California China Climate Institute
+- World Resources Institute
+
+We appreciate the support of the following institutions:
+
+- CUNY Institute for Demographic Research
+- Marxe School of Public and International Affairs
+- CUNY Climate Consortium
+- Asia Society
+
+
+## Contact us
+
 <center>
 
 **Deep Policy Lab**

@@ -2,6 +2,33 @@
 /*https://github.com/quarto-dev/quarto-web/blob/main/index.css*/
 /*#447099*/
 
+.get-started {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.hero-banner {
+  position: relative;
+  background-color: rgb(240,245,249);
+  display: flex;
+  justify-content: center;
+}
+
+
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.alt-background {
+  background-color: rgb(247,249,251);
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
 .btn-action-primary {
   color: white;
   background-color: #1D3A83 !important;

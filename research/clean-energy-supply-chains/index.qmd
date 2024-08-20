@@ -6,6 +6,35 @@ description: "Ensuring a secure global clean energy supply chains to achieve cli
 #categories: [news, job]
 image: "featured.jpeg"
 #css: /custom.css
+listing: 
+- id: supply-chain-papers
+  sort: "title asc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.nature.com/articles/s41586-022-05316-6
+      image: /files/images/journal/nature.avif
+      title: "Quantifying the cost savings of global solar photovoltaic supply chains"
+#      author: 
+      subtitle: "*Nature*"
+      description: "Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically."
+      date: "2022-10-26"
+#      categories: [] 
+
+    - path: https://www.nature.com/articles/s43247-023-01006-x
+      image: /files/images/journal/commsearth.jpg
+      title: "Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060"
+#      author: 
+      subtitle: "*Communications Earth & Environment*"
+      description: "A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing."
+      date: "2023-10-11"
+#      categories: [] 
 ---
 
 ![](featured.jpeg)
@@ -17,7 +46,8 @@ This research theme aims at evidence-based analysis to understand the importance
 
 ## Featured publications
 
-John Helveston, **Gang He**\*, and Michael Davidson. 2022. [Quantifying the Cost Savings of Global Solar Photovoltaic Supply Chains](https://www.nature.com/articles/s41586-022-05316-6). *Nature* 612: 83–87. doi: [10.1038/s41586-022-05316-6](https://doi.org/10.1038/s41586-022-05316-6). \[[pdf](https://drganghe.github.io/files/papers/2022-nature-solar-supply-chains-preprint.pdf)\]
+:::{#supply-chain-papers}
+:::
 
 <!--Include social share buttons-->
 

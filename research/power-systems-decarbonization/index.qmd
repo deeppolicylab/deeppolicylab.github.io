@@ -1,0 +1,56 @@
+---
+title: "Power Systems Decarbonization"
+description: "Clean power system transition"
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: power-systems-papers
+  sort: "title asc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.nature.com/articles/s41467-020-16184-x
+      image: /files/images/journal/nature-comms.png
+      title: "Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system"
+#      author: 
+      subtitle: "*Nature Communications*"
+      description: "A renewable dominant pathway is not just technogical sound, but also cost effective."
+      date: "2020-05-19"
+#      categories: [] 
+
+    - path: https://pubs.acs.org/doi/10.1021/acs.est.6b01345
+      image: /files/images/journal/est-50-11-cover-crop.jpg
+      title: "SWITCH-China: A Systems Approach to Decarbonizing China’s Power System"
+#      author: 
+      subtitle: "*Environmental Science & Technology*"
+      description: "SWITCH-China, an integrated model for power sector decarbonization."
+      date: "2016-05-08"
+#      categories: [] 
+---
+
+![](featured.jpeg)
+
+
+## Overview
+
+Electrifying energy, and decarbonizing electricity. Power system is at the center of global energy transtion. This research theme explores the pathways and their environmental, climate, human health, and socio-economic implications.
+
+
+## Featured publications
+
+:::{#power-systems-papers}
+:::
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

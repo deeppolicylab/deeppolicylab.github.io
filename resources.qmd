@@ -1,0 +1,46 @@
+---
+title: "Resources"
+description: "Models, data, and other resources"
+page-layout: full
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+#image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: resources
+  sort: "title asc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://github.com/switch-model/switch-china-open-model
+      image: /files/images/switch-china.png
+      title: "SWITCH-China Open Model"
+#      author: 
+#      subtitle: "*Nature Communications*"
+      description: "Open model and data for SWITCH-China."
+      date: "2022-06-01"
+#      categories: [] 
+
+    - path: https://international.lbl.gov/tools
+      image: /files/images/elite-cities.jpg
+      title: "Eco and Low-Carbon Indicator Tool for Evaluating Cities (ELITE Cities)"
+#      author: 
+#      subtitle: "*Environmental Science & Technology*"
+      description: "SWITCH-China, an integrated model for power sector decarbonization."
+      date: "2016-05-08"
+#      categories: [] 
+---
+
+:::{#resources}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

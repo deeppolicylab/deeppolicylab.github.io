@@ -1,0 +1,55 @@
+---
+title: "China Carbon Neutrality Initiative"
+description: "Facilitating the transition to a low-carbon economy in China."
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+image: "featured.png"
+#css: /custom.css
+listing: 
+- id: china-carbon-papers
+  sort: "title asc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.nature.com/articles/s43017-021-00244-x
+      image: /files/images/journal/nature-reviews-earth.jpg
+      title: "Challenges and opportunities for carbon neutrality in China"
+#      author: 
+      subtitle: "*Nature Reviews Earth & Environment*"
+      description: "In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets."
+      date: "2022-03-01"
+#      categories: [] 
+
+    - path: https://doi.org/10.1016/j.oneear.2020.07.012
+      image: /files/images/journal/one-earth-logo.jpg
+      title: "Enabling a Rapid and Just Transition away from Coal in China"
+#      author: 
+      subtitle: "*One Earth*"
+      description: "Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death."
+      date: "2020-08-21"
+#      categories: [] 
+---
+
+![](featured.png)
+
+
+## Overview
+
+China is the world's largest emitter of greenhouse gases. It has set a target to achieve carbon peak by 2030 and carbon neutrality by 2060. This initiative aims to facilitate the transition to a low-carbon economy in China to achieve the national carbon peak and carbon neutrality targets. 
+
+
+## Featured publications
+
+:::{#china-carbon-papers}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

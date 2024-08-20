@@ -2,12 +2,52 @@
   {
     "listing": "/research.html",
     "items": [
-      "/research/power-systems-carbon-neutrality/index.html",
-      "/research/clean-energy-supply-chains/index.html"
+      "/research/clean-energy-supply-chains/index.html",
+      "/research/power-systems-decarbonization/index.html",
+      "/research/china-carbon-neutrality-initiative/index.html"
     ]
   },
   {
     "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/research/clean-energy-supply-chains/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/power-systems-decarbonization/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/china-carbon-neutrality-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/resources.html",
+    "items": []
+  },
+  {
+    "listing": "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chain-panel/index.html",
+    "items": []
+  },
+  {
+    "listing": "/events.html",
+    "items": [
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": []
+  },
+  {
+    "listing": "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
     "items": []
   }
 ]

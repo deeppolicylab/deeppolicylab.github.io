@@ -1,0 +1,29 @@
+---
+title: "Events"
+description: "What's happening"
+page-layout: full
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+#image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: events
+  contents: events
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+---
+
+:::{#events}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

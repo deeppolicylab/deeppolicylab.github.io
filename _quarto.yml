@@ -8,14 +8,23 @@ website:
   description: "Data Driven, Evidence based, Energy, Environmental, and Climate Policy"
  
   navbar:
-    background: light
+    background: "#05336B"
+    foreground: "#FFFFFF"
     left:
       - text: About
         href: about.qmd
+      - text: News
+        href: news.qmd
+      - text: Events
+        href: events.qmd
       - text: People
         href: people.qmd
       - text: Research
-        href: research.qmd     
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Resources
+        href: resources.qmd   
       - text: Support
         href: support.qmd   
     right:
@@ -25,7 +34,7 @@ website:
         href: https://twitter.com/deeppolicylab  
   page-navigation: true
   page-footer: 
-    left: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>." 
+    left: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
     right:  
       - icon: github
         href: https://github.com/deeppolicylab
@@ -44,6 +53,8 @@ website:
   google-analytics:
     tracking-id: "G-TEC97F8RGK"
     anonymize-ip: true 
+
+bibliography: references.bib
 
 format:
   html:
