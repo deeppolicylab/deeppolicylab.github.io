@@ -16,6 +16,8 @@ navbar: false
 #      - "title asc"
 ---
 
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
 
 ```{=html}
 

@@ -2,7 +2,11 @@
 title: "Support"
 title-block-banner: false
 page-layout: full
+toc: false
 ---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
 
 We acknowledge the support of the following grant funders:
 
@@ -13,15 +17,18 @@ We acknowledge the support of the following grant funders:
 - Lawrence Berkeley National Laboratory
 - University of California, Berkeley
 - Stanford University
+- Stony Brook University
+- Baruch College, City University of New York
+- Asia Society
 - California China Climate Institute
 - World Resources Institute
 
 We appreciate the support of the following institutions:
 
-- CUNY Institute for Demographic Research
-- Marxe School of Public and International Affairs
-- CUNY Climate Consortium
-- Asia Society
+- [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)
+- [Marxe School of Public and International Affairs](https://marxe.baruch.cuny.edu/)
+- [CUNY Climate Consortium](https://www.cuny.edu/research/research-development-programs/cuny-climate-consortium/)
+
 
 
 ## Contact us

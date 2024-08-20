@@ -19,13 +19,6 @@ listing:
 #  sort-ui: true
 #  filter-ui: true
   contents:
-    - path: https://www.nature.com/articles/d41586-024-00692-7
-      image: /files/images/media/nature.webp
-      title: "China–US climate collaboration concerns as Xie and Kerry step down"
-      author: Smriti Mallapaty
-      description: "Gang He on the importance to continue the research exchange and colloboration: “If the river freezes over, water will still flow underneath.”"
-      date: "2024-03-12"
- #     categories: [Nature] 
 
     - path: https://www.scientificamerican.com/article/what-the-u-s-china-agreement-means-for-greenhouse-gas-emissions/
       image: /files/images/media/scientific-american.webp

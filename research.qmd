@@ -17,4 +17,5 @@ page-navigation: true
 title-block-banner: false
 ---
 
-
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}

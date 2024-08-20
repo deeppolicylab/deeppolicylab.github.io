@@ -4,6 +4,9 @@ image: files/framework.jpeg
 page-layout: full
 ---
 
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
 ![](/files/images/zhangbei-wind.jpeg)
 
 The **Deep Energy and Climate Policy Lab** (Deep Policy Lab) provides **d**ata-driven, **e**vidence based, **e**nergy and climate **p**olicy analysis and research to support energy decisions and climate actions. 

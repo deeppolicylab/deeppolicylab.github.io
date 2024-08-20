@@ -74,6 +74,9 @@ listing:
 #      categories: [] 
 ---
 
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
 :::{#publications}
 :::
 

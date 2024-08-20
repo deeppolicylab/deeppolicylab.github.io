@@ -10,7 +10,7 @@
 <atom:link href="http://deeppolicylab.github.io/research.xml" rel="self" type="application/rss+xml"/>
 <description>Data Driven, Evidence based, Energy, Environmental, and Climate Policy</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Mon, 19 Aug 2024 23:06:30 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Aug 2024 12:48:56 GMT</lastBuildDate>
 <item>
   <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
   <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</link>
@@ -100,7 +100,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</guid>
-  <pubDate>Mon, 19 Aug 2024 23:06:30 GMT</pubDate>
+  <pubDate>Tue, 20 Aug 2024 12:48:56 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -192,7 +192,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/power-systems-decarbonization/</guid>
-  <pubDate>Mon, 19 Aug 2024 23:06:30 GMT</pubDate>
+  <pubDate>Tue, 20 Aug 2024 12:48:56 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/power-systems-decarbonization/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -284,7 +284,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/</guid>
-  <pubDate>Mon, 19 Aug 2024 23:06:30 GMT</pubDate>
+  <pubDate>Tue, 20 Aug 2024 12:48:56 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 </channel>

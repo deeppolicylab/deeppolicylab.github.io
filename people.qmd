@@ -231,6 +231,9 @@ format:
     link-external-newwindow: true
 ---
 
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
 ## Team
 
 :::{#lab-member}
