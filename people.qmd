@@ -145,7 +145,7 @@ listing:  #an example of listing external links
 #      categories: [] 
 
     - path: http://scholar.pku.edu.cn/qinyue/english
-      image: https://cese.pku.edu.cn/images/content/2021-05/20210519144250510226.jpg
+      image: /files/headshots/qin-yue.jpg
       title: "Yue QIN"
 #      author: 
       subtitle: "Associate Professor, Peking University"
@@ -161,7 +161,7 @@ listing:  #an example of listing external links
 #      categories: [] 
 
     - path: http://faculty.dess.tsinghua.edu.cn/liuzhu/en/index.htm
-      image: http://faculty.dess.tsinghua.edu.cn/_tsf/00/01/2mmAjiJNrmqq.png
+      image: /files/headshots/liu-zhu.png
       title: "Zhu LIU"
 #      author: 
       subtitle: "Professor, Tsinghua University"
@@ -193,6 +193,21 @@ listing:  #an example of listing external links
 #      date: "2024-03-12"
 #      categories: [] 
 
+    - path: https://scholar.google.com/citations?user=l1Yz7rEAAAAJ&hl=en
+      image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=l1Yz7rEAAAAJ&citpid=1
+      title: "Qian LUO"
+#      author: 
+      subtitle: "Post-doc, Princeton University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://www.edf.org/people/matthias-fripp
+      image: https://www.edf.org/sites/default/files/experts/EDF-Headshot-MFripp.jpg
+      title: "Matthias FRIPP"
+#      author: 
+      subtitle: "Associate Vice President, Modelling, Mapping and Analytics, Environmental Defense Fund"
+#      date: "2024-03-12"
+#      categories: [] 
 
 
 - id: lab-advisor
@@ -207,7 +222,7 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents:
     - path: https://kammen.berkeley.edu/
-      image: https://erg.berkeley.edu/wp-content/uploads/2023/07/IMG_1912-scaled-e1688583339173.jpg
+      image: /files/headshots/daniel-kammen.jpg
       title: "Daniel M. KAMMEN"
 #      author: 
       subtitle: "Professor, Univeristy of California, Berkeley"

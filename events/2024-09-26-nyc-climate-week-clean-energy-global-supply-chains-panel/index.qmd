@@ -70,7 +70,7 @@ listing:  #an example of listing external links
       image: https://sustainablesolutions.stanford.edu/sites/g/files/sbiybj31186/files/styles/medium_square/public/media/image/chen_1.jpg
       title: "Shi CHEN"
 #      author: 
-      subtitle: "Post-doc, Carnegie Institution for Science"
+      subtitle: "Post-doc, Carnegie Science"
 #      date: "2024-03-12"
 #      categories: [] 
 

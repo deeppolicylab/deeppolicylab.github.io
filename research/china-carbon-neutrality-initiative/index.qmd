@@ -8,7 +8,7 @@ image: "featured.png"
 #css: /custom.css
 listing: 
 - id: china-carbon-papers
-  sort: "title asc"
+  sort: "date desc"
   type: grid
   fields: [image, title, subtitle, description, date]
   grid-item-align: left

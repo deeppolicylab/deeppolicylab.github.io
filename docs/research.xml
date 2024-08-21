@@ -8,9 +8,9 @@
 <title>Deep Policy Lab</title>
 <link>http://deeppolicylab.github.io/research.html</link>
 <atom:link href="http://deeppolicylab.github.io/research.xml" rel="self" type="application/rss+xml"/>
-<description>Data Driven, Evidence based, Energy, Environmental, and Climate Policy</description>
+<description>Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization.</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Tue, 20 Aug 2024 12:48:56 GMT</lastBuildDate>
+<lastBuildDate>Wed, 21 Aug 2024 21:23:39 GMT</lastBuildDate>
 <item>
   <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
   <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</link>
@@ -100,7 +100,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</guid>
-  <pubDate>Tue, 20 Aug 2024 12:48:56 GMT</pubDate>
+  <pubDate>Wed, 21 Aug 2024 21:23:39 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -120,7 +120,32 @@ https://quarto.org/docs/authoring/includes.html
 <h2 class="anchored" data-anchor-id="featured-publications">Featured publications</h2>
 <div id="listing-power-systems-papers" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1589860800000">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1691726400000">
+<a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="http://deeppolicylab.github.io/files/images/journal/nature-comms.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>Nature Communications</em>
+</div>
+<div class="card-text listing-description">
+We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Aug 11, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1589860800000">
 <a href="https://www.nature.com/articles/s41467-020-16184-x" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -145,7 +170,7 @@ May 19, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1462680000000">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1462680000000">
 <a href="https://pubs.acs.org/doi/10.1021/acs.est.6b01345" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -192,7 +217,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/power-systems-decarbonization/</guid>
-  <pubDate>Tue, 20 Aug 2024 12:48:56 GMT</pubDate>
+  <pubDate>Wed, 21 Aug 2024 21:23:39 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/power-systems-decarbonization/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -284,7 +309,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/</guid>
-  <pubDate>Tue, 20 Aug 2024 12:48:56 GMT</pubDate>
+  <pubDate>Wed, 21 Aug 2024 21:23:39 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 </channel>

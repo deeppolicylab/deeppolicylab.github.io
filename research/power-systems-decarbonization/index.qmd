@@ -8,7 +8,7 @@ image: "featured.jpeg"
 #css: /custom.css
 listing: 
 - id: power-systems-papers
-  sort: "title asc"
+  sort: "date desc"
   type: grid
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
@@ -34,6 +34,15 @@ listing:
       subtitle: "*Environmental Science & Technology*"
       description: "SWITCH-China, an integrated model for power sector decarbonization."
       date: "2016-05-08"
+#      categories: [] 
+
+    - path: https://www.nature.com/articles/s41467-023-40337-3
+      image: /files/images/journal/nature-comms.png
+      title: "Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China"
+#      author: 
+      subtitle: "*Nature Communications*"
+      description: "We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices."
+      date: "2023-08-11"
 #      categories: [] 
 ---
 
