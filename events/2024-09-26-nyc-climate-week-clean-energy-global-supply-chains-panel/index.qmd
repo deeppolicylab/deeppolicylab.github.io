@@ -4,6 +4,7 @@ description: "Join us to discuss Role of Clean Energy Global Supply Chains in Ac
 image: flyer.png
 author: "Baruch We Are Climate Action"
 date: "2024-09-26"
+#page-layout: full
 #categories: [news, event]
 #bibliography: references.bib
 csl: chicago-syllabus.csl

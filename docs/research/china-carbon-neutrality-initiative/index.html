@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-china-carbon-papers .list');
+    const listingTargetEl = window.document.querySelector('#listing-featured-publications .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-china-carbon-papers'] = new List('listing-china-carbon-papers', options);
+    window['quarto-listings']['listing-featured-publications'] = new List('listing-featured-publications', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -266,14 +266,19 @@ window.Quarto = {
 </header>
 
 
-<p><img src="featured.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="featured.png" class="img-fluid figure-img"></p>
+<figcaption>Created by Copilot</figcaption>
+</figure>
+</div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>China is the world’s largest emitter of greenhouse gases. It has set a target to achieve carbon peak by 2030 and carbon neutrality by 2060. This initiative aims to facilitate the transition to a low-carbon economy in China to achieve the national carbon peak and carbon neutrality targets.</p>
 </section>
 <section id="featured-publications" class="level2">
 <h2 class="anchored" data-anchor-id="featured-publications">Featured publications</h2>
-<div id="listing-china-carbon-papers" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-featured-publications" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1646110800000">
 <a href="https://www.nature.com/articles/s43017-021-00244-x" class="quarto-grid-link">

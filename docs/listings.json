@@ -1,38 +1,10 @@
 [
   {
-    "listing": "/research.html",
-    "items": [
-      "/research/clean-energy-supply-chains/index.html",
-      "/research/power-systems-decarbonization/index.html",
-      "/research/china-carbon-neutrality-initiative/index.html"
-    ]
-  },
-  {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/research/clean-energy-supply-chains/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/power-systems-decarbonization/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/china-carbon-neutrality-initiative/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications.html",
-    "items": []
-  },
-  {
     "listing": "/resources.html",
     "items": []
   },
   {
-    "listing": "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chain-panel/index.html",
+    "listing": "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
     "items": []
   },
   {
@@ -43,11 +15,50 @@
     ]
   },
   {
+    "listing": "/research/climate-impact-energy-systems/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/china-carbon-neutrality-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/clean-energy-supply-chains/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/new-york-climate-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/power-systems-decarbonization/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/energy-nexus-research/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/clean-energy-supply-chains/index.html",
+      "/research/power-systems-decarbonization/index.html",
+      "/research/climate-impact-energy-systems/index.html",
+      "/research/energy-nexus-research/index.html",
+      "/research/china-carbon-neutrality-initiative/index.html",
+      "/research/new-york-climate-initiative/index.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": []
   },
   {
-    "listing": "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
     "items": []
   }
 ]

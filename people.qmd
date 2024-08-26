@@ -35,7 +35,7 @@ listing:  #an example of listing external links
       image: https://giselle1119.github.io/images/WengeRao.png
       title: "Wenge RAO"
 #      author: 
-      subtitle: "Visiting PhD Student, CUNY-Baruch College"
+      subtitle: "Incoming Visiting PhD Student, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 

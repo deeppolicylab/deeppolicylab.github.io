@@ -2,12 +2,12 @@
 title: "China Carbon Neutrality Initiative"
 description: "Facilitating the transition to a low-carbon economy in China."
 #author: "DEEP Lab"
-#date: "2023-03-20"
+#date: "2024-04-01"
 #categories: [news, job]
 image: "featured.png"
 #css: /custom.css
 listing: 
-- id: china-carbon-papers
+- id: featured-publications
   sort: "date desc"
   type: grid
   fields: [image, title, subtitle, description, date]
@@ -37,7 +37,7 @@ listing:
 #      categories: [] 
 ---
 
-![](featured.png)
+![Created by Copilot](featured.png)
 
 
 ## Overview
@@ -47,7 +47,7 @@ China is the world's largest emitter of greenhouse gases. It has set a target to
 
 ## Featured publications
 
-:::{#china-carbon-papers}
+:::{#featured-publications}
 :::
 
 <!--Include social share buttons-->

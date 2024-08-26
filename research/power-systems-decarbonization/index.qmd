@@ -2,12 +2,12 @@
 title: "Power Systems Decarbonization"
 description: "Clean power system transition"
 #author: "DEEP Lab"
-#date: "2023-03-20"
+#date: "2024-07-01"
 #categories: [news, job]
 image: "featured.jpeg"
 #css: /custom.css
 listing: 
-- id: power-systems-papers
+- id: featured-publications
   sort: "date desc"
   type: grid
   fields: [image, title, subtitle, description, date]
@@ -44,6 +44,26 @@ listing:
       description: "We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices."
       date: "2023-08-11"
 #      categories: [] 
+
+- id: featured-events
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: /events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html
+      image: /events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/featured.png
+      title: "Workshop on Open Modeling Carbon Neutrality of the Power Sector"
+#      author: 
+#      subtitle: "*Nature*"
+      description: "Deveoping a community to enable open and safe modeling and data sharing."
+      date: "2024-07-19"
+#      categories: [] 
 ---
 
 ![](featured.jpeg)
@@ -51,14 +71,18 @@ listing:
 
 ## Overview
 
-Electrifying energy, and decarbonizing electricity. Power system is at the center of global energy transtion. This research theme explores the pathways and their environmental, climate, human health, and socio-economic implications.
+"Electrifying energy and decarbonizing electricity" is at the heart of global energy transtion. This research theme focuses on transforming the energy landscape by increasing electrification in various sectors, such as transportation, heating, and industry, while simultaneously decarbonizing the electricity supply. The goal is to explore the pathways to net-zero emissions energy systems and their environmental, climate, human health, and socio-economic implications.
 
 
 ## Featured publications
 
-:::{#power-systems-papers}
+:::{#featured-publications}
 :::
 
+## Featured events
+
+:::{#featured-events}
+:::
 
 <!--Include social share buttons-->
 

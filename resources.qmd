@@ -33,7 +33,7 @@ listing:
       title: "Eco and Low-Carbon Indicator Tool for Evaluating Cities (ELITE Cities)"
 #      author: 
 #      subtitle: "*Environmental Science & Technology*"
-      description: "SWITCH-China, an integrated model for power sector decarbonization."
+      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
       date: "2016-05-08"
 #      categories: [] 
 ---

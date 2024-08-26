@@ -95,7 +95,7 @@ navbar: false
         <div class="overlay"></div>
         <div class="hero-content">
             <h1>Welcome to Deep Energy and Climate Policy Lab</h1>
-            <p>Data-driven, Evidence-based, Energy and Climate-solutions</p>
+            <p>Data-driven, Evidence-based, Energy and Climate Solutions</p>
             <p>Deep analysis, Deep insights, for Deep decarbonization</p>
             <a href="/about.html" class="hero-button">Learn More</a>
         </div>

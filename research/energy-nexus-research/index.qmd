@@ -1,0 +1,63 @@
+---
+title: "Energy Nexus Research"
+description: "Exploring the complex nexus of energy, water, carbon, and integrated natural and social systems."
+#author: "DEEP Lab"
+#date: "2024-05-01"
+#categories: [news, job]
+image: "featured.png"
+#css: /custom.css
+listing: 
+- id: featured-publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.nature.com/articles/s44221-023-00120-6
+      image: /files/images/journal/nature-water.jpg
+      title: "Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation"
+#      author: 
+      subtitle: "*Nature Water*"
+      description: "We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling."
+      date: "2023-08-07"
+#      categories: [] 
+
+    - path: https://doi.org/10.1016/j.jclepro.2021.129765
+      image: /files/images/journal/jcp-logo.jpg
+      title: "Long-term transition of China’s power sector under carbon neutrality target and water withdrawal constraint"
+#      author: 
+      subtitle: "*Journal of Cleaner Production*"
+      description: "Low cost renewables reduced the need for CCS by 80%, and water constraints nearly squeeze CCS out."
+      date: "2021-12-20"
+#      categories: [] 
+
+    - path: https://www.sciencedirect.com/science/article/abs/pii/S0011916414006754
+      image: /files/images/journal/desalination-logo.jpg
+      title: "Assessing the impacts of nuclear desalination and geoengineering to address China's water shortages"
+#      author: 
+      subtitle: "*Desalination*"
+      description: "We compare both coal and nuclear desalination with the currently planned South–North Water Transfer Mega-Project and show that, while the short-run cost of water diversion is lower, critical vulnerabilities and future resource demands favor nuclear desalination."
+      date: "2015-03-16"
+#      categories: [] 
+---
+
+![Created by Copilot](featured.png)
+
+
+## Overview
+
+Understanding how energy nexus systems interact and influence each other within the broader context of resource management, sustainable development, climate change, and human well-being. This nexus approach recognizes that decisions in one domain (e.g., energy production) have cascading effects on others (e.g., water resources, carbon emissions, and social systems).  
+
+## Featured publications
+
+:::{#featured-publications}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

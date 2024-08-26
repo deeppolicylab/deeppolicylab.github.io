@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Clean power system transition">
+<meta name="description" content="Exploring the complex nexus of energy, water, carbon, and integrated natural and social systems.">
 
-<title>Power Systems Carbon Neutrality – Deep Policy Lab</title>
+<title>Energy Nexus Research – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured-publications .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured-publications'] = new List('listing-featured-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
 <script type="text/javascript">
@@ -76,15 +107,48 @@ gtag('js', new Date());
 gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Power Systems Carbon Neutrality – Deep Policy Lab">
-<meta property="og:description" content="Clean power system transition">
-<meta property="og:image" content="http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/featured.jpeg">
+<meta property="og:title" content="Energy Nexus Research – Deep Policy Lab">
+<meta property="og:description" content="Exploring the complex nexus of energy, water, carbon, and integrated natural and social systems.">
+<meta property="og:image" content="http://deeppolicylab.github.io/research/energy-nexus-research/featured.png">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta name="twitter:title" content="Power Systems Carbon Neutrality – Deep Policy Lab">
-<meta name="twitter:description" content="Clean power system transition">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/research/power-systems-carbon-neutrality/featured.jpeg">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1792">
+<meta name="twitter:title" content="Energy Nexus Research – Deep Policy Lab">
+<meta name="twitter:description" content="Exploring the complex nexus of energy, water, carbon, and integrated natural and social systems.">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/research/energy-nexus-research/featured.png">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1792">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -110,12 +174,28 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../events.html"> 
+<span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../support.html"> 
@@ -164,12 +244,12 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Power Systems Carbon Neutrality</h1>
+<h1 class="title">Energy Nexus Research</h1>
 </div>
 
 <div>
   <div class="description">
-    Clean power system transition
+    Exploring the complex nexus of energy, water, carbon, and integrated natural and social systems.
   </div>
 </div>
 
@@ -186,17 +266,100 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="featured.jpeg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="featured.png" class="img-fluid figure-img"></p>
+<figcaption>Created by Copilot</figcaption>
+</figure>
+</div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Electrifying energy, and decarbonizing electricity. Power system is at the center of global energy transtion. This research theme explores the pathways and their environmental, climate, human health, and socio-economic implications.</p>
+<p>Understanding how energy nexus systems interact and influence each other within the broader context of resource management, sustainable development, climate change, and human well-being. This nexus approach recognizes that decisions in one domain (e.g., energy production) have cascading effects on others (e.g., water resources, carbon emissions, and social systems).</p>
 </section>
 <section id="featured-publications" class="level2">
 <h2 class="anchored" data-anchor-id="featured-publications">Featured publications</h2>
-<p><strong>He, Gang</strong>*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke*. 2020. <a href="https://www.nature.com/articles/s41467-020-16184-x">Rapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China’s Power System</a>. <em>Nature Communications</em> 11 (1): 2486. doi: <a href="https://doi.org/10.1038/s41467-020-16184-x">10.1038/s41467-020-16184-x</a>. [<a href="https://www.nature.com/articles/s41467-020-16184-x.pdf">pdf</a>]</p>
-<p>Lin, Jiang*, Nikit Abhyankar, <strong>Gang He</strong>, Xu Liu, and Shengfei Yin. 2022. <a href="https://www.cell.com/iscience/fulltext/S2589-0042(22)00019-0">Large Balancing Areas and Dispersed Renewable Investment Enhances Grid Flexibility in a Renewable-Dominant Power System in China</a>. <em>iScience</em> 25(2): 103749. doi: <a href="https://doi.org/10.1016/j.isci.2022.103749">10.1016/j.isci.2022.103749</a>. [<a href="https://www.cell.com/action/showPdf?pii=S2589-0042%2822%2900019-0">pdf</a>]</p>
-<p>Li, Bo, Minyou Chen*, Ziming Ma, <strong>Gang He</strong>, Wei Dai, Dongran Liu, Chi Zhang, and Haiwang Zhong. 2022. <a href="https://ieeexplore.ieee.org/document/9555251">Modelling Integrated Power and Transportation Sectors Decarbonization with Hydrogen Energy Storage</a>. <em>IEEE Transactions on Industry Applications</em> 58(2): 2677–2693. doi: <a href="https://doi.org/10.1109/TIA.2021.3116916">10.1109/TIA.2021.3116916</a>. [<a href="https://drganghe.github.io/files/papers/2022-IEEE-ModelingIntegratedPowerAndTransportationSystems.pdf">pdf</a>]</p>
-<p><strong>He, Gang</strong>*, Anne-Perrine Avrin, James H. Nelson, Josiah Johnston, Ana Mileva, Jianwei Tian, and Daniel M. Kammen*. 2016. <a href="http://pubs.acs.org/doi/abs/10.1021/acs.est.6b01345">SWITCH-China:A Systems Approach to Decarbonizing China’s Power System</a>. <em>Environmental Science and Technology</em> 50(11): 5467–5473. doi: <a href="http://dx.doi.org/10.1021/acs.est.6b01345">10.1021/acs.est.6b01345</a>. [<a href="https://drganghe.github.io/files/papers/2016-EST-SWITCH-China.pdf">pdf</a>]</p>
+<div id="listing-featured-publications" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1691380800000">
+<a href="https://www.nature.com/articles/s44221-023-00120-6" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/images/journal/nature-water.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>Nature Water</em>
+</div>
+<div class="card-text listing-description">
+We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Aug 7, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1639976400000">
+<a href="https://doi.org/10.1016/j.jclepro.2021.129765" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/images/journal/jcp-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Long-term transition of China’s power sector under carbon neutrality target and water withdrawal constraint
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>Journal of Cleaner Production</em>
+</div>
+<div class="card-text listing-description">
+Low cost renewables reduced the need for CCS by 80%, and water constraints nearly squeeze CCS out.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 20, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1426478400000">
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0011916414006754" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/images/journal/desalination-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Assessing the impacts of nuclear desalination and geoengineering to address China’s water shortages
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>Desalination</em>
+</div>
+<div class="card-text listing-description">
+We compare both coal and nuclear desalination with the currently planned South–North Water Transfer Mega-Project and show that, while the short-run cost of water diversion…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 16, 2015
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -207,6 +370,7 @@ https://quarto.org/docs/authoring/includes.html
 <p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_twitter"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_mastodon"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_email"></a></p>
 </div>
 <script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
 
 
 </section>
@@ -643,7 +807,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
 <a href="http://deeppolicylab.github.io">Deep Policy Lab</a> ©
 <script>document.write(new Date().getFullYear())</script>
-<p>.</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

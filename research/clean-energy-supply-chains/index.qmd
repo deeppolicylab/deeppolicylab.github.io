@@ -2,12 +2,12 @@
 title: "Sustainable, Resilient, and Just Global Clean Energy Supply Chains"
 description: "Ensuring a secure global clean energy supply chains to achieve climate goals."
 #author: "DEEP Lab"
-#date: "2023-03-20"
+#date: "2024-08-01"
 #categories: [news, job]
 image: "featured.jpeg"
 #css: /custom.css
 listing: 
-- id: supply-chain-papers
+- id: featured-publications
   sort: "date desc"
   type: grid
   fields: [image, title, subtitle, description, date]
@@ -35,6 +35,36 @@ listing:
       description: "A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing."
       date: "2023-10-11"
 #      categories: [] 
+
+    - path: https://www.climateworks.org/blog/advancing-a-just-resilient-and-sustainable-clean-energy-supply-chain/
+      image: https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png
+      title: "Advancing a just, resilient, and sustainable clean energy supply chain"
+#      author: 
+      subtitle: "*ClimateWorks Blog*"
+      description: "In addressing the challenges and maximizing the benefits, there is a pressing need for a commonly agreed framework for a just, resilient, and sustainable clean energy supply chain."
+      date: "2023-12-05"
+#      categories: [] 
+
+- id: featured-events
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: /events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html
+      image: /events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png
+      title: "NYC Climate Week: Clean Energy Global Supply Chains Panel"
+#      author: 
+#      subtitle: "*Nature*"
+      description: "Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during NYC Climate Week."
+      date: "2024-09-26"
+#      categories: [] 
+
 ---
 
 ![](featured.jpeg)
@@ -42,11 +72,16 @@ listing:
 
 ## Overview
 
-This research theme aims at evidence-based analysis to understand the importance of a sustainable and resilient clean energy global supply chains to achieve climate goals. We evaluate the economic costs, carbon mitigation, air quality, and human health benefits achieved by global clean energy supply chains. 
+Global clean energy supply chains stand at a critical intersection of integration and decoupling. This research theme studies the benefits, costs, and risks of clean energy global supply chains to inform international and domestic climate policies to enable sustainable, rapid, and just energy transitions to achieve climate goals. 
 
 ## Featured publications
 
-:::{#supply-chain-papers}
+:::{#featured-publications}
+:::
+
+## Featured events
+
+:::{#featured-events}
 :::
 
 <!--Include social share buttons-->

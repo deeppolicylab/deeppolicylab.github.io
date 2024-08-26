@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-power-systems-papers .list');
+    const listingTargetEl = window.document.querySelector('#listing-featured-publications .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -84,7 +84,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-power-systems-papers'] = new List('listing-power-systems-papers', options);
+    window['quarto-listings']['listing-featured-publications'] = new List('listing-featured-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-description","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured-events'] = new List('listing-featured-events', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -232,6 +260,7 @@ window.Quarto = {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#featured-publications" id="toc-featured-publications" class="nav-link" data-scroll-target="#featured-publications">Featured publications</a></li>
+  <li><a href="#featured-events" id="toc-featured-events" class="nav-link" data-scroll-target="#featured-events">Featured events</a></li>
   </ul>
 </nav>
     </div>
@@ -265,11 +294,11 @@ window.Quarto = {
 <p><img src="featured.jpeg" class="img-fluid"></p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Electrifying energy, and decarbonizing electricity. Power system is at the center of global energy transtion. This research theme explores the pathways and their environmental, climate, human health, and socio-economic implications.</p>
+<p>“Electrifying energy and decarbonizing electricity” is at the heart of global energy transtion. This research theme focuses on transforming the energy landscape by increasing electrification in various sectors, such as transportation, heating, and industry, while simultaneously decarbonizing the electricity supply. The goal is to explore the pathways to net-zero emissions energy systems and their environmental, climate, human health, and socio-economic implications.</p>
 </section>
 <section id="featured-publications" class="level2">
 <h2 class="anchored" data-anchor-id="featured-publications">Featured publications</h2>
-<div id="listing-power-systems-papers" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-featured-publications" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1691726400000">
 <a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link">
@@ -340,6 +369,38 @@ SWITCH-China, an integrated model for power sector decarbonization.
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 8, 2016
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="featured-events" class="level2">
+<h2 class="anchored" data-anchor-id="featured-events">Featured events</h2>
+<div id="listing-featured-events" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1721361600000">
+<a href="../../events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/featured.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop on Open Modeling Carbon Neutrality of the Power Sector
+</h5>
+<div class="card-text listing-description">
+Deveoping a community to enable open and safe modeling and data sharing.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 19, 2024
 </div>
 </div>
 </div>

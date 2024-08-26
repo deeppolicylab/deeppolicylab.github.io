@@ -1,12 +1,19 @@
 ---
-title: "Research"
+title: "Research & Initiatives"
 subtitle: "What we do"
 listing:
-  contents: research
-  sort: "date desc"
+  contents: 
+    - research/clean-energy-supply-chains
+    - research/power-systems-decarbonization
+    - research/climate-impact-energy-systems
+    - research/energy-nexus-research
+    - research/china-carbon-neutrality-initiative    
+    - research/new-york-climate-initiative
+  sort: false
   type: grid
   grid-columns: 3
   image-height: 300px
+  fields: [image, title, description]
   page-size: 25
   categories: false
   sort-ui: false
