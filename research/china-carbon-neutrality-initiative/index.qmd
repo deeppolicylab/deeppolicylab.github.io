@@ -35,6 +35,15 @@ listing:
       description: "Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death."
       date: "2020-08-21"
 #      categories: [] 
+
+    - path: https://doi.org/10.1016/j.ecolind.2014.09.018
+      image: /files/images/journal/ecological-indicators-logo.jpg
+      title: "ELITE cities: A low-carbon eco-city evaluation tool for China"
+#      author: 
+      subtitle: "*Ecological Indicators*"
+      description: "ELITE Cities is an Excel-based tool that measures city low-carbon development progress on 33 key indicators."
+      date: "2015-01-15"
+#      categories: [] 
 ---
 
 ![Created by Copilot](featured.png)

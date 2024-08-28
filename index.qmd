@@ -82,10 +82,35 @@ navbar: false
             text-decoration: none;
             font-size: 1.2rem;
             border-radius: 5px;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
         }
 
         .hero-button:hover {
+            background-color: #5499c7;
+        }
+
+        .bottom-links {
+            position: absolute;
+            bottom: 80px; /* Adjusts distance from the bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            display: flex;
+            gap: 30px; /* Space between links */
+        }
+
+        .bottom-links a {
+            padding: 5px 20px;
             background-color: #05336B;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .bottom-links a:hover {
+            color: #7fb3d5;
         }
     </style>
 </head>
@@ -99,11 +124,19 @@ navbar: false
             <p>Deep analysis, Deep insights, for Deep decarbonization</p>
             <a href="/about.html" class="hero-button">Learn More</a>
         </div>
+
+        <!-- Bottom Center Links -->
+        <div class="bottom-links">
+            <a href="/people.html">People</a>
+            <a href="/research.html">Research</a>
+            <a href="/publications.html">Publications</a>
+        </div>
     </section>
 
 </body>
 
 ```
+
 <!--
 ::: {.content-block}
 ![](/files/images/cover.png){fig-align="center" width=1200px}

@@ -42,11 +42,16 @@ listing:  #an example of listing external links
 
 - id: lab-alumni
   sort: "title asc"
-  type: grid
-  fields: [image, title, subtitle]
+  type: table
+  fields: [image, title, subtitle, started, ended]
   grid-item-align: center  
   grid-columns: 4
-  image-height: 250px
+  image-height: 25px
+  field-display-names: 
+      title: "Name"
+      subtitle: "Role"
+      started: "Started"
+      ended: "Ended"
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -54,16 +59,20 @@ listing:  #an example of listing external links
     - path: https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile
       image: https://media.licdn.com/dms/image/C4E03AQHjmzgiuHhh-w/profile-displayphoto-shrink_200_200/0/1574827633673?e=2147483647&v=beta&t=SIy5lyl6RVArH6RqR1Ju0cCkekSgwSnNIPcpipdMSms
       title: "Kately ARRIAGE"
+      started: "Sep 2023"
+      ended: "Dec 2023"
 #      author: 
-      subtitle: "MPA Student, CUNY-Baruch College"
+      subtitle: "Research Assistant/MPA Student, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://www.linkedin.com/in/nicolo-antonucci-73a89a216
       image: https://media.licdn.com/dms/image/v2/C4D03AQGPajFlvlXQ_w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625693949569?e=2147483647&v=beta&t=WAdd8HeHzq7Szm2vp79g-N5U6qGtmcdCd4XRBJKjD6g
       title: "Nicolo ANTONUCCI"
+      started: "Sep 2023"
+      ended: "Dec 2023"
 #      author: 
-      subtitle: "MIA Student, CUNY-Baruch College"
+      subtitle: "Research Assistant/MIA Student, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -123,7 +132,7 @@ listing:  #an example of listing external links
       image: https://bren.ucsb.edu/sites/default/files/styles/headshot/public/2020-06/Haozhe%20Yang_Bren%20Grad%202019_01.jpg
       title: "Haozhe YANG"
 #      author: 
-      subtitle: "Post-doc, Princeton"
+      subtitle: "Post-doc, Princeton University"
 #      date: "2024-03-12"
 #      categories: [] 
 

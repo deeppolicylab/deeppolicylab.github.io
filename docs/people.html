@@ -105,9 +105,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle"],
+      searchColumns: ["listing-image","listing-title","listing-started","listing-ended","listing-subtitle"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -403,43 +403,91 @@ No matching items
 </section>
 <section id="alumni" class="level2">
 <h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="listing-lab-alumni" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0">
-<a href="https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="https://media.licdn.com/dms/image/C4E03AQHjmzgiuHhh-w/profile-displayphoto-shrink_200_200/0/1574827633673?e=2147483647&amp;v=beta&amp;t=SIy5lyl6RVArH6RqR1Ju0cCkekSgwSnNIPcpipdMSms" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Kately ARRIAGE
-</h5>
-<div class="card-subtitle listing-subtitle">
-MPA Student, CUNY-Baruch College
+<div id="listing-lab-alumni" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-lab-alumni-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-lab-alumni'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-image" data-direction="asc">
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Name
+        </option>
+         <option value="listing-started" data-direction="asc">
+          Started
+        </option>
+         <option value="listing-ended" data-direction="asc">
+          Ended
+        </option>
+         <option value="listing-subtitle" data-direction="asc">
+          Role
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1">
-<a href="https://www.linkedin.com/in/nicolo-antonucci-73a89a216" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="https://media.licdn.com/dms/image/v2/C4D03AQGPajFlvlXQ_w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625693949569?e=2147483647&amp;v=beta&amp;t=WAdd8HeHzq7Szm2vp79g-N5U6qGtmcdCd4XRBJKjD6g" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nicolo ANTONUCCI
-</h5>
-<div class="card-subtitle listing-subtitle">
-MIA Student, CUNY-Baruch College
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-image" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"> </a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Role</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-started" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Started</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-ended" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Ended</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-title-sort="Kately ARRIAGE">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://media.licdn.com/dms/image/C4E03AQHjmzgiuHhh-w/profile-displayphoto-shrink_200_200/0/1574827633673?e=2147483647&amp;v=beta&amp;t=SIy5lyl6RVArH6RqR1Ju0cCkekSgwSnNIPcpipdMSms" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile" class="title listing-title">Kately ARRIAGE</a>
+</td>
+<td>
+<span class="listing-subtitle">Research Assistant/MPA Student, CUNY-Baruch College</span>
+</td>
+<td>
+<span class="listing-started">Sep 2023</span>
+</td>
+<td>
+<span class="listing-ended">Dec 2023</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-title-sort="Nicolo ANTONUCCI">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://media.licdn.com/dms/image/v2/C4D03AQGPajFlvlXQ_w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625693949569?e=2147483647&amp;v=beta&amp;t=WAdd8HeHzq7Szm2vp79g-N5U6qGtmcdCd4XRBJKjD6g" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://www.linkedin.com/in/nicolo-antonucci-73a89a216" class="title listing-title">Nicolo ANTONUCCI</a>
+</td>
+<td>
+<span class="listing-subtitle">Research Assistant/MIA Student, CUNY-Baruch College</span>
+</td>
+<td>
+<span class="listing-started">Sep 2023</span>
+</td>
+<td>
+<span class="listing-ended">Dec 2023</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -495,7 +543,7 @@ Director, California-China Climate Institute
 Haozhe YANG
 </h5>
 <div class="card-subtitle listing-subtitle">
-Post-doc, Princeton
+Post-doc, Princeton University
 </div>
 </div>
 </div>
