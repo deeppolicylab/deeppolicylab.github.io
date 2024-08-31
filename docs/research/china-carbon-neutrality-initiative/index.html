@@ -96,6 +96,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-description","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured-news'] = new List('listing-featured-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -236,6 +264,7 @@ window.Quarto = {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#featured-publications" id="toc-featured-publications" class="nav-link" data-scroll-target="#featured-publications">Featured publications</a></li>
+  <li><a href="#featured-news" id="toc-featured-news" class="nav-link" data-scroll-target="#featured-news">Featured news</a></li>
   </ul>
 </nav>
     </div>
@@ -349,6 +378,38 @@ ELITE Cities is an Excel-based tool that measures city low-carbon development pr
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jan 15, 2015
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="featured-news" class="level2">
+<h2 class="anchored" data-anchor-id="featured-news">Featured news</h2>
+<div id="listing-featured-news" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1719201600000">
+<a href="https://drganghe.github.io/posts/2024-06-us-china-working-group-on-enhancing-climate-action/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://drganghe.github.io/files/images/handshake-sculpture.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+U.S.-China Working Group on Enhancing Climate Action in the 2020s
+</h5>
+<div class="card-text listing-description">
+Dr.&nbsp;Gang He is invited to participate as an external expert in the energy transition sub-working group of the U.S.-China Working Group on Enhancing Climate Action in the…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 24, 2024
 </div>
 </div>
 </div>

@@ -150,6 +150,7 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
             position: relative;
             z-index: 1;
             max-width: 800px;
+            padding: 0 20px;
         }
 
         h1 {
@@ -177,7 +178,7 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         }
 
         .bottom-links {
-            position: absolute;
+            position: fixed;
             bottom: 80px; /* Adjusts distance from the bottom */
             left: 50%;
             transform: translateX(-50%);
@@ -198,6 +199,45 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 
         .bottom-links a:hover {
             color: #7fb3d5;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem; /* Smaller font size for mobile screens */
+            }
+
+            p {
+                font-size: 1.2rem; /* Smaller paragraph font size for mobile */
+            }
+
+            .hero-button {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            .bottom-links {
+                gap: 20px; /* Reduce gap on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem; /* Even smaller font size for very small screens */
+            }
+
+            p {
+                font-size: 1rem; /* Further reduced paragraph font size */
+            }
+
+            .hero-button {
+                font-size: 0.9rem; /* Smaller button text for small screens */
+                padding: 10px 20px;
+            }
+
+            .bottom-links {
+                flex-direction: column; /* Stack links vertically on very small screens */
+                gap: 10px; /* Reduce gap between links */
+            }
         }
     </style>
 

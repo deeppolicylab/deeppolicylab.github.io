@@ -88,7 +88,7 @@ title-block-banner: false
 #toc: false
 ---
 
-[![Flyer Credit: Designed by Ruzdo Srdanovic](flyer.png)](https://baruch.zoom.us/meeting/register/tZApd-ivqzIiGt1Ch39rPPC_m1T8Sk9mlVy-#/registration)
+[![Flyer Credit: Designed by Ruzdo Srdanovic](flyer.png)](https://www.climateweeknyc.org/events/role-clean-energy-global-supply-chains-achieving-climate-goals)
 
 ## Title
 

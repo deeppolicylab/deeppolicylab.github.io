@@ -39,6 +39,14 @@ listing:  #an example of listing external links
 #      date: "2024-03-12"
 #      categories: [] 
 
+    - path: https://www.linkedin.com/in/10sinon/
+      image: /files/headshots/tenzin-sinon.jpg
+      title: "Tenzin Sinon"
+#      author: 
+      subtitle: "CUNY Undergraduate Climate Scholar, Hunter College"
+#      date: "2024-03-12"
+#      categories: []
+
 
 - id: lab-alumni
   sort: "title asc"
