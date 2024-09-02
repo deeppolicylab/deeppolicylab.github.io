@@ -41,7 +41,7 @@ listing:  #an example of listing external links
 
     - path: https://www.linkedin.com/in/10sinon/
       image: /files/headshots/tenzin-sinon.jpg
-      title: "Tenzin Sinon"
+      title: "Tenzin SINON"
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, Hunter College"
 #      date: "2024-03-12"
@@ -65,7 +65,7 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents:
     - path: https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile
-      image: https://media.licdn.com/dms/image/C4E03AQHjmzgiuHhh-w/profile-displayphoto-shrink_200_200/0/1574827633673?e=2147483647&v=beta&t=SIy5lyl6RVArH6RqR1Ju0cCkekSgwSnNIPcpipdMSms
+      image: /files/headshots/kately-arriage.jpeg
       title: "Kately ARRIAGE"
       started: "Sep 2023"
       ended: "Dec 2023"
@@ -75,7 +75,7 @@ listing:  #an example of listing external links
 #      categories: [] 
 
     - path: https://www.linkedin.com/in/nicolo-antonucci-73a89a216
-      image: https://media.licdn.com/dms/image/v2/C4D03AQGPajFlvlXQ_w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625693949569?e=2147483647&v=beta&t=WAdd8HeHzq7Szm2vp79g-N5U6qGtmcdCd4XRBJKjD6g
+      image: /files/headshots/nicolo-antonucci.jpeg
       title: "Nicolo ANTONUCCI"
       started: "Sep 2023"
       ended: "Dec 2023"
@@ -83,6 +83,17 @@ listing:  #an example of listing external links
       subtitle: "Research Assistant/MIA Student, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
+
+    - path: https://www.linkedin.com/in/yun-li-0b96041b2/
+      image: /files/images/we-need-you.png
+      title: "Yun LI"
+      started: "Jul 2023"
+      ended: "Aug 2024"
+#      author: 
+      subtitle: "Research Assistant"
+#      date: "2024-03-12"
+#      categories: [] 
+
 
 - id: lab-collaborator
   sort: "title asc"

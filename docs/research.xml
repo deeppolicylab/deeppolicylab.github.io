@@ -10,7 +10,7 @@
 <atom:link href="http://deeppolicylab.github.io/research.xml" rel="self" type="application/rss+xml"/>
 <description>Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization.</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Sat, 31 Aug 2024 10:19:14 GMT</lastBuildDate>
+<lastBuildDate>Sun, 01 Sep 2024 11:24:07 GMT</lastBuildDate>
 <item>
   <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
   <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</link>
@@ -157,7 +157,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</guid>
-  <pubDate>Sat, 31 Aug 2024 10:19:14 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -306,7 +306,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/power-systems-decarbonization/</guid>
-  <pubDate>Sat, 31 Aug 2024 10:19:14 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/power-systems-decarbonization/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -378,7 +378,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/climate-impact-energy-systems/</guid>
-  <pubDate>Sat, 31 Aug 2024 10:19:14 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/climate-impact-energy-systems/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -500,7 +500,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/energy-nexus-research/</guid>
-  <pubDate>Sat, 31 Aug 2024 10:19:14 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/energy-nexus-research/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -654,7 +654,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/</guid>
-  <pubDate>Sat, 31 Aug 2024 10:19:14 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -670,9 +670,9 @@ https://quarto.org/docs/authoring/includes.html
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>The Climate Leadership and Community Protection Act (CLCPA) aims to reduce greenhouse gas emissions to 40% below 1990 levels by 2030 and then to 85% below 1990 levels by 2050. This initiative aims to facilitate the implementation of the CLCPA to achieve the state’s climate goals.</p>
 </section>
-<section id="featured-events" class="level2">
-<h2 class="anchored" data-anchor-id="featured-events">Featured events</h2>
-<div id="listing-featured-events" class="quarto-listing quarto-listing-container-grid">
+<section id="featured-news" class="level2">
+<h2 class="anchored" data-anchor-id="featured-news">Featured news</h2>
+<div id="listing-featured-news" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1639976400000">
 <a href="https://drganghe.github.io/posts/2021-12-nysclcpa-scoping-plan-draft/" class="quarto-grid-link">
@@ -740,7 +740,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/new-york-climate-initiative/</guid>
-  <pubDate>Sat, 31 Aug 2024 10:19:14 GMT</pubDate>
+  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/new-york-climate-initiative/featured.JPG" medium="image"/>
 </item>
 </channel>

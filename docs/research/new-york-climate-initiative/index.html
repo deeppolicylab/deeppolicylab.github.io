@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured-events .list');
+    const listingTargetEl = window.document.querySelector('#listing-featured-news .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured-events'] = new List('listing-featured-events', options);
+    window['quarto-listings']['listing-featured-news'] = new List('listing-featured-news', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -231,7 +231,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#featured-events" id="toc-featured-events" class="nav-link" data-scroll-target="#featured-events">Featured events</a></li>
+  <li><a href="#featured-news" id="toc-featured-news" class="nav-link" data-scroll-target="#featured-news">Featured news</a></li>
   </ul>
 </nav>
     </div>
@@ -267,9 +267,9 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>The Climate Leadership and Community Protection Act (CLCPA) aims to reduce greenhouse gas emissions to 40% below 1990 levels by 2030 and then to 85% below 1990 levels by 2050. This initiative aims to facilitate the implementation of the CLCPA to achieve the state’s climate goals.</p>
 </section>
-<section id="featured-events" class="level2">
-<h2 class="anchored" data-anchor-id="featured-events">Featured events</h2>
-<div id="listing-featured-events" class="quarto-listing quarto-listing-container-grid">
+<section id="featured-news" class="level2">
+<h2 class="anchored" data-anchor-id="featured-news">Featured news</h2>
+<div id="listing-featured-news" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1639976400000">
 <a href="https://drganghe.github.io/posts/2021-12-nysclcpa-scoping-plan-draft/" class="quarto-grid-link">

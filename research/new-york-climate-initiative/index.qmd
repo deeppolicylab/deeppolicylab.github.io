@@ -7,7 +7,7 @@ description: "Facilitating the implementation of the New York State Climate Acti
 image: "featured.JPG"
 #css: /custom.css
 listing: 
-- id: featured-events
+- id: featured-news
   sort: "date desc"
   type: grid
   fields: [image, title, subtitle, description, date]
@@ -45,9 +45,9 @@ listing:
 The Climate Leadership and Community Protection Act (CLCPA) aims to reduce greenhouse gas emissions to 40% below 1990 levels by 2030 and then to 85% below 1990 levels by 2050. This initiative aims to facilitate the implementation of the CLCPA to achieve the state's climate goals. 
 
 
-## Featured events
+## Featured news
 
-:::{#featured-events}
+:::{#featured-news}
 :::
 
 <!--Include social share buttons-->
