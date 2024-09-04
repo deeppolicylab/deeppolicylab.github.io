@@ -10,7 +10,7 @@
 <atom:link href="http://deeppolicylab.github.io/research.xml" rel="self" type="application/rss+xml"/>
 <description>Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization.</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Sun, 01 Sep 2024 11:24:07 GMT</lastBuildDate>
+<lastBuildDate>Wed, 04 Sep 2024 12:21:38 GMT</lastBuildDate>
 <item>
   <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
   <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</link>
@@ -157,7 +157,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</guid>
-  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
+  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -306,7 +306,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/power-systems-decarbonization/</guid>
-  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
+  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/power-systems-decarbonization/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -378,7 +378,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/climate-impact-energy-systems/</guid>
-  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
+  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/climate-impact-energy-systems/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -500,7 +500,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/energy-nexus-research/</guid>
-  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
+  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/energy-nexus-research/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -654,7 +654,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/</guid>
-  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
+  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -707,7 +707,7 @@ Dec 20, 2021
 Dr.&nbsp;Gang He testified for the New York State Climate Leadership and Community Protection Act
 </h5>
 <div class="card-text listing-description">
-Dr.&nbsp;Gang He joined a Stony Brook University experts team to testify for NYCLCPA.
+Dr.&nbsp;Gang He joined an experts team to testify for NYCLCPA.
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -740,7 +740,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/new-york-climate-initiative/</guid>
-  <pubDate>Sun, 01 Sep 2024 11:24:07 GMT</pubDate>
+  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/new-york-climate-initiative/featured.JPG" medium="image"/>
 </item>
 </channel>

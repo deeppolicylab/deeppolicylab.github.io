@@ -237,6 +237,13 @@ listing:  #an example of listing external links
 #      date: "2024-03-12"
 #      categories: [] 
 
+    - path: https://www.sei.org/people/michael-lazarus/
+      image: https://www.sei.org/wp-content/uploads/2017/12/michael-lazarus-400x400.jpg
+      title: "Michael Lazarus"
+#      author: 
+      subtitle: "Senior Scientist, Stockholm Environment Institute"
+#      date: "2024-03-12"
+#      categories: [] 
 
 - id: lab-advisor
   sort: "title asc"

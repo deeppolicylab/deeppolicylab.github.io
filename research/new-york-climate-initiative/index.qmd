@@ -23,7 +23,7 @@ listing:
       title: "Dr. Gang He testified for the New York State Climate Leadership and Community Protection Act"
 #      author: 
 #      subtitle: ""
-      description: "Dr. Gang He joined a Stony Brook University experts team to testify for NYCLCPA."
+      description: "Dr. Gang He joined an experts team to testify for NYCLCPA."
       date: "2019-02-15"
 #      categories: [] 
 
