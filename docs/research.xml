@@ -8,9 +8,14 @@
 <title>Deep Policy Lab</title>
 <link>http://deeppolicylab.github.io/research.html</link>
 <atom:link href="http://deeppolicylab.github.io/research.xml" rel="self" type="application/rss+xml"/>
-<description>Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization.</description>
+<description>Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization. Key words: Deep energy systems, Deep decarbonization, Deep modeling, Deep policy, Energy and climate policy, Energy Systems, Energy policy, Climate policy, Energy transition.</description>
+<image>
+<url>http://deeppolicylab.github.io/files/images/deeplab.png</url>
+<title>Deep Policy Lab</title>
+<link>http://deeppolicylab.github.io/research.html</link>
+</image>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Wed, 04 Sep 2024 12:21:38 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Sep 2024 09:54:30 GMT</lastBuildDate>
 <item>
   <title>Sustainable, Resilient, and Just Global Clean Energy Supply Chains</title>
   <link>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</link>
@@ -135,6 +140,28 @@ Sep 26, 2024
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1725336000000">
+<a href="https://applied-energy.org/icae2024/#Program" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ICAE Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains
+</h5>
+<div class="card-text listing-description">
+Dr.&nbsp;Gang He is invited to give an online keynote speech in the International Conference on Applied Energy 2024.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 3, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -157,7 +184,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/clean-energy-supply-chains/</guid>
-  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
+  <pubDate>Mon, 09 Sep 2024 09:54:30 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -202,7 +229,32 @@ Aug 11, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1589860800000">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1641531600000">
+<a href="https://doi.org/10.1016/j.isci.2022.103749" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="http://deeppolicylab.github.io/files/images/journal/iscience-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>iScience</em>
+</div>
+<div class="card-text listing-description">
+Larger balancing areas give flexibility benefits with renewable curtailment reduction.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jan 7, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1589860800000">
 <a href="https://www.nature.com/articles/s41467-020-16184-x" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -227,7 +279,7 @@ May 19, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1462680000000">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1462680000000">
 <a href="https://pubs.acs.org/doi/10.1021/acs.est.6b01345" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -306,7 +358,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/power-systems-decarbonization/</guid>
-  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
+  <pubDate>Mon, 09 Sep 2024 09:54:30 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/power-systems-decarbonization/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -378,7 +430,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/climate-impact-energy-systems/</guid>
-  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
+  <pubDate>Mon, 09 Sep 2024 09:54:30 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/climate-impact-energy-systems/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -500,7 +552,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/energy-nexus-research/</guid>
-  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
+  <pubDate>Mon, 09 Sep 2024 09:54:30 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/energy-nexus-research/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -654,7 +706,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/</guid>
-  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
+  <pubDate>Mon, 09 Sep 2024 09:54:30 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/china-carbon-neutrality-initiative/featured.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
@@ -740,7 +792,7 @@ https://quarto.org/docs/authoring/includes.html
 
  ]]></description>
   <guid>http://deeppolicylab.github.io/research/new-york-climate-initiative/</guid>
-  <pubDate>Wed, 04 Sep 2024 12:21:38 GMT</pubDate>
+  <pubDate>Mon, 09 Sep 2024 09:54:30 GMT</pubDate>
   <media:content url="http://deeppolicylab.github.io/research/new-york-climate-initiative/featured.JPG" medium="image"/>
 </item>
 </channel>

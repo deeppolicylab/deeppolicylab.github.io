@@ -4,8 +4,8 @@ project:
 
 website:
   title: "Deep Policy Lab"
-#  image: "/files/logo.jpeg"
-  description: "Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization."
+  image: "/files/images/deeplab.png"
+  description: "Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization. Key words: Deep energy systems, Deep decarbonization, Deep modeling, Deep policy, Energy and climate policy, Energy Systems, Energy policy, Climate policy, Energy transition."
  
   navbar:
     background: "#05336B"

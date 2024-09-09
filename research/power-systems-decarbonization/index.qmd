@@ -45,6 +45,15 @@ listing:
       date: "2023-08-11"
 #      categories: [] 
 
+    - path: https://doi.org/10.1016/j.isci.2022.103749
+      image: /files/images/journal/iscience-logo.jpg
+      title: "Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China"
+#      author: 
+      subtitle: "*iScience*"
+      description: "Larger balancing areas give flexibility benefits with renewable curtailment reduction."
+      date: "2022-01-07"
+#      categories: [] 
+
 - id: featured-events
   sort: "date desc"
   type: grid

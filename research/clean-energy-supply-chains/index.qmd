@@ -65,6 +65,15 @@ listing:
       date: "2024-09-26"
 #      categories: [] 
 
+    - path: https://applied-energy.org/icae2024/#Program
+      image: https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg
+      title: "ICAE Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains"
+#      author: 
+#      subtitle: "*Nature*"
+      description: "Dr. Gang He is invited to give an online keynote speech in the International Conference on Applied Energy 2024."
+      date: "2024-09-03"
+#      categories: [] 
+
 ---
 
 ![](featured.jpeg)

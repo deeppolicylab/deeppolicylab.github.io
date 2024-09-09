@@ -9,7 +9,9 @@ page-layout: full
 #css: /custom.css
 listing: 
 - id: events
-  contents: events
+  contents: 
+    - events
+    - events.yml
   sort: "date desc"
   type: grid
   fields: [image, title, subtitle, description, date]
