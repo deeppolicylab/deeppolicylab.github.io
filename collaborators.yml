@@ -1,0 +1,138 @@
+#     - path: https://www.jhelvy.com/
+#       image: /files/headshots/john-helveston.png
+#       title: "John HELVESTON"
+# #      author: 
+#       subtitle: "Assistant Professor, George Washington University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+
+#     - path: https://ccci.berkeley.edu/people/ccci-dai-fan
+#       image: https://ccci.berkeley.edu/sites/default/files/styles/unfurl_square_inside_800x800/public/Fan%20Dai.jpg
+#       title: "Fan DAI"
+# #      author: 
+#       subtitle: "Director, California-China Climate Institute"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://liqunpeng.com
+#       image: /files/headshots/liqun-peng.jpeg
+#       title: "Liqun PENG"
+# #      author: 
+#       subtitle: "Post-doc, Lawrence Berkeley National Laboratory"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://gps.ucsd.edu/faculty-directory/michael-davidson.html
+#       image: https://gps.ucsd.edu/_images/people/faculty/faculty_davidson.jpg
+#       title: "Michael DAVIDSON"
+# #      author: 
+#       subtitle: "Assistant Professor, University of California, San Diego"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://es.ucsb.edu/people/ranjit-deshmukh
+#       image: https://es.ucsb.edu/sites/default/files/styles/max_650x650/public/2024-07/Deshmukh%2C%20Ranjit.jpg
+#       title: "Ranjit DESHMUKH"
+# #      author: 
+#       subtitle: "Assistant Professor, University of California, Santa Barbara"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://scholar.google.com/citations?user=tH4ODHUAAAAJ&hl=en
+#       image: https://bren.ucsb.edu/sites/default/files/styles/headshot/public/2020-06/Haozhe%20Yang_Bren%20Grad%202019_01.jpg
+#       title: "Haozhe YANG"
+# #      author: 
+#       subtitle: "Post-doc, Princeton University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+
+#     - path: https://www.geog.hku.hk/lb-liu
+#       image: https://liulaibao.quarto.pub/lab/files/images/Photo_LiuLaibao.png
+#       title: "Laibao LIU"
+# #      author: 
+#       subtitle: "Assistant Professor, Hong Kong University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://sem.tongji.edu.cn/semen/12413.html
+#       image: https://sem.tongji.edu.cn/semen/wp-content/uploads/sites/3/2015/08/zhangchao.jpg
+#       title: "Chao ZHANG"
+# #      author: 
+#       subtitle: "Professor, Tongji University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: http://scholar.pku.edu.cn/qinyue/english
+#       image: /files/headshots/qin-yue.jpg
+#       title: "Yue QIN"
+# #      author: 
+#       subtitle: "Associate Professor, Peking University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://mhqiu.github.io/
+#       image: https://www.stonybrook.edu/commcms/somas/people/_profiles/images/minghao-qiu.jpg
+#       title: "Minghao QIU"
+# #      author: 
+#       subtitle: "Assistant Professor, Stony Brook University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: http://faculty.dess.tsinghua.edu.cn/liuzhu/en/index.htm
+#       image: /files/headshots/liu-zhu.png
+#       title: "Zhu LIU"
+# #      author: 
+#       subtitle: "Professor, Tsinghua University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://environment.fudan.edu.cn/5b/8e/c26241a351118/page.htm
+#       image: https://environment.fudan.edu.cn/_upload/article/images/7d/fa/eca42c684c10b92aea0e95cec531/4c635dba-fa36-430c-ba9d-86a05cb473ee.jpg
+#       title: "Hongliang ZHANG"
+# #      author: 
+#       subtitle: "Professor, Fudan University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://www.tsinghua.edu.cn/enven/info/1052/1977.htm
+#       image: https://www.tsinghua.edu.cn/__local/E/89/16/1FC96223449A59CE0A0F2150E2E_13611419_299E.jpg
+#       title: "Xi LU"
+# #      author: 
+#       subtitle: "Professor, Tsinghua University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+
+#     - path: https://sustainablesolutions.stanford.edu/people/shi-chen
+#       image: https://sustainablesolutions.stanford.edu/sites/g/files/sbiybj31186/files/styles/medium_square/public/media/image/chen_1.jpg
+#       title: "Shi CHEN"
+# #      author: 
+#       subtitle: "Post-doc, Carnegie Science"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://scholar.google.com/citations?user=l1Yz7rEAAAAJ&hl=en
+#       image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=l1Yz7rEAAAAJ&citpid=1
+#       title: "Qian LUO"
+# #      author: 
+#       subtitle: "Post-doc, Princeton University"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://www.edf.org/people/matthias-fripp
+#       image: https://www.edf.org/sites/default/files/experts/EDF-Headshot-MFripp.jpg
+#       title: "Matthias FRIPP"
+# #      author: 
+#       subtitle: "Associate Vice President, Modelling, Mapping and Analytics, Environmental Defense Fund"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+#     - path: https://www.sei.org/people/michael-lazarus/
+#       image: https://www.sei.org/wp-content/uploads/2017/12/michael-lazarus-400x400.jpg
+#       title: "Michael Lazarus"
+# #      author: 
+#       subtitle: "Senior Scientist, Stockholm Environment Institute"
+# #      date: "2024-03-12"
+# #      categories: [] 

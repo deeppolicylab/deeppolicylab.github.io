@@ -1,0 +1,36 @@
+---
+title: "Projects"
+description: "Funded projects"
+page-layout: full
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+#image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: projects
+  sort: "date desc"
+  type: table
+  fields: [image, title, author,subtitle, description, funding, started, ended]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 30px
+  field-display-names: 
+      title: "Title"
+      author: "Team"
+      subtitle: "Funder"
+      started: "Start Date"
+      ended: "End Date"
+      funding: "Funding"
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: projects.yml
+---
+
+:::{#projects}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

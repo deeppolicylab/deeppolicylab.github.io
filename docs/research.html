@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-research .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -83,7 +83,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-research'] = new List('listing-research', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-initiatives .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-initiatives'] = new List('listing-initiatives', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -137,7 +165,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Deep Policy Lab" href="research.xml" data-external="1"><meta property="og:title" content="Research &amp; Initiatives – Deep Policy Lab">
+<meta property="og:title" content="Research &amp; Initiatives – Deep Policy Lab">
 <meta property="og:description" content="What we do">
 <meta property="og:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
 <meta property="og:site_name" content="Deep Policy Lab">
@@ -224,9 +252,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
@@ -250,22 +276,9 @@ window.Quarto = {
 </header>
 
 
-<!--Please delete or replace with your own clarity-->
-<!-- 
-https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
--->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ktfar1v3c9");
-</script>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
+<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1725629172702" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link">
@@ -335,7 +348,17 @@ Exploring the complex nexus of energy, water, carbon, and integrated natural and
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1725099553320" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="initiatives" class="level2">
+<h2 class="anchored" data-anchor-id="initiatives">Initiatives</h2>
+<div id="listing-initiatives" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1726182165949" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
 <a href="./research/china-carbon-neutrality-initiative/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -352,7 +375,7 @@ Facilitating the transition to a low-carbon economy in China.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1725452494152" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1725452494152" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
 <a href="./research/new-york-climate-initiative/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -373,7 +396,24 @@ Facilitating the implementation of the New York State Climate Action Plan.
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+<!--Please delete or replace with your own clarity-->
+<!-- 
+https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
+-->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ktfar1v3c9");
+</script>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
