@@ -48,6 +48,14 @@ listing:  #an example of listing external links
 #      categories: []
 
 
+    - path: https://cl.linkedin.com/in/tamara-valderrama-242289207
+      image: /files/headshots/tamara-valderrama.jpeg
+      title: "Tamara VALDERRAMA"
+#      author: 
+      subtitle: "CUNY Undergraduate Climate Scholar, City College"
+#      date: "2024-03-12"
+#      categories: []
+
 - id: lab-alumni
   sort: "title asc"
   type: table

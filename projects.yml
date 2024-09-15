@@ -59,7 +59,7 @@
 #      categories: [] 
 
     - path: https://deeppolicylab.github.io/research/new-york-climate-initiative/index.html
-      image: /research/new-york-climate-initiative/featured.jpg
+      image: /research/new-york-climate-initiative/featured.JPG
       title: "Jobs and economic impact of offshore wind development"
       author: Gang He
       subtitle: "Leading Offshore Wind Developer"

@@ -44,7 +44,7 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents:
     - path: https://www.jhelvy.com/
-      image: https://www.jhelvy.com/images/lab/john_helveston_circle.png
+      image: /files/headshots/john-helveston.png
       title: "John HELVESTON"
 #      author: 
       subtitle: "Assistant Professor, George Washington University"
@@ -52,7 +52,7 @@ listing:  #an example of listing external links
 #      categories: [] 
 
     - path: https://gps.ucsd.edu/faculty-directory/michael-davidson.html
-      image: https://gps.ucsd.edu/_images/people/faculty/faculty_davidson.jpg
+      image: /files/headshots/michael-davidson.jpg
       title: "Michael DAVIDSON"
 #      author: 
       subtitle: "Assistant Professor, University of California, San Diego"
@@ -60,7 +60,7 @@ listing:  #an example of listing external links
 #      categories: [] 
 
     - path: https://mhqiu.github.io/
-      image: https://www.stonybrook.edu/commcms/somas/people/_profiles/images/minghao-qiu.jpg
+      image: /files/headshots/minghao-qiu.jpg
       title: "Minghao QIU"
 #      author: 
       subtitle: "Assistant Professor, Stony Brook University"
@@ -68,7 +68,7 @@ listing:  #an example of listing external links
 #      categories: [] 
 
     - path: https://sustainablesolutions.stanford.edu/people/shi-chen
-      image: https://sustainablesolutions.stanford.edu/sites/g/files/sbiybj31186/files/styles/medium_square/public/media/image/chen_1.jpg
+      image: /files/headshots/shi-chen.jpg
       title: "Shi CHEN"
 #      author: 
       subtitle: "Post-doc, Carnegie Science"
@@ -76,7 +76,7 @@ listing:  #an example of listing external links
 #      categories: [] 
 
     - path: https://kaifangluo.com
-      image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=k90TPGUAAAAJ&citpid=3
+      image: /files/headshots/kaifang-luo.jpeg
       title: "Kaifang LUO"
 #      author: 
       subtitle: "Post-doc, CUNY-Baruch College"

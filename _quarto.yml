@@ -21,10 +21,12 @@ website:
         href: people.qmd
       - text: Research
         href: research.qmd
+      - text: Projects
+        href: projects.qmd 
       - text: Publications
         href: publications.qmd
       - text: Resources
-        href: resources.qmd   
+        href: resources.qmd
       - text: Support
         href: support.qmd   
     right:

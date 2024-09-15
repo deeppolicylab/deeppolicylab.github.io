@@ -12,7 +12,7 @@ page-layout: full
 ::: {.g-col-12 .g-col-md-7}
 
 :::{style="font-size: 1.3rem;"}
-The **Deep Energy and Climate Policy Lab** (Deep Policy Lab) provides **d**ata-driven, **e**vidence based, **e**nergy and climate **p**olicy analysis and research to support informed energy decisions and climate actions. 
+The **Deep Energy and Climate Policy Lab** (Deep Policy Lab) provides **d**ata-driven, **e**vidence based, **e**nergy and climate **p**olicy (DEEP) analysis and research to support informed energy decisions and climate actions. 
 
 Our mission is to advance effective energy and climate solutions through rigorous data-driven analysis and collaborative dialogue. 
 

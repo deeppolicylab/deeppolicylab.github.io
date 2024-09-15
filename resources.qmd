@@ -24,7 +24,7 @@ listing:
       title: "SWITCH-China Open Model"
 #      author: 
 #      subtitle: "*Nature Communications*"
-      description: "Open model and data for SWITCH-China."
+      description: "SWITCH-China: open source model for the world's largest power system. Open data on power plants, transmission, costs, and demand by province."
       date: "2022-06-01"
 #      categories: [] 
 
