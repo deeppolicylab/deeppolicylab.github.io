@@ -13,6 +13,8 @@ We acknowledge the support of the following grant funders:
 - ClimateWorks Foundation
 - Environmental Defense Fund
 - Growald Climate Fund
+- Sequoia Climate Foundation
+- California China Climate Institute
 - National Science Foundation
 - New York State Department of Environmental Conservation
 - Lawrence Berkeley National Laboratory
@@ -22,7 +24,6 @@ We acknowledge the support of the following grant funders:
 - Baruch College, City University of New York
 - Asia Society
 - Stockholm Environment Institute
-- California China Climate Institute
 - World Resources Institute
 
 We appreciate the support of the following institutions and programs:
