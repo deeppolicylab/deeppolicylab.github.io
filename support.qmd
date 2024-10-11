@@ -18,13 +18,9 @@ We acknowledge the support of the following grant funders:
 - National Science Foundation
 - New York State Department of Environmental Conservation
 - Lawrence Berkeley National Laboratory
-- University of California, Berkeley
-- Stanford University
-- Stony Brook University
-- Baruch College, City University of New York
-- Asia Society
 - Stockholm Environment Institute
 - World Resources Institute
+- Asia Society
 
 We appreciate the support of the following institutions and programs:
 
@@ -34,6 +30,12 @@ We appreciate the support of the following institutions and programs:
 - [CUNY Immersive Research Experience – Climate Scholars Program](https://blogs.baruch.cuny.edu/climateaction/cuny-climate-scholars-fellowship/)
 - [New York Retirement and Disability Research Center](https://www.nyrdrc.org/)
 
+And previously:
+
+- Columbia University
+- University of California, Berkeley
+- Stanford University
+- Stony Brook University
 
 
 ## Contact us

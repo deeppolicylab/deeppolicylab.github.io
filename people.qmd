@@ -49,7 +49,7 @@ listing:  #an example of listing external links
 
 
     - path: https://cl.linkedin.com/in/tamara-valderrama-242289207
-      image: /files/headshots/tamara-valderrama.jpeg
+      image: /files/headshots/tamara-valderrama.jpg
       title: "Tamara VALDERRAMA"
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, City College"

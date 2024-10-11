@@ -16,8 +16,8 @@ listing:
   grid-columns: 3
   image-height: 200px
 #  categories: true
-#  sort-ui: true
-#  filter-ui: true
+  sort-ui: true
+  filter-ui: true
   contents: publications.yml
 ---
 

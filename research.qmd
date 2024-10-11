@@ -9,7 +9,7 @@ listing:
     - research/power-systems-decarbonization
     - research/climate-impact-energy-systems
     - research/energy-nexus-research
-#    - research/energy-climate-justice
+    - research/energy-climate-justice
   sort: false
   type: grid
   grid-columns: 3

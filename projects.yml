@@ -1,14 +1,42 @@
-    # - path: https://www.nyrdrc.org/
-    #   image: /files/images/funders/ssa.png
-    #   title: "Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
-    #   author: Gang He, Kaifang Luo, Hilary Botein, Frank Heiland
-    #   subtitle: " New York Retirement and Disability Research Center"
-    #   description: "The goal of this project is to investigate the energy burden faced by older adults (ages 62 and older) and people with disabilities in New York City to better understand its impact on their wellbeing."
-    #   started: "Dec 2024"
-    #   ended: "Dec 2025"
-    #   funding: "100,000"
-#      date: "2022-10-26"
-#      categories: [] 
+
+    - path: https://www.nyrdrc.org/
+      image: /files/images/funders/ssa.png
+      title: "Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
+      author: Gang He, Kaifang Luo, Hilary Botein, Frank Heiland
+      subtitle: "Social Security Administration"
+      description: "The goal of this project is to investigate the energy burden faced by older adults (ages 62 and older) and people with disabilities in New York City to better understand its impact on their wellbeing."
+      started: "2024"
+      ended: "2025"
+      funding: "$100,000"
+#     date: "2022-10-26"
+#     categories: [] 
+
+
+    # - path: https://ccci.berkeley.edu/
+    #   image: /files/images/funders/sequoia.webp
+    #   title: "Global Clean Energy Supply Chains Analysis and Power Systems Resources Adequacy Assessment"
+    #   author: Gang He
+    #   subtitle: "Sequoia Climate Foundation"
+    #   description: "The goal of this project is to collaborate with CCCI team to study global clean energy supply chains and power system resources adequacy."
+    #   started: "2024"
+    #   ended: "2026"
+    #   funding: "$100,000"
+#     date: "2022-10-26"
+#     categories: []
+
+
+    - path: https://www.growaldclimatefund.org/why-electricity
+      image: /files/images/funders/growald.png
+      title: "Power system beyond coal"
+      author: Gang He
+      subtitle: "Growald Climate Fund"
+      description: "The goal of this project is to collaborate with LBL team in modeling the decarbonization of China’s power sector."
+      started: "2024"
+      ended: "2025"
+      funding: "$64,000"
+#     date: "2022-10-26"
+#     categories: []
+
 
     - path: https://www.climateworks.org/grants-database/?sort_by=newest&search=City%20University%20of%20New%20York&posts_per_page=20
       image: /files/images/funders/climateworks.png
@@ -21,6 +49,7 @@
       funding: "$100,000"
 #      date: "2022-10-26"
 #      categories: [] 
+
 
     - path: https://www.edf.org/work/economics-energy-transition
       image: /files/images/funders/edf.png
@@ -45,6 +74,7 @@
       funding: "$140,000"
 #      date: "2022-10-26"
 #      categories: [] 
+
 
     - path: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1912159
       image: /files/images/funders/nsf.png

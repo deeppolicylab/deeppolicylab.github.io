@@ -9,9 +9,9 @@ page-layout: full
 #css: /custom.css
 listing: 
 - id: projects
-  sort: "date desc"
+  sort: "started desc"
   type: table
-  fields: [image, title, author,subtitle, description, funding, started, ended]
+  fields: [image, title, author, subtitle, description, funding, started, ended]
   grid-item-align: left
   grid-columns: 3
   image-height: 30px
@@ -30,6 +30,7 @@ listing:
 
 :::{#projects}
 :::
+
 
 <!--Include social share buttons-->
 

@@ -18,6 +18,7 @@
       "/research/power-systems-decarbonization/index.html",
       "/research/climate-impact-energy-systems/index.html",
       "/research/energy-nexus-research/index.html",
+      "/research/energy-climate-justice/index.html",
       "/research/china-carbon-neutrality-initiative/index.html",
       "/research/new-york-climate-initiative/index.html"
     ]
@@ -63,6 +64,10 @@
   },
   {
     "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/research/energy-climate-justice/index.html",
     "items": []
   }
 ]
