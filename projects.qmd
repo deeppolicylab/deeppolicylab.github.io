@@ -19,8 +19,8 @@ listing:
       title: "Title"
       author: "Team"
       subtitle: "Funder"
-      started: "Start Date"
-      ended: "End Date"
+      started: "Start"
+      ended: "End"
       funding: "Funding"
 #  categories: true
 #  sort-ui: true
