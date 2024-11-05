@@ -5,7 +5,7 @@ page-layout: full
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
 - id: lab-member
-  sort: "last asc"
+  sort: "lastname asc"
   type: grid
   fields: [image, title, subtitle]
   grid-item-align: center
@@ -18,7 +18,7 @@ listing:  #an example of listing external links
     - path: https://drganghe.github.io
       image: https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg
       title: "Gang HE"
-      last: "He"
+      lastname: "AHe"
 #      author: 
       subtitle: "Assistant Professor, CUNY-Baruch College"
 #      date: "2024-03-12"
@@ -27,7 +27,7 @@ listing:  #an example of listing external links
     - path: https://kaifangluo.com
       image: /files/headshots/kaifang-luo.jpeg
       title: "Kaifang LUO"
-      last: "Luo"
+      lastname: "BLuo"
 #      author: 
       subtitle: "Post-doc, CUNY-Baruch College"
 #      date: "2024-03-12"
@@ -36,16 +36,16 @@ listing:  #an example of listing external links
     - path: https://giselle1119.github.io/
       image: https://giselle1119.github.io/images/WengeRao.png
       title: "Wenge RAO"
-      last: "Rao"
+      lastname: "CRao"
 #      author: 
-      subtitle: "Incoming Visiting PhD Student, CUNY-Baruch College"
+      subtitle: "Incoming Visiting PhD Student, Peking University"
 #      date: "2024-03-12"
 #      categories: [] 
 
     - path: https://www.linkedin.com/in/10sinon/
       image: /files/headshots/tenzin-sinon.jpg
       title: "Tenzin SINON"
-      last: "Sinon"
+      lastname: "Sinon"
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, Hunter College"
 #      date: "2024-03-12"
@@ -55,14 +55,25 @@ listing:  #an example of listing external links
     - path: https://cl.linkedin.com/in/tamara-valderrama-242289207
       image: /files/headshots/tamara-valderrama.jpg
       title: "Tamara VALDERRAMA"
-      last: "Valderrama"
+      lastname: "Valderrama"
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, City College"
 #      date: "2024-03-12"
 #      categories: []
 
+    - path: https://www.linkedin.com/in/mariah-galindo12101/
+      image: /files/headshots/mariah-galindo.jpeg
+      title: "Mariah GALINDO"
+      lastname: "Galindo"
+#      author: 
+      subtitle: "MIA Student/Marxe Assistant, CUNY Baruch College"
+#      date: "2024-03-12"
+#      categories: []
+
+
+
 - id: lab-alumni
-  sort: "title asc"
+  sort: "lastname asc"
   type: table
   fields: [image, title, subtitle, started, ended]
   grid-item-align: center  
@@ -80,6 +91,7 @@ listing:  #an example of listing external links
     - path: https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile
       image: /files/headshots/kately-arriage.jpeg
       title: "Kately ARRIAGE"
+      lastname: "Arriage"
       started: "Sep 2023"
       ended: "Dec 2023"
 #      author: 
@@ -90,6 +102,7 @@ listing:  #an example of listing external links
     - path: https://www.linkedin.com/in/nicolo-antonucci-73a89a216
       image: /files/headshots/nicolo-antonucci.jpeg
       title: "Nicolo ANTONUCCI"
+      lastname: "Antonucci"
       started: "Sep 2023"
       ended: "Dec 2023"
 #      author: 
@@ -100,6 +113,7 @@ listing:  #an example of listing external links
     - path: https://www.linkedin.com/in/yun-li-0b96041b2/
       image: /files/images/we-need-you.png
       title: "Yun LI"
+      lastname: "Li"
       started: "Jul 2023"
       ended: "Aug 2024"
 #      author: 
@@ -185,113 +199,4 @@ We are fortunate to have collaborated with many researchers and practitioners. P
 :::{#lab-advisor}
 :::
 
-
-## Researchers
-
-::: {.grid}
-
-<!--Lecture 1-2-->
-
-<!--
-
-::: {.g-col-12 .g-col-md-4}
-
-![](https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg)
-
-<center> 
-
-Assistant Professor, CUNY-Baruch College
-
-[Gang He](https://drganghe.github.io)
-
-</center>
-
-:::
-
-::: {.g-col-12 .g-col-md-4}
-
-![](/files/headshots/kaifang-luo.jpeg)
-
-<center>
-
-Post-doc, CUNY-Baruch College
-
-[Kaifang Luo](https://kaifangluo.com)
-
-</center>
-
-:::
-
-::: {.g-col-12 .g-col-md-4}
-
-![](/files/images/we-need-you.png)
-
-<center>Join us</center>
-
-:::
-
-:::
-
-## Collaborators
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-
-![](https://gps.ucsd.edu/_images/people/faculty/faculty_davidson.jpg){height="200pt" fig-align="center"}
-
-<center>[Michael Davidson](https://gps.ucsd.edu/faculty-directory/michael-davidson.html)</center>
-
-:::
-
-::: {.g-col-12 .g-col-md-4}
-
-![](https://avatars.githubusercontent.com/u/9012994?v=4){height="200pt" fig-align="center"}
-
-<center>[John Helveston](https://www.jhelvy.com/)</center>
-
-:::
-
-::: {.g-col-12 .g-col-md-4}
-
-![](/files/headshots/liqun-peng.jpeg){height="200pt" fig-align="center"}
-
-<center>[Liqun Peng](https://eta.lbl.gov/people/liqun-peng-0)</center>
-
-:::
-
-:::
-
--->
-
-<!--
-## Advisors
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-
-![](https://kammen.berkeley.edu/images/Kammen_solar.jpg){height="200pt" fig-align="center"}
-
-<center>[Daniel Kammen](https://kammen.berkeley.edu/)</center>
-
-:::
-
-::: {.g-col-12 .g-col-md-4}
-
-![](https://are.berkeley.edu/sites/are.berkeley.edu/files/styles/user_big_picture/public/pictures/picture-13749-1602716599.jpg?itok=i8mLR_AR){fig-align="center"}
-
-<center>[Jiang Lin](https://are.berkeley.edu/users/jiang-lin)</center>
-
-:::
-
-::: {.g-col-12 .g-col-md-4}
-
-![](https://cee.princeton.edu/sites/g/files/toruqf2216/files/styles/3x4_750w_1000h/public/people/mauzerall.jpg?itok=ilA0fH9K){height="200pt" fig-align="center"}
-
-<center>[Denise L. Mauzerall](https://mauzerall.scholar.princeton.edu/)</center>
-
-:::
-
-:::
 -->
