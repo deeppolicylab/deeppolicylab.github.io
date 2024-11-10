@@ -2,12 +2,27 @@
 title: "News"
 description: "In the news"
 page-layout: full
+toc: false
 #author: "DEEP Lab"
 #date: "2023-03-20"
 #categories: [news, job]
 #image: "featured.jpeg"
 #css: /custom.css
 listing: 
+- id: release
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - /news/
+    - release.yml
+
 - id: news
   sort: "date desc"
   type: grid
@@ -20,6 +35,14 @@ listing:
 #  filter-ui: true
   contents: news.yml
 ---
+
+
+## Press Release
+
+:::{#release}
+:::
+
+## Media
 
 :::{#news}
 :::

@@ -20,7 +20,7 @@ listing:  #an example of listing external links
       title: "Gang HE"
       lastname: "AHe"
 #      author: 
-      subtitle: "Assistant Professor, CUNY-Baruch College"
+      subtitle: "Assistant Professor, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -29,7 +29,7 @@ listing:  #an example of listing external links
       title: "Kaifang LUO"
       lastname: "BLuo"
 #      author: 
-      subtitle: "Post-doc, CUNY-Baruch College"
+      subtitle: "Post-doc, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -66,7 +66,7 @@ listing:  #an example of listing external links
       title: "Mariah GALINDO"
       lastname: "Galindo"
 #      author: 
-      subtitle: "MIA Student/Marxe Assistant, CUNY Baruch College"
+      subtitle: "Marxe Assistant/MIA Student, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: []
 
@@ -95,7 +95,7 @@ listing:  #an example of listing external links
       started: "Sep 2023"
       ended: "Dec 2023"
 #      author: 
-      subtitle: "Research Assistant/MPA Student, CUNY-Baruch College"
+      subtitle: "Research Assistant/MPA Student, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -106,7 +106,7 @@ listing:  #an example of listing external links
       started: "Sep 2023"
       ended: "Dec 2023"
 #      author: 
-      subtitle: "Research Assistant/MIA Student, CUNY-Baruch College"
+      subtitle: "Research Assistant/MIA Student, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 

@@ -9,7 +9,9 @@
   },
   {
     "listing": "/news.html",
-    "items": []
+    "items": [
+      "/news/2024-11-06-one-earth-coal-jobs-transition.html"
+    ]
   },
   {
     "listing": "/research.html",
