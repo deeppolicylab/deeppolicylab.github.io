@@ -8,6 +8,10 @@ toc: false
 <!--Please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
 We acknowledge the support of the following grant funders:
 
 - ClimateWorks Foundation
@@ -21,6 +25,10 @@ We acknowledge the support of the following grant funders:
 - Stockholm Environment Institute
 - World Resources Institute
 - Asia Society
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
 
 We appreciate the support of the following institutions and programs:
 
@@ -37,8 +45,29 @@ And previously:
 - Stanford University
 - Stony Brook University
 
+:::
+
+:::
 
 ## Contact us
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+<center>
+
+**Dr. Gang He**
+
+E-mail: <gang.he@baruch.cuny.edu>
+
+
+</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
 
 <center>
 
@@ -48,3 +77,7 @@ E-mail: <energy.climatechange@gmail.com>
 
 
 </center>
+
+:::
+
+:::
