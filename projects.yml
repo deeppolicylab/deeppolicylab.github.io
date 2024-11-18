@@ -12,17 +12,17 @@
 #     categories: [] 
 
 
-    # - path: https://ccci.berkeley.edu/
-    #   image: /files/images/funders/sequoia.webp
-    #   title: "Global Clean Energy Supply Chains Analysis and Power Systems Resources Adequacy Assessment"
-    #   author: Gang He
-    #   subtitle: "Sequoia Climate Foundation"
-    #   description: "The goal of this project is to collaborate with CCCI team to study global clean energy supply chains and power system resources adequacy."
-    #   started: "2024"
-    #   ended: "2026"
-    #   funding: "$100,000"
-#     date: "2022-10-26"
-#     categories: []
+    - path: https://ccci.berkeley.edu/research
+      image: /files/images/funders/sequoia.webp
+      title: "Global Clean Energy Supply Chains Analysis and Power Systems Resources Adequacy Assessment"
+      author: Gang He
+      subtitle: "Sequoia Climate Foundation"
+      description: "The goal of this project is to collaborate with CCCI team to study global clean energy supply chains and power system resources adequacy."
+      started: "2024"
+      ended: "2026"
+      funding: "$100,000"
+#    date: "2022-10-26"
+#    categories: []
 
 
     - path: https://www.growaldclimatefund.org/why-electricity
