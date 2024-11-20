@@ -45,7 +45,7 @@ listing:  #an example of listing external links
     - path: https://www.linkedin.com/in/10sinon/
       image: /files/headshots/tenzin-sinon.jpg
       title: "Tenzin SINON"
-      lastname: "Sinon"
+      lastname: "ESinon"
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, Hunter College"
 #      date: "2024-03-12"
@@ -55,7 +55,7 @@ listing:  #an example of listing external links
     - path: https://cl.linkedin.com/in/tamara-valderrama-242289207
       image: /files/headshots/tamara-valderrama.jpg
       title: "Tamara VALDERRAMA"
-      lastname: "Valderrama"
+      lastname: "EValderrama"
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, City College"
 #      date: "2024-03-12"
@@ -64,12 +64,20 @@ listing:  #an example of listing external links
     - path: https://www.linkedin.com/in/mariah-galindo12101/
       image: /files/headshots/mariah-galindo.jpeg
       title: "Mariah GALINDO"
-      lastname: "Galindo"
+      lastname: "DGalindo"
 #      author: 
       subtitle: "Marxe Assistant/MIA Student, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: []
 
+    - path: 
+      image: /files/headshots/oliver-niedbala.webp
+      title: "Oliver NIEDBALA"
+      lastname: "FNiedbala"
+#      author: 
+      subtitle: "Student, Saint Francis Preparatory School"
+#      date: "2024-03-12"
+#      categories: []
 
 
 - id: lab-alumni
