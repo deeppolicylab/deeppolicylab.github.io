@@ -46,3 +46,11 @@
       description: "In a perspective paper published in One Earth, an international scientific team contends that China needs to transition away from coal to help the world achieve global decarbonization and improve the nation’s environmental and human health."
       date: "2020-08-21"
  #     categories: [Scientific American, E&E News]  
+
+    - path: https://news.stonybrook.edu/homespotlight/stony-brook-university-hosts-nsf-funded-data-science-workshop/ 
+      image: "/files/images/NSF-Workshop.jpg"
+      title: "NSF Wokshop on Data Science Across the Undergraduate Curriculum"
+#      author: 
+      description: "On January 9-10, 2020, we hosted the NSF funded workshop entitled “Data Science Across the Undergraduate Curriculum: University-Industry Online Case Studies on Applications of Data Science.” "
+      date: "2020-01-19"
+ #     categories: [Scientific American, E&E News]  

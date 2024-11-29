@@ -16,38 +16,7 @@
     "items": []
   },
   {
-    "listing": "/events.html",
-    "items": [
-      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
-      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
-    ]
-  },
-  {
-    "listing": "/research/climate-impact-energy-systems/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/china-carbon-neutrality-initiative/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/power-systems-decarbonization/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/new-york-climate-initiative/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/clean-energy-supply-chains/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/energy-climate-justice/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/energy-nexus-research/index.html",
+    "listing": "/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html",
     "items": []
   },
   {
@@ -63,6 +32,41 @@
     ]
   },
   {
+    "listing": "/research/energy-nexus-research/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/energy-climate-justice/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/clean-energy-supply-chains/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/new-york-climate-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/power-systems-decarbonization/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/china-carbon-neutrality-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/climate-impact-energy-systems/index.html",
+    "items": []
+  },
+  {
+    "listing": "/events.html",
+    "items": [
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
       "/news/2024-11-06-one-earth-coal-jobs-transition.html"
@@ -70,10 +74,6 @@
   },
   {
     "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html",
     "items": []
   }
 ]

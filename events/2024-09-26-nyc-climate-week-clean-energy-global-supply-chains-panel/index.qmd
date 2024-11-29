@@ -131,3 +131,8 @@ Supported by Dean Jessica Lang and Dean Sherry Ryan
 Convened by Mindy Engle-Friedman   
 Facilitated by Matthew Le Pere   
 Flyer designed by Ruzdo Srdanovic  
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
