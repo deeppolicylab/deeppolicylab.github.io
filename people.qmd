@@ -28,6 +28,8 @@ listing:  #an example of listing external links
       image: /files/headshots/kaifang-luo.jpeg
       title: "Kaifang LUO"
       lastname: "BLuo"
+      started: "May 2024"
+      ended: ""       
 #      author: 
       subtitle: "Post-doc, CUNY Baruch College"
 #      date: "2024-03-12"
@@ -37,8 +39,10 @@ listing:  #an example of listing external links
       image: https://giselle1119.github.io/images/WengeRao.png
       title: "Wenge RAO"
       lastname: "CRao"
+      started: "Dec 2024"
+      ended: "Dec 2025"
 #      author: 
-      subtitle: "Incoming Visiting PhD Student, Peking University"
+      subtitle: "Visiting PhD Student, Peking University"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -46,6 +50,8 @@ listing:  #an example of listing external links
       image: /files/headshots/tenzin-sinon.jpg
       title: "Tenzin SINON"
       lastname: "ESinon"
+      started: "Sep 2024"
+      ended: "Dec 2024"      
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, Hunter College"
 #      date: "2024-03-12"
@@ -56,6 +62,8 @@ listing:  #an example of listing external links
       image: /files/headshots/tamara-valderrama.jpg
       title: "Tamara VALDERRAMA"
       lastname: "EValderrama"
+      started: "Sep 2024"
+      ended: "Dec 2024" 
 #      author: 
       subtitle: "CUNY Undergraduate Climate Scholar, City College"
 #      date: "2024-03-12"
@@ -65,6 +73,8 @@ listing:  #an example of listing external links
       image: /files/headshots/mariah-galindo.jpeg
       title: "Mariah GALINDO"
       lastname: "DGalindo"
+      started: "Oct 2024"
+      ended: "Oct 2025"       
 #      author: 
       subtitle: "Marxe Assistant/MIA Student, CUNY Baruch College"
 #      date: "2024-03-12"
@@ -74,6 +84,8 @@ listing:  #an example of listing external links
       image: /files/headshots/oliver-niedbala.webp
       title: "Oliver NIEDBALA"
       lastname: "FNiedbala"
+      started: "Nov 2024"
+      ended: "May 2025" 
 #      author: 
       subtitle: "Student, Saint Francis Preparatory School"
 #      date: "2024-03-12"

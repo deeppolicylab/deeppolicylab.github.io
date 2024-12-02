@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Models, data, open courses, and other resources">
+<meta name="description" content="为深度减碳提供深度分析与深度见解">
 
-<title>Resources – Deep Policy Lab</title>
+<title>深度能源与气候政策实验室 – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,63 +66,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-model .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-title","listing-description","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-model'] = new List('listing-model', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-teaching .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-title","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-teaching'] = new List('listing-teaching', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
 <script type="text/javascript">
@@ -135,48 +76,19 @@ gtag('js', new Date());
 gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Resources – Deep Policy Lab">
-<meta property="og:description" content="Models, data, open courses, and other resources">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/deeplab.png">
+<meta property="og:title" content="深度能源与气候政策实验室 – Deep Policy Lab">
+<meta property="og:description" content="为深度减碳提供深度分析与深度见解">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/cover-square.png">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta property="og:image:height" content="883">
-<meta property="og:image:width" content="883">
-<meta name="twitter:title" content="Resources – Deep Policy Lab">
-<meta name="twitter:description" content="Models, data, open courses, and other resources">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/deeplab.png">
-<meta name="twitter:image-height" content="883">
-<meta name="twitter:image-width" content="883">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1024">
+<meta name="twitter:title" content="深度能源与气候政策实验室 – Deep Policy Lab">
+<meta name="twitter:description" content="为深度减碳提供深度分析与深度见解">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/cover-square.png">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -226,7 +138,7 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page"> 
+    <a class="nav-link" href="./resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -234,7 +146,7 @@ window.Quarto = {
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
+    <a class="nav-link active" href="./cn.html" aria-current="page"> 
 <span class="menu-text">中文</span></a>
   </li>  
 </ul>
@@ -265,32 +177,25 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#models-tools" id="toc-models-tools" class="nav-link active" data-scroll-target="#models-tools">Models &amp; Tools</a></li>
-  <li><a href="#open-courses" id="toc-open-courses" class="nav-link" data-scroll-target="#open-courses">Open Courses</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resources</h1>
+<h1 class="title">深度能源与气候政策实验室</h1>
 </div>
 
 <div>
   <div class="description">
-    Models, data, open courses, and other resources
+    为深度减碳提供深度分析与深度见解
   </div>
 </div>
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -313,134 +218,45 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<section id="models-tools" class="level2">
-<h2 class="anchored" data-anchor-id="models-tools">Models &amp; Tools</h2>
-<div id="listing-model" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1654056000000">
-<a href="https://github.com/switch-model/switch-china-open-model" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/switch-china.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SWITCH-China Open Model
-</h5>
-<div class="card-text listing-description">
-SWITCH-China: open source model for the world’s largest power system. Open data on power plants, transmission, costs, and demand by province.
+<div class="grid">
+<div class="g-col-12 g-col-md-7">
+<div style="font-size: 1rem;">
+<p>深度能源与气候政策实验室由纽约城市大学<a href="https://drganghe.github.io" class="external" target="_blank">何钢</a>老师团队创建，旨在通过基于数据和证据的能源与气候政策（DEEP）的深度分析和研究，为明智的能源决策和气候行动提供支持，以实现深度减碳应对气候变化。</p>
+<p>我们的使命是通过严谨的数据驱动分析和协作对话，推动有效的能源和气候解决方案。我们积极与学术机构、政府机构、行业伙伴和民间组织合作，在能源与气候政策领域推动创新和影响力。</p>
+<p>在深度政策实验室，我们利用能源系统建模、技术经济分析、大数据和人工智能，为可再生能源、清洁能源供应链、深度减碳以及其他关键领域的政策决策提供信息支持，这些领域对能源转型和实现碳中和至关重要。</p>
+<p>深度能源与气候政策实验室主要研究领域：</p>
+<ul>
+<li><a href="./research/clean-energy-supply-chains/index.html">可持续、韧性及公正的清洁能源供应链</a><br>
+</li>
+<li><a href="./research/clean-energy-supply-chains/index.html">电力系统低碳转型</a><br>
+</li>
+<li><a href="./research/climate-impact-energy-systems/index.html">气候变化对能源系统的影响</a><br>
+</li>
+<li><a href="./research/energy-nexus-research/index.html">能源交叉研究</a><br>
+</li>
+<li><a href="./research/energy-climate-justice/index.html">能源与气候公正</a></li>
+</ul>
+<p>主要行动倡议：</p>
+<ul>
+<li><a href="./research/china-carbon-neutrality-initiative/index.html">中国碳中和行动</a><br>
+</li>
+<li><a href="./research/new-york-climate-initiative/index.html">纽约气候行动</a></li>
+</ul>
+<p>欢迎与深度政策实验室合作并支持我们的研究和工作。</p>
+<p>联系我们：<a href="mailto:gang.he@baruch.cuny.edu" class="email">gang.he@baruch.cuny.edu</a></p>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 1, 2022
 </div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1462680000000">
-<a href="https://international.lbl.gov/tools" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/elite-cities.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Eco and Low-Carbon Indicator Tool for Evaluating Cities (ELITE Cities)
-</h5>
-<div class="card-text listing-description">
-An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 8, 2016
+<div class="g-col-12 g-col-md-5">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./files/images/cover-square.png" class="img-fluid figure-img"></p>
+<figcaption>人工智能绘制</figcaption>
+</figure>
 </div>
 </div>
 </div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="open-courses" class="level2">
-<h2 class="anchored" data-anchor-id="open-courses">Open Courses</h2>
-<div id="listing-teaching" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0">
-<a href="https://drganghe.github.io/energy-climate-policy/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/images/hex-Energy-Climate-Policy.png" class="thumbnail-image card-img" style="height: 325px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy and Climate Policy
-</h5>
-<div class="card-text listing-description">
-This graduate-level course provides a systems approach to understanding the essential policy questions and analytic tools necessary to achieve the energy transition required…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1">
-<a href="https://drganghe.github.io/energy-climate-society/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/images/hex-Energy-Climate-Society.png" class="thumbnail-image card-img" style="height: 325px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy, Climate, and Society
-</h5>
-<div class="card-text listing-description">
-This undergraduate course offers a comprehensive and interdisciplinary approach to understanding the science behind climate change, the complex technological and policy…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2">
-<a href="https://drganghe.github.io/climate-guest-speakers/about.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/climate-guest-speakers/files/headshots/you.png" class="thumbnail-image card-img" style="height: 325px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Guest Speakers
-</h5>
-<div class="card-text listing-description">
-We’re seeking guest speakers who are passionate about sharing their experiences and inspiring next generation of climate leaders.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -28,7 +28,9 @@ website:
       - text: Resources
         href: resources.qmd
       - text: Support
-        href: support.qmd   
+        href: support.qmd  
+      - text: 中文
+        href: cn.qmd        
     right:
       - icon: github
         href: https://github.com/deeppolicylab
