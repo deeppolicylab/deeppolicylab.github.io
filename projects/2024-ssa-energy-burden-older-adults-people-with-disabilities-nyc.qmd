@@ -33,7 +33,7 @@ listing:
       image: /files/headshots/kaifang-luo.jpeg
       title: "Kaifang LUO"
 #      author: 
-      subtitle: "Post-doc, CUNY Baruch College"
+      subtitle: "Postdoctoral Researcher, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -47,7 +47,7 @@ listing:
 
     - path: https://www.baruch.cuny.edu/profiles/faculty/Frank-W.-Heiland
       image: /files/headshots/frank-heiland.jpeg
-      title: "Frank Heiland"
+      title: "Frank HEILAND"
 #      author: 
       subtitle: "Professor, CUNY Baruch College"
 #      date: "2024-03-12"

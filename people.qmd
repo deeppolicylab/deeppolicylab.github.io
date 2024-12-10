@@ -31,7 +31,7 @@ listing:  #an example of listing external links
       started: "May 2024"
       ended: ""       
 #      author: 
-      subtitle: "Post-doc, CUNY Baruch College"
+      subtitle: "Postdoctoral Researcher, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
