@@ -11,14 +11,16 @@ page-layout: full
 
 ::: {.g-col-12 .g-col-md-7}
 
-:::{style="font-size: 1.3rem;"}
-The **Deep Energy and Climate Policy Lab** (Deep Policy Lab) provides **d**ata-driven, **e**vidence based, **e**nergy and climate **p**olicy (DEEP) analysis and research to support informed energy decisions and climate actions. 
+:::{style="font-size: 1.1rem;"}
+The **Deep Energy and Climate Policy Lab** (Deep Policy Lab), founded by [Dr. Gang He](https://drganghe.github.io)'s team at Baruch College, City University of New York, aims to provide deep analysis and deep insights for deep decarbonizaiton to address climate grand challenges.
 
-Our mission is to advance effective energy and climate solutions through rigorous data-driven analysis and collaborative dialogue. 
+The "DEEP" in Deep Policy Lab stands for **D**ata-driven, **E**vidence based, **E**nergy and climate **P**olicy, reflecting our commitment to robust analysis and research that empowers informed energy decisions and climate actions. 
 
-At Deep Policy Lab, we leverage energy systems modeling, techno-economic analysis, big data, and AI to inform policy decisions on renewable energy, clean energy supply chains, deep decarbonization, and other key areas critical to the energy transition and achieving carbon neutrality. 
+Our mission is to advance effective energy and climate solutions through rigorous, data-driven analysis and collaborative dialogue. 
 
-We actively collaborate with academic institutions, government agencies, industry partners, and civil society organizations to foster innovation and impact in the field of energy and climate policy.
+At Deep Policy Lab, we leverage energy systems modeling, techno-economic analysis, big data, and AI to shape policies on renewable energy, clean energy supply chains, deep decarbonization, and other key areas critical to the energy transition and achieving carbon neutrality. 
+
+We actively collaborate with academic institutions, government agencies, industry partners, and civil society organizations to foster innovation and impact in energy and climate policy.
 :::
 
 :::

@@ -25,7 +25,9 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: projects.yml
+  contents: 
+#    - projects/ 
+    - projects.yml 
 ---
 
 :::{#projects}

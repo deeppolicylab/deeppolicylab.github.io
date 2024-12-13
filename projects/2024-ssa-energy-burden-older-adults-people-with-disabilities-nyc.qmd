@@ -1,10 +1,16 @@
 ---
 title: "Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
-image: "/files/images/funders/ssa.png"
+image: /files/images/funders/ssa.png
+#author: Gang He, Kaifang Luo, Hilary Botein, Frank Heiland
+#subtitle: "Social Security Administration"
 description: "The goal of this project is to investigate the energy burden faced by older adults (ages 62 and older) and people with disabilities in New York City to better understand its impact on their wellbeing."
+#started: "2024"
+#ended: "2025"
+#funding: "$100,000"
 #author: "Gang He"
 #categories: [research]
 date: "2024-11-01"
+#fields: [image, title, description, date]
 title-block-banner: false
 #page-layout: full
 #from: markdown+emoji

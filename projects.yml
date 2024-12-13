@@ -1,5 +1,6 @@
 
-    - path: https://www.nyrdrc.org/research-library/ny25-02-estimating-what-we-miss-about-direct-care-workers-employment-earnings-and-retirement-savingsnbsp-7dlrr-dcfy8-zye4b-nt2en-blr3c
+    - path: /projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html
+#https://www.nyrdrc.org/research-library/ny25-02-estimating-what-we-miss-about-direct-care-workers-employment-earnings-and-retirement-savingsnbsp-7dlrr-dcfy8-zye4b-nt2en-blr3c   
       image: /files/images/funders/ssa.png
       title: "Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
       author: Gang He, Kaifang Luo, Hilary Botein, Frank Heiland
@@ -8,8 +9,8 @@
       started: "2024"
       ended: "2025"
       funding: "$100,000"
-#     date: "2022-10-26"
-#     categories: [] 
+#      date: "2022-10-26"
+#      categories: [] 
 
 
     - path: https://ccci.berkeley.edu/research
