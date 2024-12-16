@@ -11,7 +11,7 @@ page-layout: full
 
 ::: {.g-col-12 .g-col-md-7}
 
-:::{style="font-size: 1.1rem;"}
+
 The **Deep Energy and Climate Policy Lab** (Deep Policy Lab), founded by [Dr. Gang He](https://drganghe.github.io)'s team at Baruch College, City University of New York, aims to provide deep analysis and deep insights for deep decarbonizaiton to address climate grand challenges.
 
 The "DEEP" in Deep Policy Lab stands for **D**ata-driven, **E**vidence based, **E**nergy and climate **P**olicy, reflecting our commitment to robust analysis and research that empowers informed energy decisions and climate actions. 
@@ -23,7 +23,10 @@ At Deep Policy Lab, we leverage energy systems modeling, techno-economic analysi
 We actively collaborate with academic institutions, government agencies, industry partners, and civil society organizations to foster innovation and impact in energy and climate policy.
 :::
 
+<!--
+:::{style="font-size: 1rem;"}
 :::
+-->
 
 ::: {.g-col-12 .g-col-md-5}
 

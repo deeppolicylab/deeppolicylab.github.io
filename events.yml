@@ -1,4 +1,14 @@
 
+    - path: https://drganghe.github.io/climate-guest-speakers/speakers.html
+      image: /files/images/fall-2024-speakers.png
+      title: "Climate Guest Speakers Series"
+      author: Climate Guest Speakers
+#      subtitle: "*Nature Communications*"
+      description: "Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to make a difference."
+#      date: ""
+#      categories: [] 
+
+
     - path: https://applied-energy.org/icae2024/#Program
       image: https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg
       title: "ICAE Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains"
