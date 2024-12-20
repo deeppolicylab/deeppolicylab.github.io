@@ -71,7 +71,7 @@ listing:  #an example of listing external links
       image: /files/headshots/shi-chen.jpg
       title: "Shi CHEN"
 #      author: 
-      subtitle: "Post-doc, Carnegie Science"
+      subtitle: "Postdoctoral Researcher, Carnegie Science"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -79,7 +79,7 @@ listing:  #an example of listing external links
       image: /files/headshots/kaifang-luo.jpeg
       title: "Kaifang LUO"
 #      author: 
-      subtitle: "Post-doc, CUNY-Baruch College"
+      subtitle: "Postdoctoral Researcher, CUNY-Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 

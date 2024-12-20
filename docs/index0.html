@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Deep Policy Lab</title>
+<title>index0 – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,92 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-lab-member .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-started","listing-ended"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-lab-member'] = new List('listing-lab-member', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research'] = new List('listing-research', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
 <script type="text/javascript">
@@ -165,141 +77,29 @@ gtag('js', new Date());
 gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="./custom.css">
 <meta property="og:title" content="Deep Policy Lab">
-<meta property="og:description" content="Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization. Alias: DEEP Lab, DEEP Energy Lab, DEEP Climate Lab. Key words: Deep energy systems, Deep decarbonization, Deep modeling, Deep policy, Energy and climate policy, Energy Systems, Energy policy, Climate policy, Energy transition.">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/cover.png">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/deeplab.png">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta property="og:image:height" content="1024">
-<meta property="og:image:width" content="1792">
+<meta property="og:image:height" content="883">
+<meta property="og:image:width" content="883">
 <meta name="twitter:title" content="Deep Policy Lab">
-<meta name="twitter:description" content="Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization. Alias: DEEP Lab, DEEP Energy Lab, DEEP Climate Lab. Key words: Deep energy systems, Deep decarbonization, Deep modeling, Deep policy, Energy and climate policy, Energy Systems, Energy policy, Climate policy, Energy transition.">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/cover.png">
-<meta name="twitter:image-height" content="1024">
-<meta name="twitter:image-width" content="1792">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/deeplab.png">
+<meta name="twitter:image-height" content="883">
+<meta name="twitter:image-width" content="883">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Deep Policy Lab</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
-<span class="menu-text">Events</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
-<span class="menu-text">People</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
-<span class="menu-text">Support</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
-<span class="menu-text">中文</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/deeppolicylab"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/deeppolicylab.bsky.social" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -315,301 +115,179 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<div class="grid">
-<div class="g-col-12 g-col-md-7">
-<p align="center" style="font-size:30px; font-weight:bold;">
-Welcome to Deep Energy and Climate Policy Lab
-</p>
-<p align="center" style="font-size:24px;">
-Data-driven, Evidence-based, Energy and Climate Solutions
-</p>
-<p align="center" style="font-size:24px;">
-Deep analysis, Deep insights, for Deep decarbonization
-</p>
-<p><a href="./about.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 1em; position: absolute; left: 30%;">Learn more</a></p>
-</div>
-<div class="g-col-12 g-col-md-5">
-<p><a href="./about.html" data-fig-align="center"><img src="./files/images/cover.png" class="img-fluid"></a></p>
-</div>
-</div>
-<hr>
-<p align="center" style="font-size:36px; font-weight:bold;">
-Who are we
-</p>
-<!--
-::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
 
-:::{#pi}
-:::
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Policy Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-:::
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
 
-::: {.g-col-12 .g-col-md-8}
+        .hero {
+            background-image: url('./files/images/cover.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
 
-:::{#lab-member}
-:::
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+        }
 
-:::
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
 
-:::
--->
-<div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0">
-<a href="https://drganghe.github.io" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 178px;">
-</p>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1">
-<a href="https://kaifangluo.com" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 178px;">
-</p>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2">
-<a href="https://giselle1119.github.io/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="https://giselle1119.github.io/images/WengeRao.png" class="thumbnail-image card-img" style="height: 178px;">
-</p>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3">
-<a href="https://www.linkedin.com/in/10sinon/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tenzin-sinon.jpg" class="thumbnail-image card-img" style="height: 178px;">
-</p>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4">
-<a href="https://cl.linkedin.com/in/tamara-valderrama-242289207" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tamara-valderrama.jpg" class="thumbnail-image card-img" style="height: 178px;">
-</p>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5">
-<a href="https://www.linkedin.com/in/mariah-galindo12101/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/mariah-galindo.jpeg" class="thumbnail-image card-img" style="height: 178px;">
-</p>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/oliver-niedbala.webp" class="thumbnail-image card-img" style="height: 178px;">
-</p>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="./people.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em; position: absolute; left: 45%;">Meet our team</a></p>
-<p><br></p>
-<hr>
-<p align="center" style="font-size:36px; font-weight:bold;">
-What we do
-</p>
-<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1725629172702" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/clean-energy-supply-chains/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sustainable, Resilient, and Just Global Clean Energy Supply Chains
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1729423246594" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<a href="./research/power-systems-decarbonization/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/power-systems-decarbonization/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Power Systems Decarbonization
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1724612879413" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-<a href="./research/climate-impact-energy-systems/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/climate-impact-energy-systems/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Impact on Energy Systems
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1724612680880" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-<a href="./research/energy-nexus-research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/energy-nexus-research/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy Nexus Research
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1731608487296" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
-<a href="./research/energy-climate-justice/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/energy-climate-justice/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy and Climate Justice
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1731188590497" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-<a href="./research/china-carbon-neutrality-initiative/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/china-carbon-neutrality-initiative/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-China Carbon Neutrality Initiative
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1725452494152" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<a href="./research/new-york-climate-initiative/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/new-york-climate-initiative/featured.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New York Climate Initiative
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="./research.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em; position: absolute; left: 45%;">Explore more</a></p>
-<p><br></p>
-<hr>
-<p align="center" style="font-size:36px; font-weight:bold;">
-Read our work
-</p>
-<div id="listing-publications" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1730782800000">
-<a href="https://doi.org/10.1016/j.oneear.2024.10.006" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>One Earth</em>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1696996800000">
-<a href="https://www.nature.com/articles/s43247-023-01006-x" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/commsearth.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Communications Earth &amp; Environment</em>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1691726400000">
-<a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature-comms.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature Communications</em>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="./publications.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em; position: absolute; left: 45%;">Read more</a></p>
-<!--
-:::{#featured-projects}
-:::
--->
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .hero-button {
+            padding: 15px 30px;
+            background-color: #05336B;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .hero-button:hover {
+            background-color: #5499c7;
+        }
+
+        .bottom-links {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            display: flex;
+            gap: 30px; /* Space between links */
+        }
+
+        .bottom-links a {
+            padding: 5px 20px;
+            background-color: #05336B;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .top-links a:hover {
+            color: #7fb3d5;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem; /* Smaller font size for mobile screens */
+            }
+
+            p {
+                font-size: 1.2rem; /* Smaller paragraph font size for mobile */
+            }
+
+            .hero-button {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            .hero-content {
+                margin-bottom: 60px; /* Increase bottom margin for more space */
+            }
+
+            .bottom-links {
+                gap: 20px; /* Reduce gap on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem; /* Even smaller font size for very small screens */
+            }
+
+            p {
+                font-size: 1rem; /* Further reduced paragraph font size */
+            }
+
+            .hero-button {
+                font-size: 0.9rem; /* Smaller button text for small screens */
+                padding: 10px 20px;
+            }
+
+            .hero-content {
+                margin-bottom: 80px; /* Further increase bottom margin on very small screens */
+            }
+
+            .bottom-links {
+                flex-direction: column; /* Stack links vertically on very small screens */              
+                gap: 10px; /* Reduce gap between links */
+            }
+
+            .bottom-links a {
+                font-size: 0.8rem;
+            }    
+        }
+    </style>
+
+
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to Deep Energy and Climate Policy Lab</h1>
+            <p>Data-driven, Evidence-based, Energy and Climate Solutions</p>
+            <p>Deep analysis, Deep insights, for Deep decarbonization</p>
+            <a href="./about.html" class="hero-button">Learn More</a>
+        </div>
+
+        <!-- Bottom Center Links -->
+        <div class="bottom-links">
+            <a href="./people.html">People</a>
+            <a href="./research.html">Research</a>
+            <a href="./publications.html">Publications</a>
+        </div>
+    </section>
 
 
 
 
-</main> <!-- /main -->
+
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1063,4 +741,197 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+</body><!--
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Policy Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background-image: url('/files/images/cover.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .hero-button {
+            padding: 15px 30px;
+            background-color: #05336B;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .hero-button:hover {
+            background-color: #5499c7;
+        }
+
+        .top-links {
+            position: absolute;
+            top: 60px; /* Adjusts distance from the top */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            display: flex;
+            gap: 30px; /* Space between links */
+        }
+
+        .top-links a {
+            padding: 5px 20px;
+            background-color: #05336B;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .top-links a:hover {
+            color: #7fb3d5;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem; /* Smaller font size for mobile screens */
+            }
+
+            p {
+                font-size: 1.2rem; /* Smaller paragraph font size for mobile */
+            }
+
+            .hero-button {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            .hero-content {
+                margin-bottom: 60px; /* Increase bottom margin for more space */
+            }
+
+            .top-links {
+                gap: 20px; /* Reduce gap on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem; /* Even smaller font size for very small screens */
+            }
+
+            p {
+                font-size: 1rem; /* Further reduced paragraph font size */
+            }
+
+            .hero-button {
+                font-size: 0.9rem; /* Smaller button text for small screens */
+                padding: 10px 20px;
+            }
+
+            .hero-content {
+                margin-bottom: 80px; /* Further increase bottom margin on very small screens */
+            }
+
+            .top-links {
+                flex-direction: column; /* Stack links vertically on very small screens */              
+                gap: 10px; /* Reduce gap between links */
+            }
+
+            .top-links a {
+                font-size: 0.8rem;
+            }    
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to Deep Energy and Climate Policy Lab</h1>
+            <p>Data-driven, Evidence-based, Energy and Climate Solutions</p>
+            <p>Deep analysis, Deep insights, for Deep decarbonization</p>
+            <a href="/about.html" class="hero-button">Learn More</a>
+        </div>
+
+      
+        <div class="top-links">
+            <a href="/people.html">People</a>
+            <a href="/research.html">Research</a>
+            <a href="/publications.html">Publications</a>
+        </div>
+    </section>
+
+</body>
+
+
+::: {.content-block}
+![](/files/images/cover.png){fig-align="center" width=1200px}
+:::
+
+:::{.hero-banner .alt-background}
+::: {.content-block}
+
+<p align="center" style="font-size:54px;">We use data-drive, evidence-base approach to study energy and climate policy and offer policy insights for energy decisions and climate actions to achieve carbon neutrality.</p>
+:::
+:::
+
+::: {.get-started}
+::: {.content-block}
+
+[Learn more](about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"}
+
+:::
+:::
+
+<!--
+:::{#featured-projects}
+:::
+--></html>
