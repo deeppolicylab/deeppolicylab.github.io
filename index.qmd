@@ -97,7 +97,7 @@ listing:
 
 <hr>
 
-<p align="center" style="font-size:36px; font-weight:bold;">Who are we</p>
+<p align="center" style="font-size:36px; font-weight:bold;">Who we are</p>
 
 <!--
 ::: {.grid}
