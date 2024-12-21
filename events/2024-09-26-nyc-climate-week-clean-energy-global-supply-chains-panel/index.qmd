@@ -28,7 +28,7 @@ listing:  #an example of listing external links
       image: https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg
       title: "Gang HE"
 #      author: 
-      subtitle: "Assistant Professor, CUNY-Baruch College"
+      subtitle: "Assistant Professor, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 
@@ -79,7 +79,7 @@ listing:  #an example of listing external links
       image: /files/headshots/kaifang-luo.jpeg
       title: "Kaifang LUO"
 #      author: 
-      subtitle: "Postdoctoral Researcher, CUNY-Baruch College"
+      subtitle: "Postdoctoral Researcher, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
 

@@ -2,9 +2,9 @@
 /*https://github.com/quarto-dev/quarto-web/blob/main/index.css*/
 /*#447099*/
 
-.get-started {
+.button {
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 10px;
 }
 
 .hero-banner {
