@@ -2,7 +2,7 @@
 #title: "Deep Policy Lab"
 css: /custom.css
 #image: files/logo.jpeg
-page-layout: custom
+page-layout: full
 #navbar: false
 
 listing:
@@ -75,8 +75,6 @@ listing:
 <!--Please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
-::: {.background-frame .alt-background}
-::: {.content-block}
 
 
 ::: {.grid}
@@ -99,11 +97,7 @@ listing:
 
 :::
 
-:::
-:::
-
-::: {.background-frame}
-::: {.content-block}
+<hr>
 
 <p align="center" style="font-size:36px; font-weight:bold;">Who we are</p>
 
@@ -134,12 +128,7 @@ listing:
 [Meet our team](people.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
 :::
 
-:::
-:::
-
-
-::: {.background-frame .alt-background}
-::: {.content-block}
+<hr>
 
 <p align="center" style="font-size:36px; font-weight:bold;">What we do</p>
 
@@ -150,11 +139,7 @@ listing:
 [Explore more](research.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
 :::
 
-:::
-:::
-
-::: {.background-frame}
-::: {.content-block}
+<hr>
 
 <p align="center" style="font-size:36px; font-weight:bold;">Read our work</p>
 
@@ -166,8 +151,6 @@ listing:
 [Read more](publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
 :::
 
-:::
-:::
 
 <!--
 :::{#featured-projects}
