@@ -27,11 +27,13 @@ listing:
 # #      categories: [] 
 
 - id: lab-member
-#  sort: "lastname asc"
+  sort: "lastname asc"
   type: grid
   fields: [image]
   grid-item-align: center
   grid-columns: 4
+  max-items: 8
+  page-size: 8
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -51,9 +53,10 @@ listing:
   sort: false
   type: grid
   grid-columns: 4
+  max-items: 8
   image-height: 150px
   fields: [image, title]
-  page-size: 25
+  page-size: 8
   categories: false
   sort-ui: false
   filter-ui: false

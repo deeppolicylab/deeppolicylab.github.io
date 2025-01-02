@@ -99,6 +99,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ra .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ra'] = new List('listing-ra', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -236,7 +264,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -244,7 +272,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#team" id="toc-team" class="nav-link active" data-scroll-target="#team">Team</a></li>
+  <li><a href="#pi-team" id="toc-pi-team" class="nav-link active" data-scroll-target="#pi-team">PI Team</a></li>
+  <li><a href="#research-assistants" id="toc-research-assistants" class="nav-link" data-scroll-target="#research-assistants">Research Assistants</a></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#acknowledgment" id="toc-acknowledgment" class="nav-link" data-scroll-target="#acknowledgment">Acknowledgment</a></li>
   <li><a href="#about-nyrdrc" id="toc-about-nyrdrc" class="nav-link" data-scroll-target="#about-nyrdrc">About NYRDRC</a></li>
@@ -252,7 +281,7 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -266,7 +295,7 @@ window.Quarto = {
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
     <div>
@@ -295,15 +324,15 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Team</h2>
+<section id="pi-team" class="level2">
+<h2 class="anchored" data-anchor-id="pi-team">PI Team</h2>
 <div id="listing-team" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0">
 <a href="https://drganghe.github.io" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -320,7 +349,7 @@ Assistant Professor, CUNY Baruch College
 <a href="https://kaifangluo.com" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -337,7 +366,7 @@ Postdoctoral Researcher, CUNY Baruch College
 <a href="https://www.baruch.cuny.edu/profiles/faculty/Hilary-Botein" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../files/headshots/hilary-botein.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../files/headshots/hilary-botein.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -354,7 +383,7 @@ Associate Professor, CUNY Baruch College
 <a href="https://www.baruch.cuny.edu/profiles/faculty/Frank-W.-Heiland" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../files/headshots/frank-heiland.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../files/headshots/frank-heiland.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -362,6 +391,67 @@ Frank HEILAND
 </h5>
 <div class="card-subtitle listing-subtitle">
 Professor, CUNY Baruch College
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="research-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
+<div id="listing-ra" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0">
+<a href="https://www.linkedin.com/in/mariah-galindo12101/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../files/headshots/mariah-galindo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mariah GALINDO
+</h5>
+<div class="card-subtitle listing-subtitle">
+Marxe Assistant/MIA Student, CUNY Baruch College
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="https://www.linkedin.com/in/arielle-ca%C3%B1ate/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../files/headshots/arielle-canate.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Arielle CANATE
+</h5>
+<div class="card-subtitle listing-subtitle">
+QMSS Master’s Student, CUNY Graduate Center
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="https://www.linkedin.com/in/tiffany-hugh-90878b237" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../files/headshots/tiffany-hugh.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tiffany HUGH
+</h5>
+<div class="card-subtitle listing-subtitle">
+QMSS Master’s Student, CUNY Graduate Center
 </div>
 </div>
 </div>

@@ -12,7 +12,7 @@ description: "The goal of this project is to investigate the energy burden faced
 date: "2024-11-01"
 #fields: [image, title, description, date]
 title-block-banner: false
-#page-layout: full
+page-layout: full
 #from: markdown+emoji
 listing: 
 - id: team
@@ -20,8 +20,8 @@ listing:
   type: grid
   fields: [image, title, subtitle]
   grid-item-align: center  
-  grid-columns: 3
-  image-height: 250px
+  grid-columns: 4
+  image-height: 200px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -58,14 +58,63 @@ listing:
       subtitle: "Professor, CUNY Baruch College"
 #      date: "2024-03-12"
 #      categories: [] 
+
+- id: ra
+#  sort: "title asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
+  grid-columns: 4
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.linkedin.com/in/mariah-galindo12101/
+      image: /files/headshots/mariah-galindo.jpeg
+      title: "Mariah GALINDO"
+      lastname: "DGalindo"
+      started: "Oct 2024"
+      ended: "Oct 2025"       
+#      author: 
+      subtitle: "Marxe Assistant/MIA Student, CUNY Baruch College"
+#      date: "2024-03-12"
+#      categories: []
+
+    - path: https://www.linkedin.com/in/arielle-ca%C3%B1ate/
+      image: /files/headshots/arielle-canate.jpg
+      title: "Arielle CANATE"
+      lastname: "DCANATE"
+      started: "Dec 2024"
+      ended: "May 2025"       
+#      author: 
+      subtitle: "QMSS Master's Student, CUNY Graduate Center"
+#      date: "2024-03-12"
+#      categories: []
+
+    - path: https://www.linkedin.com/in/tiffany-hugh-90878b237
+      image: /files/headshots/tiffany-hugh.jpeg
+      title: "Tiffany HUGH"
+      lastname: "DHUGH"
+      started: "Dec 2024"
+      ended: "May 2025"       
+#      author: 
+      subtitle: "QMSS Master's Student, CUNY Graduate Center"
+#      date: "2024-03-12"
+#      categories: []
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
-## Team
+## PI Team
 
 :::{#team}
+:::
+
+## Research Assistants
+
+:::{#ra}
 :::
 
 ## Summary

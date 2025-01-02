@@ -1,6 +1,6 @@
 ---
 title: "Research & Initiatives"
-subtitle: "What we do"
+description: "What we do"
 toc: false
 listing:
 - id: research

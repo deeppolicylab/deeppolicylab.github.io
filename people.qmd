@@ -1,5 +1,6 @@
 ---
 title: "People"
+description: "Who we are"
 #image: files/group.jpeg
 page-layout: full
 listing:  #an example of listing external links

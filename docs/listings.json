@@ -8,8 +8,16 @@
     "items": []
   },
   {
-    "listing": "/publications.html",
-    "items": []
+    "listing": "/index1.html",
+    "items": [
+      "/research/clean-energy-supply-chains/index.html",
+      "/research/power-systems-decarbonization/index.html",
+      "/research/climate-impact-energy-systems/index.html",
+      "/research/energy-nexus-research/index.html",
+      "/research/energy-climate-justice/index.html",
+      "/research/china-carbon-neutrality-initiative/index.html",
+      "/research/new-york-climate-initiative/index.html"
+    ]
   },
   {
     "listing": "/projects.html",
@@ -73,22 +81,6 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/index1.html",
-    "items": [
-      "/research/clean-energy-supply-chains/index.html",
-      "/research/power-systems-decarbonization/index.html",
-      "/research/climate-impact-energy-systems/index.html",
-      "/research/energy-nexus-research/index.html",
-      "/research/energy-climate-justice/index.html",
-      "/research/china-carbon-neutrality-initiative/index.html",
-      "/research/new-york-climate-initiative/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/research/clean-energy-supply-chains/index.html",
@@ -99,5 +91,13 @@
       "/research/china-carbon-neutrality-initiative/index.html",
       "/research/new-york-climate-initiative/index.html"
     ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
+    "items": []
   }
 ]
