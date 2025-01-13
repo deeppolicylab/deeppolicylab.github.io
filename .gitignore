@@ -15,6 +15,7 @@
 
 #R Temporal Files
 .DS_Store
+/.DS_Store/
 ~$*.Rhistory*
 ~$*.DS_Store*
 ~$*.Rproj.user*
@@ -35,3 +36,4 @@ Backup of *.doc*
 ~$*.ppt*
 # Visio autosave temporary files
 *.~vsd*
+.DS_Store

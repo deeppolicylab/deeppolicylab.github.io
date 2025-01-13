@@ -39,7 +39,16 @@ listing:
 #  sort-ui: true
 #  filter-ui: true
   contents:
-    - labmembers.yml
+#    - labmembers.yml
+    - /people/gang-he.yml
+    - /people/kaifang-luo.yml
+    - /people/wenge-rao.yml
+    - /people/mariah-galindo.yml
+    - /people/arielle-canate.yml
+    - /people/tamara-valderrama.yml
+    - /people/tenzin-sinon.yml
+    - /people/tiffany-hugh.yml
+    - /people/oliver-niedbala.yml 
 
 - id: research
   contents: 

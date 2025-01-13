@@ -26,38 +26,10 @@ listing:
 #  sort-ui: true
 #  filter-ui: true
   contents:
-
-    - path: https://drganghe.github.io
-      image: https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg
-      title: "Gang HE"
-#      author: 
-      subtitle: "Assistant Professor, CUNY Baruch College"
-#      date: "2024-03-12"
-#      categories: [] 
-
-    - path: https://kaifangluo.com
-      image: /files/headshots/kaifang-luo.jpeg
-      title: "Kaifang LUO"
-#      author: 
-      subtitle: "Postdoctoral Researcher, CUNY Baruch College"
-#      date: "2024-03-12"
-#      categories: [] 
-
-    - path: https://www.baruch.cuny.edu/profiles/faculty/Hilary-Botein
-      image: /files/headshots/hilary-botein.jpeg
-      title: "Hilary BOTEIN"
-#      author: 
-      subtitle: "Associate Professor, CUNY Baruch College"
-#      date: "2024-03-12"
-#      categories: [] 
-
-    - path: https://www.baruch.cuny.edu/profiles/faculty/Frank-W.-Heiland
-      image: /files/headshots/frank-heiland.jpeg
-      title: "Frank HEILAND"
-#      author: 
-      subtitle: "Professor, CUNY Baruch College"
-#      date: "2024-03-12"
-#      categories: [] 
+    - ../people/gang-he.yml
+    - ../people/kaifang-luo.yml
+    - ../people/hilary-botein.yml
+    - ../people/frank-heiland.yml
 
 - id: ra
 #  sort: "title asc"
@@ -70,38 +42,9 @@ listing:
 #  sort-ui: true
 #  filter-ui: true
   contents:
-    - path: https://www.linkedin.com/in/mariah-galindo12101/
-      image: /files/headshots/mariah-galindo.jpeg
-      title: "Mariah GALINDO"
-      lastname: "DGalindo"
-      started: "Oct 2024"
-      ended: "Oct 2025"       
-#      author: 
-      subtitle: "Marxe Assistant/MIA Student, CUNY Baruch College"
-#      date: "2024-03-12"
-#      categories: []
-
-    - path: https://www.linkedin.com/in/arielle-ca%C3%B1ate/
-      image: /files/headshots/arielle-canate.jpg
-      title: "Arielle CANATE"
-      lastname: "DCANATE"
-      started: "Dec 2024"
-      ended: "May 2025"       
-#      author: 
-      subtitle: "QMSS Master's Student, CUNY Graduate Center"
-#      date: "2024-03-12"
-#      categories: []
-
-    - path: https://www.linkedin.com/in/tiffany-hugh-90878b237
-      image: /files/headshots/tiffany-hugh.jpeg
-      title: "Tiffany HUGH"
-      lastname: "DHUGH"
-      started: "Dec 2024"
-      ended: "May 2025"       
-#      author: 
-      subtitle: "QMSS Master's Student, CUNY Graduate Center"
-#      date: "2024-03-12"
-#      categories: []
+    - ../people/mariah-galindo.yml
+    - ../people/arielle-canate.yml
+    - ../people/tiffany-hugh.yml
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->
@@ -126,7 +69,7 @@ Source: [NYRDRC Research Library 25-08](https://www.nyrdrc.org/research-library/
 
 ## Acknowledgment
 
-We thank Social Security Administration for supporting our work. This proposal benefited from discussions with Deborah Balk and Na Yin at early stage. We thank Neil Benett for reviewing our draft and providing helpful comments to strengthen our proposal.
+We thank Social Security Administration for supporting our work. We are grateful for the support and collaboration from the NYCHA team. This proposal benefited from discussions with Deborah Balk and Na Yin at early stage. We thank Neil Bennett for reviewing our draft and providing helpful comments to strengthen our proposal.
 
 
 ## About NYRDRC

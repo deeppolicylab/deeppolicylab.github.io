@@ -37,7 +37,7 @@ listing:
 ---
 
 
-## Press Release
+## Release
 
 :::{#release}
 :::
