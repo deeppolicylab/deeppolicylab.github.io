@@ -31,9 +31,9 @@ listing:
   type: grid
   fields: [image]
   grid-item-align: center
-  grid-columns: 4
-  max-items: 8
-  page-size: 8
+  grid-columns: 5
+  max-items: 10
+  page-size: 10
   image-height: 200px
 #  categories: true
 #  sort-ui: true

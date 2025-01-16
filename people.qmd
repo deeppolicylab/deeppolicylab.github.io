@@ -42,7 +42,10 @@ listing:  #an example of listing external links
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: labalumni.yml
+  contents: 
+    - /people/yun-li.yml
+    - /people/nicolo-antonucci.yml
+    - /people/kately-arriage.yml    
 
 # - id: lab-collaborator
 #   sort: "title asc"

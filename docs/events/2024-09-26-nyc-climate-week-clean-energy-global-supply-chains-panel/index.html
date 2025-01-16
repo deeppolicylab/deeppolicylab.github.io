@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-started","listing-ended"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -379,40 +379,23 @@ No matching items
 <div id="listing-panelists" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0">
-<a href="https://www.jhelvy.com/" class="quarto-grid-link">
+<a href="https://sustainablesolutions.stanford.edu/people/shi-chen" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/john-helveston.png" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../../files/headshots/shi-chen.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-John HELVESTON
+Shi CHEN
 </h5>
 <div class="card-subtitle listing-subtitle">
-Assistant Professor, George Washington University
+Postdoctoral Researcher, Carnegie Science
 </div>
 </div>
 </div>
 </a>
 </div>
 <div class="g-col-1" data-index="1">
-<a href="https://kaifangluo.com" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Kaifang LUO
-</h5>
-<div class="card-subtitle listing-subtitle">
-Postdoctoral Researcher, CUNY Baruch College
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2">
 <a href="https://gps.ucsd.edu/faculty-directory/michael-davidson.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -429,7 +412,41 @@ Assistant Professor, University of California, San Diego
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="2">
+<a href="https://www.jhelvy.com/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/john-helveston.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+John HELVESTON
+</h5>
+<div class="card-subtitle listing-subtitle">
+Assistant Professor, George Washington University
+</div>
+</div>
+</div>
+</a>
+</div>
 <div class="g-col-1" data-index="3">
+<a href="https://kaifangluo.com" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kaifang LUO
+</h5>
+<div class="card-subtitle listing-subtitle">
+Postdoctoral Researcher, CUNY Baruch College
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4">
 <a href="https://mhqiu.github.io/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -441,23 +458,6 @@ Minghao QIU
 </h5>
 <div class="card-subtitle listing-subtitle">
 Assistant Professor, Stony Brook University
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4">
-<a href="https://sustainablesolutions.stanford.edu/people/shi-chen" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/shi-chen.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Shi CHEN
-</h5>
-<div class="card-subtitle listing-subtitle">
-Postdoctoral Researcher, Carnegie Science
 </div>
 </div>
 </div>

@@ -24,16 +24,10 @@ listing:  #an example of listing external links
 #  sort-ui: true
 #  filter-ui: true
   contents:
-    - path: https://drganghe.github.io
-      image: https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg
-      title: "Gang HE"
-#      author: 
-      subtitle: "Assistant Professor, CUNY Baruch College"
-#      date: "2024-03-12"
-#      categories: [] 
+    - ../../people/gang-he.yml
 
 - id: panelists
-  sort: "title asc"
+  sort: "lastname asc"
   type: grid
   fields: [image, title, subtitle]
   grid-item-align: center  
@@ -43,45 +37,11 @@ listing:  #an example of listing external links
 #  sort-ui: true
 #  filter-ui: true
   contents:
-    - path: https://www.jhelvy.com/
-      image: /files/headshots/john-helveston.png
-      title: "John HELVESTON"
-#      author: 
-      subtitle: "Assistant Professor, George Washington University"
-#      date: "2024-03-12"
-#      categories: [] 
-
-    - path: https://gps.ucsd.edu/faculty-directory/michael-davidson.html
-      image: /files/headshots/michael-davidson.jpg
-      title: "Michael DAVIDSON"
-#      author: 
-      subtitle: "Assistant Professor, University of California, San Diego"
-#      date: "2024-03-12"
-#      categories: [] 
-
-    - path: https://mhqiu.github.io/
-      image: /files/headshots/minghao-qiu.jpg
-      title: "Minghao QIU"
-#      author: 
-      subtitle: "Assistant Professor, Stony Brook University"
-#      date: "2024-03-12"
-#      categories: [] 
-
-    - path: https://sustainablesolutions.stanford.edu/people/shi-chen
-      image: /files/headshots/shi-chen.jpg
-      title: "Shi CHEN"
-#      author: 
-      subtitle: "Postdoctoral Researcher, Carnegie Science"
-#      date: "2024-03-12"
-#      categories: [] 
-
-    - path: https://kaifangluo.com
-      image: /files/headshots/kaifang-luo.jpeg
-      title: "Kaifang LUO"
-#      author: 
-      subtitle: "Postdoctoral Researcher, CUNY Baruch College"
-#      date: "2024-03-12"
-#      categories: [] 
+    - ../../people/john-helveston.yml
+    - ../../people/michael-davidson.yml
+    - ../../people/minghao-qiu.yml
+    - ../../people/shi-chen.yml
+    - ../../people/kaifang-luo.yml
 
 page-navigation: false
 title-block-banner: false
