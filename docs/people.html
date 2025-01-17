@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-started","listing-ended"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -262,9 +262,10 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="RGlyZWN0b3I=">Director <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">Highschool Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFzdGVyJ3MlMjBTdHVkZW50">Master's Student <span class="quarto-category-count">(6)</span></div><div class="category" data-category="UGhEJTIwU3R1ZGVudA==">PhD Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9zdGRvYw==">Postdoc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VW5kZXJncmFkdWF0ZQ==">Undergraduate <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -278,7 +279,7 @@ window.Quarto = {
 </div>
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -305,11 +306,11 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 <h2 class="anchored" data-anchor-id="team">Team</h2>
 <div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0">
+<div class="g-col-1" data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
 <a href="https://www.linkedin.com/in/arielle-ca%C3%B1ate/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/arielle-canate.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./files/headshots/arielle-canate.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -322,11 +323,11 @@ QMSS Master’s Student, CUNY Graduate Center
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1">
+<div class="g-col-1" data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
 <a href="https://www.linkedin.com/in/mariah-galindo12101/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/mariah-galindo.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./files/headshots/mariah-galindo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -339,11 +340,11 @@ Marxe Assistant/MIA Student, CUNY Baruch College
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2">
+<div class="g-col-1" data-index="2" data-categories="RGlyZWN0b3I=">
 <a href="https://drganghe.github.io" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -356,11 +357,11 @@ Assistant Professor, CUNY Baruch College
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3">
+<div class="g-col-1" data-index="3" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
 <a href="https://www.linkedin.com/in/tiffany-hugh-90878b237" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tiffany-hugh.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./files/headshots/tiffany-hugh.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -373,11 +374,11 @@ QMSS Master’s Student, CUNY Graduate Center
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4">
+<div class="g-col-1" data-index="4" data-categories="UG9zdGRvYw==">
 <a href="https://kaifangluo.com" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -390,11 +391,11 @@ Postdoctoral Researcher, CUNY Baruch College
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5">
+<div class="g-col-1" data-index="5" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/oliver-niedbala.webp" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./files/headshots/oliver-niedbala.webp" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -407,11 +408,11 @@ Student, Saint Francis Preparatory School
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6">
+<div class="g-col-1" data-index="6" data-categories="UGhEJTIwU3R1ZGVudA==">
 <a href="https://giselle1119.github.io/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="https://giselle1119.github.io/images/WengeRao.png" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="https://giselle1119.github.io/images/WengeRao.png" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -424,11 +425,11 @@ Visiting PhD Student, Peking University
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7">
+<div class="g-col-1" data-index="7" data-categories="VW5kZXJncmFkdWF0ZQ==">
 <a href="https://www.linkedin.com/in/10sinon/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tenzin-sinon.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./files/headshots/tenzin-sinon.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -441,11 +442,11 @@ CUNY Undergraduate Climate Scholar, Hunter College
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8">
+<div class="g-col-1" data-index="8" data-categories="VW5kZXJncmFkdWF0ZQ==">
 <a href="https://cl.linkedin.com/in/tamara-valderrama-242289207" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tamara-valderrama.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="./files/headshots/tamara-valderrama.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -515,7 +516,7 @@ No matching items
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-title-sort="Nicolo ANTONUCCI">
+<tr data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Nicolo ANTONUCCI">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/nicolo-antonucci.jpeg" style="height: 25px;"></span>
 </td>
@@ -532,7 +533,7 @@ No matching items
 <span class="listing-ended">Dec 2023</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-title-sort="Kately ARRIAGE">
+<tr data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Kately ARRIAGE">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/kately-arriage.jpeg" style="height: 25px;"></span>
 </td>
@@ -549,7 +550,7 @@ No matching items
 <span class="listing-ended">Dec 2023</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-title-sort="Yun LI">
+<tr data-index="2" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Yun LI">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/we-need-you.png" style="height: 25px;"></span>
 </td>

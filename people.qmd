@@ -11,8 +11,8 @@ listing:  #an example of listing external links
   fields: [image, title, subtitle]
   grid-item-align: center
   grid-columns: 4
-  image-height: 250px
-#  categories: true
+  image-height: 200px
+  categories: true
 #  sort-ui: true
 #  filter-ui: true
   contents: 
@@ -46,46 +46,6 @@ listing:  #an example of listing external links
     - /people/yun-li.yml
     - /people/nicolo-antonucci.yml
     - /people/kately-arriage.yml    
-
-# - id: lab-collaborator
-#   sort: "title asc"
-#   type: grid
-#   fields: [image, title, subtitle]
-#   grid-item-align: center  
-#   grid-columns: 4
-#   image-height: 250px
-# #  categories: true
-# #  sort-ui: true
-# #  filter-ui: true
-#   contents:
-#     - collaborators.yml
-
-# - id: lab-advisor
-#   sort: "title asc"
-#   type: grid
-#   fields: [image, title, subtitle]
-#   grid-item-align: center  
-#   grid-columns: 4
-#   image-height: 250px
-# #  categories: true
-# #  sort-ui: true
-# #  filter-ui: true
-#   contents:
-#     - path: https://kammen.berkeley.edu/
-#       image: /files/headshots/daniel-kammen.jpg
-#       title: "Daniel M. KAMMEN"
-# #      author: 
-#       subtitle: "Professor, Univeristy of California, Berkeley"
-# #      date: "2024-03-12"
-# #      categories: [] 
-
-#     - path: https://eta.lbl.gov/people/jiang-lin
-#       image: https://are.berkeley.edu/sites/are.berkeley.edu/files/styles/user_big_picture/public/pictures/picture-13749-1602716599.jpg
-#       title: "Jiang LIN"
-# #      author: 
-#       subtitle: "Staff Scientist, Lawrence Berkeley National Laboratory"
-# #      date: "2024-03-12"
-# #      categories: [] 
 
 page-navigation: false
 title-block-banner: false
