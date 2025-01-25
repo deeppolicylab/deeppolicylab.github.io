@@ -1,5 +1,6 @@
 ---
 title: "About Deep Policy Lab"
+subtitle: "Deep analysis, deep insights, for deep decarbonization"
 #image: files/framework.jpeg
 page-layout: full
 ---

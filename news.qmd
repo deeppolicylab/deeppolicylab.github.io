@@ -1,6 +1,6 @@
 ---
 title: "News"
-description: "What's new & In the news"
+subtitle: "What's new & In the news"
 page-layout: full
 toc: false
 #author: "DEEP Lab"

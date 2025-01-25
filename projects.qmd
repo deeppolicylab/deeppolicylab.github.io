@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Funded projects"
+subtitle: "Funded projects"
 page-layout: full
 #author: "DEEP Lab"
 #date: "2023-03-20"
@@ -29,6 +29,9 @@ listing:
 #    - projects/ 
     - projects.yml 
 ---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
 
 :::{#projects}
 :::

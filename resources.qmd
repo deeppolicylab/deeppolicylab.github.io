@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-description: "Models, data, open courses, and other resources"
+subtitle: "Models, data, open courses, and other resources"
 page-layout: full
 #author: "DEEP Lab"
 #date: "2023-03-20"

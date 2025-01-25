@@ -1,6 +1,6 @@
 ---
 title: "Support"
-description: "Work with us"
+subtitle: "Work with us"
 title-block-banner: false
 page-layout: full
 toc: true

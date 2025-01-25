@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Featured papers and articles"
+subtitle: "Featured papers and articles"
 page-layout: full
 #author: "DEEP Lab"
 #date: "2023-03-20"

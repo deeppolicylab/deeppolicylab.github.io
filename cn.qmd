@@ -1,6 +1,6 @@
 ---
 title: "深度能源与气候政策实验室"
-description: "为深度减碳提供深度分析与深度见解"
+subtitle: "为深度减碳提供深度分析与深度见解"
 #image: files/framework.jpeg
 page-layout: full
 ---
