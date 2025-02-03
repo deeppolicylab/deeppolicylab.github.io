@@ -10,6 +10,7 @@
 /.quarto/
 
 # Extensions and backups
+_extensions
 /_extensions/
 /_backup/
 
@@ -36,4 +37,3 @@ Backup of *.doc*
 ~$*.ppt*
 # Visio autosave temporary files
 *.~vsd*
-.DS_Store
