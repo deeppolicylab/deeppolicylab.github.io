@@ -13,7 +13,7 @@ listing:
   sort: false
   type: grid
   grid-columns: 3
-  image-height: 300px
+  image-height: 200px
   fields: [image, title, description]
   page-size: 25
   categories: false
@@ -28,7 +28,7 @@ listing:
   sort: false
   type: grid
   grid-columns: 3
-  image-height: 300px
+  image-height: 200px
   fields: [image, title, description]
   page-size: 25
   categories: false
