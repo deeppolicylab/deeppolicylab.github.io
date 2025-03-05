@@ -9,7 +9,9 @@ page-layout: full
 #css: /custom.css
 listing: 
 - id: projects
-  sort: "started desc"
+  sort: 
+    - "started desc"
+    - "ended desc"
   type: table
   fields: [image, title, author, subtitle, description, funding, started, ended]
   grid-item-align: left
