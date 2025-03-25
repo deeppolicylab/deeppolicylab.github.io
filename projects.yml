@@ -26,11 +26,11 @@
 #    categories: []
 
 
-    - path: https://www.growaldclimatefund.org/why-electricity
-      image: /files/images/funders/growald.png
+    - path: https://emp.lbl.gov/
+      image: /files/images/funders/ucb.webp
       title: "Power system beyond coal"
       author: Gang He
-      subtitle: "Growald Climate Fund"
+      subtitle: "University of California, Berkeley"
       description: "The goal of this project is to collaborate with LBL team in modeling the decarbonization of China’s power sector."
       started: "2024"
       ended: "2025"

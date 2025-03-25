@@ -28,7 +28,7 @@ listing:
       date: "2022-06-01"
 #      categories: [] 
 
-    - path: https://international.lbl.gov/tools
+    - path: https://drganghe.github.io/posts/2015-ei-elite-cities-low-carbon-eco-city-evaluation-tool/index.html
       image: /files/images/elite-cities.jpg
       title: "Eco and Low-Carbon Indicator Tool for Evaluating Cities (ELITE Cities)"
 #      author: 

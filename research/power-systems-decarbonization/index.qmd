@@ -54,6 +54,16 @@ listing:
       date: "2022-01-07"
 #      categories: [] 
 
+    - path: https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3
+      image: /files/images/journal/erl.png
+      title: "Cost-effectiveness of removing the last 10-20% emissions of China's power sector"
+#      author: 
+      subtitle: "*Environmental Research Letters*"
+      description: "Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs."
+      date: "2025-03-14"
+#      categories: [] 
+
+
 - id: featured-resources
   sort: "date desc"
   type: grid
