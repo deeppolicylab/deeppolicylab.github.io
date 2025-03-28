@@ -7,6 +7,21 @@ description: "Ensuring a just clean energy transition."
 image: "featured.png"
 #css: /custom.css
 listing: 
+- id: featured-publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../publications.yml
+  include: 
+    categories: "just-transition"
+
 - id: featured-projects
   sort: "date desc"
   type: grid
@@ -34,6 +49,11 @@ listing:
 ## Overview
 
 No one should be left behind in the transition to clean energy. This research theme studies the impacts of energy transitions on energy burden, equity, and climate justice, focusing on the most vulnerable populations, e.g., low-income households, disadvantaged communities, older adults and people with disabilities. 
+
+## Featured publications
+
+:::{#featured-publications}
+:::
 
 ## Featured projects
 

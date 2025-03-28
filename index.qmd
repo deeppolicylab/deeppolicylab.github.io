@@ -30,7 +30,7 @@ listing:
 - id: publications
   sort: "date desc"
   type: grid
-  fields: [image, title, subtitle]
+  fields: [image, title, subtitle, date]
   grid-item-align: left
   grid-columns: 3
   image-height: 200px

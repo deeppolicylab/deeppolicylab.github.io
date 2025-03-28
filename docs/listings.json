@@ -40,7 +40,9 @@
   },
   {
     "listing": "/research/power-systems-decarbonization/index.html",
-    "items": []
+    "items": [
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
   },
   {
     "listing": "/research/new-york-climate-initiative/index.html",
@@ -48,7 +50,9 @@
   },
   {
     "listing": "/research/clean-energy-supply-chains/index.html",
-    "items": []
+    "items": [
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html"
+    ]
   },
   {
     "listing": "/research/energy-climate-justice/index.html",

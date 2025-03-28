@@ -17,33 +17,11 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents:
-    - path: https://www.nature.com/articles/s41586-022-05316-6
-      image: /files/images/journal/nature.avif
-      title: "Quantifying the cost savings of global solar photovoltaic supply chains"
-#      author: 
-      subtitle: "*Nature*"
-      description: "Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically."
-      date: "2022-10-26"
-#      categories: [] 
+  contents: 
+    - ../../publications.yml
+  include: 
+    categories: "supply-chain"
 
-    - path: https://www.nature.com/articles/s43247-023-01006-x
-      image: /files/images/journal/commsearth.jpg
-      title: "Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060"
-#      author: 
-      subtitle: "*Communications Earth & Environment*"
-      description: "A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing."
-      date: "2023-10-11"
-#      categories: [] 
-
-    - path: https://www.climateworks.org/blog/advancing-a-just-resilient-and-sustainable-clean-energy-supply-chain/
-      image: https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png
-      title: "Advancing a just, resilient, and sustainable clean energy supply chain"
-#      author: 
-      subtitle: "*ClimateWorks Blog*"
-      description: "In addressing the challenges and maximizing the benefits, there is a pressing need for a commonly agreed framework for a just, resilient, and sustainable clean energy supply chain."
-      date: "2023-12-05"
-#      categories: [] 
 
 - id: featured-events
   sort: "date desc"
@@ -55,25 +33,11 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents:
-    - path: /events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html
-      image: /events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png
-      title: "NYC Climate Week: Clean Energy Global Supply Chains Panel"
-#      author: 
-#      subtitle: "*Nature*"
-      description: "Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during NYC Climate Week."
-      date: "2024-09-26"
-#      categories: [] 
-
-    - path: https://applied-energy.org/icae2024/#Program
-      image: https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg
-      title: "ICAE Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains"
-#      author: 
-#      subtitle: "*Nature*"
-      description: "Dr. Gang He is invited to give an online keynote speech in the International Conference on Applied Energy 2024."
-      date: "2024-09-03"
-#      categories: [] 
-
+  contents: 
+    - ../../events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.qmd  
+    - ../../events.yml
+  include: 
+    categories: "supply-chain"
 ---
 
 ![](featured.jpeg)

@@ -17,51 +17,10 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents:
-    - path: https://www.nature.com/articles/s41467-020-16184-x
-      image: /files/images/journal/nature-comms.png
-      title: "Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system"
-#      author: 
-      subtitle: "*Nature Communications*"
-      description: "A renewable dominant pathway is not just technogical sound, but also cost effective."
-      date: "2020-05-19"
-#      categories: [] 
-
-    - path: https://pubs.acs.org/doi/10.1021/acs.est.6b01345
-      image: /files/images/journal/est-50-11-cover-crop.jpg
-      title: "SWITCH-China: A Systems Approach to Decarbonizing China’s Power System"
-#      author: 
-      subtitle: "*Environmental Science & Technology*"
-      description: "SWITCH-China, an integrated model for power sector decarbonization."
-      date: "2016-05-08"
-#      categories: [] 
-
-    - path: https://www.nature.com/articles/s41467-023-40337-3
-      image: /files/images/journal/nature-comms.png
-      title: "Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China"
-#      author: 
-      subtitle: "*Nature Communications*"
-      description: "We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices."
-      date: "2023-08-11"
-#      categories: [] 
-
-    - path: https://doi.org/10.1016/j.isci.2022.103749
-      image: /files/images/journal/iscience-logo.jpg
-      title: "Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China"
-#      author: 
-      subtitle: "*iScience*"
-      description: "Larger balancing areas give flexibility benefits with renewable curtailment reduction."
-      date: "2022-01-07"
-#      categories: [] 
-
-    - path: https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3
-      image: /files/images/journal/erl.png
-      title: "Cost-effectiveness of removing the last 10-20% emissions of China's power sector"
-#      author: 
-      subtitle: "*Environmental Research Letters*"
-      description: "Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs."
-      date: "2025-03-14"
-#      categories: [] 
+  contents: 
+    - ../../publications.yml
+  include: 
+    categories: "power-system"
 
 
 - id: featured-resources
@@ -74,15 +33,10 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents:
-    - path: https://github.com/switch-model/switch-china-open-model
-      image: /files/images/switch-china.png
-      title: "SWITCH-China Open Model"
-#      author: 
-#      subtitle: "*Nature Communications*"
-      description: "SWITCH-China: open source model for the world's largest power system. Open data on power plants, transmission, costs, and demand by province."
-      date: "2022-06-01"
-#      categories: [] 
+  contents: 
+    - ../../resources.yml
+  include: 
+    categories: "power-system"
 
 
 - id: featured-events
@@ -95,15 +49,11 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents:
-    - path: /events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html
-      image: /events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/featured.png
-      title: "Workshop on Open Modeling Carbon Neutrality of the Power Sector"
-#      author: 
-#      subtitle: "*Nature*"
-      description: "Deveoping a community to enable open and safe modeling and data sharing."
-      date: "2024-07-19"
-#      categories: [] 
+  contents: 
+    - ../../events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.qmd  
+    - ../../events.yml
+  include: 
+    categories: "power-system"
 ---
 
 ![](featured.jpeg)

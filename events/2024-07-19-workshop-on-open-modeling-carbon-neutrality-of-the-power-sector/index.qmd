@@ -4,7 +4,7 @@ description: "Deveoping a community to enable open and safe modeling and data sh
 author: "UC Berkeley"
 date: "2024-07-19"
 #page-layout: full
-#categories: [news, event]
+categories: [power-system, china]
 image: "featured.png"
 css: /custom.css
 #draft: true

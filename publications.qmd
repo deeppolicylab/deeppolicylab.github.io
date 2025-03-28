@@ -18,7 +18,10 @@ listing:
 #  categories: true
   sort-ui: true
   filter-ui: true
-  contents: publications.yml
+  contents: 
+    - publications.yml
+  include: 
+    categories: "featured"   #only include publications with this category
 ---
 
 <!--Please delete or replace with your own clarity-->

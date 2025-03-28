@@ -107,10 +107,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date"],
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -311,7 +311,7 @@ What we do
 </p>
 <div id="listing-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1725629172702" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1743179253326" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -325,7 +325,7 @@ Sustainable, Resilient, and Just Global Clean Energy Supply Chains
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1742929624213" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1743179358440" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
 <a href="./research/power-systems-decarbonization/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -339,7 +339,7 @@ Power Systems Decarbonization
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1724612879413" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1743177381449" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
 <a href="./research/climate-impact-energy-systems/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -367,7 +367,7 @@ Energy Nexus Research
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1731608487296" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1743177514604" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <a href="./research/energy-climate-justice/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -381,7 +381,7 @@ Energy and Climate Justice
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1731188590497" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1743177235486" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
 <a href="./research/china-carbon-neutrality-initiative/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -426,7 +426,29 @@ Read our work
 </p>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1730782800000">
+<div class="g-col-1" data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmE=" data-listing-date-sort="1741924800000">
+<a href="https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/journal/erl.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cost-effectiveness of removing the last 10-20% emissions of China’s power sector
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>Environmental Research Letters</em>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 14, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000">
 <a href="https://doi.org/10.1016/j.oneear.2024.10.006" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -439,39 +461,32 @@ Fewer than 15% of coal power plant workers in China can easily shift to green jo
 <div class="card-subtitle listing-subtitle">
 <em>One Earth</em>
 </div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 5, 2024
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1696996800000">
-<a href="https://www.nature.com/articles/s43247-023-01006-x" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/commsearth.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Communications Earth &amp; Environment</em>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1691726400000">
-<a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="c3VwcGx5LWNoYWluJTJDanVzdC10cmFuc2l0aW9u" data-listing-date-sort="1701752400000">
+<a href="https://www.climateworks.org/blog/advancing-a-just-resilient-and-sustainable-clean-energy-supply-chain/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature-comms.png" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China
+Advancing a just, resilient, and sustainable clean energy supply chain
 </h5>
 <div class="card-subtitle listing-subtitle">
-<em>Nature Communications</em>
+<em>ClimateWorks Blog</em>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 5, 2023
+</div>
 </div>
 </div>
 </div>

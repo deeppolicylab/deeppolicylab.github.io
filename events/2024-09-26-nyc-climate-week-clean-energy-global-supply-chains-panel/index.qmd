@@ -5,7 +5,7 @@ image: flyer.png
 author: "Baruch We Are Climate Action"
 date: "2024-09-26"
 #page-layout: full
-#categories: [news, event]
+categories: [supply-chain]
 #bibliography: references.bib
 csl: chicago-syllabus.csl
 suppress-bibliography: true
