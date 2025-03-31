@@ -1,0 +1,115 @@
+
+    - path: /projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html
+#https://www.nyrdrc.org/research-library/ny25-02-estimating-what-we-miss-about-direct-care-workers-employment-earnings-and-retirement-savingsnbsp-7dlrr-dcfy8-zye4b-nt2en-blr3c   
+      image: /files/images/funders/ssa.png
+      title: "Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
+      author: Gang He, Kaifang Luo, Hilary Botein, Frank Heiland
+      subtitle: "Social Security Administration"
+      description: "The goal of this project is to investigate the energy burden faced by older adults (ages 62 and older) and people with disabilities in New York City to better understand its impact on their wellbeing."
+      started: "2024"
+      ended: "2025"
+      funding: "$100,000"
+#      date: "2022-10-26"
+      categories: [just-transition, new-york] 
+
+
+    - path: https://ccci.berkeley.edu/research
+      image: /files/images/funders/ucb.webp
+      title: "Global Clean Energy Supply Chains Analysis and Power Systems Resources Adequacy Assessment"
+      author: Gang He
+      subtitle: "University of California, Berkeley"
+      description: "The goal of this project is to collaborate with CCCI team to study global clean energy supply chains and power system resources adequacy."
+      started: "2024"
+      ended: "2026"
+      funding: "$100,000"
+#    date: "2022-10-26"
+      categories: [supply-chain, power-system]
+
+
+    - path: https://emp.lbl.gov/
+      image: /files/images/funders/ucb.webp
+      title: "Power system beyond coal"
+      author: Gang He
+      subtitle: "University of California, Berkeley"
+      description: "The goal of this project is to collaborate with LBL team in modeling the decarbonization of China’s power sector."
+      started: "2024"
+      ended: "2025"
+      funding: "$64,000"
+#     date: "2022-10-26"
+      categories: [power-system]
+
+
+    - path: https://www.climateworks.org/grants-database/?sort_by=newest&search=City%20University%20of%20New%20York&posts_per_page=20
+      image: /files/images/funders/climateworks.png
+      title: "The carbon mitigation, air quality, and human health benefits achieved by global solar PV supply chains"
+      author: Gang He
+      subtitle: "ClimateWorks Foundation"
+      description: "The goal of this project is to investigate the air quality and human health benefits achieved by global solar PV supply chains."
+      started: "2023"
+      ended: "2025"
+      funding: "$100,000"
+#      date: "2022-10-26"
+      categories: [supply-chain, energy-nexus] 
+
+
+    - path: https://www.edf.org/work/economics-energy-transition
+      image: /files/images/funders/edf.png
+      title: "Multi-Country Electricity Transition Potential and Challenges Project (MCET)"
+      author: Gang He
+      subtitle: "Environmental Defense Fund"
+      description: "The goal of this project is to provide technical support to the MCET team to assess the opportunities and barriers to decarbonize their electricity sectors using open data and models."
+      started: "2023"
+      ended: "2024"
+      funding: "$40,000"
+#      date: "2022-10-26"
+      categories: [power-system] 
+
+    - path: https://energy.lbl.gov/people/gang-he
+      image: /files/images/funders/lbl.jpg
+      title: "Power Systems Modeling and Analysis"
+      author: Gang He
+      subtitle: "Lawrence Berkeley National Laboratory"
+      description: "Multiple projects to collaborate with LBL team modeling the technology and policy options of decarbonizing China's power systems."
+      started: "2018"
+      ended: "2024"
+      funding: "$140,000"
+#      date: "2022-10-26"
+      categories: [power-system] 
+
+
+    - path: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1912159
+      image: /files/images/funders/nsf.png
+      title: "Workshop on Data Science Across the Undergraduate Curriculum: University-Industry Online Case Studies on Applications of Data Science"
+      author: David Furguson, Gang He, Thomas Woodson, Marianna Savoca, Elizabeth Hewitt
+      subtitle: "National Science Foundation"
+      description: "This project supported the national workshop entitled '[Data Science Across the Undergraduate Curriculum: University-Industry Online Case Studies on Applications of Data Science](https://sites.google.com/view/nsf-data-science-workshop/)'."
+      started: "2019"
+      ended: "2020"
+      funding: "$49,796"
+#      date: "2022-10-26"
+      categories: [data-science, education] 
+
+    - path: https://deeppolicylab.github.io/research/new-york-climate-initiative/index.html
+      image: /research/new-york-climate-initiative/featured.JPG
+      title: "Jobs and economic impact of offshore wind development"
+      author: Gang He
+      subtitle: "Leading Offshore Wind Developer"
+      description: "This project studies the jobs and economic impact of offshore wind development in New York State."
+      started: "2018"
+      ended: "2019"
+      funding: "$30,000"
+#      date: "2022-10-26"
+      categories: [new-york, just-transition] 
+
+    - path: https://news.stonybrook.edu/environmental-stewardship/stony-brook-receives-4-25m-grant-from-state-to-help-ny-improve-recycling/
+      image: /files/images/funders/nydec.png
+      title: "New York State Solid Waste Characterization"
+      author: David Tonjes, Elizabeth Hewitt, Gang He
+      subtitle: "New York State Department of Environmental Conservation"
+      description: "This project will sample a set of municipal waste systems statewide to determine the composition of managed wastes and recyclables."
+      started: "2020"
+      ended: "2025"
+      funding: "$4,355,776 ($200,000)"
+#      date: "2022-10-26"
+      categories: [waste, new-york] 
+

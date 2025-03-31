@@ -1,0 +1,56 @@
+
+    - path: https://deeppolicylab.github.io/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html
+      image: "https://drganghe.github.io/files/images/nyc-mid-town.webp"
+      title: "New Grant: Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
+#      author: 
+      description: "Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant"
+      date: "2024-11-01"
+ #     categories: [Scientific American, E&E News] 
+
+    - path: https://newscenter.baruch.cuny.edu/news/baruch-college-faculty-included-in-worlds-top-scientist-list/
+      image: "/files/images/baruch-college.webp"
+      title: "Baruch College Faculty Included in World’s Top Scientist List"
+#      author: 
+      description: "Dr. Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024"
+      date: "2024-10-22"
+ #     categories: [Scientific American, E&E News]  
+
+    - path: https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/
+      image: "/files/images/dry-cooling.webp"
+      title: "Taking a Global Look at Dry and Alternative Water Cooling of Power Plants"
+#      author: 
+      description: "Study published in Nature Water suggests integrating planning may reduce carbon emissions in the future"
+      date: "2023-08-09"
+ #     categories: [Scientific American, E&E News]  
+
+    - path: https://news.stonybrook.edu/newsroom/global-collaboration-is-key-to-saving-billions-for-solar-module-production/
+      image: "/research/clean-energy-supply-chains/featured.jpeg"
+      title: "Global Collaboration is Key to Saving Billions for Solar Module Production"
+#      author: 
+      description: "Study published in Nature quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains."
+      date: "2020-10-26"
+ #     categories: [Scientific American, E&E News]  
+
+    - path: https://news.stonybrook.edu/newsroom/study-shows-decrease-in-renewable-energy-costs-may-serve-as-an-accelerator-for-clean-energy-expansion/
+      image: "/files/images/wind-farm.jpg"
+      title: "Study Shows Decrease in Renewable Energy Costs May Serve as an Accelerator for Clean Energy Expansion"
+#      author: 
+      description: "The study reveals fast decarbonization is both technically feasible and economically beneficial, which offers the prospect of large emissions mitigation with a global environmental impact."
+      date: "2020-06-01"
+ #     categories: [Scientific American, E&E News]  
+
+    - path: https://news.stonybrook.edu/newsroom/energy-transition-away-from-coal-in-china-will-yield-benefits/
+      image: "/files/images/coal-transfer-hub.jpg"
+      title: "Energy Transition Away from Coal in China Will Yield Benefits"
+#      author: 
+      description: "In a perspective paper published in One Earth, an international scientific team contends that China needs to transition away from coal to help the world achieve global decarbonization and improve the nation’s environmental and human health."
+      date: "2020-08-21"
+ #     categories: [Scientific American, E&E News]  
+
+    - path: https://news.stonybrook.edu/homespotlight/stony-brook-university-hosts-nsf-funded-data-science-workshop/ 
+      image: "/files/images/NSF-Workshop.jpg"
+      title: "NSF Wokshop on Data Science Across the Undergraduate Curriculum"
+#      author: 
+      description: "On January 9-10, 2020, we hosted the NSF funded workshop entitled “Data Science Across the Undergraduate Curriculum: University-Industry Online Case Studies on Applications of Data Science.” "
+      date: "2020-01-19"
+ #     categories: [Scientific American, E&E News]  

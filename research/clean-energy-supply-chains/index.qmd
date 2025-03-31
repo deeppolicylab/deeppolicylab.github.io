@@ -1,0 +1,62 @@
+---
+title: "Sustainable, Resilient, and Just Global Clean Energy Supply Chains"
+description: "Ensuring a secure global clean energy supply chains to achieve climate goals."
+#author: "DEEP Lab"
+#date: "2024-08-01"
+#categories: [news, job]
+image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: featured-publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../publications.yml
+  include: 
+    categories: "supply-chain"
+
+
+- id: featured-events
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.qmd  
+    - ../../events.yml
+  include: 
+    categories: "supply-chain"
+---
+
+![](featured.jpeg)
+
+
+## Overview
+
+Global clean energy supply chains stand at a critical intersection of integration and decoupling. This research theme studies the benefits, costs, and risks of clean energy global supply chains to inform international and domestic climate policies to enable sustainable, rapid, and just energy transitions to achieve climate goals. 
+
+## Featured publications
+
+:::{#featured-publications}
+:::
+
+## Featured events
+
+:::{#featured-events}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

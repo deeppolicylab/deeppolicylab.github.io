@@ -1,0 +1,97 @@
+    - path: https://drganghe.github.io
+      image: https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg
+      title: "Gang HE"
+      lastname: "AHe"
+#      author: 
+      subtitle: "Assistant Professor, CUNY Baruch College"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://kaifangluo.com
+      image: /files/headshots/kaifang-luo.jpeg
+      title: "Kaifang LUO"
+      lastname: "BLuo"
+      started: "May 2024"
+      ended: ""       
+#      author: 
+      subtitle: "Postdoctoral Researcher, CUNY Baruch College"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://giselle1119.github.io/
+      image: https://giselle1119.github.io/images/WengeRao.png
+      title: "Wenge RAO"
+      lastname: "CRao"
+      started: "Dec 2024"
+      ended: "Dec 2025"
+#      author: 
+      subtitle: "Visiting PhD Student, Peking University"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://www.linkedin.com/in/10sinon/
+      image: /files/headshots/tenzin-sinon.jpg
+      title: "Tenzin SINON"
+      lastname: "ESinon"
+      started: "Sep 2024"
+      ended: "Dec 2024"      
+#      author: 
+      subtitle: "CUNY Undergraduate Climate Scholar, Hunter College"
+#      date: "2024-03-12"
+#      categories: []
+
+
+    - path: https://cl.linkedin.com/in/tamara-valderrama-242289207
+      image: /files/headshots/tamara-valderrama.jpg
+      title: "Tamara VALDERRAMA"
+      lastname: "EValderrama"
+      started: "Sep 2024"
+      ended: "Dec 2024" 
+#      author: 
+      subtitle: "CUNY Undergraduate Climate Scholar, City College"
+#      date: "2024-03-12"
+#      categories: []
+
+    - path: https://www.linkedin.com/in/mariah-galindo12101/
+      image: /files/headshots/mariah-galindo.jpeg
+      title: "Mariah GALINDO"
+      lastname: "DGalindo"
+      started: "Oct 2024"
+      ended: "Oct 2025"       
+#      author: 
+      subtitle: "Marxe Assistant/MIA Student, CUNY Baruch College"
+#      date: "2024-03-12"
+#      categories: []
+
+    - path: https://www.linkedin.com/in/arielle-ca%C3%B1ate/
+      image: /files/headshots/arielle-canate.jpg
+      title: "Arielle CANATE"
+      lastname: "DCANATE"
+      started: "Dec 2024"
+      ended: "May 2025"       
+#      author: 
+      subtitle: "QMSS Master's Student, CUNY Graduate Center"
+#      date: "2024-03-12"
+#      categories: []
+
+    - path: https://www.linkedin.com/in/tiffany-hugh-90878b237
+      image: /files/headshots/tiffany-hugh.jpeg
+      title: "Tiffany HUGH"
+      lastname: "DHUGH"
+      started: "Dec 2024"
+      ended: "May 2025"       
+#      author: 
+      subtitle: "QMSS Master's Student, CUNY Graduate Center"
+#      date: "2024-03-12"
+#      categories: []
+
+    - path: 
+      image: /files/headshots/oliver-niedbala.webp
+      title: "Oliver NIEDBALA"
+      lastname: "FNiedbala"
+      started: "Nov 2024"
+      ended: "May 2025" 
+#      author: 
+      subtitle: "Student, Saint Francis Preparatory School"
+#      date: "2024-03-12"
+#      categories: []

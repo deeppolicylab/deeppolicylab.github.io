@@ -1,0 +1,84 @@
+---
+title: "Power Systems Decarbonization"
+description: "Exploring the pathways, technology, market, impacts, and implications of clean power transition"
+#author: "DEEP Lab"
+#date: "2024-07-01"
+#categories: [news, job]
+image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: featured-publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../publications.yml
+  include: 
+    categories: "power-system"
+
+
+- id: featured-resources
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../resources.yml
+  include: 
+    categories: "power-system"
+
+
+- id: featured-events
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.qmd  
+    - ../../events.yml
+  include: 
+    categories: "power-system"
+---
+
+![](featured.jpeg)
+
+
+## Overview
+
+"Electrifying energy and decarbonizing electricity" is at the heart of global energy transtion. This research theme focuses on transforming the energy landscape by increasing electrification in various sectors, such as transportation, building, and industry, while simultaneously decarbonizing the electricity supply. The goal is to explore the pathways to net-zero emissions power systems and their environmental, climate, human health, and socio-economic implications.
+
+
+## Featured publications
+
+:::{#featured-publications}
+:::
+
+## Featured resources
+
+:::{#featured-resources}
+:::
+
+## Featured events
+
+:::{#featured-events}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

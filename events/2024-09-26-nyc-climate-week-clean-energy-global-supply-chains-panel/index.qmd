@@ -1,0 +1,98 @@
+---
+title: "NYC Climate Week: Clean Energy Global Supply Chains Panel"
+description: "Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during NYC Climate Week."
+image: flyer.png
+author: "Baruch We Are Climate Action"
+date: "2024-09-26"
+#page-layout: full
+categories: [supply-chain]
+#bibliography: references.bib
+csl: chicago-syllabus.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+listing:  #an example of listing external links
+#  template: item-default-external.ejs
+- id: moderator
+  sort: "date asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 3
+  image-height: 250px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/gang-he.yml
+
+- id: panelists
+  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
+  grid-columns: 3
+  image-height: 250px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/john-helveston.yml
+    - ../../people/michael-davidson.yml
+    - ../../people/minghao-qiu.yml
+    - ../../people/shi-chen.yml
+    - ../../people/kaifang-luo.yml
+
+page-navigation: false
+title-block-banner: false
+#toc: false
+---
+
+[![Flyer Credit: Designed by Ruzdo Srdanovic](flyer.png)](https://www.climateweeknyc.org/events/role-clean-energy-global-supply-chains-achieving-climate-goals)
+
+## Title
+
+Role of Clean Energy Global Supply Chains in Achieving Climate Goals
+
+### Time
+
+Thursday, September 26, 3:00PM - 4:15PM
+
+### Venue 
+Online via zoom. Please register [here](https://baruch.zoom.us/meeting/register/tZApd-ivqzIiGt1Ch39rPPC_m1T8Sk9mlVy-#/registration).
+
+## About
+Global clean energy supply chains stand at a critical intersection of integration and decoupling. The panel will discuss the evolving landscape, benefits and challenges, and future directions of clean energy global supply chains, to meet climate goals while addressing growing international and domestic concerns. 
+
+
+## Moderator
+
+:::{#moderator}
+:::
+
+
+## Panelists
+
+:::{#panelists}
+:::
+
+
+## References
+
+- @helveston_he_davidson_2022 
+- @chen2023deploying 
+- @davidson2022risks 
+- @helveston2019china 
+
+## Acknowledgment
+
+This program is part of the Baruch College “We Are Climate Action” speaker series.   
+Supported by Dean Jessica Lang and Dean Sherry Ryan  
+Convened by Mindy Engle-Friedman   
+Facilitated by Matthew Le Pere   
+Flyer designed by Ruzdo Srdanovic  
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -1,0 +1,32 @@
+    - path: https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile
+      image: /files/headshots/kately-arriage.jpeg
+      title: "Kately ARRIAGE"
+      lastname: "Arriage"
+      started: "Sep 2023"
+      ended: "Dec 2023"
+#      author: 
+      subtitle: "Research Assistant/MPA Student, CUNY Baruch College"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://www.linkedin.com/in/nicolo-antonucci-73a89a216
+      image: /files/headshots/nicolo-antonucci.jpeg
+      title: "Nicolo ANTONUCCI"
+      lastname: "Antonucci"
+      started: "Sep 2023"
+      ended: "Dec 2023"
+#      author: 
+      subtitle: "Research Assistant/MIA Student, CUNY Baruch College"
+#      date: "2024-03-12"
+#      categories: [] 
+
+    - path: https://www.linkedin.com/in/yun-li-0b96041b2/
+      image: /files/images/we-need-you.png
+      title: "Yun LI"
+      lastname: "Li"
+      started: "Jul 2023"
+      ended: "Aug 2024"
+#      author: 
+      subtitle: "Research Assistant"
+#      date: "2024-03-12"
+#      categories: [] 

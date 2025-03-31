@@ -1,0 +1,40 @@
+---
+title: "Climate Impact on Energy Systems"
+description: "Enhancing the adaptation of energy systems to climate change."
+#author: "DEEP Lab"
+#date: "2024-06-01"
+#categories: [news, job]
+image: "featured.png"
+#css: /custom.css
+listing: 
+- id: featured-publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../publications.yml
+  include: 
+    categories: "climate-impact"
+---
+
+![Created by Copilot](featured.png)
+
+
+## Overview
+
+Climate change poses growing risks and challenges to energy systems. This research theme assesses the impact and informs strategies for mitigation, adaptation, and resilience-building to ensure reliable and sustainable energy systems in the future. 
+
+## Featured publications
+
+:::{#featured-publications}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

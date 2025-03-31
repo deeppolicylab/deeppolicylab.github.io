@@ -1,0 +1,95 @@
+[
+  {
+    "listing": "/resources.html",
+    "items": []
+  },
+  {
+    "listing": "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/events.html",
+    "items": [
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
+  },
+  {
+    "listing": "/research/climate-impact-energy-systems/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/china-carbon-neutrality-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/power-systems-decarbonization/index.html",
+    "items": [
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
+  },
+  {
+    "listing": "/research/new-york-climate-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/clean-energy-supply-chains/index.html",
+    "items": [
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html"
+    ]
+  },
+  {
+    "listing": "/research/energy-climate-justice/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/energy-nexus-research/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/clean-energy-supply-chains/index.html",
+      "/research/power-systems-decarbonization/index.html",
+      "/research/climate-impact-energy-systems/index.html",
+      "/research/energy-nexus-research/index.html",
+      "/research/energy-climate-justice/index.html",
+      "/research/china-carbon-neutrality-initiative/index.html",
+      "/research/new-york-climate-initiative/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html",
+    "items": []
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2024-11-06-one-earth-coal-jobs-transition.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/research/clean-energy-supply-chains/index.html",
+      "/research/power-systems-decarbonization/index.html",
+      "/research/climate-impact-energy-systems/index.html",
+      "/research/energy-nexus-research/index.html",
+      "/research/energy-climate-justice/index.html",
+      "/research/china-carbon-neutrality-initiative/index.html",
+      "/research/new-york-climate-initiative/index.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": []
+  }
+]

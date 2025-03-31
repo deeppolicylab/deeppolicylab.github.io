@@ -1,0 +1,113 @@
+---
+title: "Support"
+subtitle: "Work with us"
+title-block-banner: false
+page-layout: full
+toc: true
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+## Acknowledgment
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+We are grateful for the support from the following grant funders:
+
+- ClimateWorks Foundation
+- Environmental Defense Fund
+- Growald Climate Fund
+- Sequoia Climate Foundation
+- California China Climate Institute
+- National Science Foundation
+- New York State Department of Environmental Conservation
+- Lawrence Berkeley National Laboratory
+- Stockholm Environment Institute
+- World Resources Institute
+- Asia Society
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+We appreciate the support of the following institutions and programs:
+
+- [CUNY Institute for Demographic Research](https://www.cuny.edu/about/centers-and-institutes/demographic-research/)
+- [Marxe School of Public and International Affairs](https://marxe.baruch.cuny.edu/)
+- [Earth and Environmental Sciences, CUNY Graduate Center](https://www.gc.cuny.edu/earth-and-environmental-sciences) 
+- [CUNY Climate Consortium](https://www.cuny.edu/research/research-development-programs/cuny-climate-consortium/)
+- [CUNY Immersive Research Experience – Climate Scholars Program](https://blogs.baruch.cuny.edu/climateaction/cuny-climate-scholars-fellowship/)
+- [New York Retirement and Disability Research Center](https://www.nyrdrc.org/)
+- [Quantitative Methods in the Social Sciences, CUNY Graduate Center](https://www.gc.cuny.edu/quantitative-methods-social-sciences)
+
+And previously:
+
+- Peking University 
+- Columbia University
+- University of California, Berkeley
+- Stanford University
+- Stony Brook University
+
+:::
+
+:::
+
+## Opportunities
+
+We are always eager to work with talented researchers who are passionate about advancing interdisciplinary research in energy and climate.
+
+### Collaboration and Funding Agency: 
+We are actively seeking funding partners to support motivated students and interdisciplinary impactful [research](research.qmd).
+
+### Prospective Graduate Students: 
+We welcome highly motivated students with a strong interest in interdisciplinary energy and climate research to join our team. We have worked with [Marxe Assistants](https://marxe.baruch.cuny.edu/student-opportunities/employment-opportunities-at-marxe/current-marxe-assistantship-job-postings/) from the Marxe School MPA/MIA programs, [QMSS](https://www.gc.cuny.edu/quantitative-methods-social-sciences) program at the Graduate Center, and Ph.D. students from the [Earth and Environmental Sciences](https://www.gc.cuny.edu/earth-and-environmental-sciences) Program at the Graduate Center. 
+
+### Undergraduate Students: 
+We welcome motivated undergraduate students to get involved in our research projects. The [CUNY Climate Scholars](https://blogs.baruch.cuny.edu/climateaction/cuny-climate-scholars-fellowship/) Program is an excellent starting point for students looking to contribute to energy and cliamte research. 
+
+### Visiting Ph.D. Students and Scholars: 
+We are open to hosting motivated visiting Ph.D. students and scholars from around the world. To apply, please provide the following documents for consideration: 
+
+- CV
+- Research plan
+- Language proficiency certificate (if applicable)
+- One reference letter (if available)
+
+We will provide a conditional invitation letter to support funding or scholarship application if research interest matches. An unofficial [paperwork guide](https://drganghe.github.io/notes/cuny-baruch-visiting-scholar-paperwork-guide.html) might be useful to learn the processes. 
+
+
+## Contact us
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+<center>
+
+**Dr. Gang He**
+
+E-mail: <gang.he@baruch.cuny.edu>
+
+
+</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+<center>
+
+**Deep Policy Lab**
+
+E-mail: <energy.climatechange@gmail.com>
+
+
+</center>
+
+:::
+
+:::

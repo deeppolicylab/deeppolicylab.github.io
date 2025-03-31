@@ -1,0 +1,81 @@
+---
+title: "Resources"
+subtitle: "Models, data, open courses, and other resources"
+page-layout: full
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+#image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: model
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - resources.yml
+  include: 
+    categories: "featured"
+
+- id: teaching
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 325px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://drganghe.github.io/energy-climate-policy/
+      image: https://drganghe.github.io/files/images/hex-Energy-Climate-Policy.png
+      title: "Energy and Climate Policy"
+#      author: 
+#      subtitle: "* *"
+      description: "This graduate-level course provides a systems approach to understanding the essential policy questions and analytic tools necessary to achieve the energy transition required to address climate change."
+#      date: "2022-06-01"
+#      categories: [] 
+
+    - path: https://drganghe.github.io/energy-climate-society/
+      image: https://drganghe.github.io/files/images/hex-Energy-Climate-Society.png
+      title: "Energy, Climate, and Society"
+#      author: 
+#      subtitle: "* *"
+      description: "This undergraduate course offers a comprehensive and interdisciplinary approach to understanding the science behind climate change, the complex technological and policy considerations, and the necessary pathways to transition towards a carbon-neutral future."
+#      date: "2016-05-08"
+#      categories: [] 
+
+    - path: https://drganghe.github.io/climate-guest-speakers/about.html
+      image: https://drganghe.github.io/climate-guest-speakers/files/headshots/you.png
+      title: "Climate Guest Speakers"
+#      author: 
+#      subtitle: "* *"
+      description: "We're seeking guest speakers who are passionate about sharing their experiences and inspiring next generation of climate leaders."
+#      date: "2016-05-08"
+#      categories: [] 
+
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+## Models & Tools
+
+:::{#model}
+:::
+
+## Open Courses
+
+:::{#teaching}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

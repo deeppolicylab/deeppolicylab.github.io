@@ -1,0 +1,35 @@
+---
+title: "Publications"
+subtitle: "Featured papers and articles"
+page-layout: full
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+#image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 200px
+#  categories: true
+  sort-ui: true
+  filter-ui: true
+  contents: 
+    - publications.yml
+  include: 
+    categories: "featured"   #only include publications with this category
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+:::{#publications}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

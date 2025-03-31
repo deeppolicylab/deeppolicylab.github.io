@@ -1,0 +1,188 @@
+---
+#title: "Deep Policy Lab"
+css: /custom.css
+#image: files/logo.jpeg
+page-layout: custom
+#navbar: false
+
+listing:
+# - id: pi
+# #  sort: "lastname asc"
+#   type: grid
+#   fields: [image, title, subtitle]
+#   grid-item-align: center
+#   grid-columns: 1
+#   image-height: 300px
+# #  categories: true
+# #  sort-ui: true
+# #  filter-ui: true
+#   contents:
+#       - path: https://drganghe.github.io
+#         image: https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg
+#         title: "Gang HE"
+#         lastname: "AHe"
+# #      author: 
+#         subtitle: "PI and Founding Director"
+# #      date: "2024-03-12"
+# #      categories: [] 
+
+- id: lab-member
+  sort: "lastname asc"
+  type: grid
+  fields: [image]
+  grid-item-align: center
+  grid-columns: 5
+  max-items: 10
+  page-size: 10
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+#    - labmembers.yml
+    - /people/gang-he.yml
+    - /people/kaifang-luo.yml
+    - /people/wenge-rao.yml
+    - /people/mariah-galindo.yml
+    - /people/arielle-canate.yml
+    - /people/tamara-valderrama.yml
+    - /people/tenzin-sinon.yml
+    - /people/tiffany-hugh.yml
+    - /people/oliver-niedbala.yml 
+
+- id: research
+  contents: 
+    - research/clean-energy-supply-chains
+    - research/power-systems-decarbonization
+    - research/climate-impact-energy-systems
+    - research/energy-nexus-research
+    - research/energy-climate-justice
+    - research/china-carbon-neutrality-initiative    
+    - research/new-york-climate-initiative    
+  sort: false
+  type: grid
+  grid-columns: 4
+  max-items: 8
+  image-height: 150px
+  fields: [image, title]
+  page-size: 8
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  feed: false
+ 
+- id: publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 200px
+#  categories: true
+  max-items: 3
+  page-size: 3
+  contents: publications.yml 
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+::: {.background-frame .alt-background}
+::: {.content-block}
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-7}
+
+<p align="center" style="font-size:30px; font-weight:bold;">Welcome to Deep Energy and Climate Policy Lab</p>
+<p align="center" style="font-size:24px;">Data-driven, Evidence-based, Energy and Climate Solutions</p>
+<p align="center" style="font-size:24px;">Deep analysis, Deep insights, for Deep decarbonization</p>
+
+::: {.button}
+[Learn more](about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"}
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-5}
+[![](/files/images/cover.png)](about.qmd){fig-align="center"}
+:::
+
+:::
+
+:::
+:::
+
+::: {.background-frame}
+::: {.content-block}
+
+<p align="center" style="font-size:36px; font-weight:bold;">Who we are</p>
+
+<!--
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+:::{#pi}
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+:::{#lab-member}
+:::
+
+:::
+
+:::
+-->
+
+:::{#lab-member}
+:::
+
+::: {.button}
+[Meet our team](people.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::
+
+
+::: {.background-frame .alt-background}
+::: {.content-block}
+
+<p align="center" style="font-size:36px; font-weight:bold;">What we do</p>
+
+:::{#research}
+:::
+
+::: {.button}
+[Explore more](research.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::
+
+::: {.background-frame}
+::: {.content-block}
+
+<p align="center" style="font-size:36px; font-weight:bold;">Read our work</p>
+
+:::{#publications}
+:::
+
+
+::: {.button}
+[Read more](publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::
+
+<!--
+:::{#featured-projects}
+:::
+-->
+

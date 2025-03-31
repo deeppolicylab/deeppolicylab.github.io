@@ -1,0 +1,49 @@
+---
+title: "New Study Shows Fewer Than 15% of China’s Coal Power Plant Workers Can Easily Transition to Green Jobs by 2060"
+image: "/files/images/coal-power.JPG"
+description: "Study published in One Earth shows less than 15% of China’s coal power plant workforce will find it easy to shift into green jobs, a coal power worker needs to travel 194 (178–242) km on average to access a green job."
+#author: "Gang He"
+#categories: [research]
+date: "2024-11-06"
+title-block-banner: false
+#page-layout: full
+#from: markdown+emoji
+---
+
+<!--This is my personal clarity, please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+Publication: *One Earth*  
+Date: November 6, 2024  
+Paper [link](https://www.sciencedirect.com/science/article/pii/S259033222400530X)  
+[PDF](https://www.cell.com/action/showPdf?pii=S2590-3322%2824%2900530-X)
+
+As China progresses toward its 2060 carbon neutrality target, phasing out coal power remains critical to achieving substantial reductions in greenhouse gas emissions. However, a new study highlights a significant hurdle in the nation’s green transition: less than 15% of China’s coal power plant workforce will find it easy to shift into green jobs.
+
+![A coal power plant near Ordos, Inner Mongolia. Photo by Gang He](/files/images/coal-power.JPG)
+
+The [study](https://www.sciencedirect.com/science/article/pii/S259033222400530X), published in *One Earth*, presents a comprehensive analysis of the geographic and skill-based challenges coal power workers face in transitioning to the renewable energy sector. A team of researchers from Peking University, CUNY Baruch College, and collaborators using a retirement model of 3,765 coal power units across China, the study reveals that for the majority of these workers, green jobs are not just around the corner—most would have to travel substantial distances, averaging between 178 and 242 kilometers, to reach available renewable energy job sites.
+
+![Lanhaiguang Solar Farm near Ordos, Inner Mongolia. Sourse: [ST Daily](https://www.stdaily.com/web/gdxw/2024-11/05/content_253289.html)](https://www.stdaily.com/web/gdxw/pic/2024-11/05/253289_dcebea1a-e90d-4a27-a6d7-a32388483d38.jpeg)
+
+
+Beyond location, the study also examines the skills gap. While green jobs—such as solar technician roles—are often cited as potential new employment opportunities, they generally require specific skills and training. When skill requirements are considered alongside job accessibility, the analysis shows that fewer than 15% of coal power plant workers can easily qualify for green roles.
+
+The researchers emphasize that delaying the coal phaseout could make this job transition challenge even more daunting. However, they suggest a potential solution in expanding upstream industries within the renewable energy sector, such as electrical machinery manufacturing, which can be located closer to former coal sites and offer better skill alignment. Developing these industries near coal-dependent communities could ease the transition for a significant portion of the coal workforce, creating a more accessible and sustainable employment pathway.
+
+The findings offer essential insights for policymakers. By understanding the spatial and skill barriers to green job transitions, the study can inform tailored strategies that support the coal workforce through retraining initiatives, targeted green job creation, and local investments in renewable industries.
+
+**About the Study**  
+
+The [study](https://www.sciencedirect.com/science/article/pii/S259033222400530X), “Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060”, was published in *One Earth* and provides a critical perspective on the coal-to-green job transition, highlighting the need for location-based strategies and skill development initiatives as China works toward a carbon-neutral future.
+
+
+**Citation**
+
+- Wu, Huihuang, Junfeng Liu, Xiurong Hu, Gang He, Yuhan Zhou, Xian Wang, Ying Liu, Jianmin Ma, and Shu Tao. 2024. “Fewer than 15% of Coal Power Plant Workers in China Can Easily Shift to Green Jobs by 2060.” *One Earth*, November. <https://doi.org/10.1016/j.oneear.2024.10.006>.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+

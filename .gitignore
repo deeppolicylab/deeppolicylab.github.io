@@ -1,0 +1,38 @@
+# Git
+.git
+.gitattributes
+.github
+
+
+# Quarto
+.quarto
+/.quarto/
+
+# Extensions and backups
+_extensions
+/_extensions/
+/_backup/
+
+#R Temporal Files
+.DS_Store
+/.DS_Store/
+~$*.Rhistory*
+~$*.DS_Store*
+~$*.Rproj.user*
+~$*.RData*
+
+
+# Office Temporal Files
+*.tmp
+# Word temporary
+~$*.doc*
+# Word Auto Backup File
+Backup of *.doc*
+# Excel temporary
+~$*.xls*
+# Excel Backup File
+*.xlk
+# PowerPoint temporary
+~$*.ppt*
+# Visio autosave temporary files
+*.~vsd*

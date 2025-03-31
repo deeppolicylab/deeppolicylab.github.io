@@ -1,0 +1,67 @@
+---
+title: "China Carbon Neutrality Initiative"
+description: "Facilitating the transition to a low-carbon economy in China."
+#author: "DEEP Lab"
+#date: "2024-04-01"
+#categories: [news, job]
+image: "featured.png"
+#css: /custom.css
+listing: 
+- id: featured-publications
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - ../../publications.yml
+  include: 
+    categories: "china"
+
+- id: featured-news
+  sort: "date desc"
+  type: grid
+  fields: [image, title, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://drganghe.github.io/posts/2024-06-us-china-working-group-on-enhancing-climate-action/
+      image: https://drganghe.github.io/files/images/handshake-sculpture.JPG
+      title: "U.S.-China Working Group on Enhancing Climate Action in the 2020s"
+#      author: 
+#      subtitle: "*Nature Reviews Earth & Environment*"
+      description: "Dr. Gang He is invited to serve as an external expert in the energy transition sub-working group of the U.S.-China Working Group on Enhancing Climate Action in the 2020s."
+      date: "2024-06-24"
+#      categories: [] 
+---
+
+![Created by Copilot](featured.png)
+
+
+## Overview
+
+China is the world's largest emitter of greenhouse gases. It has set a target to achieve carbon peak by 2030 and carbon neutrality by 2060. This initiative aims to facilitate the transition to a low-carbon economy in China to achieve the national carbon peak and carbon neutrality targets. 
+
+
+## Featured publications
+
+:::{#featured-publications}
+:::
+
+
+## Featured news
+
+:::{#featured-news}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

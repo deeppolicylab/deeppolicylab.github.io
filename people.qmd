@@ -1,0 +1,87 @@
+---
+title: "People"
+subtitle: "Who we are"
+#image: files/group.jpeg
+page-layout: full
+listing:  #an example of listing external links
+#  template: item-default-external.ejs
+- id: lab-member
+  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 4
+  image-height: 200px
+  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+#    - labmembers.yml
+    - /people/gang-he.yml
+    - /people/kaifang-luo.yml
+    - /people/wenge-rao.yml
+    - /people/mariah-galindo.yml
+    - /people/arielle-canate.yml
+    - /people/tamara-valderrama.yml
+    - /people/tenzin-sinon.yml
+    - /people/tiffany-hugh.yml
+    - /people/oliver-niedbala.yml    
+
+- id: lab-alumni
+  sort: "lastname asc"
+  type: table
+  fields: [image, title, subtitle, started, ended]
+  grid-item-align: center  
+  grid-columns: 4
+  image-height: 25px
+  field-display-names: 
+      title: "Name"
+      subtitle: "Role"
+      started: "Started"
+      ended: "Ended"
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - /people/yun-li.yml
+    - /people/nicolo-antonucci.yml
+    - /people/kately-arriage.yml    
+
+page-navigation: false
+title-block-banner: false
+toc: false
+
+format:
+  html:
+    link-external-newwindow: true
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+## Team
+
+:::{#lab-member}
+:::
+
+
+## Alumni
+
+:::{#lab-alumni}
+:::
+
+<!--
+## Collaborators
+
+We are fortunate to have collaborated with many researchers and practitioners. Please visit their websites to learn more about their amazing work.
+
+:::{#lab-collaborator}
+:::
+
+
+## Advisors
+
+:::{#lab-advisor}
+:::
+
+-->

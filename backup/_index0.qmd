@@ -1,0 +1,387 @@
+---
+#title: "Deep Policy Lab"
+css: /custom.css
+#image: files/logo.jpeg
+page-layout: custom
+navbar: false
+
+#listing:
+#  - id: featured-projects
+#    contents: /projects
+#    type: grid
+#    max-items: 3
+#    page-size: 0 #set as 0 will remove the page setting
+#    sort: 
+#      - "date desc"
+#      - "title asc"
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+```{=html}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Policy Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background-image: url('/files/images/cover.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .hero-button {
+            padding: 15px 30px;
+            background-color: #05336B;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .hero-button:hover {
+            background-color: #5499c7;
+        }
+
+        .bottom-links {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            display: flex;
+            gap: 30px; /* Space between links */
+        }
+
+        .bottom-links a {
+            padding: 5px 20px;
+            background-color: #05336B;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .top-links a:hover {
+            color: #7fb3d5;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem; /* Smaller font size for mobile screens */
+            }
+
+            p {
+                font-size: 1.2rem; /* Smaller paragraph font size for mobile */
+            }
+
+            .hero-button {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            .hero-content {
+                margin-bottom: 60px; /* Increase bottom margin for more space */
+            }
+
+            .bottom-links {
+                gap: 20px; /* Reduce gap on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem; /* Even smaller font size for very small screens */
+            }
+
+            p {
+                font-size: 1rem; /* Further reduced paragraph font size */
+            }
+
+            .hero-button {
+                font-size: 0.9rem; /* Smaller button text for small screens */
+                padding: 10px 20px;
+            }
+
+            .hero-content {
+                margin-bottom: 80px; /* Further increase bottom margin on very small screens */
+            }
+
+            .bottom-links {
+                flex-direction: column; /* Stack links vertically on very small screens */              
+                gap: 10px; /* Reduce gap between links */
+            }
+
+            .bottom-links a {
+                font-size: 0.8rem;
+            }    
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to Deep Energy and Climate Policy Lab</h1>
+            <p>Data-driven, Evidence-based, Energy and Climate Solutions</p>
+            <p>Deep analysis, Deep insights, for Deep decarbonization</p>
+            <a href="/about.html" class="hero-button">Learn More</a>
+        </div>
+
+        <!-- Bottom Center Links -->
+        <div class="bottom-links">
+            <a href="/people.html">People</a>
+            <a href="/research.html">Research</a>
+            <a href="/publications.html">Publications</a>
+        </div>
+    </section>
+
+</body>
+
+```
+
+<!--
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Policy Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background-image: url('/files/images/cover.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .hero-button {
+            padding: 15px 30px;
+            background-color: #05336B;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .hero-button:hover {
+            background-color: #5499c7;
+        }
+
+        .top-links {
+            position: absolute;
+            top: 60px; /* Adjusts distance from the top */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            display: flex;
+            gap: 30px; /* Space between links */
+        }
+
+        .top-links a {
+            padding: 5px 20px;
+            background-color: #05336B;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .top-links a:hover {
+            color: #7fb3d5;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem; /* Smaller font size for mobile screens */
+            }
+
+            p {
+                font-size: 1.2rem; /* Smaller paragraph font size for mobile */
+            }
+
+            .hero-button {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            .hero-content {
+                margin-bottom: 60px; /* Increase bottom margin for more space */
+            }
+
+            .top-links {
+                gap: 20px; /* Reduce gap on smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem; /* Even smaller font size for very small screens */
+            }
+
+            p {
+                font-size: 1rem; /* Further reduced paragraph font size */
+            }
+
+            .hero-button {
+                font-size: 0.9rem; /* Smaller button text for small screens */
+                padding: 10px 20px;
+            }
+
+            .hero-content {
+                margin-bottom: 80px; /* Further increase bottom margin on very small screens */
+            }
+
+            .top-links {
+                flex-direction: column; /* Stack links vertically on very small screens */              
+                gap: 10px; /* Reduce gap between links */
+            }
+
+            .top-links a {
+                font-size: 0.8rem;
+            }    
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to Deep Energy and Climate Policy Lab</h1>
+            <p>Data-driven, Evidence-based, Energy and Climate Solutions</p>
+            <p>Deep analysis, Deep insights, for Deep decarbonization</p>
+            <a href="/about.html" class="hero-button">Learn More</a>
+        </div>
+
+      
+        <div class="top-links">
+            <a href="/people.html">People</a>
+            <a href="/research.html">Research</a>
+            <a href="/publications.html">Publications</a>
+        </div>
+    </section>
+
+</body>
+
+
+::: {.content-block}
+![](/files/images/cover.png){fig-align="center" width=1200px}
+:::
+
+:::{.hero-banner .alt-background}
+::: {.content-block}
+
+<p align="center" style="font-size:54px;">We use data-drive, evidence-base approach to study energy and climate policy and offer policy insights for energy decisions and climate actions to achieve carbon neutrality.</p>
+:::
+:::
+
+::: {.get-started}
+::: {.content-block}
+
+[Learn more](about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"}
+
+:::
+:::
+
+<!--
+:::{#featured-projects}
+:::
+-->
+

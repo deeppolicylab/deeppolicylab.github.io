@@ -1,0 +1,50 @@
+---
+title: "深度能源与气候政策实验室"
+subtitle: "为深度减碳提供深度分析与深度见解"
+#image: files/framework.jpeg
+page-layout: full
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-7}
+
+:::{style="font-size: 1rem;"}
+深度能源与气候政策实验室（简称“深度政策实验室”）由纽约城市大学[何钢](https://drganghe.github.io/cn.html){.external target="_blank"}老师团队创建，旨在通过数据驱动方法对能源与气候政策（DEEP）进行深度分析和研究，为明智的能源决策和气候行动提供支持，以实现深度减碳应对气候变化。
+
+我们的使命是通过严谨的数据分析和协作对话，推动有效的能源和气候解决方案。我们积极与学术机构、政府部门、行业伙伴和民间组织合作，推动能源与气候政策领域的创新和行动。
+
+我们综合利用能源系统建模、技术经济分析、大数据和人工智能、以及社会科学，为可再生能源、清洁能源供应链、深度减碳以及其他对能源转型和实现碳中和至关重要的领域的政策制定提供决策支持。
+
+深度政策实验室主要研究领域：
+
+- [可持续、韧性及公正的清洁能源供应链](/research/clean-energy-supply-chains/index.qmd)  
+- [电力系统低碳转型](/research/power-systems-decarbonization/index.qmd)    
+- [气候变化对能源系统的影响](/research/climate-impact-energy-systems/index.qmd)  
+- [能源交叉研究](/research/energy-nexus-research/index.qmd)  
+- [能源与气候公正](/research/energy-climate-justice/index.qmd)
+
+主要行动倡议：
+
+- [中国碳中和行动](/research/china-carbon-neutrality-initiative/index.qmd)    
+- [纽约气候行动](/research/new-york-climate-initiative/index.qmd)  
+
+欢迎关注并支持我们的研究和工作，与深度政策实验室合作。
+
+联系我们：<gang.he@baruch.cuny.edu>
+
+:::
+
+:::
+
+::: {.g-col-12 .g-col-md-5}
+
+![人工智能绘制](/files/images/cover-square.png)
+
+:::
+
+:::
+

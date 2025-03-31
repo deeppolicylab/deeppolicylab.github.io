@@ -1,0 +1,180 @@
+    - path: https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3
+      image: /files/images/journal/erl.png
+      title: "Cost-effectiveness of removing the last 10-20% emissions of China's power sector"
+#      author: 
+      subtitle: "*Environmental Research Letters*"
+      description: "Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs."
+      date: "2025-03-14"
+      categories: [power-system, china] 
+
+    - path: https://doi.org/10.1016/j.oneear.2024.10.006
+      image: /files/images/journal/one-earth-logo.jpg
+      title: "Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060"
+#      author: 
+      subtitle: "*One Earth*"
+      description: "A coal power worker needs to travel 194 (178–242) km on average to access a green job. Only 11%–14% of existing coal power workers will transition to green jobs by 2060."
+      date: "2024-11-05"
+      categories: [featured, china, just-transition, coal] 
+
+    - path: https://iopscience.iop.org/article/10.1088/2753-3751/ad3bb8
+      image: /files/images/journal/IOP-logo.jpg
+      title: "Regional disparities in health and employment outcomes of China's transition to a low-carbon electricity system"
+#      author: 
+      subtitle: "*Environmental Research: Energy*"
+      description: "Although disparities in health impacts across provinces narrow as fossil fuels phase out, disparities in labor compensation widen with wealthier East Coast provinces gaining the most in labor compensation."
+      date: "2024-04-22"
+      categories: [just-transition, energy-nexus] 
+
+    - path: https://www.climateworks.org/blog/advancing-a-just-resilient-and-sustainable-clean-energy-supply-chain/
+      image: https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png
+      title: "Advancing a just, resilient, and sustainable clean energy supply chain"
+#      author: 
+      subtitle: "*ClimateWorks Blog*"
+      description: "In addressing the challenges and maximizing the benefits, there is a pressing need for a commonly agreed framework for a just, resilient, and sustainable clean energy supply chain."
+      date: "2023-12-05"
+      categories: [supply-chain, just-transition] 
+
+
+    - path: https://www.nature.com/articles/s43247-023-01006-x
+      image: /files/images/journal/commsearth.jpg
+      title: "Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060"
+#      author: 
+      subtitle: "*Communications Earth & Environment*"
+      description: "A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing."
+      date: "2023-10-11"
+      categories: [featured, supply-chain] 
+
+    - path: https://iopscience.iop.org/article/10.1088/1748-9326/acf84b
+      image: /files/images/journal/erl.png
+      title: "Accelerating China's power sector decarbonization can save lives: integrating public health goals into power sector planning decisions"
+#      author: 
+      subtitle: "*Environmental Research Letters*"
+      description: "The value of climate and health benefits would exceed the additional costs, leading to $824 billion net benefits from 2021 to 2050."
+      date: "2023-09-25"
+      categories: [energy-nexus, china] 
+
+    - path: https://www.nature.com/articles/s44221-023-00120-6
+      image: /files/images/journal/nature-water.jpg
+      title: "Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation"
+#      author: 
+      subtitle: "*Nature Water*"
+      description: "We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling."
+      date: "2023-08-07"
+      categories: [featured, energy-nexus, water] 
+
+    - path: https://www.nature.com/articles/s41560-023-01304-w
+      image: /files/images/journal/nature-energy.jpg
+      title: "Climate change impacts on planned supply–demand match in global wind and solar energy systems"
+#      author: 
+      subtitle: "*Nature Energy*"
+      description: "Up to 32% or 44% of non-Antarctic land areas for wind or solar, respectively, are projected to experience supply demand match reductions by the end of this century under an intermediate emission scenario."
+      date: "2023-07-24"
+      categories: [featured, climate-impact] 
+
+    - path: https://www.nature.com/articles/s41467-023-40337-3
+      image: /files/images/journal/nature-comms.png
+      title: "Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China"
+#      author: 
+      subtitle: "*Nature Communications*"
+      description: "We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices."
+      date: "2023-08-11"
+      categories: [featured, power-system, china] 
+
+    - path: https://www.nature.com/articles/s41586-022-05316-6
+      image: /files/images/journal/nature.avif
+      title: "Quantifying the cost savings of global solar photovoltaic supply chains"
+#      author: 
+      subtitle: "*Nature*"
+      description: "Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically."
+      date: "2022-10-26"
+      categories: [featured, supply-chain] 
+
+    - path: https://doi.org/10.1109/TIA.2021.3116916
+      image: /files/images/journal/ieee-ias-logo.webp
+      title: "Modeling Integrated Power and Transportation Systems: Impacts of Power-to-Gas on the Deep Decarbonization"
+#      author: 
+      subtitle: "*IEEE Transactions on Industry Applications*"
+      description: "Hydrogen could link power and transport systems and reduce costs of deep decarbonization for both sectors."
+      date: "2022-04-15"
+      categories: [power-system] 
+
+    - path: https://www.nature.com/articles/s43017-021-00244-x
+      image: /files/images/journal/nature-reviews-earth.jpg
+      title: "Challenges and opportunities for carbon neutrality in China"
+#      author: 
+      subtitle: "*Nature Reviews Earth & Environment*"
+      description: "In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets."
+      date: "2022-03-01"
+      categories: [featured, china] 
+
+    - path: https://doi.org/10.1016/j.isci.2022.103749
+      image: /files/images/journal/iscience-logo.jpg
+      title: "Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China"
+#      author: 
+      subtitle: "*iScience*"
+      description: "Regional balancing could reduce the renewable curtailment rate by 5–7%, compared with a provincial balancing strategy."
+      date: "2022-02-18"
+      categories: [power-system] 
+
+    - path: https://doi.org/10.1016/j.jclepro.2021.129765
+      image: /files/images/journal/jcp-logo.jpg
+      title: "Long-term transition of China’s power sector under carbon neutrality target and water withdrawal constraint"
+#      author: 
+      subtitle: "*Journal of Cleaner Production*"
+      description: "Low cost renewables reduced the need for CCS by 80%, and water constraints nearly squeeze CCS out."
+      date: "2021-12-20"
+      categories: [energy-nexus, power-system, water] 
+
+    - path: https://doi.org/10.1016/j.oneear.2020.07.012
+      image: /files/images/journal/one-earth-logo.jpg
+      title: "Enabling a Rapid and Just Transition away from Coal in China"
+#      author: 
+      subtitle: "*One Earth*"
+      description: "Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death."
+      date: "2020-08-21"
+      categories: [featured, china, coal, just-transition] 
+
+    - path: https://www.nature.com/articles/s41467-020-16184-x
+      image: /files/images/journal/nature-comms.png
+      title: "Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system"
+#      author: 
+      subtitle: "*Nature Communications*"
+      description: "A renewable dominant pathway is not just technogical sound, but also cost effective."
+      date: "2020-05-19"
+      categories: [featured, power-system, china] 
+
+    - path: https://pubs.acs.org/doi/10.1021/acs.est.6b01345
+      image: /files/images/journal/est-50-11-cover-crop.jpg
+      title: "SWITCH-China: A Systems Approach to Decarbonizing China’s Power System"
+#      author: 
+      subtitle: "*Environmental Science & Technology*"
+      description: "SWITCH-China, an integrated model for power sector decarbonization."
+      date: "2016-05-08"
+      categories: [featured, power-system, china] 
+
+    - path: https://www.sciencedirect.com/science/article/abs/pii/S0011916414006754
+      image: /files/images/journal/desalination-logo.jpg
+      title: "Assessing the impacts of nuclear desalination and geoengineering to address China's water shortages"
+#      author: 
+      subtitle: "*Desalination*"
+      description: "We compare both coal and nuclear desalination with the currently planned South–North Water Transfer Mega-Project and show that, while the short-run cost of water diversion is lower, critical vulnerabilities and future resource demands favor nuclear desalination."
+      date: "2015-03-16"
+      categories: [energy-nexus, water] 
+
+    - path: https://doi.org/10.1016/j.ecolind.2014.09.018
+      image: /files/images/journal/ecological-indicators-logo.jpg
+      title: "ELITE cities: A low-carbon eco-city evaluation tool for China"
+#      author: 
+      subtitle: "*Ecological Indicators*"
+      description: "ELITE Cities is an Excel-based tool that measures city low-carbon development progress on 33 key indicators."
+      date: "2015-01-15"
+      categories: [china] 
+
+    - path: hhttps://doi.org/10.1016/j.enpol.2013.09.021
+      image: /files/images/journal/energy-policy-logo.jpg
+      title: "Addressing carbon Offsetters’ Paradox: Lessons from Chinese wind CDM"
+#      author: 
+      subtitle: "*Energy Policy*"
+      description: "The paper examines the application of additionality in the Chinese wind power market and draws implications for the design of effective global carbon offset policy."
+      date: "2013-12-15"
+      categories: [featured, china] 

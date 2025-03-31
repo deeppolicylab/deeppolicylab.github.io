@@ -1,0 +1,17 @@
+    - path: https://github.com/switch-model/switch-china-open-model
+      image: /files/images/switch-china.png
+      title: "SWITCH-China Open Model"
+#      author: 
+#      subtitle: "*Nature Communications*"
+      description: "SWITCH-China: open source model for the world's largest power system. Open data on power plants, transmission, costs, and demand by province."
+      date: "2022-06-01"
+      categories: [featured, power-system] 
+
+    - path: https://drganghe.github.io/posts/2015-ei-elite-cities-low-carbon-eco-city-evaluation-tool/index.html
+      image: /files/images/elite-cities.jpg
+      title: "Eco and Low-Carbon Indicator Tool for Evaluating Cities (ELITE Cities)"
+#      author: 
+#      subtitle: "*Ecological Indicators*"
+      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
+      date: "2016-05-08"
+      categories: [featured, china] 

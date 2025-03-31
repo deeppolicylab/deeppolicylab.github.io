@@ -1,0 +1,10 @@
+    - path: 
+      image: /files/headshots/oliver-niedbala.webp
+      title: "Oliver NIEDBALA"
+      lastname: "Niedbala"
+      started: "Nov 2024"
+      ended: "May 2025" 
+#      author: 
+      subtitle: "Student, Saint Francis Preparatory School"
+#      date: "2024-03-12"
+      categories: [Highschool Student]

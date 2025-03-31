@@ -1,0 +1,55 @@
+---
+title: "New York Climate Initiative"
+description: "Facilitating the implementation of the New York State Climate Action Plan."
+#author: "DEEP Lab"
+#date: "2024-03-01"
+#categories: [news, job]
+image: "featured.JPG"
+#css: /custom.css
+listing: 
+- id: featured-news
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://drganghe.github.io/posts/2019-nyclcpa-testimony/
+      image: https://drganghe.github.io/posts/2019-nyclcpa-testimony/featured.png
+      title: "Dr. Gang He testified for the New York State Climate Leadership and Community Protection Act"
+#      author: 
+#      subtitle: ""
+      description: "Dr. Gang He joined an experts team to testify for NYCLCPA."
+      date: "2019-02-15"
+#      categories: [] 
+
+    - path: https://drganghe.github.io/posts/2021-12-nysclcpa-scoping-plan-draft/
+      image: https://drganghe.github.io/posts/2021-12-nysclcpa-scoping-plan-draft/featured.png
+      title: "Dr. Gang He contributed to the NYS Climate Action Council Draft Scoping Plan"
+#      author: 
+#      subtitle: "**"
+      description: "Dr. Gang He served as a member of the technical advisory group for the scoping plan."
+      date: "2021-12-20"
+#      categories: [] 
+---
+
+![](featured.JPG)
+
+
+## Overview
+
+The Climate Leadership and Community Protection Act (CLCPA) aims to reduce greenhouse gas emissions to 40% below 1990 levels by 2030 and then to 85% below 1990 levels by 2050. This initiative aims to facilitate the implementation of the CLCPA to achieve the State's climate goals. 
+
+
+## Featured news
+
+:::{#featured-news}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
