@@ -54,6 +54,21 @@ listing:
     - ../../events.yml
   include: 
     categories: "power-system"
+
+- id: featured-projects
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:  
+    - ../../projects.yml
+  include: 
+    categories: "power-system"
 ---
 
 ![](featured.jpeg)
@@ -77,6 +92,11 @@ listing:
 ## Featured events
 
 :::{#featured-events}
+:::
+
+## Featured projects
+
+:::{#featured-projects}
 :::
 
 <!--Include social share buttons-->

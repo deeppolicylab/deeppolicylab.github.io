@@ -1,6 +1,6 @@
 ---
-title: "Sustainable, Resilient, and Just Global Clean Energy Supply Chains"
-description: "Ensuring a secure global clean energy supply chains to achieve climate goals."
+title: "Clean Energy Supply Chains"
+description: "Ensuring sustainable, resilient, and just global clean energy supply chains to achieve climate goals."
 #author: "DEEP Lab"
 #date: "2024-08-01"
 #categories: [news, job]
@@ -38,6 +38,21 @@ listing:
     - ../../events.yml
   include: 
     categories: "supply-chain"
+
+- id: featured-projects
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:  
+    - ../../projects.yml
+  include: 
+    categories: "supply-chain"
 ---
 
 ![](featured.jpeg)
@@ -55,6 +70,11 @@ Global clean energy supply chains stand at a critical intersection of integratio
 ## Featured events
 
 :::{#featured-events}
+:::
+
+## Featured projects
+
+:::{#featured-projects}
 :::
 
 <!--Include social share buttons-->

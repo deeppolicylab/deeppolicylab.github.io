@@ -22,10 +22,9 @@ listing:  #an example of listing external links
     - /people/wenge-rao.yml
     - /people/mariah-galindo.yml
     - /people/arielle-canate.yml
-    - /people/tamara-valderrama.yml
-    - /people/tenzin-sinon.yml
     - /people/tiffany-hugh.yml
     - /people/oliver-niedbala.yml    
+    - /people/junki-choi.yml
 
 - id: lab-alumni
   sort: "lastname asc"
@@ -36,7 +35,7 @@ listing:  #an example of listing external links
   image-height: 25px
   field-display-names: 
       title: "Name"
-      subtitle: "Role"
+      subtitle: "Role/Affiliation"
       started: "Started"
       ended: "Ended"
 #  categories: true
@@ -45,7 +44,9 @@ listing:  #an example of listing external links
   contents: 
     - /people/yun-li.yml
     - /people/nicolo-antonucci.yml
-    - /people/kately-arriage.yml    
+    - /people/kately-arriage.yml 
+    - /people/tamara-valderrama.yml
+    - /people/tenzin-sinon.yml       
 
 page-navigation: false
 title-block-banner: false
