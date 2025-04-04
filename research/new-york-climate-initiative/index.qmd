@@ -35,6 +35,21 @@ listing:
       description: "Dr. Gang He served as a member of the technical advisory group for the scoping plan."
       date: "2021-12-20"
 #      categories: [] 
+
+- id: featured-projects
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:  
+    - ../../projects.yml
+  include: 
+    categories: "new-york"
 ---
 
 ![](featured.JPG)
@@ -48,6 +63,11 @@ The Climate Leadership and Community Protection Act (CLCPA) aims to reduce green
 ## Featured news
 
 :::{#featured-news}
+:::
+
+## Featured projects
+
+:::{#featured-projects}
 :::
 
 <!--Include social share buttons-->

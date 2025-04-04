@@ -32,15 +32,10 @@ listing:
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents:
-    - path: https://www.nyrdrc.org/research-library/ny25-02-estimating-what-we-miss-about-direct-care-workers-employment-earnings-and-retirement-savingsnbsp-7dlrr-dcfy8-zye4b-nt2en-blr3c
-      image: /files/images/funders/ssa.png
-      title: "Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
-#      author: 
-      subtitle: "Social Security Administration"
-      description: "The goal of this project is to investigate the energy burden faced by older adults (ages 62 and older) and people with disabilities in New York City to better understand its impact on their wellbeing."
-#      date: "2022-10-26"
-#      categories: [] 
+  contents: 
+    - ../../projects.yml
+  include: 
+    categories: "just-transition"
 ---
 
 ![Created by Copilot](featured.png)

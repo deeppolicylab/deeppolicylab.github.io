@@ -40,7 +40,7 @@
 
 
     - path: https://www.climateworks.org/grants-database/?sort_by=newest&search=City%20University%20of%20New%20York&posts_per_page=20
-      image: /files/images/funders/climateworks.png
+      image: /files/images/funders/climateworkslogo.png
       title: "The carbon mitigation, air quality, and human health benefits achieved by global solar PV supply chains"
       author: Gang He
       subtitle: "ClimateWorks Foundation"
@@ -65,7 +65,7 @@
       categories: [power-system] 
 
     - path: https://energy.lbl.gov/people/gang-he
-      image: /files/images/funders/lbl.jpg
+      image: /files/images/funders/lbl.png
       title: "Power Systems Modeling and Analysis"
       author: Gang He
       subtitle: "Lawrence Berkeley National Laboratory"
