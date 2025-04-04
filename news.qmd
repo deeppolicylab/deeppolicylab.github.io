@@ -1,6 +1,6 @@
 ---
 title: "News"
-subtitle: "What's new & In the news"
+subtitle: "Recent releases and media coverage"
 page-layout: full
 toc: false
 #author: "DEEP Lab"
@@ -15,6 +15,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 3
+  max-items: 6
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -29,6 +30,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 3
+  max-items: 6
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -42,10 +44,14 @@ listing:
 :::{#release}
 :::
 
+<p align="right">[More Releases »](/more-news.qmd#release)</p>
+
 ## Media
 
 :::{#news}
 :::
+
+<p align="right">[More Coverage »](/more-news.qmd#media)</p>
 
 <!--Include social share buttons-->
 

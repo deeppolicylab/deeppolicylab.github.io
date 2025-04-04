@@ -39,13 +39,14 @@ website:
         target: _blank
   page-navigation: true
   page-footer: 
-    left: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    right:  
-      - icon: github
-        href: https://github.com/deeppolicylab
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app/profile/deeppolicylab.bsky.social
-        target: _blank
+    center: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    # left: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    # right:  
+    #   - icon: github
+    #     href: https://github.com/deeppolicylab
+    #   - text: "{{< fa brands bluesky >}}" 
+    #     href: https://bsky.app/profile/deeppolicylab.bsky.social
+    #     target: _blank
   search:
     location: navbar
     type: textbox

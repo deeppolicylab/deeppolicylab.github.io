@@ -1,0 +1,142 @@
+---
+title: "Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era"
+description: "Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025."
+image: Flyer-small.webp
+author: "Marxe School"
+date: "2025-09-23"
+#page-layout: full
+categories: [supply-chain, power-system, nuclear]
+#bibliography: references.bib
+csl: chicago-syllabus.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+listing:  #an example of listing external links
+#  template: item-default-external.ejs
+
+- id: welcome
+  sort: "date asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 3
+  image-height: 250px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/sherry-ryan.yml
+
+- id: moderator
+  sort: "date asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 3
+  image-height: 250px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/gang-he-associate.yml
+
+- id: remarks
+  sort: "date asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 3
+  image-height: 250px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/daniel-kammen.yml
+
+- id: panelists
+  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
+  grid-columns: 3
+  image-height: 250px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/jessica-lovering.yml
+    - ../../people/nicolas-zweibaum.yml
+    - ../../people/shangwei-liu.yml
+
+page-navigation: false
+title-block-banner: false
+#toc: false
+---
+
+[![Flyer Credit: Marxe School Staff](Flyer.webp)](https://marxe.baruch.cuny.edu/nyc-climate-week-webinar/)
+
+
+## Title
+
+The Role of Nuclear Energy in Decarbonization and Powering the AI Era
+
+### Time
+
+{{< meta date >}}
+
+10:00AM - 11:30AM ET
+
+### Venue 
+Online via Zoom. Please register [here](https://baruch.zoom.us/webinar/register/WN_iEpHmVc1Q2Cg6Iz1kLgDLw?_ics=1755893105800&irclickid=~2YPKMSVMUJOMNEIAyzFLCsulprvwsqnqsrxopfgc64ZOFyxvpkh~&_gl=1*o27pme*_gcl_au*Nzc0NjQzNDExLjE3NTU1NDU2NzE.*_ga*MzIyMjAzNjc2LjE3MDQzMTQ2NTY.*_ga_L8TBF28DDX*czE3NTU4OTE2OTIkbzk4JGcxJHQxNzU1ODkzMTA1JGozNCRsMCRoMA..#/registration).
+
+## About
+As nations target to meet net-zero goals, nuclear energy is reemerging as an essential — and often controversial — part of the clean energy mix. At the same time, the rapid rise of artificial intelligence is reshaping electricity demand, pushing policymakers and investors to consider large-scale, reliable, and low-carbon generation sources. This panel brings together global experts to discuss the role of nuclear power in deep decarbonization and its potential to meet the surging energy needs of the AI era. We will examine technological, economic, policy, and geopolitical factors influencing nuclear power’s future — with perspectives from China, the United States, and the European Union.
+
+## Welcome
+
+:::{#welcome}
+:::
+
+
+## Moderator
+
+:::{#moderator}
+:::
+
+
+## Remarks
+
+:::{#remarks}
+:::
+
+
+## Panelists
+
+:::{#panelists}
+:::
+
+
+## Video
+
+{{< video https://www.youtube.com/watch?v=FrCJU67zhUQ >}}
+
+## References
+
+- Liu, Shangwei, Gang He, Minghao Qiu, and Daniel M. Kammen. 2025. “Can China Break the ‘Cost Curse’ of Nuclear Power?” *Nature* 643, 1186–88. <https://doi.org/10.1038/d41586-025-02341-z> 
+-	Lovering, Jessica R., Arthur Yip, and Ted Nordhaus. 2016. “Historical Construction Costs of Global Nuclear Power Reactors.” *Energy Policy* 91: 371–82. <https://doi.org/10.1016/j.enpol.2016.01.011>. 
+-	Hultman, Nathan E., Jonathan G. Koomey, and Daniel M. Kammen. 2007. “What History Can Teach Us About the Future Costs of U.S. Nuclear Power.” *Environmental Science & Technology* 41 (7): 2087–94. <https://doi.org/10.1021/es0725089>.  
+
+
+
+## Acknowledgments
+
+Climate Week NYC 2025 [official program listing](https://www.climateweeknyc.org/events/role-nuclear-energy-decarbonization-and-powering-ai-era).
+
+This program is sponsored by the [Marxe School of Public and International Affairs](https://marxe.baruch.cuny.edu/).   
+
+We thank Diana Lazov, Amanda Puk, and Zoe Crook for their help with the event.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -4,7 +4,7 @@ description: "Enhancing the adaptation of energy systems to climate change."
 #author: "DEEP Lab"
 #date: "2024-06-01"
 #categories: [news, job]
-image: "featured.png"
+image: "/files/images/Gemini-climate-impact-energy.jpg"
 #css: /custom.css
 listing: 
 - id: featured-publications
@@ -23,7 +23,7 @@ listing:
     categories: "climate-impact"
 ---
 
-![Created by Copilot](featured.png)
+![AI generated image using Gemini](/files/images/Gemini-climate-impact-energy.jpg)
 
 
 ## Overview

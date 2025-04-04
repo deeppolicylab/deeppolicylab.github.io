@@ -14,6 +14,7 @@ listing:
   grid-item-align: left
   grid-columns: 2
   image-height: 200px
+  max-items: 4
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -51,12 +52,28 @@ listing:
 #  filter-ui: true
   contents: 
     - ../../events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.qmd  
+    - ../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.qmd
     - ../../events.yml
+  include: 
+    categories: "power-system"
+
+- id: featured-projects
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:  
+    - ../../projects.yml
   include: 
     categories: "power-system"
 ---
 
-![](featured.jpeg)
+![A wind farm in Hawaii, Photo by Gang He](featured.jpeg)
 
 
 ## Overview
@@ -69,6 +86,8 @@ listing:
 :::{#featured-publications}
 :::
 
+<p align="right">[More Publications »](/more-publications.qmd#category=power-system)</p>
+
 ## Featured resources
 
 :::{#featured-resources}
@@ -77,6 +96,11 @@ listing:
 ## Featured events
 
 :::{#featured-events}
+:::
+
+## Featured projects
+
+:::{#featured-projects}
 :::
 
 <!--Include social share buttons-->

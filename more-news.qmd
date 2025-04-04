@@ -1,0 +1,55 @@
+---
+title: "News"
+subtitle: "What's new & In the news"
+page-layout: full
+date-format: "YYYY-MM-DD"
+toc: false
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+#image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: release
+  sort: "date desc"
+  type: table
+  fields: [image, title, date, description]
+#  grid-item-align: left
+#  grid-columns: 3
+  image-height: 20px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - /news/
+    - release.yml
+
+- id: news
+  sort: "date desc"
+  type: table
+  fields: [image, title, subtitle, author, date, description]
+  field-display-names: 
+      subtitle: "Media"
+#  grid-item-align: left
+#  grid-columns: 3
+  image-height: 20px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: news.yml
+---
+
+
+## Release
+
+:::{#release}
+:::
+
+## Media
+
+:::{#news}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -7,6 +7,15 @@
       date: "2022-06-01"
       categories: [featured, power-system] 
 
+    - path: https://www.mcet-network.org/mcet-network/china/
+      image: /files/images/mcet-network.webp
+      title: "Multi-Country Electricity Transition (MCET) Network"
+#      author: 
+#      subtitle: "*Nature Communications*"
+      description: "This global alliance of energy modelers, policymakers, and advocates leverages advanced, open-source energy planning tools to identify the best pathways, costs, and financing opportunities for national energy transitions, empowering countries to take bold, informed action toward a sustainable future."
+      date: "2022-01-01"
+      categories: [power-system] 
+
     - path: https://drganghe.github.io/posts/2015-ei-elite-cities-low-carbon-eco-city-evaluation-tool/index.html
       image: /files/images/elite-cities.jpg
       title: "Eco and Low-Carbon Indicator Tool for Evaluating Cities (ELITE Cities)"

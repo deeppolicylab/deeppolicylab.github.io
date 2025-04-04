@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>More Publications – Deep Policy Lab</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-more-publications .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date','listing-description','listing-fulltext',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-fulltext","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-more-publications'] = new List('listing-more-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="More Publications – Deep Policy Lab">
+<meta property="og:description" content="Read more about our papers and articles">
+<meta property="og:image" content="https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png">
+<meta property="og:site_name" content="Deep Policy Lab">
+<meta name="twitter:title" content="More Publications – Deep Policy Lab">
+<meta name="twitter:description" content="Read more about our papers and articles">
+<meta name="twitter:image" content="https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Deep Policy Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./events.html"> 
+<span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./support.html"> 
+<span class="menu-text">Support</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cn.html"> 
+<span class="menu-text">中文</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/deeppolicylab"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/deeppolicylab.bsky.social" target="_blank"> 
+<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(26)</span></div><div class="category" data-category="Y2FyYm9u">carbon <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Y2hpbmE=">china <span class="quarto-category-count">(16)</span></div><div class="category" data-category="Y2l0eQ==">city <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2xpbWF0ZS1pbXBhY3Q=">climate-impact <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29hbA==">coal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZW5lcmd5LW5leHVz">energy-nexus <span class="quarto-category-count">(6)</span></div><div class="category" data-category="ZmVhdHVyZWQ=">featured <span class="quarto-category-count">(14)</span></div><div class="category" data-category="Z2VybWFueQ==">germany <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aHlkcm9nZW4=">hydrogen <span class="quarto-category-count">(1)</span></div><div class="category" data-category="anVzdC10cmFuc2l0aW9u">just-transition <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bnVjbGVhcg==">nuclear <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cG93ZXItc3lzdGVt">power-system <span class="quarto-category-count">(9)</span></div><div class="category" data-category="c29sYXI=">solar <span class="quarto-category-count">(5)</span></div><div class="category" data-category="c3RvcmFnZQ==">storage <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3VwcGx5LWNoYWlu">supply-chain <span class="quarto-category-count">(5)</span></div><div class="category" data-category="dHJhbnNwb3J0">transport <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dW5pdGVkLXN0YXRlcw==">united-states <span class="quarto-category-count">(2)</span></div><div class="category" data-category="d2F0ZXI=">water <span class="quarto-category-count">(3)</span></div><div class="category" data-category="d2luZA==">wind <span class="quarto-category-count">(2)</span></div></div></div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">More Publications</h1>
+<p class="subtitle lead">Read more about our papers and articles</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!--Please delete or replace with your own clarity-->
+<!-- 
+https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
+-->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ktfar1v3c9");
+</script>
+<div id="listing-more-publications" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-more-publications-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-more-publications'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-subtitle" data-direction="asc">
+        Journal
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Year - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Year - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+ 
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Journal</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
+</th>
+
+<th>
+Summary
+</th>
+
+<th>
+Fulltext
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="ZmVhdHVyZWQlMkNzb2xhciUyQ3N1cHBseS1jaGFpbiUyQ2VuZXJneS1uZXh1cyUyQ3VuaXRlZC1zdGF0ZXM=" data-listing-date-sort="1759896000000" data-listing-title-sort="Imported solar photovoltaics contributed to health and climate benefits in the United States">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.oneear.2025.101467" class="title listing-title">Imported solar photovoltaics contributed to health and climate benefits in the United States</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>One Earth</em></span>
+</td>
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-description">Imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2025-one-earth-health-climate-benefits-of-imported-solar-pv-in-the-united-states.pdf">preprint</a></span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000" data-listing-title-sort="Can China break the ‘cost curse’ of nuclear power?">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature.avif" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1038/d41586-025-02341-z" class="title listing-title">Can China break the ‘cost curse’ of nuclear power?</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Nature</em></span>
+</td>
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-description">Strengthening regulations and domestic supply chains could be key to making nuclear power more economically viable.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://rdcu.be/eyaXW">SharedIt</a></span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdG9yYWdl" data-listing-date-sort="1751947200000" data-listing-title-sort="Role of pumped hydro storage in China’s power system decarbonization">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/the-electricity-journal-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.tej.2025.107487" class="title listing-title">Role of pumped hydro storage in China’s power system decarbonization</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>The Electricity Journal</em></span>
+</td>
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-description">Our findings indicate that building excessive PHS may not be the most cost-effective path to achieve zero-carbon power system, if there is no major cost reduction of PHS.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.sciencedirect.com/science/article/pii/S1040619025000326/pdfft?md5=b4d917468b239ff9496538b66df8c1f5&amp;pid=1-s2.0-S1040619025000326-main.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmE=" data-listing-date-sort="1741924800000" data-listing-title-sort="Cost-effectiveness of removing the last 10-20% emissions of China's power sector">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/erl.png" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3" class="title listing-title">Cost-effectiveness of removing the last 10-20% emissions of China’s power sector</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Environmental Research Letters</em></span>
+</td>
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-description">Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3/pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000" data-listing-title-sort="Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.oneear.2024.10.006" class="title listing-title">Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>One Earth</em></span>
+</td>
+<td>
+<span class="listing-date">2024</span>
+</td>
+<td>
+<span class="listing-description">A coal power worker needs to travel 194 (178–242) km on average to access a green job. Only 11%–14% of existing coal power workers will transition to green jobs by 2060.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.cell.com/action/showPdf?pii=S2590-3322%2824%2900530-X">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="anVzdC10cmFuc2l0aW9uJTJDZW5lcmd5LW5leHVz" data-listing-date-sort="1713758400000" data-listing-title-sort="Regional disparities in health and employment outcomes of China's transition to a low-carbon electricity system">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/IOP-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3bb8" class="title listing-title">Regional disparities in health and employment outcomes of China’s transition to a low-carbon electricity system</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Environmental Research: Energy</em></span>
+</td>
+<td>
+<span class="listing-date">2024</span>
+</td>
+<td>
+<span class="listing-description">Although disparities in health impacts across provinces narrow as fossil fuels phase out, disparities in labor compensation widen with wealthier East Coast provinces gaining the most in labor compensation.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3bb8/pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="c3VwcGx5LWNoYWluJTJDanVzdC10cmFuc2l0aW9u" data-listing-date-sort="1701752400000" data-listing-title-sort="Advancing a just, resilient, and sustainable clean energy supply chain">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.climateworks.org/blog/advancing-a-just-resilient-and-sustainable-clean-energy-supply-chain/" class="title listing-title">Advancing a just, resilient, and sustainable clean energy supply chain</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>ClimateWorks Blog</em></span>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-description">In addressing the challenges and maximizing the benefits, there is a pressing need for a commonly agreed framework for a just, resilient, and sustainable clean energy supply chain.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/posts/2023-12-just-resilient-sustainable-clean-energy-supply-chains/index.html">link</a></span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNjYXJib24lMkNzb2xhcg==" data-listing-date-sort="1696996800000" data-listing-title-sort="Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/commsearth.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/s43247-023-01006-x" class="title listing-title">Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Communications Earth &amp; Environment</em></span>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-description">A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.nature.com/articles/s43247-023-01006-x.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-categories="ZW5lcmd5LW5leHVzJTJDY2hpbmE=" data-listing-date-sort="1695614400000" data-listing-title-sort="Accelerating China's power sector decarbonization can save lives: integrating public health goals into power sector planning decisions">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/erl.png" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://iopscience.iop.org/article/10.1088/1748-9326/acf84b" class="title listing-title">Accelerating China’s power sector decarbonization can save lives: integrating public health goals into power sector planning decisions</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Environmental Research Letters</em></span>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-description">The value of climate and health benefits would exceed the additional costs, leading to $824 billion net benefits from 2021 to 2050.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://iopscience.iop.org/article/10.1088/1748-9326/acf84b/pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYSUyQ3N0b3JhZ2U=" data-listing-date-sort="1691726400000" data-listing-title-sort="Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-comms.png" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/s41467-023-40337-3" class="title listing-title">Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Nature Communications</em></span>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-description">We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.nature.com/articles/s41467-023-40337-3.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-categories="ZmVhdHVyZWQlMkNlbmVyZ3ktbmV4dXMlMkN3YXRlciUyQ2NhcmJvbg==" data-listing-date-sort="1691380800000" data-listing-title-sort="Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-water.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/s44221-023-00120-6" class="title listing-title">Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Nature Water</em></span>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-description">We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://rdcu.be/diKmv">SharedIt</a></span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-categories="ZmVhdHVyZWQlMkNjbGltYXRlLWltcGFjdCUyQ3NvbGFyJTJDd2luZA==" data-listing-date-sort="1690171200000" data-listing-title-sort="Climate change impacts on planned supply–demand match in global wind and solar energy systems">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-energy.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/s41560-023-01304-w" class="title listing-title">Climate change impacts on planned supply–demand match in global wind and solar energy systems</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Nature Energy</em></span>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-description">Up to 32% or 44% of non-Antarctic land areas for wind or solar, respectively, are projected to experience supply demand match reductions by the end of this century under an intermediate emission scenario.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.nature.com/articles/s41560-023-01304-w.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNzb2xhciUyQ3VuaXRlZC1zdGF0ZXMlMkNjaGluYSUyQ2dlcm1hbnk=" data-listing-date-sort="1666756800000" data-listing-title-sort="Quantifying the cost savings of global solar photovoltaic supply chains">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature.avif" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/s41586-022-05316-6" class="title listing-title">Quantifying the cost savings of global solar photovoltaic supply chains</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Nature</em></span>
+</td>
+<td>
+<span class="listing-date">2022</span>
+</td>
+<td>
+<span class="listing-description">Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://rdcu.be/enuBz">SharedIt</a></span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-categories="cG93ZXItc3lzdGVtJTJDaHlkcm9nZW4lMkN0cmFuc3BvcnQ=" data-listing-date-sort="1649995200000" data-listing-title-sort="Modeling Integrated Power and Transportation Systems: Impacts of Power-to-Gas on the Deep Decarbonization">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/ieee-ias-logo.webp" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1109/TIA.2021.3116916" class="title listing-title">Modeling Integrated Power and Transportation Systems: Impacts of Power-to-Gas on the Deep Decarbonization</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>IEEE Transactions on Industry Applications</em></span>
+</td>
+<td>
+<span class="listing-date">2022</span>
+</td>
+<td>
+<span class="listing-description">Hydrogen could link power and transport systems and reduce costs of deep decarbonization for both sectors.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2022-IEEE-ModelingIntegratedPowerAndTransportationSystems.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NhcmJvbg==" data-listing-date-sort="1646110800000" data-listing-title-sort="Challenges and opportunities for carbon neutrality in China">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-reviews-earth.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/s43017-021-00244-x" class="title listing-title">Challenges and opportunities for carbon neutrality in China</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Nature Reviews Earth &amp; Environment</em></span>
+</td>
+<td>
+<span class="listing-date">2022</span>
+</td>
+<td>
+<span class="listing-description">In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://rdcu.be/enuBK">SharedIt</a></span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1645160400000" data-listing-title-sort="Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/iscience-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.isci.2022.103749" class="title listing-title">Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>iScience</em></span>
+</td>
+<td>
+<span class="listing-date">2022</span>
+</td>
+<td>
+<span class="listing-description">Regional balancing could reduce the renewable curtailment rate by 5–7%, compared with a provincial balancing strategy.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.cell.com/action/showPdf?pii=S2589-0042%2822%2900019-0">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-categories="ZW5lcmd5LW5leHVzJTJDcG93ZXItc3lzdGVtJTJDd2F0ZXI=" data-listing-date-sort="1639976400000" data-listing-title-sort="Long-term transition of China’s power sector under carbon neutrality target and water withdrawal constraint">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/jcp-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.jclepro.2021.129765" class="title listing-title">Long-term transition of China’s power sector under carbon neutrality target and water withdrawal constraint</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Journal of Cleaner Production</em></span>
+</td>
+<td>
+<span class="listing-date">2021</span>
+</td>
+<td>
+<span class="listing-description">Low cost renewables reduced the need for CCS by 80%, and water constraints nearly squeeze CCS out.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2021-JCP-ChinaPowerCarbonWaterNexus.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NvYWwlMkNqdXN0LXRyYW5zaXRpb24=" data-listing-date-sort="1597982400000" data-listing-title-sort="Enabling a Rapid and Just Transition away from Coal in China">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.oneear.2020.07.012" class="title listing-title">Enabling a Rapid and Just Transition away from Coal in China</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>One Earth</em></span>
+</td>
+<td>
+<span class="listing-date">2020</span>
+</td>
+<td>
+<span class="listing-description">Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.cell.com/action/showPdf?pii=S2590-3322%2820%2930356-0">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1589860800000" data-listing-title-sort="Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-comms.png" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/s41467-020-16184-x" class="title listing-title">Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Nature Communications</em></span>
+</td>
+<td>
+<span class="listing-date">2020</span>
+</td>
+<td>
+<span class="listing-description">A renewable dominant pathway is not just technogical sound, but also cost effective.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.nature.com/articles/s41467-020-16184-x.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="19" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1498881600000" data-listing-title-sort="Experiences and lessons from China’s success in providing electricity for all">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/rcr-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.resconrec.2017.03.011" class="title listing-title">Experiences and lessons from China’s success in providing electricity for all</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Resources, Conservation and Recycling</em></span>
+</td>
+<td>
+<span class="listing-date">2017</span>
+</td>
+<td>
+<span class="listing-description">Key experiences and lessons to be learned from China’s successful program to provide electricity for all.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2017-china-electricity-for-all.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1462680000000" data-listing-title-sort="SWITCH-China: A Systems Approach to Decarbonizing China’s Power System">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/est-50-11-cover-crop.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://pubs.acs.org/doi/10.1021/acs.est.6b01345" class="title listing-title">SWITCH-China: A Systems Approach to Decarbonizing China’s Power System</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Environmental Science &amp; Technology</em></span>
+</td>
+<td>
+<span class="listing-date">2016</span>
+</td>
+<td>
+<span class="listing-description">SWITCH-China, an integrated model for power sector decarbonization.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2016-EST-SWITCH-China.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="21" data-categories="Y2hpbmElMkNzb2xhcg==" data-listing-date-sort="1452834000000" data-listing-title-sort="Where, when and how much solar is available? A provincial-scale solar resource assessment for China">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/renewable-energy-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.renene.2015.06.027" class="title listing-title">Where, when and how much solar is available? A provincial-scale solar resource assessment for China</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Renewable Energy</em></span>
+</td>
+<td>
+<span class="listing-date">2016</span>
+</td>
+<td>
+<span class="listing-description">We utilized 10-year hourly solar irradiation data from 2001 to 2010 from 200 representative locations to develop provincial solar availability profiles.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2016-RE-ChinaProvincialSolar.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="22" data-categories="ZW5lcmd5LW5leHVzJTJDd2F0ZXIlMkNudWNsZWFy" data-listing-date-sort="1426478400000" data-listing-title-sort="Assessing the impacts of nuclear desalination and geoengineering to address China's water shortages">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/desalination-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0011916414006754" class="title listing-title">Assessing the impacts of nuclear desalination and geoengineering to address China’s water shortages</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Desalination</em></span>
+</td>
+<td>
+<span class="listing-date">2015</span>
+</td>
+<td>
+<span class="listing-description">We compare both coal and nuclear desalination with the currently planned South–North Water Transfer Mega-Project and show that, while the short-run cost of water diversion is lower, critical vulnerabilities and future resource demands favor nuclear desalination.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2015-DESAL-Nuclear-desalination-and-water-shortages-in-China.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="23" data-categories="Y2hpbmElMkNjaXR5" data-listing-date-sort="1421298000000" data-listing-title-sort="ELITE cities: A low-carbon eco-city evaluation tool for China">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/ecological-indicators-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.ecolind.2014.09.018" class="title listing-title">ELITE cities: A low-carbon eco-city evaluation tool for China</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Ecological Indicators</em></span>
+</td>
+<td>
+<span class="listing-date">2015</span>
+</td>
+<td>
+<span class="listing-description">ELITE Cities is an Excel-based tool that measures city low-carbon development progress on 33 key indicators.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2015-EI-ELITE-Cities.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-categories="Y2hpbmElMkN3aW5k" data-listing-date-sort="1416027600000" data-listing-title-sort="Where, When and How Much Wind Is Available? A Provincial-Scale Wind Resource Assessment for China">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/energy-policy-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.enpol.2014.07.003" class="title listing-title">Where, When and How Much Wind Is Available? A Provincial-Scale Wind Resource Assessment for China</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Energy Policy</em></span>
+</td>
+<td>
+<span class="listing-date">2014</span>
+</td>
+<td>
+<span class="listing-description">We utilized 200 representative locations for which 10 years of hourly wind speed data exist to develop provincial capacity factors from 2001 to 2010, and to build analytic wind speed profiles.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2014-EP-ChinaProvincialWind.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="25" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NhcmJvbg==" data-listing-date-sort="1387083600000" data-listing-title-sort="Addressing carbon Offsetters’ Paradox: Lessons from Chinese wind CDM">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/energy-policy-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.enpol.2013.09.021" class="title listing-title">Addressing carbon Offsetters’ Paradox: Lessons from Chinese wind CDM</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>Energy Policy</em></span>
+</td>
+<td>
+<span class="listing-date">2013</span>
+</td>
+<td>
+<span class="listing-description">The paper examines the application of additionality in the Chinese wind power market and draws implications for the design of effective global carbon offset policy.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2013-EP-ChinaWindCDM.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<a href="http://deeppolicylab.github.io">Deep Policy Lab</a> ©
+<script>document.write(new Date().getFullYear())</script>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

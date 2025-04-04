@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,15 +32,17 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-07e289d2a16cf7135fae08dbb3ea3de3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -107,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-started-sort'] },{ data: ['listing-ended-sort'] }],
       
       searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-categories"],
     };
@@ -150,7 +152,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -169,15 +171,19 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="People – Deep Policy Lab">
 <meta property="og:description" content="Who we are">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/headshots/arielle-canate.jpg">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/we-need-you.png">
 <meta property="og:site_name" content="Deep Policy Lab">
+<meta property="og:image:height" content="364">
+<meta property="og:image:width" content="387">
 <meta name="twitter:title" content="People – Deep Policy Lab">
 <meta name="twitter:description" content="Who we are">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/headshots/arielle-canate.jpg">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/we-need-you.png">
+<meta name="twitter:image-height" content="364">
+<meta name="twitter:image-width" content="387">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -262,7 +268,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="RGlyZWN0b3I=">Director <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">Highschool Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFzdGVyJ3MlMjBTdHVkZW50">Master's Student <span class="quarto-category-count">(6)</span></div><div class="category" data-category="UGhEJTIwU3R1ZGVudA==">PhD Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">Postdoctoral Researcher <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VW5kZXJncmFkdWF0ZQ==">Undergraduate <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(17)</span></div><div class="category" data-category="RGlyZWN0b3I=">Director <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">Highschool Student <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFzdGVyJ3MlMjBTdHVkZW50">Master's Student <span class="quarto-category-count">(7)</span></div><div class="category" data-category="UGhEJTIwU3R1ZGVudA==">PhD Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">Postdoctoral Researcher <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VW5kZXJncmFkdWF0ZQ==">Undergraduate <span class="quarto-category-count">(4)</span></div><div class="category" data-category="VmlzaXRpbmclMjBTY2hvbGFy">Visiting Scholar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzaXRpbmclMjBTdHVkZW50">Visiting Student <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -302,23 +308,38 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 <div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
-<a href="https://www.linkedin.com/in/arielle-ca%C3%B1ate/" class="quarto-grid-link">
+<a href="https://xinyang-che.github.io" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/arielle-canate.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/xinyang-che.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Arielle CANATE
+Xinyang CHE
 </h5>
 <div class="card-subtitle listing-subtitle">
-QMSS Master’s Student, CUNY Graduate Center
+Research Assistant/ M.S., Xi’an Jiaotong University
 </div>
 </div>
+</div></a>
 </div>
-</a>
+<div class="g-col-1" data-index="1" data-categories="VmlzaXRpbmclMjBTY2hvbGFy">
+<a href="https://udayton.edu/directory/engineering/mechanical-and-aerospace/choi_jun-ki.php" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./files/headshots/junki-choi.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jun-Ki CHOI
+</h5>
+<div class="card-subtitle listing-subtitle">
+Anderson Endowed Chair Professor, University of Dayton
 </div>
-<div class="g-col-1" data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
 <a href="https://www.linkedin.com/in/mariah-galindo12101/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -329,51 +350,48 @@ QMSS Master’s Student, CUNY Graduate Center
 Mariah GALINDO
 </h5>
 <div class="card-subtitle listing-subtitle">
-Marxe Assistant/MIA Student, CUNY Baruch College
+Marxe Assistant/ MIA Student, CUNY Baruch College
 </div>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RGlyZWN0b3I=">
+<div class="g-col-1" data-index="3" data-categories="RGlyZWN0b3I=">
 <a href="https://drganghe.github.io" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Gang HE
 </h5>
 <div class="card-subtitle listing-subtitle">
-Assistant Professor, CUNY Baruch College
+Associate Professor, CUNY Baruch College
 </div>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
-<a href="https://www.linkedin.com/in/tiffany-hugh-90878b237" class="quarto-grid-link">
+<div class="g-col-1" data-index="4" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">
+<a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tiffany-hugh.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/images/we-need-you.png" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Tiffany HUGH
+Samuel LEE
 </h5>
 <div class="card-subtitle listing-subtitle">
-QMSS Master’s Student, CUNY Graduate Center
+Research Assistant/Friends Seminary
 </div>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">
+<div class="g-col-1" data-index="5" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">
 <a href="https://kaifangluo.com" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/kaifang-luo.webp" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -383,81 +401,42 @@ Kaifang LUO
 Postdoctoral Researcher, CUNY Baruch College
 </div>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">
-<a href="" class="quarto-grid-link">
+<div class="g-col-1" data-index="6" data-categories="VW5kZXJncmFkdWF0ZQ==">
+<a href="https://www.linkedin.com/in/samid-sadeem-033b74306/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/oliver-niedbala.webp" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/samid-rahman.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Oliver NIEDBALA
+Samid RAHMAN
 </h5>
 <div class="card-subtitle listing-subtitle">
-Student, Saint Francis Preparatory School
+CUNY Undergraduate Climate Scholar, Borough of Manhattan Community College
 </div>
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="UGhEJTIwU3R1ZGVudA==">
-<a href="https://giselle1119.github.io/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="https://giselle1119.github.io/images/WengeRao.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Wenge RAO
-</h5>
-<div class="card-subtitle listing-subtitle">
-Visiting PhD Student, Peking University
-</div>
-</div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="7" data-categories="VW5kZXJncmFkdWF0ZQ==">
-<a href="https://www.linkedin.com/in/10sinon/" class="quarto-grid-link">
+<a href="https://www.linkedin.com/in/daniel-yadgarov-15a999271/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tenzin-sinon.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/daniel-yadgarov.webp" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Tenzin SINON
+Daniel YADGAROV
 </h5>
 <div class="card-subtitle listing-subtitle">
-CUNY Undergraduate Climate Scholar, Hunter College
+Macaulay Honors Student, CUNY Baruch College
 </div>
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="VW5kZXJncmFkdWF0ZQ==">
-<a href="https://cl.linkedin.com/in/tamara-valderrama-242289207" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tamara-valderrama.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tamara VALDERRAMA
-</h5>
-<div class="card-subtitle listing-subtitle">
-CUNY Undergraduate Climate Scholar, City College
+</div></a>
 </div>
 </div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
 <section id="alumni" class="level2">
@@ -465,25 +444,31 @@ No matching items
 <div id="listing-lab-alumni" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-lab-alumni-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-lab-alumni'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-image" data-direction="asc">
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Name
-        </option>
-         <option value="listing-started" data-direction="asc">
-          Started
-        </option>
-         <option value="listing-ended" data-direction="asc">
-          Ended
-        </option>
-         <option value="listing-subtitle" data-direction="asc">
-          Role
-        </option>
-     </select>
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-lab-alumni-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-lab-alumni'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-image" data-direction="asc">
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Name
+      </option>
+      <option value="listing-started-sort" data-direction="asc">
+        Started - Oldest
+      </option>
+      <option value="listing-started-sort" data-direction="desc">
+        Started - Newest
+      </option>
+      <option value="listing-ended-sort" data-direction="asc">
+        Ended - Oldest
+      </option>
+      <option value="listing-ended-sort" data-direction="desc">
+        Ended - Newest
+      </option>
+      <option value="listing-subtitle" data-direction="asc">
+        Role/Affiliation
+      </option>
+    </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
@@ -493,25 +478,146 @@ No matching items
 <table class="quarto-listing-table table">
 <thead>
 <tr>
+
 <th>
 <a class="sort" data-sort="listing-image" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"> </a>
 </th>
+
 <th>
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
 </th>
+
 <th>
-<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Role</a>
+<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Role/Affiliation</a>
 </th>
+
 <th>
-<a class="sort" data-sort="listing-started" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Started</a>
+<a class="sort" data-sort="listing-started-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Started</a>
 </th>
+
 <th>
-<a class="sort" data-sort="listing-ended" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Ended</a>
+<a class="sort" data-sort="listing-ended-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Ended</a>
 </th>
+
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Nicolo ANTONUCCI">
+
+<tr data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-08" data-listing-title-sort="Arielle CANATE">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/arielle-canate.jpg" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://www.linkedin.com/in/arielle-ca%C3%B1ate/" class="title listing-title">Arielle CANATE</a>
+</td>
+<td>
+<span class="listing-subtitle">QMSS Master’s Student, CUNY Graduate Center</span>
+</td>
+<td>
+<span class="listing-started">2024-12</span>
+</td>
+<td>
+<span class="listing-ended">2025-08</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-08" data-listing-title-sort="Tiffany HUGH">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/tiffany-hugh.jpeg" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://www.linkedin.com/in/tiffany-hugh-90878b237" class="title listing-title">Tiffany HUGH</a>
+</td>
+<td>
+<span class="listing-subtitle">QMSS Master’s Student, CUNY Graduate Center</span>
+</td>
+<td>
+<span class="listing-started">2024-12</span>
+</td>
+<td>
+<span class="listing-ended">2025-08</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="VmlzaXRpbmclMjBTdHVkZW50JTJDUGhEJTIwU3R1ZGVudA==" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-06" data-listing-title-sort="Wenge RAO">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://giselle1119.github.io/images/WengeRao.png" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://giselle1119.github.io/" class="title listing-title">Wenge RAO</a>
+</td>
+<td>
+<span class="listing-subtitle">Visiting Student/Ph.D.&nbsp;Candidate, Peking University</span>
+</td>
+<td>
+<span class="listing-started">2024-12</span>
+</td>
+<td>
+<span class="listing-ended">2025-06</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=" data-listing-started-sort="2024-11" data-listing-ended-sort="2025-05" data-listing-title-sort="Oliver NIEDBALA">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/oliver-niedbala.webp" style="height: 25px;"></span>
+</td>
+<td>
+<span class="listing-title">Oliver NIEDBALA</span>
+</td>
+<td>
+<span class="listing-subtitle">Student, Saint Francis Preparatory School</span>
+</td>
+<td>
+<span class="listing-started">2024-11</span>
+</td>
+<td>
+<span class="listing-ended">2025-05</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-started-sort="2024-09" data-listing-ended-sort="2024-12" data-listing-title-sort="Tenzin SINON">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/tenzin-sinon.jpg" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://www.linkedin.com/in/10sinon/" class="title listing-title">Tenzin SINON</a>
+</td>
+<td>
+<span class="listing-subtitle">CUNY Undergraduate Climate Scholar, Hunter College</span>
+</td>
+<td>
+<span class="listing-started">2024-09</span>
+</td>
+<td>
+<span class="listing-ended">2024-12</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-started-sort="2024-09" data-listing-ended-sort="2024-12" data-listing-title-sort="Tamara VALDERRAMA">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/tamara-valderrama.jpg" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://cl.linkedin.com/in/tamara-valderrama-242289207" class="title listing-title">Tamara VALDERRAMA</a>
+</td>
+<td>
+<span class="listing-subtitle">CUNY Undergraduate Climate Scholar, City College</span>
+</td>
+<td>
+<span class="listing-started">2024-09</span>
+</td>
+<td>
+<span class="listing-ended">2024-12</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-09" data-listing-ended-sort="2023-12" data-listing-title-sort="Nicolo ANTONUCCI">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/nicolo-antonucci.jpeg" style="height: 25px;"></span>
 </td>
@@ -522,13 +628,15 @@ No matching items
 <span class="listing-subtitle">Research Assistant/MIA Student, CUNY Baruch College</span>
 </td>
 <td>
-<span class="listing-started">Sep 2023</span>
+<span class="listing-started">2023-09</span>
 </td>
 <td>
-<span class="listing-ended">Dec 2023</span>
+<span class="listing-ended">2023-12</span>
 </td>
+
 </tr>
-<tr data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Kately ARRIAGE">
+
+<tr data-index="7" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-09" data-listing-ended-sort="2023-12" data-listing-title-sort="Kately ARRIAGE">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/kately-arriage.jpeg" style="height: 25px;"></span>
 </td>
@@ -539,13 +647,15 @@ No matching items
 <span class="listing-subtitle">Research Assistant/MPA Student, CUNY Baruch College</span>
 </td>
 <td>
-<span class="listing-started">Sep 2023</span>
+<span class="listing-started">2023-09</span>
 </td>
 <td>
-<span class="listing-ended">Dec 2023</span>
+<span class="listing-ended">2023-12</span>
 </td>
+
 </tr>
-<tr data-index="2" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Yun LI">
+
+<tr data-index="8" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-07" data-listing-ended-sort="2024-08" data-listing-title-sort="Yun LI">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/we-need-you.png" style="height: 25px;"></span>
 </td>
@@ -553,20 +663,20 @@ No matching items
 <a href="https://www.linkedin.com/in/yun-li-0b96041b2/" class="title listing-title">Yun LI</a>
 </td>
 <td>
-<span class="listing-subtitle">Research Assistant</span>
+<span class="listing-subtitle">Research Assistant/M.S., KU Leuven</span>
 </td>
 <td>
-<span class="listing-started">Jul 2023</span>
+<span class="listing-started">2023-07</span>
 </td>
 <td>
-<span class="listing-ended">Aug 2024</span>
+<span class="listing-ended">2024-08</span>
 </td>
+
 </tr>
+
 </tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <!--
 ## Collaborators
@@ -590,241 +700,248 @@ We are fortunate to have collaborated with many researchers and practitioners. P
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
         }
-        return container.innerHTML
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -832,209 +949,173 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
 <a href="http://deeppolicylab.github.io">Deep Policy Lab</a> ©
 <script>document.write(new Date().getFullYear())</script>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
+</div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/deeppolicylab">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/deeppolicylab.bsky.social" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>

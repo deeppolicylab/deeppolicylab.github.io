@@ -1,0 +1,92 @@
+---
+title: "Macro-Energy Systems Speaker Series: Supply Chains in Energy Systems"
+description: "Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks."
+image: flyer-small.png
+author: "Macro-Energy Systems"
+date: "2025-07-01"
+#page-layout: full
+categories: [supply-chain]
+#bibliography: references.bib
+#csl: chicago-syllabus.csl
+#suppress-bibliography: true
+#link-citations: false
+#citations-hover: false
+listing:  #an example of listing external links
+#  template: item-default-external.ejs
+- id: moderator
+  sort: "date asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 4
+  image-height: 180px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/gang-he.yml
+
+- id: panelists
+  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
+  grid-columns: 4
+  image-height: 180px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/john-helveston.yml
+    - ../../people/michael-davidson.yml
+    - ../../people/karan-bhuwalka.yml
+    - ../../people/beia-spiller.yml
+
+page-navigation: false
+title-block-banner: false
+#toc: false
+---
+
+[![Flyer Credit: Designed by Haochi Wu](/files/images/MES-supply-chain-panel.png)](https://www.macroenergysystems.org/events/mes-speaker-series-supply-chains-in-energy-systems){fig-align="center"}
+
+## Title
+
+{{< meta title >}}
+
+### Time
+
+{{< meta date >}}
+
+10:00 AM - 11:00 AM ET
+
+### Venue 
+
+Online via zoom. Please register [here](https://umich.zoom.us/webinar/register/WN_xaD85ZZvTDSdMf_dWosjgw).
+
+## About
+
+This session will focus on "Supply Chains in Energy Systems." We will explore how macro-energy systems analysis can better capture critical supply chain risks, such as mineral constraints and geopolitics, and what modeling practices can best inform policy for a resilient energy transition.
+
+
+## Moderator
+
+:::{#moderator}
+:::
+
+
+## Panelists
+
+:::{#panelists}
+:::
+
+
+## Acknowledgment
+
+This program is part of the [Macro-Energy Systems Speaker Series](https://www.macroenergysystems.org/events). We thank the Macro Energy Systems Steering Committee for sponsoring this event.  
+
+Flyer designed and organization facilitated by Haochi Wu.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

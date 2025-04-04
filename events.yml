@@ -1,6 +1,15 @@
 
+    - path: 
+      image: /files/images/xjtu.jpg
+      title: "2025 Workshop on Open Modeling Carbon Neutrality of the Power Sector"
+      author: Gang He
+#      subtitle: "*Nature Communications*"
+      description: "The second workshop on open modeling carbon neutrality of the power sector is held in Xi'an Jiaotong University, China."
+      date: "2025-06-20"
+      categories: [power-system] 
+
     - path: https://drganghe.github.io/climate-guest-speakers/speakers.html
-      image: /files/images/fall-2024-speakers.png
+      image: /files/images/2024-2025-speakers.png
       title: "Climate Guest Speakers Series"
       author: Climate Guest Speakers
 #      subtitle: "*Nature Communications*"
@@ -11,7 +20,7 @@
 
     - path: https://applied-energy.org/icae2024/#Program
       image: https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg
-      title: "ICAE Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains"
+      title: "ICAE 2024 Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains"
       author: ICAE2024
 #      subtitle: "*Nature Communications*"
       description: "Dr. Gang He is invited to give an online keynote speech in the International Conference on Applied Energy 2024."

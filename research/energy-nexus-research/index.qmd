@@ -4,7 +4,7 @@ description: "Exploring the complex nexus of energy, water, carbon, and integrat
 #author: "DEEP Lab"
 #date: "2024-05-01"
 #categories: [news, job]
-image: "featured.png"
+image: "/files/images/Gemini-energy-nexus.jpg"
 #css: /custom.css
 listing: 
 - id: featured-publications
@@ -14,6 +14,7 @@ listing:
   grid-item-align: left
   grid-columns: 2
   image-height: 200px
+  max-items: 4
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -21,9 +22,24 @@ listing:
     - ../../publications.yml
   include: 
     categories: "energy-nexus"
+
+- id: featured-projects
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:  
+    - ../../projects.yml
+  include: 
+    categories: "energy-nexus"
 ---
 
-![Created by Copilot](featured.png)
+![AI generated image using Gemini](/files/images/Gemini-energy-nexus.jpg)
 
 
 ## Overview
@@ -34,6 +50,14 @@ Understanding how energy nexus systems interact and influence each other within 
 
 :::{#featured-publications}
 :::
+
+<p align="right">[More Publications »](/more-publications.qmd#category=energy-nexus)</p>
+
+## Featured projects
+
+:::{#featured-projects}
+:::
+
 
 <!--Include social share buttons-->
 
