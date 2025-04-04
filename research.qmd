@@ -25,6 +25,7 @@ listing:
   contents: 
     - research/china-carbon-neutrality-initiative    
     - research/new-york-climate-initiative
+    - research/united-states-clean-energy-initiative
   sort: false
   type: grid
   grid-columns: 3

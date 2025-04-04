@@ -18,6 +18,7 @@ listing:
   grid-item-align: left
   grid-columns: 3
   image-height: 200px
+  max-items: 6
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -28,6 +29,8 @@ listing:
 
 :::{#events}
 :::
+
+<p align="right">[More Events »](/more-events.qmd)</p>
 
 <!--Include social share buttons-->
 

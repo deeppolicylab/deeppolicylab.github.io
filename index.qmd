@@ -1,6 +1,9 @@
 ---
 #title: "Deep Policy Lab"
-css: /custom.css
+css: 
+#  - styles.css
+  - custom.css
+
 #image: files/logo.jpeg
 page-layout: custom
 #navbar: false
@@ -15,6 +18,7 @@ listing:
     - research/energy-climate-justice
     - research/china-carbon-neutrality-initiative    
     - research/new-york-climate-initiative    
+    - research/united-states-clean-energy-initiative    
   sort: false
   type: grid
   grid-columns: 4
@@ -26,7 +30,29 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: false
- 
+
+- id: news-events
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, date]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 200px
+#  categories: true
+  max-items: 3
+  page-size: 3
+  contents: 
+    - events
+    - events.yml
+    - news
+    - release.yml
+  #  - news.yml
+  exclude: 
+    title: 
+      - "Climate Guest Speakers Series"  
+      - "How China Raced Ahead of the U.S. on Nuclear Power"
+      - "Why nuclear is now a booming industry"
+
 - id: publications
   sort: "date desc"
   type: grid
@@ -38,12 +64,14 @@ listing:
   max-items: 3
   page-size: 3
   contents: publications.yml 
+include-in-header: 
+  - file: files/includes/_mswebmaster.js
 ---
 
 <!--Please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
-::: {.background-frame}
+::: {.background-frame .alt-background}
 ::: {.content-block}
 
 
@@ -71,6 +99,34 @@ listing:
 :::
 
 
+
+::: {.background-frame}
+::: {.content-block}
+
+<p align="center" style="font-size:36px; font-weight:bold;">What's new</p>
+
+:::{#news-events}
+:::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.button}
+[More News](/more-news.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.button}
+[More Events](/more-events.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+:::
+
+:::
+
+:::
+:::
+
 ::: {.background-frame .alt-background}
 ::: {.content-block}
 
@@ -96,7 +152,7 @@ listing:
 
 
 ::: {.button}
-[Read more](publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+[Read more](more-publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
 :::
 
 :::

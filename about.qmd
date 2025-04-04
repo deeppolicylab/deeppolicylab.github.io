@@ -22,6 +22,8 @@ Our mission is to advance effective energy and climate solutions through rigorou
 At Deep Policy Lab, we leverage energy systems modeling, techno-economic analysis, big data, AI, and social sciences to shape policies on renewable energy, clean energy supply chains, deep decarbonization, and other key areas critical to the energy transition and achieving carbon neutrality. 
 
 We actively collaborate with academic institutions, government agencies, industry partners, and civil society organizations to foster innovation and impact in energy and climate policy.
+
+Contact: Dr. Gang He: <gang.he@baruch.cuny.edu>
 :::
 
 <!--

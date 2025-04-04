@@ -1,6 +1,6 @@
 
     - path: https://deeppolicylab.github.io/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html
-      image: "https://drganghe.github.io/files/images/nyc-mid-town.webp"
+      image: "/files/images/nyc-mid-town.webp"
       title: "New Grant: Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
 #      author: 
       description: "Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant"
@@ -19,7 +19,7 @@
       image: "/files/images/dry-cooling.webp"
       title: "Taking a Global Look at Dry and Alternative Water Cooling of Power Plants"
 #      author: 
-      description: "Study published in Nature Water suggests integrating planning may reduce carbon emissions in the future"
+      description: "Study published in *Nature Water* suggests integrating planning may reduce carbon emissions in the future"
       date: "2023-08-09"
  #     categories: [Scientific American, E&E News]  
 
@@ -27,8 +27,8 @@
       image: "/research/clean-energy-supply-chains/featured.jpeg"
       title: "Global Collaboration is Key to Saving Billions for Solar Module Production"
 #      author: 
-      description: "Study published in Nature quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains."
-      date: "2020-10-26"
+      description: "Study published in *Nature* quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains."
+      date: "2022-10-26"
  #     categories: [Scientific American, E&E News]  
 
     - path: https://news.stonybrook.edu/newsroom/study-shows-decrease-in-renewable-energy-costs-may-serve-as-an-accelerator-for-clean-energy-expansion/
@@ -43,7 +43,7 @@
       image: "/files/images/coal-transfer-hub.jpg"
       title: "Energy Transition Away from Coal in China Will Yield Benefits"
 #      author: 
-      description: "In a perspective paper published in One Earth, an international scientific team contends that China needs to transition away from coal to help the world achieve global decarbonization and improve the nation’s environmental and human health."
+      description: "In a perspective paper published in *One Earth*, an international scientific team contends that China needs to transition away from coal to help the world achieve global decarbonization and improve the nation’s environmental and human health."
       date: "2020-08-21"
  #     categories: [Scientific American, E&E News]  
 

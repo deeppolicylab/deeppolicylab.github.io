@@ -1,0 +1,39 @@
+---
+title: "More Publications"
+subtitle: "Read more about our papers and articles"
+page-layout: full
+date-format: "YYYY"
+#author: "DEEP Lab"
+#date: "2023-03-20"
+#categories: [news, job]
+#image: "featured.jpeg"
+#css: /custom.css
+listing: 
+- id: more-publications
+  sort: "date desc"
+  type: table
+  fields: [image, title, subtitle, date, description, fulltext]
+  field-display-names: 
+      subtitle: "Journal"
+      date: "Year"
+      description: "Summary"
+      fulltext: "Fulltext"
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 30px
+  categories: true
+  sort-ui: [title, subtitle, date]
+  filter-ui: true
+  contents: 
+    - publications.yml
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+:::{#more-publications}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

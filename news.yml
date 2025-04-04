@@ -1,6 +1,37 @@
+    - path: https://www.pv-magazine.com/2025/11/05/us-solar-tariffs-linked-to-preventable-deaths-claim-researchers/
+      image: /files/images/media/pv-magazine.webp
+      title: "US solar tariffs linked to preventable deaths, claim researchers"
+      subtitle: "PV Magazine"
+      author: 
+        - John Weaver  
+      description: "A more rigorous—and encouraging—analysis from researchers at the City University of New York found that solar panel imports into the United States displaced 305 TWh of fossil generation, avoided 178 million tons of CO2 emissions, and prevented 595 premature deaths between 2014 and 2022. The paper, Imported solar photovoltaics contributed to health and climate benefits in the United States, showed that 78% of solar panels deployed during this time were imports. As utility-scale solar grew from 'nearly zero' in 2010 to 3.4% of total U.S generation in 2022, those imported modules were critical."
+      date: "2025-11-04"
+#      categories: [PV Magazine]
+
+    - path: https://www.nytimes.com/interactive/2025/10/22/climate/china-us-nuclear-energy-race.html
+      image: /files/images/media/new-york-times.jpg
+      title: "How China Raced Ahead of the U.S. on Nuclear Power"
+      subtitle: "The New York Times"
+      author: 
+        - Brad Plumer 
+        - Harry Stevens
+      description: "*The New York Times* covered U.S. China's nuclear power race and highlighted our work—reproducing our figure and citing our *Nature* Comment article on nuclear costs."
+      date: "2025-10-23"
+#      categories: [The New York Times] 
+
+    - path: https://www.economist.com/business/2025/09/04/why-nuclear-is-now-a-booming-industry
+      image: /files/images/media/the-economist.svg
+      title: "Why nuclear is now a booming industry"
+      subtitle: "The Economist"
+      author: The Economist
+      description: "*The Economist* covered the nuclear industry’s resurgence and highlighted our work—reproducing our figure and citing our *Nature* Comment article on nuclear costs."
+      date: "2025-09-04"
+#      categories: [The Economist] 
+
     - path: https://www.scientificamerican.com/article/what-the-u-s-china-agreement-means-for-greenhouse-gas-emissions/
       image: /files/images/media/scientific-american.webp
       title: "What the U.S.-China Agreement Means for Greenhouse Gas Emissions"
+      subtitle: "Scientific American"
       author: 
         - Benjamin Storrow
         - Sara Schonhardt
@@ -11,9 +42,10 @@
     - path: https://foreignpolicy.com/2023/09/21/us-china-climate-cooperation-trade-ira-green-technology/
       image: /files/images/media/foreign-policy.webp
       title: "Can the U.S. and China Cooperate on Green Technology Again?"
+      subtitle: "Foreign Policy"
       author: 
         - Lili Pike
-      description: "A study published in Nature last year found that if the United States, Germany, and China all decided to shift to fully domestic solar production starting in 2020, by 2030 global solar costs would be 20 percent to 30 percent higher."
+      description: "A study published in *Nature* last year found that if the United States, Germany, and China all decided to shift to fully domestic solar production starting in 2020, by 2030 global solar costs would be 20 percent to 30 percent higher."
       date: "2023-09-21"
  #     categories: [Foreign Policy]  
 
@@ -21,7 +53,8 @@
       image: /files/images/media/ee-news.png
       title: "How Biden’s made-in-America solar strategy may backfire"
       author: David Iaconangelo
-      description: "A new [study](/posts/2022-10-nature-cost-savings-of-global-solar-pv-value-chains/index.qmd) in *Nature* concludes that policies similar to ones the administration is considering could make solar panels 30 percent more expensive by the end of the decade."
+      subtitle: "E&E News"
+      description: "A new study in *Nature* concludes that policies similar to ones the administration is considering could make solar panels 30 percent more expensive by the end of the decade."
       date: "2022-10-27"
  #     categories: [E&E News]
 
@@ -30,6 +63,7 @@
       image: /files/images/media/carbon-brief.webp
       title: "New energy transition guidance; Five coal plants approved; Energy-efficiency targets raised"
       author: Carbon Brief Staff  
+      subtitle: "Carbon Brief"
       description: "Gang He told Carbon Brief: “There are other and better options: renewables are achieving grid parity which could accelerate a renewable-dominant pathway. Such a pathway is both technically feasible and economically beneficial to China’s development.”"
       date: "2022-02-17"
  #     categories: [Carbon Brief]
@@ -38,6 +72,7 @@
       image: /files/images/media/nature.webp
       title: "China creates vast research infrastructure to support ambitious climate goals"
       author: Smriti Mallapaty
+      subtitle: "Nature"
       description: "Carbon-neutrality institutes, and other initiatives to support a pledge to achieve net zero by 2060, are popping up like mushrooms across China."
       date: "2021-11-22"
  #     categories: [Nature]
@@ -46,13 +81,15 @@
       image: /files/images/media/nature.webp
       title: "How China could be carbon neutral by mid-century"
       author: Smriti Mallapaty
-      description: "Nature special report examines the role of renewables, nuclear power and carbon capture in reaching this ambitious goal."
+      subtitle: "Nature"
+      description: "*Nature* special report examines the role of renewables, nuclear power and carbon capture in reaching this ambitious goal."
       date: "2020-10-19"
  #     categories: [Nature]
 
     - path: https://www.scientificamerican.com/article/china-says-it-will-stop-releasing-co2-within-40-years/
       image: /files/images/media/scientific-american.webp
       title: "China Says It Will Stop Releasing CO2 within 40 Years"
+      subtitle: "Scientific American"
       author: 
         - Jean Chemnick
         - Benjamin Storrow
@@ -63,6 +100,7 @@
     - path: https://www.forbes.com/sites/energyinnovation/2020/08/10/plummeting-renewable-energy-battery-prices-mean-china-could-hit-62-clean-power-and-cut-costs-11-by-2030/
       image: /files/images/media/forbes.png
       title: "Plummeting Renewable Energy, Battery Prices Mean China Could Hit 62% Clean Power And Cut Costs 11% By 2030"
+      subtitle: "Forbes"
       author: Energy Innovation
       description: "New research shows plummeting clean energy prices mean China could reliably run its grids on at least 62% non-fossil electricity generation by 2030, while cutting costs 11% compared to a business-as-usual approach. Once again, it’s cheaper to save the climate than destroy it."
       date: "2020-08-10"
@@ -71,6 +109,7 @@
     - path: https://subscriber.politicopro.com/article/eenews/1063354565
       image: /files/images/media/ee-news.png
       title: "Surging coal use in China threatens global CO2 goals"
+      subtitle: "E&E News"
       author: Benjamin Storrow
       description: "The fast decrease in the cost of solar, wind and storage, and technological innovation has fundamentally changed the economics of renewables, said Gang He, our analysis shows that such a fast decarbonization and clean power transition is both technically feasible and economicallybeneficial."
       date: "2020-06-09"
@@ -79,6 +118,7 @@
     - path: https://insideclimatenews.org/news/04062020/inside-clean-energy-arkansas-rooftop-solar/
       image: /files/images/media/inside-climate-news.png
       title: "China's Path to Clean Energy May Be Smoother than We Previously Thought"
+      subtitle: "Inside Climate News"
       author: Dan Gearino
       description: "A new paper in the journal *Nature Communications* says the probable reality is much better than we previously thought, largely because of falling costs of wind, solar and battery storage."
       date: "2020-06-04"
@@ -87,6 +127,7 @@
     - path: https://www.wshu.org/government/2019-02-18/bill-calls-for-an-emissions-free-ny-by-2050
       image: /files/images/media/wshu-public-radio.png
       title: "Bill Calls For An Emissions-Free NY By 2050"
+      subtitle: "WSHU Public Radio"
       author: Jay Shah
       description: "In addition to policy, technology, there are also behavior components to that. How we incentivize people to change their behavior and their lifestyle."
       date: "2019-02-18"
@@ -95,7 +136,8 @@
     - path: https://www.theguardian.com/cities/2015/apr/02/where-is-the-worlds-greenest-city-ecofriendly
       image: /files/images/media/the-guardian.webp
       title: "Where is the world's greenest city?"
+      subtitle: "The Guardian"
       author: Hayley Birch
-      description: "In a 2015 [study](/posts/2015-ei-elite-cities-low-carbon-eco-city-evaluation-tool/index.qmd) published in the journal Ecological Indicators, scientists based at the Lawrence Berkeley National Laboratory in California have fine-tuned a potential method for assessing Chinese “eco-cities” using 33 key indicators. "
+      description: "In a 2015 study published in the journal Ecological Indicators, scientists based at the Lawrence Berkeley National Laboratory in California have fine-tuned a potential method for assessing Chinese “eco-cities” using 33 key indicators. "
       date: "2015-04-02"
  #     categories: [The Guardian]

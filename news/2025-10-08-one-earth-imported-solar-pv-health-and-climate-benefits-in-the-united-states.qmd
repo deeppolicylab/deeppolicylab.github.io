@@ -1,0 +1,117 @@
+---
+title: "New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S."
+image: "/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG"
+description: "New study published in *One Earth* showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States."
+#author: "Gang He"
+#categories: [research]
+date: "2025-10-08"
+title-block-banner: false
+#page-layout: full
+#from: markdown+emoji
+link-external-newwindow: true
+listing:  #an example of listing external links
+#  template: item-default-external.ejs
+- id: coauthors
+#  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center  
+  grid-columns: 3
+  image-height: 200px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - ../../people/minghao-qiu.yml
+    - ../../people/gang-he-associate.yml
+    - ../../people/peter-marcotullio.yml
+
+- id: releases
+#  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+#  grid-item-align: center  
+  grid-columns: 2
+  image-height: 100px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.gc.cuny.edu/news/imported-solar-panels-save-us-lives-and-cut-billions-climate-costs-study-finds
+      image: /files/images/university/cuny-gc.png
+      title: "Imported Solar Panels Save U.S. Lives and Cut Billions in Climate Costs, Study Finds"
+      subtitle: "CUNY Graduate Center"
+      author: Office of Communications and Marketing
+      description: "Professor Gang He co-authored a study showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States."
+      date: "2025-10-09"   
+
+    - path: https://newscenter.baruch.cuny.edu/news/gang-he-solar-study-climate/
+      image: /files/images/university/baruch.png
+      title: "Baruch College Professor Co-Authors Study Showing Imported Solar Panels Save Lives and Reduce Climate Costs"
+      subtitle: "CUNY Baruch College"
+      author: Baruch College Communications
+      description: "Co-authored by Professor Gang He, the study reports $28 billion in combined public health and climate benefits."
+      date: "2025-12-08"  
+---
+
+<!--This is my personal clarity, please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+Publication: *One Earth*  
+Date: October 8, 2025  
+Links: Published [paper](https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3); Preprint [pdf](https://drganghe.github.io/files/papers/2025-one-earth-health-climate-benefits-of-imported-solar-pv-in-the-united-states.pdf); Supplemental Information [pdf](https://ars.els-cdn.com/content/image/1-s2.0-S2590332225002933-mmc1.pdf); Source [Code and Data](https://zenodo.org/records/16622349)   
+
+
+## Authors
+
+:::{#coauthors}
+:::
+
+## Release
+
+**Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S., New Study Finds**
+
+As policymakers debate the future of clean energy supply chains, a new study published in *[One Earth](https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3)* reveals that imported solar panels have already delivered billions of dollars in public health and climate benefits to the United States.
+
+The study, led by researchers from City University of New York (CUNY) and Stony Brook University, finds that solar panels imported into the U.S. between 2014 and 2022 displaced significant fossil fuel generation, avoided 178 million tons of carbon dioxide emissions, and prevented an estimated 595 premature deaths linked to air pollution. These avoided impacts translate to $28 billion in monetized benefits—highlighting the far-reaching societal value of global clean energy trade.
+
+“Global supply chains have helped make solar power affordable,” said Dr. Gang He, project lead and associate professor at CUNY Baruch College and the Graduate Center. “But what’s often missed is how these imports also clean the air, protect health, and reduce climate damages. These are benefits that extend well beyond electricity prices.”
+
+The researchers analyzed detailed shipment and power plant data across the U.S., using a reduced-complexity air quality model to track how solar energy displaced fossil fuels and improved air quality in different regions. They found that roughly 70% of solar electricity generated in recent years came from imported photovoltaic (PV) modules—mostly from countries such as Vietnam, Malaysia, and Thailand.
+
+Key findings include: During the study period between 2014 and 2022 
+
+-	305 TWh of fossil fuel generation was displaced by imported solar PV 
+-	178 million tons of CO<sub>2</sub> emissions were reduced—11% of total U.S. power sector emissions in 2022
+-	595 premature deaths were avoided due to reductions in fine particulate pollution 
+-	$28 billion was reaped in total monetized climate and health benefits
+
+Notably, the benefits were not confined to solar-importing states. “Over 40% of the air quality benefits flowed to people living outside the states that imported the panels,” said lead author Dr. Minghao Qiu, an assistant professor in the School of Marine and Atmospheric Sciences and the Program in Public Health at Stony Brook University. “That’s due to how electricity and air pollution move across state lines.”
+
+![Holtsville Ecology Site Solar Farm, Photo by Gang He](/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG)
+
+The study also found that some regions benefited disproportionately. “The Carolinas, Texas, and parts of California saw especially high health and climate benefits because imported solar displaced power plants with high pollution burdens in densely populated areas,” said coauthor Dr. Peter Marcotullio, professor of geography at CUNY Hunter College and the Graduate Center. “This has real implications for regional planning and environmental justice—showing where clean energy investments can yield the greatest returns for human well-being.”
+
+The study comes at a time when governments are reevaluating their reliance on foreign-made solar technology, citing concerns about energy security, geopolitics, and domestic job creation. The authors caution that shifting away from global supply chains without accounting for these broader societal benefits could slow clean energy deployment—and diminish its health and environmental gains.
+
+“Our research shows that imported solar panels do more than save money,” said He. “They save lives and reduce emissions. As we redesign energy and trade policies, we need to make sure we’re not leaving these benefits off the table.”
+
+The study was supported by the Global Energy Initiative at ClimateWorks Foundation. The full study is available in *One Earth*: <https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3>
+
+
+**Citation**
+
+Qiu, Minghao, Gang He, and Peter Marcotullio. 2025. “Imported solar photovoltaic contributed to health and climate benefits in the United States” *One Earth*, 8: 101467. <https://doi.org/10.1016/j.oneear.2025.101467>.
+
+
+Learn [more](https://drganghe.github.io/posts/2025-10-oneearth-imported-solar-pv-health-climate-benefits-in-the-united-states/index.html) about the research.
+
+## Press Releases
+
+:::{#releases}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+

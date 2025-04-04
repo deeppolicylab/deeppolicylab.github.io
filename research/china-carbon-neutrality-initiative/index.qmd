@@ -4,7 +4,7 @@ description: "Facilitating the transition to a low-carbon economy in China."
 #author: "DEEP Lab"
 #date: "2024-04-01"
 #categories: [news, job]
-image: "featured.png"
+image: "/files/images/Shenzhen-low-carbon-city.webp"
 #css: /custom.css
 listing: 
 - id: featured-publications
@@ -14,6 +14,7 @@ listing:
   grid-item-align: left
   grid-columns: 2
   image-height: 200px
+  max-items: 4
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -43,7 +44,7 @@ listing:
 #      categories: [] 
 ---
 
-![Created by Copilot](featured.png)
+![Shenzhen Low Carbon City, Photo by Gang He](/files/images/Shenzhen-low-carbon-city.webp)
 
 
 ## Overview
@@ -56,6 +57,7 @@ China is the world's largest emitter of greenhouse gases. It has set a target to
 :::{#featured-publications}
 :::
 
+<p align="right">[More Publications »](/more-publications.qmd#category=china)</p>
 
 ## Featured news
 

@@ -1,5 +1,5 @@
 ---
-title: "Workshop on Open Modeling Carbon Neutrality of the Power Sector"
+title: "2024 Workshop on Open Modeling Carbon Neutrality of the Power Sector"
 description: "Deveoping a community to enable open and safe modeling and data sharing"
 author: "UC Berkeley"
 date: "2024-07-19"
