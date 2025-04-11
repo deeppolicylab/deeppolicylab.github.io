@@ -57,7 +57,7 @@ And previously:
 
 ## Opportunities
 
-We are always eager to work with talented researchers who are passionate about advancing interdisciplinary research in energy and climate.
+We are always eager to work with committed researchers who are passionate about advancing interdisciplinary research in energy and climate.
 
 ### Collaboration and Funding Agency: 
 We are actively seeking funding partners to support motivated students and interdisciplinary impactful [research](research.qmd).
