@@ -72,8 +72,8 @@ listing:  #an example of listing external links
 
 Publication: *Nature*  
 Date: July 28, 2025  
-Paper [link](https://www.nature.com/articles/d41586-025-02341-z)  
-SharedIt [fulltext](https://rdcu.be/eyaXW)
+Links: Published [paper](https://www.nature.com/articles/d41586-025-02341-z);  SharedIt [fulltext](https://rdcu.be/eyaXW);  Preprint [pdf](https://drganghe.github.io/files/papers/2025-nature-nuclear-costs.pdf)   
+
 
 ## Authors
 
