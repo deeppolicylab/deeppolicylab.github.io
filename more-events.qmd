@@ -2,6 +2,8 @@
 title: "Events"
 subtitle: "What's happening"
 page-layout: full
+date-format: "YYYY-MM-DD"
+toc: false
 #author: "DEEP Lab"
 #date: "2023-03-20"
 #categories: [news, job]
@@ -9,27 +11,26 @@ page-layout: full
 #css: /custom.css
 listing: 
 - id: events
-  contents: 
-    - events
-    - events.yml
   sort: "date desc"
-  type: grid
-  fields: [image, title, subtitle, description, date]
-  grid-item-align: left
-  grid-columns: 3
-  image-height: 200px
+  type: table
+  fields: [image, title, date, description]
+#  grid-item-align: left
+#  grid-columns: 3
+  image-height: 20px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
+  contents: 
+    - /events/
+    - events.yml
 ---
 
-<!--Please delete or replace with your own clarity-->
-{{< include /files/includes/_msclarity.qmd >}}
+
+## Events
 
 :::{#events}
 :::
 
-<p align="right">[More Events »](/more-events.qmd)</p>
 
 <!--Include social share buttons-->
 

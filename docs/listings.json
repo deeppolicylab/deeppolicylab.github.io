@@ -8,11 +8,30 @@
     "items": []
   },
   {
-    "listing": "/publications.html",
+    "listing": "/more-news.html",
+    "items": [
+      "/news/2025-07-28-nature-comment-nuclear-costs.html",
+      "/news/2024-11-06-one-earth-coal-jobs-transition.html"
+    ]
+  },
+  {
+    "listing": "/news/2025-07-28-nature-comment-nuclear-costs.html",
     "items": []
   },
   {
-    "listing": "/projects.html",
+    "listing": "/index.html",
+    "items": [
+      "/research/clean-energy-supply-chains/index.html",
+      "/research/power-systems-decarbonization/index.html",
+      "/research/climate-impact-energy-systems/index.html",
+      "/research/energy-nexus-research/index.html",
+      "/research/energy-climate-justice/index.html",
+      "/research/china-carbon-neutrality-initiative/index.html",
+      "/research/new-york-climate-initiative/index.html"
+    ]
+  },
+  {
+    "listing": "/more-publications.html",
     "items": []
   },
   {
@@ -80,27 +99,15 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/research/clean-energy-supply-chains/index.html",
-      "/research/power-systems-decarbonization/index.html",
-      "/research/climate-impact-energy-systems/index.html",
-      "/research/energy-nexus-research/index.html",
-      "/research/energy-climate-justice/index.html",
-      "/research/china-carbon-neutrality-initiative/index.html",
-      "/research/new-york-climate-initiative/index.html"
-    ]
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   },
   {
     "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/more-publications.html",
-    "items": []
-  },
-  {
-    "listing": "/events/2025-07-01-mes-supply-chains-and-energy-systems-panel/index.html",
     "items": []
   },
   {
@@ -108,14 +115,11 @@
     "items": []
   },
   {
-    "listing": "/more-news.html",
+    "listing": "/more-events.html",
     "items": [
-      "/news/2025-07-28-nature-comment-nuclear-costs.html",
-      "/news/2024-11-06-one-earth-coal-jobs-transition.html"
+      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
     ]
-  },
-  {
-    "listing": "/news/2025-07-28-nature-comment-nuclear-costs.html",
-    "items": []
   }
 ]

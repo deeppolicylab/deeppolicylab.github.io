@@ -3,7 +3,7 @@
       title: "Can China break the ‘cost curse’ of nuclear power?"
 #      author: 
       subtitle: "*Nature*"
-      description: "Escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs."
+      description: "Strengthening regulations and domestic supply chains could be key to making nuclear power more economically viable."
       date: "2025-07-31"
       fulltext: "[SharedIt](https://rdcu.be/eyaXW)"
       categories: [power-system, china, supply-chain, featured, nuclear] 
@@ -199,6 +199,16 @@
       fulltext: "[pdf](https://drganghe.github.io/files/papers/2016-EST-SWITCH-China.pdf)"
       categories: [featured, power-system, china] 
 
+    - path: https://doi.org/10.1016/j.renene.2015.06.027
+      image: /files/images/journal/renewable-energy-logo.jpg
+      title: "Where, when and how much solar is available? A provincial-scale solar resource assessment for China"
+#      author: 
+      subtitle: "*Renewable Energy*"
+      description: "We utilized 10-year hourly solar irradiation data from 2001 to 2010 from 200 representative locations to develop provincial solar availability profiles."
+      date: "2016-01-15"
+      fulltext: "[pdf](https://drganghe.github.io/files/papers/2016-RE-ChinaProvincialSolar.pdf)"
+      categories: [china, solar] 
+
     - path: https://www.sciencedirect.com/science/article/abs/pii/S0011916414006754
       image: /files/images/journal/desalination-logo.jpg
       title: "Assessing the impacts of nuclear desalination and geoengineering to address China's water shortages"
@@ -218,6 +228,16 @@
       date: "2015-01-15"
       fulltext: "[pdf](https://drganghe.github.io/files/papers/2015-EI-ELITE-Cities.pdf)"
       categories: [china, city] 
+
+    - path: https://doi.org/10.1016/j.enpol.2014.07.003
+      image: /files/images/journal/energy-policy-logo.jpg
+      title: "Where, When and How Much Wind Is Available? A Provincial-Scale Wind Resource Assessment for China"
+#      author: 
+      subtitle: "*Energy Policy*"
+      description: "We utilized 200 representative locations for which 10 years of hourly wind speed data exist to develop provincial capacity factors from 2001 to 2010, and to build analytic wind speed profiles."
+      date: "2014-11-15"
+      fulltext: "[pdf](https://drganghe.github.io/files/papers/2014-EP-ChinaProvincialWind.pdf)"
+      categories: [china, wind] 
 
     - path: https://doi.org/10.1016/j.enpol.2013.09.021
       image: /files/images/journal/energy-policy-logo.jpg
