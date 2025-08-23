@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Marxe School">
+<meta name="dcterms.date" content="2025-09-23">
+<meta name="description" content="Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during NYC Climate Week 2025.">
 
-<title>Events – Deep Policy Lab</title>
+<title>NYC Climate Week 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +26,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,20 +76,104 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-events .list');
+    const listingTargetEl = window.document.querySelector('#listing-welcome .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-events'] = new List('listing-events', options);
+    window['quarto-listings']['listing-welcome'] = new List('listing-welcome', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-moderator .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-moderator'] = new List('listing-moderator', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-remarks .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-remarks'] = new List('listing-remarks', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-panelists .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-panelists'] = new List('listing-panelists', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -139,14 +226,14 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Events – Deep Policy Lab">
-<meta property="og:description" content="What’s happening">
-<meta property="og:image" content="https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="NYC Climate Week 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era – Deep Policy Lab">
+<meta property="og:description" content="Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during NYC Climate Week 2025.">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/Taishan_Nuclear_Power_Plant.jpg">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta name="twitter:title" content="Events – Deep Policy Lab">
-<meta name="twitter:description" content="What’s happening">
-<meta name="twitter:image" content="https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg">
+<meta name="twitter:title" content="NYC Climate Week 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era – Deep Policy Lab">
+<meta name="twitter:description" content="Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during NYC Climate Week 2025.">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/Taishan_Nuclear_Power_Plant.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -157,7 +244,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
   </div>
@@ -168,43 +255,43 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./events.html" aria-current="page"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
+    <a class="nav-link" href="../../support.html"> 
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
+    <a class="nav-link" href="../../cn.html"> 
 <span class="menu-text">中文</span></a>
   </li>  
 </ul>
@@ -231,26 +318,64 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a>
+  <ul class="collapse">
+  <li><a href="#time" id="toc-time" class="nav-link" data-scroll-target="#time">Time</a></li>
+  <li><a href="#venue" id="toc-venue" class="nav-link" data-scroll-target="#venue">Venue</a></li>
+  </ul></li>
+  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#moderator" id="toc-moderator" class="nav-link" data-scroll-target="#moderator">Moderator</a></li>
+  <li><a href="#remarks" id="toc-remarks" class="nav-link" data-scroll-target="#remarks">Remarks</a></li>
+  <li><a href="#panelists" id="toc-panelists" class="nav-link" data-scroll-target="#panelists">Panelists</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#acknowledgment" id="toc-acknowledgment" class="nav-link" data-scroll-target="#acknowledgment">Acknowledgment</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Events</h1>
-<p class="subtitle lead">What’s happening</p>
+<h1 class="title">NYC Climate Week 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">supply-chain</div>
+    <div class="quarto-category">power-system</div>
+    <div class="quarto-category">nuclear</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during NYC Climate Week 2025.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Marxe School </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 23, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -260,136 +385,38 @@ window.Quarto = {
 </header>
 
 
-<!--Please delete or replace with your own clarity-->
-<!-- 
-https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
--->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ktfar1v3c9");
-</script>
-<div id="listing-events" class="quarto-listing quarto-listing-container-grid">
+<section id="title" class="level2">
+<h2 class="anchored" data-anchor-id="title">Title</h2>
+<p>The Role of Nuclear Energy in Decarbonization and Powering the AI Era</p>
+<section id="time" class="level3">
+<h3 class="anchored" data-anchor-id="time">Time</h3>
+<p>Tuesday, September 23, 10:00AM - 11:15AM</p>
+</section>
+<section id="venue" class="level3">
+<h3 class="anchored" data-anchor-id="venue">Venue</h3>
+<p>Online via zoom. Please register <a href="https://baruch.zoom.us/webinar/register/WN_iEpHmVc1Q2Cg6Iz1kLgDLw?_ics=1755893105800&amp;irclickid=~2YPKMSVMUJOMNEIAyzFLCsulprvwsqnqsrxopfgc64ZOFyxvpkh~&amp;_gl=1*o27pme*_gcl_au*Nzc0NjQzNDExLjE3NTU1NDU2NzE.*_ga*MzIyMjAzNjc2LjE3MDQzMTQ2NTY.*_ga_L8TBF28DDX*czE3NTU4OTE2OTIkbzk4JGcxJHQxNzU1ODkzMTA1JGozNCRsMCRoMA..#/registration">here</a>.</p>
+</section>
+</section>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>As nations target to meet net-zero goals, nuclear energy is reemerging as an essential — and often controversial — part of the clean energy mix. At the same time, the rapid rise of artificial intelligence is reshaping electricity demand, pushing policymakers and investors to consider large-scale, reliable, and low-carbon generation sources. This panel brings together global experts to discuss the role of nuclear power in deep decarbonization and its potential to meet the surging energy needs of the AI era. We will examine technological, economic, policy, and geopolitical factors influencing nuclear power’s future — with perspectives from China, the United States, and the European Union.</p>
+</section>
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
+<div id="listing-welcome" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Z3Vlc3Qtc3BlYWtlcnM=">
-<a href="https://drganghe.github.io/climate-guest-speakers/speakers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="0">
+<a href="https://www.baruch.cuny.edu/faculty/profile/sherry-ryan" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/2024-2025-speakers.png" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../../files/headshots/sherry-ryan.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Climate Guest Speakers Series
+Sherry RYAN
 </h5>
-<div class="card-text listing-description delink">
-<p>Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to…</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVtJTJDbnVjbGVhcg==" data-listing-date-sort="1758600000000" data-listing-file-modified-sort="1755956213790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
-<a href="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/Taishan_Nuclear_Power_Plant.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-NYC Climate Week 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during NYC Climate Week 2025.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 23, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1751810924212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./events/2025-07-01-mes-supply-chains-in-energy-systems-panel/flyer-small.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Macro-Energy Systems Speaker Series: Supply Chains in Energy Systems
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1750392000000">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/xjtu.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2025 Workshop on Open Modeling Carbon Neutrality of the Power Sector
-</h5>
-<div class="card-text listing-description delink">
-<p>The second workshop on open modeling carbon neutrality of the power sector is held in Xi’an Jiaotong University, China.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 20, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1727323200000" data-listing-file-modified-sort="1748881931084" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
-<a href="./events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-NYC Climate Week 2024: Clean Energy Global Supply Chains Panel
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during NYC Climate Week.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 26, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1725336000000">
-<a href="https://applied-energy.org/icae2024/#Program" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ICAE 2024 Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains
-</h5>
-<div class="card-text listing-description delink">
-<p>Dr.&nbsp;Gang He is invited to give an online keynote speech in the International Conference on Applied Energy 2024.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 3, 2024
-</div>
+<div class="card-subtitle listing-subtitle">
+Dean and Professor, Marxe School of Public and International Affairs, CUNY Baruch College
 </div>
 </div>
 </div></a>
@@ -397,9 +424,123 @@ Sep 3, 2024
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p align="right">
-<a href="./more-events.html">More Events »</a>
+</section>
+<section id="moderator" class="level2">
+<h2 class="anchored" data-anchor-id="moderator">Moderator</h2>
+<div id="listing-moderator" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RGlyZWN0b3I=">
+<a href="https://drganghe.github.io" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gang HE
+</h5>
+<div class="card-subtitle listing-subtitle">
+Associate Professor, CUNY Baruch College
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="remarks" class="level2">
+<h2 class="anchored" data-anchor-id="remarks">Remarks</h2>
+<div id="listing-remarks" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="https://bdp.jhu.edu/bd-professors/daniel-kammen/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/daniel-kammen.jpg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Daniel M. KAMMEN
+</h5>
+<div class="card-subtitle listing-subtitle">
+Bloomberg Distinguished Professor of Just Energy Transition, Johns Hopkins University
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="panelists" class="level2">
+<h2 class="anchored" data-anchor-id="panelists">Panelists</h2>
+<div id="listing-panelists" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="https://www.belfercenter.org/people/shangwei-liu" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/shangwei-liu.webp" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Shangwei LIU
+</h5>
+<div class="card-subtitle listing-subtitle">
+Postdoctoral Researcher, Harvard University
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="https://jessicalovering.com/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/jessica-lovering.webp" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jessica LOVERING
+</h5>
+<div class="card-subtitle listing-subtitle">
+Senior Fellow, Nuclear Innovation Alliance
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="https://fr.linkedin.com/in/nzweibaum" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/nicolas-zweibaum.jpg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nicolas ZWEIBAUM
+</h5>
+<div class="card-subtitle listing-subtitle">
+Deputy Chief Technology Officer, HEXANA
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li>Liu, Shangwei, Gang He, Minghao Qiu, and Daniel M. Kammen. 2025. “Can China Break the ‘Cost Curse’ of Nuclear Power?” <em>Nature</em> 643, 1186–88. <a href="https://doi.org/10.1038/d41586-025-02341-z" class="uri">https://doi.org/10.1038/d41586-025-02341-z</a></li>
+<li>Lovering, Jessica R., Arthur Yip, and Ted Nordhaus. 2016. “Historical Construction Costs of Global Nuclear Power Reactors.” <em>Energy Policy</em> 91: 371–82. <a href="https://doi.org/10.1016/j.enpol.2016.01.011" class="uri">https://doi.org/10.1016/j.enpol.2016.01.011</a>.</li>
+<li>Hultman, Nathan E., Jonathan G. Koomey, and Daniel M. Kammen. 2007. “What History Can Teach Us About the Future Costs of U.S. Nuclear Power.” <em>Environmental Science &amp; Technology</em> 41 (7): 2087–94. <a href="https://doi.org/10.1021/es0725089" class="uri">https://doi.org/10.1021/es0725089</a>.</li>
+</ul>
+</section>
+<section id="acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgment">Acknowledgment</h2>
+<p>This program sponsored by the Marxe School of Public and International Affairs.<br>
+We thank Diana Lazov, Amanda Puk, and Zoe Crook for their help with the event.</p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -413,6 +554,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -780,43 +922,6 @@ https://quarto.org/docs/authoring/includes.html
             }
           });
         }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
   });
   </script>
 </div> <!-- /content -->

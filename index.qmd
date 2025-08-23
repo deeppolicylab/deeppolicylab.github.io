@@ -26,7 +26,23 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: false
- 
+
+# - id: news-events
+#   sort: "date desc"
+#   type: grid
+#   fields: [image, title, subtitle, date]
+#   grid-item-align: left
+#   grid-columns: 3
+#   image-height: 200px
+# #  categories: true
+#   max-items: 3
+#   page-size: 3
+#   contents: 
+#     - events
+#     - events.yml
+#     - news
+#     - news.yml
+
 - id: publications
   sort: "date desc"
   type: grid
@@ -69,6 +85,24 @@ listing:
 
 :::
 :::
+
+
+<!--
+::: {.background-frame .alt-background}
+::: {.content-block}
+
+<p align="center" style="font-size:36px; font-weight:bold;">News & Events</p>
+
+:::{#news-events}
+:::
+
+::: {.button}
+[Explore more](news.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+
+:::
+:::
+-->
 
 
 ::: {.background-frame .alt-background}

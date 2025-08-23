@@ -37,6 +37,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
       "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
       "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
       "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
@@ -117,9 +118,14 @@
   {
     "listing": "/more-events.html",
     "items": [
+      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
       "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
       "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
       "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
     ]
+  },
+  {
+    "listing": "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
+    "items": []
   }
 ]

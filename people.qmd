@@ -17,7 +17,7 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents: 
 #    - labmembers.yml
-    - /people/gang-he.yml
+    - /people/gang-he-associate.yml
     - /people/kaifang-luo.yml
     - /people/mariah-galindo.yml
     - /people/arielle-canate.yml
