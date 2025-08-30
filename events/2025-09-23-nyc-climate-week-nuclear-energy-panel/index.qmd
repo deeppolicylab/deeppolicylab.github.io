@@ -1,7 +1,7 @@
 ---
-title: "NYC Climate Week 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era"
-description: "Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during NYC Climate Week 2025."
-image: /files/images/Taishan_Nuclear_Power_Plant.jpg
+title: "Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era"
+description: "Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025."
+image: Flyer-small.webp
 author: "Marxe School"
 date: "2025-09-23"
 #page-layout: full
@@ -73,16 +73,21 @@ title-block-banner: false
 #toc: false
 ---
 
+[![Flyer Credit: Marxe School Staff](Flyer.webp)](https://marxe.baruch.cuny.edu/nyc-climate-week-webinar/)
+
+
 ## Title
 
 The Role of Nuclear Energy in Decarbonization and Powering the AI Era
 
 ### Time
 
-Tuesday, September 23, 10:00AM - 11:15AM
+{{< meta date >}}
+
+10:00AM - 11:15AM ET
 
 ### Venue 
-Online via zoom. Please register [here](https://baruch.zoom.us/webinar/register/WN_iEpHmVc1Q2Cg6Iz1kLgDLw?_ics=1755893105800&irclickid=~2YPKMSVMUJOMNEIAyzFLCsulprvwsqnqsrxopfgc64ZOFyxvpkh~&_gl=1*o27pme*_gcl_au*Nzc0NjQzNDExLjE3NTU1NDU2NzE.*_ga*MzIyMjAzNjc2LjE3MDQzMTQ2NTY.*_ga_L8TBF28DDX*czE3NTU4OTE2OTIkbzk4JGcxJHQxNzU1ODkzMTA1JGozNCRsMCRoMA..#/registration).
+Online via Zoom. Please register [here](https://baruch.zoom.us/webinar/register/WN_iEpHmVc1Q2Cg6Iz1kLgDLw?_ics=1755893105800&irclickid=~2YPKMSVMUJOMNEIAyzFLCsulprvwsqnqsrxopfgc64ZOFyxvpkh~&_gl=1*o27pme*_gcl_au*Nzc0NjQzNDExLjE3NTU1NDU2NzE.*_ga*MzIyMjAzNjc2LjE3MDQzMTQ2NTY.*_ga_L8TBF28DDX*czE3NTU4OTE2OTIkbzk4JGcxJHQxNzU1ODkzMTA1JGozNCRsMCRoMA..#/registration).
 
 ## About
 As nations target to meet net-zero goals, nuclear energy is reemerging as an essential — and often controversial — part of the clean energy mix. At the same time, the rapid rise of artificial intelligence is reshaping electricity demand, pushing policymakers and investors to consider large-scale, reliable, and low-carbon generation sources. This panel brings together global experts to discuss the role of nuclear power in deep decarbonization and its potential to meet the surging energy needs of the AI era. We will examine technological, economic, policy, and geopolitical factors influencing nuclear power’s future — with perspectives from China, the United States, and the European Union.
@@ -119,9 +124,10 @@ As nations target to meet net-zero goals, nuclear energy is reemerging as an ess
 
 
 
-## Acknowledgment
+## Acknowledgments
 
-This program sponsored by the Marxe School of Public and International Affairs.   
+This program sponsored by the [Marxe School of Public and International Affairs](https://marxe.baruch.cuny.edu/).   
+
 We thank Diana Lazov, Amanda Puk, and Zoe Crook for their help with the event.
 
 
