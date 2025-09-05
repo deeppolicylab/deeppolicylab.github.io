@@ -52,6 +52,7 @@ listing:
 #  filter-ui: true
   contents: 
     - ../../events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.qmd  
+    - ../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.qmd
     - ../../events.yml
   include: 
     categories: "power-system"

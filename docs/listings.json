@@ -27,7 +27,13 @@
       "/research/energy-nexus-research/index.html",
       "/research/energy-climate-justice/index.html",
       "/research/china-carbon-neutrality-initiative/index.html",
-      "/research/new-york-climate-initiative/index.html"
+      "/research/new-york-climate-initiative/index.html",
+      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
+      "/news/2025-07-28-nature-comment-nuclear-costs.html",
+      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
+      "/news/2024-11-06-one-earth-coal-jobs-transition.html",
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
     ]
   },
   {
@@ -54,6 +60,7 @@
   {
     "listing": "/research/power-systems-decarbonization/index.html",
     "items": [
+      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
       "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
     ]
   },
