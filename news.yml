@@ -1,3 +1,12 @@
+    - path: https://www.economist.com/business/2025/09/04/why-nuclear-is-now-a-booming-industry?giftId=997b2340-1828-4dd8-b499-e34c3d203d86&utm_campaign=gifted_article
+      image: /files/images/media/the-economist.svg
+      title: "Why nuclear is now a booming industry"
+      subtitle: "The Economist"
+      author: The Economist
+      description: "*The Economist* covered the nuclear industry’s resurgence and highlighted our work—reproducing our figure and citing our *Nature* Comment article on nuclear costs."
+      date: "2025-09-04"
+#      categories: [The Economist] 
+
     - path: https://www.scientificamerican.com/article/what-the-u-s-china-agreement-means-for-greenhouse-gas-emissions/
       image: /files/images/media/scientific-american.webp
       title: "What the U.S.-China Agreement Means for Greenhouse Gas Emissions"
