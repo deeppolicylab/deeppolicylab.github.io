@@ -101,6 +101,35 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news-events'] = new List('listing-news-events', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-publications .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -282,7 +311,7 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<div class="background-frame">
+<div class="background-frame alt-background">
 <div class="content-block">
 <div class="grid">
 <div class="g-col-12 g-col-md-7">
@@ -305,22 +334,78 @@ Deep analysis, Deep insights, for Deep decarbonization
 </div>
 </div>
 </div>
-<!--
-::: {.background-frame .alt-background}
-::: {.content-block}
-
-<p align="center" style="font-size:36px; font-weight:bold;">News & Events</p>
-
-:::{#news-events}
-:::
-
-::: {.button}
-[Explore more](news.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
-:::
-
-:::
-:::
--->
+<div class="background-frame">
+<div class="content-block">
+<p align="center" style="font-size:36px; font-weight:bold;">
+What’s new
+</p>
+<div id="listing-news-events" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVtJTJDbnVjbGVhcg==" data-listing-date-sort="1758600000000" data-listing-file-modified-sort="1756638538778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
+<a href="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 23, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1756958400000">
+<a href="https://www.economist.com/business/2025/09/04/why-nuclear-is-now-a-booming-industry?giftId=997b2340-1828-4dd8-b499-e34c3d203d86&amp;utm_campaign=gifted_article" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/media/the-economist.svg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Why nuclear is now a booming industry
+</h5>
+<div class="card-subtitle listing-subtitle">
+The Economist
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 4, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1755863813114" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="708">
+<a href="./news/2025-07-28-nature-comment-nuclear-costs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/Taishan_Nuclear_Power_Plant.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 28, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="button">
+<p><a href="./news.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">Explore more</a></p>
+</div>
+</div>
+</div>
 <div class="background-frame alt-background">
 <div class="content-block">
 <p align="center" style="font-size:36px; font-weight:bold;">
