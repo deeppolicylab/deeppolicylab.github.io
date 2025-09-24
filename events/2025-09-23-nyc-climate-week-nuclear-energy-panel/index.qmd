@@ -116,6 +116,10 @@ As nations target to meet net-zero goals, nuclear energy is reemerging as an ess
 :::
 
 
+## Video
+
+{{< video https://www.youtube.com/watch?v=FrCJU67zhUQ >}}
+
 ## References
 
 - Liu, Shangwei, Gang He, Minghao Qiu, and Daniel M. Kammen. 2025. “Can China Break the ‘Cost Curse’ of Nuclear Power?” *Nature* 643, 1186–88. <https://doi.org/10.1038/d41586-025-02341-z> 
@@ -125,6 +129,8 @@ As nations target to meet net-zero goals, nuclear energy is reemerging as an ess
 
 
 ## Acknowledgments
+
+Climate Week NYC 2025 [official program listing](https://www.climateweeknyc.org/events/role-nuclear-energy-decarbonization-and-powering-ai-era).
 
 This program is sponsored by the [Marxe School of Public and International Affairs](https://marxe.baruch.cuny.edu/).   
 

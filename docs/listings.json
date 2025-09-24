@@ -10,6 +10,7 @@
   {
     "listing": "/more-news.html",
     "items": [
+      "/news/2025-09-28-one-earth-imported-solar-pv-health-and-climate-benfits-in-the-united-states.html",
       "/news/2025-07-28-nature-comment-nuclear-costs.html",
       "/news/2024-11-06-one-earth-coal-jobs-transition.html"
     ]
@@ -133,6 +134,10 @@
   },
   {
     "listing": "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/2025-09-28-one-earth-imported-solar-pv-health-and-climate-benfits-in-the-united-states.html",
     "items": []
   }
 ]

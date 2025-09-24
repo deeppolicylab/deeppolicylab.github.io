@@ -1,7 +1,7 @@
 ---
 title: "Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?"
 image: "/files/images/Taishan_Nuclear_Power_Plant.jpg"
-description: "Comment published in Nature shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs."
+description: "Comment published in *Nature* shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs."
 #author: "Gang He"
 #categories: [research]
 date: "2025-07-28"
@@ -22,7 +22,7 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents:
     - ../../people/shangwei-liu.yml
-    - ../../people/gang-he.yml
+    - ../../people/gang-he-associate.yml
     - ../../people/minghao-qiu.yml
     - ../../people/daniel-kammen.yml
 

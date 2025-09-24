@@ -56,6 +56,8 @@ listing:
   max-items: 3
   page-size: 3
   contents: publications.yml 
+include-in-header: 
+  - file: files/includes/_mswebmaster.js
 ---
 
 <!--Please delete or replace with your own clarity-->

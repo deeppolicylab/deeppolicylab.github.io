@@ -19,12 +19,11 @@ listing:  #an example of listing external links
 #    - labmembers.yml
     - /people/gang-he-associate.yml
     - /people/kaifang-luo.yml
-    - /people/mariah-galindo.yml
-    - /people/arielle-canate.yml
-    - /people/tiffany-hugh.yml
-    - /people/oliver-niedbala.yml    
+    - /people/mariah-galindo.yml  
     - /people/junki-choi.yml
     - /people/xinyang-che.yml
+    - /people/samuel-lee.yml
+    - /people/samid-rahman.yml
 
 - id: lab-alumni
   sort: "lastname asc"
@@ -48,6 +47,9 @@ listing:  #an example of listing external links
     - /people/tamara-valderrama.yml
     - /people/tenzin-sinon.yml       
     - /people/wenge-rao.yml
+    - /people/arielle-canate.yml
+    - /people/tiffany-hugh.yml
+    - /people/oliver-niedbala.yml     
 
 page-navigation: false
 title-block-banner: false
