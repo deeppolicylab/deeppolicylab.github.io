@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -151,7 +152,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -185,6 +186,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
@@ -335,15 +338,15 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1759032000000" data-listing-file-modified-sort="1758712233602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="609" data-listing-title-sort="New Study Finds Imported Solar Panels Save U.S. Lives and Cut Billions in Climate Costs" data-listing-filename-sort="2025-09-28-one-earth-imported-solar-pv-health-and-climate-benfits-in-the-united-states.qmd">
+<tr data-index="0" data-listing-date-sort="1759896000000" data-listing-file-modified-sort="1760102511403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="626" data-listing-title-sort="New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S." data-listing-filename-sort="2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.qmd">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/Holtsville-Ecology-Site-Solar-Farm.JPG" style="height: 20px;"></span>
 </td>
 <td>
-<a href="./news/2025-09-28-one-earth-imported-solar-pv-health-and-climate-benfits-in-the-united-states.html" class="title listing-title">New Study Finds Imported Solar Panels Save U.S. Lives and Cut Billions in Climate Costs</a>
+<a href="./news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html" class="title listing-title">New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S.</a>
 </td>
 <td>
-<span class="listing-date">2025-09-28</span>
+<span class="listing-date">2025-10-08</span>
 </td>
 <td>
 <span class="listing-description">New study published in <em>One Earth</em> showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States.</span>
@@ -568,7 +571,29 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1756958400000" data-listing-title-sort="Why nuclear is now a booming industry">
+<tr data-index="0" data-listing-date-sort="1761192000000" data-listing-title-sort="How China Raced Ahead of the U.S. on Nuclear Power">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/new-york-times.jpg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.nytimes.com/interactive/2025/10/22/climate/china-us-nuclear-energy-race.html" class="title listing-title">How China Raced Ahead of the U.S. on Nuclear Power</a>
+</td>
+<td>
+<span class="listing-subtitle">The New York Times</span>
+</td>
+<td>
+<span class="listing-author">Brad Plumer, Harry Stevens</span>
+</td>
+<td>
+<span class="listing-date">2025-10-23</span>
+</td>
+<td>
+<span class="listing-description"><em>The New York Times</em> covered U.S. China’s nuclear power race and highlighted our work—reproducing our figure and citing our <em>Nature</em> Comment article on nuclear costs.</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1756958400000" data-listing-title-sort="Why nuclear is now a booming industry">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/the-economist.svg" style="height: 20px;"></span>
 </td>
@@ -590,7 +615,7 @@ Description
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1700110800000" data-listing-title-sort="What the U.S.-China Agreement Means for Greenhouse Gas Emissions">
+<tr data-index="2" data-listing-date-sort="1700110800000" data-listing-title-sort="What the U.S.-China Agreement Means for Greenhouse Gas Emissions">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/scientific-american.webp" style="height: 20px;"></span>
 </td>
@@ -612,7 +637,7 @@ Description
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1695268800000" data-listing-title-sort="Can the U.S. and China Cooperate on Green Technology Again?">
+<tr data-index="3" data-listing-date-sort="1695268800000" data-listing-title-sort="Can the U.S. and China Cooperate on Green Technology Again?">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/foreign-policy.webp" style="height: 20px;"></span>
 </td>
@@ -634,7 +659,7 @@ Description
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1666843200000" data-listing-title-sort="How Biden’s made-in-America solar strategy may backfire">
+<tr data-index="4" data-listing-date-sort="1666843200000" data-listing-title-sort="How Biden’s made-in-America solar strategy may backfire">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/ee-news.png" style="height: 20px;"></span>
 </td>
@@ -656,7 +681,7 @@ Description
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1645074000000" data-listing-title-sort="New energy transition guidance; Five coal plants approved; Energy-efficiency targets raised">
+<tr data-index="5" data-listing-date-sort="1645074000000" data-listing-title-sort="New energy transition guidance; Five coal plants approved; Energy-efficiency targets raised">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/carbon-brief.webp" style="height: 20px;"></span>
 </td>
@@ -678,7 +703,7 @@ Description
 
 </tr>
 
-<tr data-index="5" data-listing-date-sort="1637557200000" data-listing-title-sort="China creates vast research infrastructure to support ambitious climate goals">
+<tr data-index="6" data-listing-date-sort="1637557200000" data-listing-title-sort="China creates vast research infrastructure to support ambitious climate goals">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/nature.webp" style="height: 20px;"></span>
 </td>
@@ -700,7 +725,7 @@ Description
 
 </tr>
 
-<tr data-index="6" data-listing-date-sort="1603080000000" data-listing-title-sort="How China could be carbon neutral by mid-century">
+<tr data-index="7" data-listing-date-sort="1603080000000" data-listing-title-sort="How China could be carbon neutral by mid-century">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/nature.webp" style="height: 20px;"></span>
 </td>
@@ -722,7 +747,7 @@ Description
 
 </tr>
 
-<tr data-index="7" data-listing-date-sort="1600833600000" data-listing-title-sort="China Says It Will Stop Releasing CO2 within 40 Years">
+<tr data-index="8" data-listing-date-sort="1600833600000" data-listing-title-sort="China Says It Will Stop Releasing CO2 within 40 Years">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/scientific-american.webp" style="height: 20px;"></span>
 </td>
@@ -744,7 +769,7 @@ Description
 
 </tr>
 
-<tr data-index="8" data-listing-date-sort="1597032000000" data-listing-title-sort="Plummeting Renewable Energy, Battery Prices Mean China Could Hit 62% Clean Power And Cut Costs 11% By 2030">
+<tr data-index="9" data-listing-date-sort="1597032000000" data-listing-title-sort="Plummeting Renewable Energy, Battery Prices Mean China Could Hit 62% Clean Power And Cut Costs 11% By 2030">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/forbes.png" style="height: 20px;"></span>
 </td>
@@ -766,7 +791,7 @@ Description
 
 </tr>
 
-<tr data-index="9" data-listing-date-sort="1591675200000" data-listing-title-sort="Surging coal use in China threatens global CO2 goals">
+<tr data-index="10" data-listing-date-sort="1591675200000" data-listing-title-sort="Surging coal use in China threatens global CO2 goals">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/ee-news.png" style="height: 20px;"></span>
 </td>
@@ -788,7 +813,7 @@ Description
 
 </tr>
 
-<tr data-index="10" data-listing-date-sort="1591243200000" data-listing-title-sort="China's Path to Clean Energy May Be Smoother than We Previously Thought">
+<tr data-index="11" data-listing-date-sort="1591243200000" data-listing-title-sort="China's Path to Clean Energy May Be Smoother than We Previously Thought">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/inside-climate-news.png" style="height: 20px;"></span>
 </td>
@@ -810,7 +835,7 @@ Description
 
 </tr>
 
-<tr data-index="11" data-listing-date-sort="1550466000000" data-listing-title-sort="Bill Calls For An Emissions-Free NY By 2050">
+<tr data-index="12" data-listing-date-sort="1550466000000" data-listing-title-sort="Bill Calls For An Emissions-Free NY By 2050">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/wshu-public-radio.png" style="height: 20px;"></span>
 </td>
@@ -832,7 +857,7 @@ Description
 
 </tr>
 
-<tr data-index="12" data-listing-date-sort="1427947200000" data-listing-title-sort="Where is the world's greenest city?">
+<tr data-index="13" data-listing-date-sort="1427947200000" data-listing-title-sort="Where is the world's greenest city?">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/media/the-guardian.webp" style="height: 20px;"></span>
 </td>
@@ -925,13 +950,14 @@ https://quarto.org/docs/authoring/includes.html
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

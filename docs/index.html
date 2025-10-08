@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -186,7 +187,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -223,6 +224,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
@@ -346,7 +349,25 @@ What’s new
 </p>
 <div id="listing-news-events" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVtJTJDbnVjbGVhcg==" data-listing-date-sort="1758600000000" data-listing-file-modified-sort="1758816103548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1759896000000" data-listing-file-modified-sort="1760102511403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="626">
+<a href="./news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/Holtsville-Ecology-Site-Solar-Farm.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S.
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 8, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVtJTJDbnVjbGVhcg==" data-listing-date-sort="1758600000000" data-listing-file-modified-sort="1758816103548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
 <a href="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -364,7 +385,7 @@ Sep 23, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1756958400000">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1756958400000">
 <a href="https://www.economist.com/business/2025/09/04/why-nuclear-is-now-a-booming-industry" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -385,29 +406,20 @@ Sep 4, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1758715098857" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="708">
-<a href="./news/2025-07-28-nature-comment-nuclear-costs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/Taishan_Nuclear_Power_Plant.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 28, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
 <div class="button">
-<p><a href="./news.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">Explore more</a></p>
+<p><a href="./more-news.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">More News</a></p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="button">
+<p><a href="./more-events.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">More Events</a></p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -524,7 +536,28 @@ Read our work
 </p>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
+<div class="g-col-1" data-index="0" data-categories="ZmVhdHVyZWQlMkNzb2xhciUyQ3N1cHBseS1jaGFpbiUyQ2VuZXJneS1uZXh1cw==" data-listing-date-sort="1759896000000">
+<a href="https://doi.org/10.1016/j.oneear.2025.101467" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Imported solar photovoltaics contributed to health and climate benefits in the United States
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>One Earth</em>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 8, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
 <a href="https://doi.org/10.1038/d41586-025-02341-z" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -545,7 +578,7 @@ Jul 31, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdG9yYWdl" data-listing-date-sort="1751947200000">
+<div class="g-col-1" data-index="2" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdG9yYWdl" data-listing-date-sort="1751947200000">
 <a href="https://doi.org/10.1016/j.tej.2025.107487" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -561,27 +594,6 @@ Role of pumped hydro storage in China’s power system decarbonization
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jul 8, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmE=" data-listing-date-sort="1741924800000">
-<a href="https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/erl.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cost-effectiveness of removing the last 10-20% emissions of China’s power sector
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Environmental Research Letters</em>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 14, 2025
 </div>
 </div>
 </div>
@@ -651,13 +663,14 @@ Mar 14, 2025
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

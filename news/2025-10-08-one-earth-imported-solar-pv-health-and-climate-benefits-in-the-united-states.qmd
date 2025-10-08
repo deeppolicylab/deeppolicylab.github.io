@@ -1,5 +1,5 @@
 ---
-title: "New Study Finds Imported Solar Panels Save U.S. Lives and Cut Billions in Climate Costs"
+title: "New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S."
 image: "/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG"
 description: "New study published in *One Earth* showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States."
 #author: "Gang He"
@@ -8,6 +8,7 @@ date: "2025-10-08"
 title-block-banner: false
 #page-layout: full
 #from: markdown+emoji
+link-external-newwindow: true
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
 - id: coauthors
@@ -28,7 +29,7 @@ listing:  #an example of listing external links
 - id: releases
 #  sort: "lastname asc"
   type: default
-  fields: [date,author, image, title, subtitle]
+  fields: [date, author, image, title, subtitle]
 #  grid-item-align: center  
   grid-columns: 3
   image-height: 100px
@@ -36,27 +37,22 @@ listing:  #an example of listing external links
 #  sort-ui: true
 #  filter-ui: true
   contents:
-    - path: https://www.gc.cuny.edu/news/chinas-nuclear-power-development-strategy-holds-key-lower-costs
+    - path: https://www.gc.cuny.edu/news/imported-solar-panels-save-us-lives-and-cut-billions-climate-costs-study-finds
       image: /files/images/university/cuny.png
-      title: "China’s Nuclear Power Development Strategy Holds Key to Lower Costs"
+      title: "Imported Solar Panels Save U.S. Lives and Cut Billions in Climate Costs, Study Finds"
       subtitle: "CUNY Graduate Center"
       author: Office of Communications and Marketing
-      description: "Professor Gang He co-authors a new *Nature* comment article on taming the nuclear cost curse. "
-      date: "2025-07-28"   
+      description: "Professor Gang He co-authored a study showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States."
+      date: "2025-10-09"   
 
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
-<!--
-![Taishan Nuclear Power Plant](/files/images/Taishan_Nuclear_Power_Plant.jpg)
--->
-
-
 Publication: *One Earth*  
 Date: October 8, 2025  
-Links: Published [paper](https://www.nature.com/articles/d41586-025-02341-z);  SharedIt [fulltext](https://rdcu.be/eyaXW);  Preprint [pdf](https://drganghe.github.io/files/papers/2025-nature-nuclear-costs.pdf); Supplemental Information [pdf](https://media.nature.com/original/magazine-assets/d41586-025-02341-z/51274736); Source Data [csv](https://www.nature.com/magazine-assets/d41586-025-02341-z/51274734)   
+Links: Published [paper](https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3); Preprint [pdf](https://drganghe.github.io/files/papers/2025-one-earth-health-climate-benefits-of-imported-solar-pv-in-the-united-states.pdf); Supplemental Information [pdf](https://ars.els-cdn.com/content/image/1-s2.0-S2590332225002933-mmc1.pdf); Source [Code and Data](https://zenodo.org/records/16622349)   
 
 
 ## Authors
@@ -68,7 +64,7 @@ Links: Published [paper](https://www.nature.com/articles/d41586-025-02341-z);  S
 
 **Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S., New Study Finds**
 
-As policymakers debate the future of clean energy supply chains, a new study published in One Earth reveals that imported solar panels have already delivered billions of dollars in public health and climate benefits to the United States.
+As policymakers debate the future of clean energy supply chains, a new study published in *[One Earth](https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3)* reveals that imported solar panels have already delivered billions of dollars in public health and climate benefits to the United States.
 
 The study, led by researchers from City University of New York (CUNY) and Stony Brook University, finds that solar panels imported into the U.S. between 2014 and 2022 displaced significant fossil fuel generation, avoided 178 million tons of carbon dioxide emissions, and prevented an estimated 595 premature deaths linked to air pollution. These avoided impacts translate to $28 billion in monetized benefits—highlighting the far-reaching societal value of global clean energy trade.
 
@@ -76,14 +72,16 @@ The study, led by researchers from City University of New York (CUNY) and Stony 
 
 The researchers analyzed detailed shipment and power plant data across the U.S., using a reduced-complexity air quality model to track how solar energy displaced fossil fuels and improved air quality in different regions. They found that roughly 70% of solar electricity generated in recent years came from imported photovoltaic (PV) modules—mostly from countries such as Vietnam, Malaysia, and Thailand.
 
-Key findings include: During the study period between 2014 and 2022, 
+Key findings include: During the study period between 2014 and 2022 
 
 -	305 TWh of fossil fuel generation was displaced by imported solar PV 
--	178 million tons of CO2 emissions were reduced—11% of total U.S. power sector emissions in 2022
+-	178 million tons of CO<sub>2</sub> emissions were reduced—11% of total U.S. power sector emissions in 2022
 -	595 premature deaths were avoided due to reductions in fine particulate pollution 
 -	$28 billion was reaped in total monetized climate and health benefits
 
 Notably, the benefits were not confined to solar-importing states. “Over 40% of the air quality benefits flowed to people living outside the states that imported the panels,” said lead author Dr. Minghao Qiu, an assistant professor in the School of Marine and Atmospheric Sciences and the Program in Public Health at Stony Brook University. “That’s due to how electricity and air pollution move across state lines.”
+
+![Holtsville Ecology Site Solar Farm, Photo by Gang He](/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG)
 
 The study also found that some regions benefited disproportionately. “The Carolinas, Texas, and parts of California saw especially high health and climate benefits because imported solar displaced power plants with high pollution burdens in densely populated areas,” said coauthor Dr. Peter Marcotullio, professor of geography at CUNY Hunter College and the Graduate Center. “This has real implications for regional planning and environmental justice—showing where clean energy investments can yield the greatest returns for human well-being.”
 
@@ -91,22 +89,20 @@ The study comes at a time when governments are reevaluating their reliance on fo
 
 “Our research shows that imported solar panels do more than save money,” said He. “They save lives and reduce emissions. As we redesign energy and trade policies, we need to make sure we’re not leaving these benefits off the table.”
 
-The study was supported by the Global Energy Initiative at ClimateWorks Foundation. The full study is available in One Earth:
-[ADD PAPER LINK]
+The study was supported by the Global Energy Initiative at ClimateWorks Foundation. The full study is available in *One Earth*: <https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3>
 
 
+**Citation**
+
+Qiu, Minghao, Gang He, and Peter Marcotullio. 2025. “Imported solar photovoltaic contributed to health and climate benefits in the United States” *One Earth*, 8: 101467. <https://doi.org/10.1016/j.oneear.2025.101467>.
+
+
+Learn [more](https://drganghe.github.io/posts/2025-10-oneearth-imported-solar-pv-health-climate-benefits-in-the-united-states/index.html) about the research.
 
 ## Institutional Releases
 
 :::{#releases}
 :::
-
-**Citation**
-
-Qiu, Minghao, **Gang He**, and Peter Marcotullio. 2025. “Imported solar photovoltaic contributed to health and climate benefits in the United States” *One Earth*, 8: 369–76. <https://doi.org/10.1016/j.oneear.2025.09.003>.
-
-
-Learn [more](https://drganghe.github.io/posts/2025-07-nature-breaking-the-cost-curse-of-nuclear-power/index.html) about the research.
 
 <!--Include social share buttons-->
 

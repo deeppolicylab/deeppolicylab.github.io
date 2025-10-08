@@ -43,7 +43,9 @@ listing:
     - news
     - news.yml
   exclude: 
-    title: "Climate Guest Speakers Series"  
+    title: 
+      - "Climate Guest Speakers Series"  
+      - "How China Raced Ahead of the U.S. on Nuclear Power"
 
 - id: publications
   sort: "date desc"
@@ -100,14 +102,24 @@ include-in-header:
 :::{#news-events}
 :::
 
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
 ::: {.button}
-[Explore more](news.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+[More News](/more-news.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.button}
+[More Events](/more-events.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+:::
+:::
+
 :::
 
 :::
 :::
-
-
 
 ::: {.background-frame .alt-background}
 ::: {.content-block}

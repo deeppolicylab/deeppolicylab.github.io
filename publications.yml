@@ -1,3 +1,13 @@
+    - path: https://doi.org/10.1016/j.oneear.2025.101467
+      image: /files/images/journal/one-earth-logo.jpg
+      title: "Imported solar photovoltaics contributed to health and climate benefits in the United States"
+#      author: 
+      subtitle: "*One Earth*"
+      description: "Imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States."
+      date: "2025-10-08"
+      fulltext: "[preprint](https://drganghe.github.io/files/papers/2025-one-earth-health-climate-benefits-of-imported-solar-pv-in-the-united-states.pdf)"
+      categories: [featured, solar, supply-chain, energy-nexus] 
+
     - path: https://doi.org/10.1038/d41586-025-02341-z
       image: /files/images/journal/nature.avif
       title: "Can China break the ‘cost curse’ of nuclear power?"

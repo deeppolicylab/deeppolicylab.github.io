@@ -1,0 +1,102 @@
+---
+title: "New Study Taking a Global Look at Dry and Alternative Water Cooling of Power Plants"
+image: "/files/images/dry-cooling.webp"
+description: "Study published in *Nature Water* suggests integrating planning may reduce carbon emissions in the future."
+#author: "Gang He"
+#categories: [research]
+date: "2023-08-07"
+title-block-banner: false
+#page-layout: full
+#from: markdown+emoji
+link-external-newwindow: true
+listing:  #an example of listing external links
+#  template: item-default-external.ejs
+
+- id: releases
+#  sort: "lastname asc"
+  type: grid
+  fields: [date, image, title, subtitle]
+#  grid-item-align: center  
+  grid-columns: 2
+  image-height: 110px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/
+      image: /files/images/university/sbu.jpg
+      title: "Taking a Global Look at Dry and Alternative Water Cooling of Power Plants"
+      subtitle: "Stony Brook University"
+      author: Newsroom
+      description: "Study published in *Nature Water* suggests integrating planning may reduce carbon emissions in the future."
+      date: "2023-08-09"   
+
+    - path: hhttps://cese.pku.edu.cn/kycg/152096.htm
+      image: /files/images/university/pku.png
+      title: "覃栎课题组揭示全球火电行业冷却技术的碳-水权衡机制"
+      subtitle: "北京大学"
+      author: 环境科学与工程学院
+      description: "基于全球电厂数据集、气象水文数据集、非常规水源和碳封存潜力估算，研究团队搭建了全球高精度的冷却技术-非常规水资源-碳封存技术的电力部门碳-水权衡关系综合评估框架，为电力行业应对人地耦合视角下气候变化和水资源短缺双重挑战提供科学依据。"
+      date: "2023-08-08"   
+---
+
+<!--This is my personal clarity, please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+Publication: *Nature Water*  
+Date: August 7, 2023  
+Links: Published [paper](https://www.nature.com/articles/s44221-023-00120-6); SharedIt [full-text](https://rdcu.be/diKmv); Supplemental Information [pdf](https://static-content.springer.com/esm/art%3A10.1038%2Fs44221-023-00120-6/MediaObjects/44221_2023_120_MOESM1_ESM.pdf); Source [Data](https://static-content.springer.com/esm/art%3A10.1038%2Fs44221-023-00120-6/MediaObjects/44221_2023_120_MOESM8_ESM.xlsx)   
+
+
+
+## Release
+
+**Taking a Global Look at Dry and Alternative Water Cooling of Power Plants**
+
+Study published in Nature Water suggests integrating planning may reduce carbon emissions in the future
+
+Water scarcity and climate change is a threat to energy security, as carbon emission reduction from water and dry cooling of power plants remains a major challenge worldwide. An international collaboration of scientists used global power plant data to demonstrate an integrated water-carbon management framework that bridges the gap to coupling diverse water carbon-mitigation technologies with other methods. Their findings are detailed in a paper published in Nature Water.
+
+Thermal electric power generation uses substantial amounts of freshwater primarily for cooling of power plants, amounting to 40 to 50 percent of the total water withdrawal in the U.S. and 40 percent in Europe. Meanwhile, power generation accounted for approximately 36 percent of the energy-related carbon dioxide (CO2) emissions across world economies in 2019. The authors note that consequently, the power sector has a high dependence on freshwater resources and demonstrates intrinsic water-carbon interconnections that have critical implications on reliable electricity output and energy security, particularly under climate change.
+
+In “Global assessment of the carbon-water tradeoff of dry cooling for thermal power generation,” they conclude such integrated planning is crucial to address the complex interactions between water and energy systems. The team constructed a global unit-level framework to assess the impact of dry cooling—a vital water mitigation strategy—alongside alternative water sourcing and carbon capture and storage (CCS) under different scenarios.
+
+![](/files/images/NatureWater23.jpg)
+
+This graphic shows how per unit water saving by dry cooling increases carbon emissions by each power unit globally, a significant issue for example in areas of India.
+
+Credit: Qin et al., 2023. Nature Water
+
+The research team collected unit-level power plant data, which included basic power generation unit information such as fuel and engine types, installed capacity, cooling technologies and other details. Then they estimated carbon emissions and water withdrawal based on what is known of emission factors at plants and water intensity by the cooling technologies, fuel types and local meteorology.
+
+From their global data the CO2 emission and energy penalty from dry cooling units were found to be location and climate specific, and ranged from 1 to 15 percent of power plant output. Additionally, efficiency losses were high under climate changes scenarios.
+
+On a positive note, the team discovered potentially promising solutions to alleviate water scarcity around the power plants – such as increasing accessibility to wastewater and brine water that can provide viable alternatives to dry cooling and reduce energy and CO2 penalties.
+
+Additionally, the authors concluded that CCS emerged as a valuable tool to offset CO2  emission tradeoffs associated with dry cooling, especially when alternative water sourcing alone is insufficient in certain power plant regions.
+
+However, the issue is complicated globally, as CCS could demand more energy and thus more emissions, and wastewater could be useful but has its limitations and may not be available near some power plants.
+
+The authors are concerned about the potentially increasing water-carbon tradeoffs with dry cooling.  They write: “Facing increasing water concerns, dry cooling has been and may continually be promoted as an emerging freshwater mitigation technique in some major economies in the next few decades along with renewable energy transitions.”
+
+The research leading to the paper underscores the urgency of integrated power sector planning in the face of dual water-carbon challenges and “highlights the importance of considering climate-specific factors and interconnected systems to achieve sustainable energy solutions.”
+
+The work was led by Dr. Yue Qin of Peking University. Dr.Gang He is a co-author and his research contributing to the paper findings is supported by the Global Energy Initiative at the ClimateWorks Foundation.
+
+
+**Citation**
+
+Qin, Yue, Yaoping Wang, Shiyu Li, Hang Deng, Niko Wanders, Joyce Bosmans, Liangdian Huang, et al. 2023. “Global Assessment of the Carbon–Water Tradeoff of Dry Cooling for Thermal Power Generation.” *Nature Water* 1 (8): 682–93. <https://doi.org/10.1038/s44221-023-00120-6>.
+
+
+Learn [more](https://drganghe.github.io/posts/2023-08-naturewater-global-assessment-of-the-carbon-water-tradeoff-of-dry-cooling/index.html) about the research.
+
+## Institutional Releases
+
+:::{#releases}
+:::
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
+

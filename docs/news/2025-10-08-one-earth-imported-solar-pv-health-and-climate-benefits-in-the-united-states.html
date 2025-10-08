@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-10-08">
+<meta name="description" content="New study published in One Earth showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States.">
 
-<title>Events – Deep Policy Lab</title>
+<title>New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S. – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,28 +25,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,20 +76,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-events .list');
+    const listingTargetEl = window.document.querySelector('#listing-coauthors .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-events'] = new List('listing-events', options);
+    window['quarto-listings']['listing-coauthors'] = new List('listing-coauthors', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-releases .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-author','listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-author","listing-description","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-releases'] = new List('listing-releases', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -140,14 +170,14 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Events – Deep Policy Lab">
-<meta property="og:description" content="What’s happening">
-<meta property="og:image" content="https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S. – Deep Policy Lab">
+<meta property="og:description" content="New study published in One Earth showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States.">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta name="twitter:title" content="Events – Deep Policy Lab">
-<meta name="twitter:description" content="What’s happening">
-<meta name="twitter:image" content="https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg">
+<meta name="twitter:title" content="New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S. – Deep Policy Lab">
+<meta name="twitter:description" content="New study published in One Earth showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States.">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -158,9 +188,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
   </div>
@@ -171,43 +201,43 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./events.html" aria-current="page"> 
+    <a class="nav-link" href="../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
+    <a class="nav-link" href="../support.html"> 
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
+    <a class="nav-link" href="../cn.html"> 
 <span class="menu-text">中文</span></a>
   </li>  
 </ul>
@@ -234,26 +264,44 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#authors" id="toc-authors" class="nav-link active" data-scroll-target="#authors">Authors</a></li>
+  <li><a href="#release" id="toc-release" class="nav-link" data-scroll-target="#release">Release</a></li>
+  <li><a href="#institutional-releases" id="toc-institutional-releases" class="nav-link" data-scroll-target="#institutional-releases">Institutional Releases</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Events</h1>
-<p class="subtitle lead">What’s happening</p>
+<h1 class="title">New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S.</h1>
+</div>
+
+<div>
+  <div class="description">
+    New study published in <em>One Earth</em> showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 8, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -263,7 +311,7 @@ window.Quarto = {
 </header>
 
 
-<!--Please delete or replace with your own clarity-->
+<!--This is my personal clarity, please delete or replace with your own clarity-->
 <!-- 
 https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 -->
@@ -274,125 +322,57 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<div id="listing-events" class="quarto-listing quarto-listing-container-grid">
+<p>Publication: <em>One Earth</em><br>
+Date: October 8, 2025<br>
+Links: Published <a href="https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3">paper</a>; Preprint <a href="https://drganghe.github.io/files/papers/2025-one-earth-health-climate-benefits-of-imported-solar-pv-in-the-united-states.pdf">pdf</a>; Supplemental Information <a href="https://ars.els-cdn.com/content/image/1-s2.0-S2590332225002933-mmc1.pdf">pdf</a>; Source <a href="https://zenodo.org/records/16622349">Code and Data</a></p>
+<section id="authors" class="level2">
+<h2 class="anchored" data-anchor-id="authors">Authors</h2>
+<div id="listing-coauthors" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Z3Vlc3Qtc3BlYWtlcnM=">
-<a href="https://drganghe.github.io/climate-guest-speakers/speakers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="0">
+<a href="https://mhqiu.github.io/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/2024-2025-speakers.png" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../files/headshots/minghao-qiu.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Climate Guest Speakers Series
+Minghao QIU
 </h5>
-<div class="card-text listing-description delink">
-<p>Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to…</p>
+<div class="card-subtitle listing-subtitle">
+Assistant Professor, Stony Brook University
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVtJTJDbnVjbGVhcg==" data-listing-date-sort="1758600000000" data-listing-file-modified-sort="1758816103548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
-<a href="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="1" data-categories="RGlyZWN0b3I=">
+<a href="https://drganghe.github.io" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
+Gang HE
 </h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 23, 2025
-</div>
+<div class="card-subtitle listing-subtitle">
+Associate Professor, CUNY Baruch College
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1751810924212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="2">
+<a href="http://www.geo.hunter.cuny.edu/people/fac/marcotullio.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./events/2025-07-01-mes-supply-chains-in-energy-systems-panel/flyer-small.png" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../files/headshots/peter-marcotullio.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Macro-Energy Systems Speaker Series: Supply Chains in Energy Systems
+Peter MARCOTULLIO
 </h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1750392000000">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/xjtu.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2025 Workshop on Open Modeling Carbon Neutrality of the Power Sector
-</h5>
-<div class="card-text listing-description delink">
-<p>The second workshop on open modeling carbon neutrality of the power sector is held in Xi’an Jiaotong University, China.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 20, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1727323200000" data-listing-file-modified-sort="1756568862092" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="150">
-<a href="./events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Week NYC 2024: Clean Energy Global Supply Chains Panel
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during Climate Week NYC 2024.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 26, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1725336000000">
-<a href="https://applied-energy.org/icae2024/#Program" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ICAE 2024 Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains
-</h5>
-<div class="card-text listing-description delink">
-<p>Dr.&nbsp;Gang He is invited to give an online keynote speech in the International Conference on Applied Energy 2024.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 3, 2024
-</div>
+<div class="card-subtitle listing-subtitle">
+Professor, CUNY Hunter College
 </div>
 </div>
 </div></a>
@@ -400,9 +380,68 @@ Sep 3, 2024
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p align="right">
-<a href="./more-events.html">More Events »</a>
-</p>
+</section>
+<section id="release" class="level2">
+<h2 class="anchored" data-anchor-id="release">Release</h2>
+<p><strong>Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S., New Study Finds</strong></p>
+<p>As policymakers debate the future of clean energy supply chains, a new study published in <em><a href="https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3">One Earth</a></em> reveals that imported solar panels have already delivered billions of dollars in public health and climate benefits to the United States.</p>
+<p>The study, led by researchers from City University of New York (CUNY) and Stony Brook University, finds that solar panels imported into the U.S. between 2014 and 2022 displaced significant fossil fuel generation, avoided 178 million tons of carbon dioxide emissions, and prevented an estimated 595 premature deaths linked to air pollution. These avoided impacts translate to $28 billion in monetized benefits—highlighting the far-reaching societal value of global clean energy trade.</p>
+<p>“Global supply chains have helped make solar power affordable,” said Dr.&nbsp;Gang He, project lead and associate professor at CUNY Baruch College and the Graduate Center. “But what’s often missed is how these imports also clean the air, protect health, and reduce climate damages. These are benefits that extend well beyond electricity prices.”</p>
+<p>The researchers analyzed detailed shipment and power plant data across the U.S., using a reduced-complexity air quality model to track how solar energy displaced fossil fuels and improved air quality in different regions. They found that roughly 70% of solar electricity generated in recent years came from imported photovoltaic (PV) modules—mostly from countries such as Vietnam, Malaysia, and Thailand.</p>
+<p>Key findings include: During the study period between 2014 and 2022</p>
+<ul>
+<li>305 TWh of fossil fuel generation was displaced by imported solar PV</li>
+<li>178 million tons of CO<sub>2</sub> emissions were reduced—11% of total U.S. power sector emissions in 2022</li>
+<li>595 premature deaths were avoided due to reductions in fine particulate pollution</li>
+<li>$28 billion was reaped in total monetized climate and health benefits</li>
+</ul>
+<p>Notably, the benefits were not confined to solar-importing states. “Over 40% of the air quality benefits flowed to people living outside the states that imported the panels,” said lead author Dr.&nbsp;Minghao Qiu, an assistant professor in the School of Marine and Atmospheric&nbsp;Sciences and the Program in Public Health at Stony Brook University. “That’s due to how electricity and air pollution move across state lines.”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/images/Holtsville-Ecology-Site-Solar-Farm.JPG" class="img-fluid figure-img"></p>
+<figcaption>Holtsville Ecology Site Solar Farm, Photo by Gang He</figcaption>
+</figure>
+</div>
+<p>The study also found that some regions benefited disproportionately. “The Carolinas, Texas, and parts of California saw especially high health and climate benefits because imported solar displaced power plants with high pollution burdens in densely populated areas,” said coauthor Dr.&nbsp;Peter Marcotullio, professor of geography at CUNY Hunter College and the Graduate Center. “This has real implications for regional planning and environmental justice—showing where clean energy investments can yield the greatest returns for human well-being.”</p>
+<p>The study comes at a time when governments are reevaluating their reliance on foreign-made solar technology, citing concerns about energy security, geopolitics, and domestic job creation. The authors caution that shifting away from global supply chains without accounting for these broader societal benefits could slow clean energy deployment—and diminish its health and environmental gains.</p>
+<p>“Our research shows that imported solar panels do more than save money,” said He. “They save lives and reduce emissions. As we redesign energy and trade policies, we need to make sure we’re not leaving these benefits off the table.”</p>
+<p>The study was supported by the Global Energy Initiative at ClimateWorks Foundation. The full study is available in <em>One Earth</em>: <a href="https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3" class="uri">https://www.cell.com/one-earth/abstract/S2590-3322(25)00293-3</a></p>
+<p><strong>Citation</strong></p>
+<p>Qiu, Minghao, Gang He, and Peter Marcotullio. 2025. “Imported solar photovoltaic contributed to health and climate benefits in the United States” <em>One Earth</em>, 8: 101467. <a href="https://doi.org/10.1016/j.oneear.2025.101467" class="uri">https://doi.org/10.1016/j.oneear.2025.101467</a>.</p>
+<p>Learn <a href="https://drganghe.github.io/posts/2025-10-oneearth-imported-solar-pv-health-climate-benefits-in-the-united-states/index.html">more</a> about the research.</p>
+</section>
+<section id="institutional-releases" class="level2">
+<h2 class="anchored" data-anchor-id="institutional-releases">Institutional Releases</h2>
+<div id="listing-releases" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1759982400000">
+<div class="thumbnail"><a href="https://www.gc.cuny.edu/news/imported-solar-panels-save-us-lives-and-cut-billions-climate-costs-study-finds" class="no-external">
+
+<img loading="lazy" src="../files/images/university/cuny.png" class="thumbnail-image" style="height: 100px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.gc.cuny.edu/news/imported-solar-panels-save-us-lives-and-cut-billions-climate-costs-study-finds" class="no-external">Imported Solar Panels Save U.S. Lives and Cut Billions in Climate Costs, Study Finds</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://www.gc.cuny.edu/news/imported-solar-panels-save-us-lives-and-cut-billions-climate-costs-study-finds" class="no-external">CUNY Graduate Center</a>
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.gc.cuny.edu/news/imported-solar-panels-save-us-lives-and-cut-billions-climate-costs-study-finds" class="no-external">
+<div class="listing-date">
+Oct 9, 2025
+</div>
+<div class="listing-author">
+Office of Communications and Marketing
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -416,6 +455,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
