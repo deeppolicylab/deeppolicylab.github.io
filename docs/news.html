@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -151,7 +152,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -170,11 +171,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="News – Deep Policy Lab">
 <meta property="og:description" content="Recent releases and media coverage">
-<meta property="og:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG">
 <meta property="og:site_name" content="Deep Policy Lab">
 <meta name="twitter:title" content="News – Deep Policy Lab">
 <meta name="twitter:description" content="Recent releases and media coverage">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -185,6 +186,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
@@ -290,7 +293,28 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="release">Release</h2>
 <div id="listing-release" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1758715098857" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="708">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1759896000000" data-listing-file-modified-sort="1760102511403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="626">
+<a href="./news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/Holtsville-Ecology-Site-Solar-Farm.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S.
+</h5>
+<div class="card-text listing-description delink">
+<p>New study published in <em>One Earth</em> showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 8, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1758715098857" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="708">
 <a href="./news/2025-07-28-nature-comment-nuclear-costs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -311,7 +335,7 @@ Jul 28, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1730869200000" data-listing-file-modified-sort="1758673137019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1730869200000" data-listing-file-modified-sort="1758673137019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
 <a href="./news/2024-11-06-one-earth-coal-jobs-transition.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -332,7 +356,7 @@ Nov 6, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1730433600000">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1730433600000">
 <a href="https://deeppolicylab.github.io/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -353,7 +377,7 @@ Nov 1, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1729569600000">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1729569600000">
 <a href="https://newscenter.baruch.cuny.edu/news/baruch-college-faculty-included-in-worlds-top-scientist-list/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -374,7 +398,7 @@ Oct 22, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1691553600000">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1691553600000">
 <a href="https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -395,27 +419,6 @@ Aug 9, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1666756800000">
-<a href="https://news.stonybrook.edu/newsroom/global-collaboration-is-key-to-saving-billions-for-solar-module-production/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/clean-energy-supply-chains/featured.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Global Collaboration is Key to Saving Billions for Solar Module Production
-</h5>
-<div class="card-text listing-description delink">
-<p>Study published in <em>Nature</em> quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 26, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -427,7 +430,31 @@ Oct 26, 2022
 <h2 class="anchored" data-anchor-id="media">Media</h2>
 <div id="listing-news" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1756958400000">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1761192000000">
+<a href="https://www.nytimes.com/interactive/2025/10/22/climate/china-us-nuclear-energy-race.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/media/new-york-times.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How China Raced Ahead of the U.S. on Nuclear Power
+</h5>
+<div class="card-subtitle listing-subtitle">
+The New York Times
+</div>
+<div class="card-text listing-description delink">
+<p><em>The New York Times</em> covered U.S. China’s nuclear power race and highlighted our work—reproducing our figure and citing our <em>Nature</em> Comment article on nuclear costs.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 23, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1756958400000">
 <a href="https://www.economist.com/business/2025/09/04/why-nuclear-is-now-a-booming-industry" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -451,7 +478,7 @@ Sep 4, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1700110800000">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1700110800000">
 <a href="https://www.scientificamerican.com/article/what-the-u-s-china-agreement-means-for-greenhouse-gas-emissions/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -475,7 +502,7 @@ Nov 16, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1695268800000">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1695268800000">
 <a href="https://foreignpolicy.com/2023/09/21/us-china-climate-cooperation-trade-ira-green-technology/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -499,7 +526,7 @@ Sep 21, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1666843200000">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1666843200000">
 <a href="https://www.eenews.net/articles/how-bidens-made-in-america-solar-strategy-may-backfire/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -523,7 +550,7 @@ Oct 27, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1645074000000">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1645074000000">
 <a href="https://www.carbonbrief.org/china-briefing-17-february-2022-new-energy-transition-guidance-five-coal-plants-approved-energy-efficiency-targets-raised/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -542,30 +569,6 @@ Carbon Brief
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Feb 17, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1637557200000">
-<a href="https://www.nature.com/articles/d41586-021-03491-6" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/nature.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-China creates vast research infrastructure to support ambitious climate goals
-</h5>
-<div class="card-subtitle listing-subtitle">
-Nature
-</div>
-<div class="card-text listing-description delink">
-<p>Carbon-neutrality institutes, and other initiatives to support a pledge to achieve net zero by 2060, are popping up like mushrooms across China.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 22, 2021
 </div>
 </div>
 </div>
@@ -644,13 +647,14 @@ https://quarto.org/docs/authoring/includes.html
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
