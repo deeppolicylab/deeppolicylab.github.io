@@ -41,7 +41,7 @@ listing:
     - events
     - events.yml
     - news
-    - news.yml
+  #  - news.yml
   exclude: 
     title: 
       - "Climate Guest Speakers Series"  

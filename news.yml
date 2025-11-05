@@ -1,3 +1,13 @@
+    - path: https://www.pv-magazine.com/2025/11/05/us-solar-tariffs-linked-to-preventable-deaths-claim-researchers/
+      image: /files/images/media/pv-magazine.webp
+      title: "US solar tariffs linked to preventable deaths, claim researchers"
+      subtitle: "PV Magazine"
+      author: 
+        - John Weaver  
+      description: "A more rigorous—and encouraging—analysis from researchers at the City University of New York found that solar panel imports into the United States displaced 305 TWh of fossil generation, avoided 178 million tons of CO2 emissions, and prevented 595 premature deaths between 2014 and 2022. The paper, Imported solar photovoltaics contributed to health and climate benefits in the United States, showed that 78% of solar panels deployed during this time were imports. As utility-scale solar grew from 'nearly zero' in 2010 to 3.4% of total U.S generation in 2022, those imported modules were critical."
+      date: "2025-11-04"
+#      categories: [PV Magazine]
+
     - path: https://www.nytimes.com/interactive/2025/10/22/climate/china-us-nuclear-energy-race.html
       image: /files/images/media/new-york-times.jpg
       title: "How China Raced Ahead of the U.S. on Nuclear Power"
