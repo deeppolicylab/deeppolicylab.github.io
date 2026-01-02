@@ -73,7 +73,7 @@ listing:
     categories: "power-system"
 ---
 
-![A wind farm in Hawaii, Photo by Gang He](featured.jpeg)
+![Pakini Nui Wind Farm in Hawaii, Photo by Gang He](featured.jpeg)
 
 
 ## Overview

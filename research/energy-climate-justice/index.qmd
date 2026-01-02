@@ -39,7 +39,7 @@ listing:
     categories: "just-transition"
 ---
 
-![Rooftop solar panels in a school on Long Island, Photo by Gang He](/files/images/School-rooftop-solar.webp)
+![Rooftop solar panels at Mount Elementary School on Long Island, New York, Photo by Gang He](/files/images/School-rooftop-solar.webp)
 
 
 ## Overview
