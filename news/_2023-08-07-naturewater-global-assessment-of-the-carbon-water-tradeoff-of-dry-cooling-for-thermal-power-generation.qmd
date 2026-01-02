@@ -57,7 +57,7 @@ Study published in Nature Water suggests integrating planning may reduce carbon 
 
 Water scarcity and climate change is a threat to energy security, as carbon emission reduction from water and dry cooling of power plants remains a major challenge worldwide. An international collaboration of scientists used global power plant data to demonstrate an integrated water-carbon management framework that bridges the gap to coupling diverse water carbon-mitigation technologies with other methods. Their findings are detailed in a paper published in Nature Water.
 
-Thermal electric power generation uses substantial amounts of freshwater primarily for cooling of power plants, amounting to 40 to 50 percent of the total water withdrawal in the U.S. and 40 percent in Europe. Meanwhile, power generation accounted for approximately 36 percent of the energy-related carbon dioxide (CO2) emissions across world economies in 2019. The authors note that consequently, the power sector has a high dependence on freshwater resources and demonstrates intrinsic water-carbon interconnections that have critical implications on reliable electricity output and energy security, particularly under climate change.
+Thermal electric power generation uses substantial amounts of freshwater primarily for cooling of power plants, amounting to 40 to 50 percent of the total water withdrawal in the U.S. and 40 percent in Europe. Meanwhile, power generation accounted for approximately 36 percent of the energy-related carbon dioxide (CO<sub>2</sub>) emissions across world economies in 2019. The authors note that consequently, the power sector has a high dependence on freshwater resources and demonstrates intrinsic water-carbon interconnections that have critical implications on reliable electricity output and energy security, particularly under climate change.
 
 In “Global assessment of the carbon-water tradeoff of dry cooling for thermal power generation,” they conclude such integrated planning is crucial to address the complex interactions between water and energy systems. The team constructed a global unit-level framework to assess the impact of dry cooling—a vital water mitigation strategy—alongside alternative water sourcing and carbon capture and storage (CCS) under different scenarios.
 
@@ -69,11 +69,11 @@ Credit: Qin et al., 2023. Nature Water
 
 The research team collected unit-level power plant data, which included basic power generation unit information such as fuel and engine types, installed capacity, cooling technologies and other details. Then they estimated carbon emissions and water withdrawal based on what is known of emission factors at plants and water intensity by the cooling technologies, fuel types and local meteorology.
 
-From their global data the CO2 emission and energy penalty from dry cooling units were found to be location and climate specific, and ranged from 1 to 15 percent of power plant output. Additionally, efficiency losses were high under climate changes scenarios.
+From their global data the CO<sub>2</sub> emission and energy penalty from dry cooling units were found to be location and climate specific, and ranged from 1 to 15 percent of power plant output. Additionally, efficiency losses were high under climate changes scenarios.
 
-On a positive note, the team discovered potentially promising solutions to alleviate water scarcity around the power plants – such as increasing accessibility to wastewater and brine water that can provide viable alternatives to dry cooling and reduce energy and CO2 penalties.
+On a positive note, the team discovered potentially promising solutions to alleviate water scarcity around the power plants – such as increasing accessibility to wastewater and brine water that can provide viable alternatives to dry cooling and reduce energy and CO<sub>2</sub> penalties.
 
-Additionally, the authors concluded that CCS emerged as a valuable tool to offset CO2  emission tradeoffs associated with dry cooling, especially when alternative water sourcing alone is insufficient in certain power plant regions.
+Additionally, the authors concluded that CCS emerged as a valuable tool to offset CO<sub>2</sub>  emission tradeoffs associated with dry cooling, especially when alternative water sourcing alone is insufficient in certain power plant regions.
 
 However, the issue is complicated globally, as CCS could demand more energy and thus more emissions, and wastewater could be useful but has its limitations and may not be available near some power plants.
 

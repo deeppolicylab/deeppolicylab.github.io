@@ -11,8 +11,8 @@ listing:  #an example of listing external links
   type: grid
   fields: [image, title, subtitle]
   grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
+  grid-columns: 3
+  image-height: 250px
   categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -21,9 +21,6 @@ listing:  #an example of listing external links
     - /people/gang-he-associate.yml
     - /people/kaifang-luo.yml
     - /people/mariah-galindo.yml  
-    - /people/junki-choi.yml
-    - /people/xinyang-che.yml
-    - /people/samuel-lee.yml
     - /people/samid-rahman.yml
     - /people/daniel-yadgarov.yml
 
@@ -48,6 +45,9 @@ listing:  #an example of listing external links
 #  sort-ui: true
 #  filter-ui: true
   contents: 
+    - /people/xinyang-che.yml
+    - /people/junki-choi.yml
+    - /people/samuel-lee.yml
     - /people/yun-li.yml
     - /people/nicolo-antonucci.yml
     - /people/kately-arriage.yml 

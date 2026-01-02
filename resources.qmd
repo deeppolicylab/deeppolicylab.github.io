@@ -57,7 +57,7 @@ listing:
       title: "Climate Guest Speakers"
 #      author: 
 #      subtitle: "* *"
-      description: "We're seeking guest speakers who are passionate about sharing their experiences and inspiring next generation of climate leaders."
+      description: "We're seeking guest speakers who are passionate about sharing their experiences and inspiring the next generation of climate leaders."
 #      date: "2016-05-08"
 #      categories: [] 
 

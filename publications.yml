@@ -1,3 +1,25 @@
+
+    - path: https://iopscience.iop.org/article/10.1088/1748-9326/ae3fb3
+      image: /files/images/journal/erl.png
+      title: "Coal Mine Workers in the Climate Transition: Subnational Vulnerability Disparities in China and India"
+#      author: 
+      subtitle: "*Environmental Research Letters*"
+      description: "Beyond national climate ambitions, differences in mining productivity, local economic diversification, labour concentration, and employment patterns drive subnational disparities in vulnerability to accelerated mitigation."
+      date: "2026-02-12"
+      fulltext: "[pdf](https://iopscience.iop.org/article/10.1088/1748-9326/ae3fb3/pdf)"
+      categories: [coal, china, india, just-transition] 
+
+
+    - path: https://doi.org/10.1038/s44359-025-00136-z
+      image: /files/images/journal/nature-reviews-clean-tech.jpg
+      title: "Renewable integration and AI demand reshaped power grids in 2025"
+#      author: 
+      subtitle: "*Nature Reviews Clean Technology*"
+      description: "The importance of renewable integration into grids came to the forefront in 2025. New challenges in stability, storage, artificial intelligence demand and policy changes defined a year that tested whether power systems can become reliable, flexible and equitable in a net-zero world."
+      date: "2026-01-20"
+      fulltext: "[SharedIt](https://rdcu.be/eZUji)"
+      categories: [power-system, featured] 
+
     - path: https://doi.org/10.1016/j.oneear.2025.101467
       image: /files/images/journal/one-earth-logo.jpg
       title: "Imported solar photovoltaics contributed to health and climate benefits in the United States"
@@ -33,7 +55,7 @@
       title: "Cost-effectiveness of removing the last 10-20% emissions of China's power sector"
 #      author: 
       subtitle: "*Environmental Research Letters*"
-      description: "Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs."
+      description: "Eliminating the last 10–20% of CO2 emissions creates net climate and health benefits with only slightly increased costs."
       date: "2025-03-14"
       fulltext: "[pdf](https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3/pdf)"
       categories: [power-system, china] 
@@ -77,7 +99,7 @@
       description: "A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing."
       date: "2023-10-11"
       fulltext: "[pdf](https://www.nature.com/articles/s43247-023-01006-x.pdf)"
-      categories: [featured, supply-chain, carbon, solar] 
+      categories: [supply-chain, carbon, solar] 
 
     - path: https://iopscience.iop.org/article/10.1088/1748-9326/acf84b
       image: /files/images/journal/erl.png
@@ -97,7 +119,7 @@
       description: "We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling."
       date: "2023-08-07"
       fulltext: "[SharedIt](https://rdcu.be/diKmv)"
-      categories: [featured, energy-nexus, water, carbon] 
+      categories: [energy-nexus, water, carbon] 
 
     - path: https://www.nature.com/articles/s41560-023-01304-w
       image: /files/images/journal/nature-energy.jpg
@@ -144,7 +166,7 @@
       title: "Challenges and opportunities for carbon neutrality in China"
 #      author: 
       subtitle: "*Nature Reviews Earth & Environment*"
-      description: "In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets."
+      description: "In this Perspective, we summarize the key features of China’s CO<sub>2</sub> emissions, its reduction processes and successes in meeting climate targets."
       date: "2022-03-01"
       fulltext: "[SharedIt](https://rdcu.be/enuBK)"
       categories: [featured, china, carbon] 
@@ -174,7 +196,7 @@
       title: "Enabling a Rapid and Just Transition away from Coal in China"
 #      author: 
       subtitle: "*One Earth*"
-      description: "Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death."
+      description: "An aggressive coal-transition pathway is needed to achieve the carbon neutrality goal while saving water and avoiding premature deaths."
       date: "2020-08-21"
       fulltext: "[pdf](https://www.cell.com/action/showPdf?pii=S2590-3322%2820%2930356-0)"
       categories: [featured, china, coal, just-transition] 
@@ -184,7 +206,7 @@
       title: "Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system"
 #      author: 
       subtitle: "*Nature Communications*"
-      description: "A renewable dominant pathway is not just technogical sound, but also cost effective."
+      description: "A renewable-dominant pathway is not just technologically sound, but also cost-effective."
       date: "2020-05-19"
       fulltext: "[pdf](https://www.nature.com/articles/s41467-020-16184-x.pdf)"
       categories: [featured, power-system, china] 

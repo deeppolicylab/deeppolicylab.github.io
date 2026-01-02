@@ -61,7 +61,7 @@ title-block-banner: false
 
 ### Venue 
 
-Online via zoom. Please register [here](https://umich.zoom.us/webinar/register/WN_xaD85ZZvTDSdMf_dWosjgw).
+Online via Zoom. Please register [here](https://umich.zoom.us/webinar/register/WN_xaD85ZZvTDSdMf_dWosjgw).
 
 ## About
 

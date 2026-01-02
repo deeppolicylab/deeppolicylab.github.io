@@ -23,7 +23,7 @@ page-layout: full
 
 - [可持续、韧性及公正的清洁能源供应链](/research/clean-energy-supply-chains/index.qmd)  
 - [电力系统低碳转型](/research/power-systems-decarbonization/index.qmd)    
-- [气候变化对能源系统的影响](/research/climate-impact-energy-systems/index.qmd)  
+- [气候变化对能源系统的影响](/research/climate-impacts-energy-systems/index.qmd)  
 - [能源交叉研究](/research/energy-nexus-research/index.qmd)  
 - [能源与气候公正](/research/energy-climate-justice/index.qmd)
 

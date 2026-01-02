@@ -7,7 +7,7 @@ listing:
   contents: 
     - research/clean-energy-supply-chains
     - research/power-systems-decarbonization
-    - research/climate-impact-energy-systems
+    - research/climate-impacts-energy-systems
     - research/energy-nexus-research
     - research/energy-climate-justice
   sort: false
