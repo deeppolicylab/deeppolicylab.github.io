@@ -20,8 +20,8 @@ listing:
   type: grid
   fields: [image, title, subtitle]
   grid-item-align: center  
-  grid-columns: 4
-  image-height: 200px
+  grid-columns: 3
+  image-height: 250px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -30,7 +30,7 @@ listing:
     - ../people/kaifang-luo.yml
     - ../people/hilary-botein.yml
     - ../people/frank-heiland.yml
-
+    - ../people/anna-d-souza.yml
 - id: ra
 #  sort: "title asc"
   type: grid
@@ -69,7 +69,7 @@ Source: [NYRDRC Research Library 25-08](https://www.nyrdrc.org/research-library/
 
 ## Acknowledgment
 
-We thank Social Security Administration for supporting our work. We are grateful for the support and collaboration from the NYCHA team. This proposal benefited from discussions with Deborah Balk and Na Yin at early stage. We thank Neil Bennett for reviewing our draft and providing helpful comments to strengthen our proposal.
+This project was awarded by Social Security Administration then cancelled by the Trump Administration. We are grateful for the support and collaboration from the NYCHA team. This proposal benefited from discussions with Deborah Balk and Na Yin at early stage. We thank Neil Bennett for reviewing our draft and providing helpful comments to strengthen our proposal.
 
 
 ## About NYRDRC
