@@ -92,7 +92,7 @@
     "items": [
       "/research/clean-energy-supply-chains/index.html",
       "/research/power-systems-decarbonization/index.html",
-      "/research/climate-impact-energy-systems/index.html",
+      "/research/climate-impacts-energy-systems/index.html",
       "/research/energy-nexus-research/index.html",
       "/research/energy-climate-justice/index.html",
       "/research/china-carbon-neutrality-initiative/index.html",
@@ -118,7 +118,7 @@
     "items": [
       "/research/clean-energy-supply-chains/index.html",
       "/research/power-systems-decarbonization/index.html",
-      "/research/climate-impact-energy-systems/index.html",
+      "/research/climate-impacts-energy-systems/index.html",
       "/research/energy-nexus-research/index.html",
       "/research/energy-climate-justice/index.html",
       "/research/china-carbon-neutrality-initiative/index.html",
@@ -153,6 +153,10 @@
   },
   {
     "listing": "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/climate-impacts-energy-systems/index.html",
     "items": []
   }
 ]

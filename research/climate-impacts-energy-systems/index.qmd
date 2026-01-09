@@ -1,5 +1,5 @@
 ---
-title: "Climate Impact on Energy Systems"
+title: "Climate Impacts on Energy Systems"
 description: "Enhancing the adaptation of energy systems to climate change."
 #author: "DEEP Lab"
 #date: "2024-06-01"
@@ -28,7 +28,7 @@ listing:
 
 ## Overview
 
-Climate change poses growing risks and challenges to energy systems. This research theme assesses the impact and informs strategies for mitigation, adaptation, and resilience-building to ensure reliable and sustainable energy systems in the future. 
+Climate change poses growing risks and challenges to energy systems. This research theme assesses the impacts and informs strategies for mitigation, adaptation, and resilience-building to ensure reliable and sustainable energy systems in the future. 
 
 ## Featured publications
 
