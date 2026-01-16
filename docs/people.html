@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-started-sort'] },{ data: ['listing-ended-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-categories"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-categories","listing-status"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -306,44 +306,12 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 <section id="team" class="level2">
 <h2 class="anchored" data-anchor-id="team">Team</h2>
 <div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
+<div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
-<a href="https://xinyang-che.github.io" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/xinyang-che.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Xinyang CHE
-</h5>
-<div class="card-subtitle listing-subtitle">
-Research Assistant/ M.S., Xi’an Jiaotong University
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="VmlzaXRpbmclMjBTY2hvbGFy">
-<a href="https://udayton.edu/directory/engineering/mechanical-and-aerospace/choi_jun-ki.php" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/junki-choi.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Jun-Ki CHOI
-</h5>
-<div class="card-subtitle listing-subtitle">
-Anderson Endowed Chair Professor, University of Dayton
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
 <a href="https://www.linkedin.com/in/mariah-galindo12101/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/mariah-galindo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/mariah-galindo.jpeg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -355,11 +323,11 @@ Marxe Assistant/ MIA Student, CUNY Baruch College
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="RGlyZWN0b3I=">
+<div class="g-col-1" data-index="1" data-categories="RGlyZWN0b3I=">
 <a href="https://drganghe.github.io" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -371,27 +339,11 @@ Associate Professor, CUNY Baruch College
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/we-need-you.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Samuel LEE
-</h5>
-<div class="card-subtitle listing-subtitle">
-Research Assistant/Friends Seminary
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">
+<div class="g-col-1" data-index="2" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">
 <a href="https://kaifangluo.com" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/kaifang-luo.webp" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/kaifang-luo.webp" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -403,11 +355,11 @@ Postdoctoral Researcher, CUNY Baruch College
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="VW5kZXJncmFkdWF0ZQ==">
+<div class="g-col-1" data-index="3" data-categories="VW5kZXJncmFkdWF0ZQ==">
 <a href="https://www.linkedin.com/in/samid-sadeem-033b74306/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/samid-rahman.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/samid-rahman.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -419,11 +371,11 @@ CUNY Undergraduate Climate Scholar, Borough of Manhattan Community College
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="VW5kZXJncmFkdWF0ZQ==">
+<div class="g-col-1" data-index="4" data-categories="VW5kZXJncmFkdWF0ZQ==">
 <a href="https://www.linkedin.com/in/daniel-yadgarov-15a999271/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/daniel-yadgarov.webp" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/daniel-yadgarov.webp" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -503,7 +455,64 @@ Macaulay Honors Student, CUNY Baruch College
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-08" data-listing-title-sort="Arielle CANATE">
+<tr data-index="0" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=" data-listing-started-sort="2025-08" data-listing-ended-sort="2025-12" data-listing-title-sort="Samuel LEE">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/we-need-you.png" style="height: 25px;"></span>
+</td>
+<td>
+<span class="listing-title">Samuel LEE</span>
+</td>
+<td>
+<span class="listing-subtitle">Research Assistant/Friends Seminary</span>
+</td>
+<td>
+<span class="listing-started">2025-08</span>
+</td>
+<td>
+<span class="listing-ended">2025-12</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2025-06" data-listing-ended-sort="2025-12" data-listing-title-sort="Xinyang CHE">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/xinyang-che.jpg" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://xinyang-che.github.io" class="title listing-title">Xinyang CHE</a>
+</td>
+<td>
+<span class="listing-subtitle">Research Assistant/ M.S., Xi’an Jiaotong University</span>
+</td>
+<td>
+<span class="listing-started">2025-06</span>
+</td>
+<td>
+<span class="listing-ended">2025-12</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="VmlzaXRpbmclMjBTY2hvbGFy" data-listing-started-sort="2025-05" data-listing-ended-sort="2025-09" data-listing-title-sort="Jun-Ki CHOI">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/junki-choi.jpg" style="height: 25px;"></span>
+</td>
+<td>
+<a href="https://udayton.edu/directory/engineering/mechanical-and-aerospace/choi_jun-ki.php" class="title listing-title">Jun-Ki CHOI</a>
+</td>
+<td>
+<span class="listing-subtitle">Anderson Endowed Chair Professor, University of Dayton </span>
+</td>
+<td>
+<span class="listing-started">2025-05</span>
+</td>
+<td>
+<span class="listing-ended">2025-09</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-08" data-listing-title-sort="Arielle CANATE">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/arielle-canate.jpg" style="height: 25px;"></span>
 </td>
@@ -522,7 +531,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-08" data-listing-title-sort="Tiffany HUGH">
+<tr data-index="4" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-08" data-listing-title-sort="Tiffany HUGH">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/tiffany-hugh.jpeg" style="height: 25px;"></span>
 </td>
@@ -541,7 +550,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="2" data-categories="VmlzaXRpbmclMjBTdHVkZW50JTJDUGhEJTIwU3R1ZGVudA==" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-06" data-listing-title-sort="Wenge RAO">
+<tr data-index="5" data-categories="VmlzaXRpbmclMjBTdHVkZW50JTJDUGhEJTIwU3R1ZGVudA==" data-listing-started-sort="2024-12" data-listing-ended-sort="2025-06" data-listing-title-sort="Wenge RAO">
 <td>
 <span class="listing-image"><img loading="lazy" src="https://giselle1119.github.io/images/WengeRao.png" style="height: 25px;"></span>
 </td>
@@ -560,7 +569,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="3" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=" data-listing-started-sort="2024-11" data-listing-ended-sort="2025-05" data-listing-title-sort="Oliver NIEDBALA">
+<tr data-index="6" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=" data-listing-started-sort="2024-11" data-listing-ended-sort="2025-05" data-listing-title-sort="Oliver NIEDBALA">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/oliver-niedbala.webp" style="height: 25px;"></span>
 </td>
@@ -579,7 +588,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="4" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-started-sort="2024-09" data-listing-ended-sort="2024-12" data-listing-title-sort="Tenzin SINON">
+<tr data-index="7" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-started-sort="2024-09" data-listing-ended-sort="2024-12" data-listing-title-sort="Tenzin SINON">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/tenzin-sinon.jpg" style="height: 25px;"></span>
 </td>
@@ -598,7 +607,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="5" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-started-sort="2024-09" data-listing-ended-sort="2024-12" data-listing-title-sort="Tamara VALDERRAMA">
+<tr data-index="8" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-started-sort="2024-09" data-listing-ended-sort="2024-12" data-listing-title-sort="Tamara VALDERRAMA">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/tamara-valderrama.jpg" style="height: 25px;"></span>
 </td>
@@ -617,7 +626,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="6" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-09" data-listing-ended-sort="2023-12" data-listing-title-sort="Nicolo ANTONUCCI">
+<tr data-index="9" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-09" data-listing-ended-sort="2023-12" data-listing-title-sort="Nicolo ANTONUCCI">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/nicolo-antonucci.jpeg" style="height: 25px;"></span>
 </td>
@@ -636,7 +645,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="7" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-09" data-listing-ended-sort="2023-12" data-listing-title-sort="Kately ARRIAGE">
+<tr data-index="10" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-09" data-listing-ended-sort="2023-12" data-listing-title-sort="Kately ARRIAGE">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/headshots/kately-arriage.jpeg" style="height: 25px;"></span>
 </td>
@@ -655,7 +664,7 @@ Macaulay Honors Student, CUNY Baruch College
 
 </tr>
 
-<tr data-index="8" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-07" data-listing-ended-sort="2024-08" data-listing-title-sort="Yun LI">
+<tr data-index="11" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-started-sort="2023-07" data-listing-ended-sort="2024-08" data-listing-title-sort="Yun LI">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/we-need-you.png" style="height: 25px;"></span>
 </td>
