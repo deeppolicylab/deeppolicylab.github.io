@@ -34,8 +34,8 @@ listing:  #an example of listing external links
   type: grid
   fields: [image, title, subtitle]
 #  grid-item-align: center  
-  grid-columns: 3
-  image-height: 100px
+  grid-columns: 2
+  image-height: 150px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -56,13 +56,13 @@ listing:  #an example of listing external links
       description: "Baruch College has secured a $750,000 grant from the Alfred P. Sloan Foundation to advance U.S. clean energy manufacturing policy research."
       date: "2025-12-17"   
 
-    - path: https://www.gc.cuny.edu/news/professor-wins-750k-grant-study-clean-energy-manufacturing
-      image: /files/images/university/cuny-gc.png
-      title: "Professor Wins $750K Grant to Study Clean Energy Manufacturing"
-      subtitle: "CUNY Graduate Center"
-      author: Office of Communications and Marketing
-      description: "Gang He will use the Sloan Foundation funding to examine how policies and markets shape the manufacturing of clean energy and the impacts on emissions."
-      date: "2026-01-15"         
+    # - path: https://www.gc.cuny.edu/news/professor-wins-750k-grant-study-clean-energy-manufacturing
+    #   image: /files/images/university/cuny-gc.png
+    #   title: "Professor Wins $750K Grant to Study Clean Energy Manufacturing"
+    #   subtitle: "CUNY Graduate Center"
+    #   author: Office of Communications and Marketing
+    #   description: "Gang He will use the Sloan Foundation funding to examine how policies and markets shape the manufacturing of clean energy and the impacts on emissions."
+    #   date: "2026-01-15"         
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->
