@@ -1,3 +1,13 @@
+    - path: https://doi.org/10.1038/s44359-025-00136-z
+      image: /files/images/journal/nature-reviews-clean-tech.jpg
+      title: "Renewable integration and AI demand reshaped power grids in 2025"
+#      author: 
+      subtitle: "*Nature Reviews Clean Technology*"
+      description: "The importance of renewable integration into grids came to the forefront in 2025. New challenges in stability, storage, artificial intelligence demand and policy changes defined a year that tested whether power systems can become reliable, flexible and equitable in a net-zero world."
+      date: "2026-01-20"
+      fulltext: "[SharedIt](https://rdcu.be/eZUji)"
+      categories: [power-system, featured] 
+
     - path: https://doi.org/10.1016/j.oneear.2025.101467
       image: /files/images/journal/one-earth-logo.jpg
       title: "Imported solar photovoltaics contributed to health and climate benefits in the United States"
