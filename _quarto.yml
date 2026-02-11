@@ -12,23 +12,27 @@ website:
     foreground: "#FFFFFF"
     left:
       - text: About
-        href: about.qmd
-      - text: News
-        href: news.qmd
-      - text: Events
-        href: events.qmd
+        menu: 
+          - text: About Us
+            href: about.qmd
+          - text: News
+            href: news.qmd
+          - text: Events
+            href: events.qmd  
       - text: People
         href: people.qmd
       - text: Research
-        href: research.qmd
-      - text: Projects
-        href: projects.qmd 
+        menu:
+        - text: Research & Initiatives
+          href: research.qmd
+        - text: Projects
+          href: projects.qmd 
+        - text: Resources
+          href: resources.qmd
       - text: Publications
         href: publications.qmd
-      - text: Resources
-        href: resources.qmd
       - text: Support
-        href: support.qmd  
+        href: support.qmd         
       - text: 中文
         href: cn.qmd        
     right:
