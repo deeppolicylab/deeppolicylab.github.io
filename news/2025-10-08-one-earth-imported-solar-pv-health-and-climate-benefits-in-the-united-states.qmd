@@ -79,12 +79,12 @@ The study, led by researchers from City University of New York (CUNY) and Stony 
 
 The researchers analyzed detailed shipment and power plant data across the U.S., using a reduced-complexity air quality model to track how solar energy displaced fossil fuels and improved air quality in different regions. They found that roughly 70% of solar electricity generated in recent years came from imported photovoltaic (PV) modules—mostly from countries such as Vietnam, Malaysia, and Thailand.
 
-Key findings include: During the study period between 2014 and 2022 
+Key findings during the study period between 2014 and 2022 include:
 
--	305 TWh of fossil fuel generation was displaced by imported solar PV 
--	178 million tons of CO<sub>2</sub> emissions were reduced—11% of total U.S. power sector emissions in 2022
--	595 premature deaths were avoided due to reductions in fine particulate pollution 
--	$28 billion was reaped in total monetized climate and health benefits
+- 305 TWh of fossil fuel generation was displaced by imported solar PV  
+- 178 million tons of CO<sub>2</sub> emissions were reduced—11% of total U.S. power sector emissions in 2022  
+- 595 premature deaths were avoided due to reductions in fine particulate pollution  
+- $28 billion in total monetized climate and health benefits was realized
 
 Notably, the benefits were not confined to solar-importing states. “Over 40% of the air quality benefits flowed to people living outside the states that imported the panels,” said lead author Dr. Minghao Qiu, an assistant professor in the School of Marine and Atmospheric Sciences and the Program in Public Health at Stony Brook University. “That’s due to how electricity and air pollution move across state lines.”
 
@@ -101,7 +101,7 @@ The study was supported by the Global Energy Initiative at ClimateWorks Foundati
 
 **Citation**
 
-Qiu, Minghao, Gang He, and Peter Marcotullio. 2025. “Imported solar photovoltaic contributed to health and climate benefits in the United States” *One Earth*, 8: 101467. <https://doi.org/10.1016/j.oneear.2025.101467>.
+Qiu, Minghao, Gang He, and Peter Marcotullio. 2025. “Imported solar photovoltaics contributed to health and climate benefits in the United States” *One Earth*, 8: 101467. <https://doi.org/10.1016/j.oneear.2025.101467>.
 
 
 Learn [more](https://drganghe.github.io/posts/2025-10-oneearth-imported-solar-pv-health-climate-benefits-in-the-united-states/index.html) about the research.

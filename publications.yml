@@ -55,7 +55,7 @@
       title: "Cost-effectiveness of removing the last 10-20% emissions of China's power sector"
 #      author: 
       subtitle: "*Environmental Research Letters*"
-      description: "Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs."
+      description: "Eliminating the last 10–20% of CO2 emissions creates net climate and health benefits with only slightly increased costs."
       date: "2025-03-14"
       fulltext: "[pdf](https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3/pdf)"
       categories: [power-system, china] 
@@ -166,7 +166,7 @@
       title: "Challenges and opportunities for carbon neutrality in China"
 #      author: 
       subtitle: "*Nature Reviews Earth & Environment*"
-      description: "In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets."
+      description: "In this Perspective, we summarize the key features of China’s CO<sub>2</sub> emissions, its reduction processes and successes in meeting climate targets."
       date: "2022-03-01"
       fulltext: "[SharedIt](https://rdcu.be/enuBK)"
       categories: [featured, china, carbon] 
@@ -196,7 +196,7 @@
       title: "Enabling a Rapid and Just Transition away from Coal in China"
 #      author: 
       subtitle: "*One Earth*"
-      description: "Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death."
+      description: "An aggressive coal-transition pathway is needed to achieve the carbon neutrality goal while saving water and avoiding premature deaths."
       date: "2020-08-21"
       fulltext: "[pdf](https://www.cell.com/action/showPdf?pii=S2590-3322%2820%2930356-0)"
       categories: [featured, china, coal, just-transition] 
@@ -206,7 +206,7 @@
       title: "Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system"
 #      author: 
       subtitle: "*Nature Communications*"
-      description: "A renewable dominant pathway is not just technogical sound, but also cost effective."
+      description: "A renewable-dominant pathway is not just technologically sound, but also cost-effective."
       date: "2020-05-19"
       fulltext: "[pdf](https://www.nature.com/articles/s41467-020-16184-x.pdf)"
       categories: [featured, power-system, china] 

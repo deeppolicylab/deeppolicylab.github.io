@@ -1,7 +1,7 @@
 ---
 title: "New Study Shows Fewer Than 15% of China’s Coal Power Plant Workers Can Easily Transition to Green Jobs by 2060"
 image: "/files/images/coal-power.JPG"
-description: "Study published in *One Earth* shows less than 15% of China’s coal power plant workforce will find it easy to shift into green jobs, a coal power worker needs to travel 194 (178–242) km on average to access a green job."
+description: "Study published in *One Earth* shows that fewer than 15% of China’s coal power plant workforce will find it easy to shift into green jobs; a coal power worker needs to travel 194 (178–242) km on average to access a green job."
 #author: "Gang He"
 #categories: [research]
 date: "2024-11-06"
@@ -24,7 +24,7 @@ As China progresses toward its 2060 carbon neutrality target, phasing out coal p
 
 The [study](https://www.sciencedirect.com/science/article/pii/S259033222400530X), published in *One Earth*, presents a comprehensive analysis of the geographic and skill-based challenges coal power workers face in transitioning to the renewable energy sector. A team of researchers from Peking University, CUNY Baruch College, and collaborators using a retirement model of 3,765 coal power units across China, the study reveals that for the majority of these workers, green jobs are not just around the corner—most would have to travel substantial distances, averaging between 178 and 242 kilometers, to reach available renewable energy job sites.
 
-![Lanhaiguang Solar Farm near Ordos, Inner Mongolia. Sourse: [ST Daily](https://www.stdaily.com/web/gdxw/2024-11/05/content_253289.html)](https://www.stdaily.com/web/gdxw/pic/2024-11/05/253289_dcebea1a-e90d-4a27-a6d7-a32388483d38.jpeg)
+![Lanhaiguang Solar Farm near Ordos, Inner Mongolia. Source: [ST Daily](https://www.stdaily.com/web/gdxw/2024-11/05/content_253289.html)](https://www.stdaily.com/web/gdxw/pic/2024-11/05/253289_dcebea1a-e90d-4a27-a6d7-a32388483d38.jpeg)
 
 
 Beyond location, the study also examines the skills gap. While green jobs—such as solar technician roles—are often cited as potential new employment opportunities, they generally require specific skills and training. When skill requirements are considered alongside job accessibility, the analysis shows that fewer than 15% of coal power plant workers can easily qualify for green roles.

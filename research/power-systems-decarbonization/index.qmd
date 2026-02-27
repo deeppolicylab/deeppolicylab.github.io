@@ -78,7 +78,7 @@ listing:
 
 ## Overview
 
-"Electrifying energy and decarbonizing electricity" is at the heart of global energy transtion. This research theme focuses on transforming the energy landscape by increasing electrification in various sectors, such as transportation, building, and industry, while simultaneously decarbonizing the electricity supply. The goal is to explore the pathways to net-zero emissions power systems and their environmental, climate, human health, and socio-economic implications.
+"Electrifying energy and decarbonizing electricity" is at the heart of the global energy transition. This research theme focuses on transforming the energy landscape by increasing electrification in various sectors, such as transportation, buildings, and industry, while simultaneously decarbonizing the electricity supply. The goal is to explore the pathways to net-zero-emissions power systems and their environmental, climate, human health, and socio-economic implications.
 
 
 ## Featured publications

@@ -5,7 +5,7 @@ project:
 website:
   title: "Deep Policy Lab"
   image: "/files/images/deeplab.png"
-  description: "Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization. Alias: DEEP Lab, DEEP Energy Lab, DEEP Climate Lab. Key words: Deep energy systems, Deep decarbonization, Deep modeling, Deep policy, Energy and climate policy, Energy Systems, Energy policy, Climate policy, Energy transition."
+  description: "Deep Energy and Climate Policy Lab: data-driven, evidence-based energy, environmental, and climate policy; deep analysis and deep insights for deep decarbonization. Aliases: DEEP Lab, DEEP Energy Lab, DEEP Climate Lab. Keywords: deep energy systems, deep decarbonization, deep modeling, deep policy, energy and climate policy, energy systems, energy policy, climate policy, energy transition."
  
   navbar:
     background: "#05336B"

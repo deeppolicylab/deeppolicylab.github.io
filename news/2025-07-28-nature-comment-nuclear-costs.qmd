@@ -84,9 +84,9 @@ Links: Published [paper](https://www.nature.com/articles/d41586-025-02341-z);  S
 
 **Nuclear Renaissance? China’s Strategy Offers Lessons to Curb Soaring Construction Costs**
  
-New Nature Comment article shows how China’s energy policy and industrial approach have brought nuclear construction costs down, offering insights for global clean energy transition.
+A new Nature Comment article shows how China’s energy policy and industrial approach have brought nuclear construction costs down, offering insights for the global clean energy transition.
  
-July 28, 2025 — As countries race to scale up nuclear power to meet climate goals and power data centers, a longstanding problem persists: nuclear plants are notoriously expensive to build. But a new article in Nature Comment article reveals that China is reversing this global trend—offering lessons for how to rein in costs.
+July 28, 2025 — As countries race to scale up nuclear power to meet climate goals and power data centers, a longstanding problem persists: nuclear plants are notoriously expensive to build. But a new Comment article in *Nature* reveals that China is reversing this global trend—offering lessons for how to rein in costs.
  
 In the article, researchers from Harvard, CUNY, Stony Brook, and Johns Hopkins analyze newly compiled, plant-level data to show how China has managed to reduce nuclear construction costs over time. The authors credit China’s approach to a combination of standardized designs, strategic indigenization of components, and coordinated industrial policy.
 

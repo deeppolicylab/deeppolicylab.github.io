@@ -85,7 +85,7 @@ In recent years, the U.S. has made historic investments to rebuild domestic manu
 This Sloan-funded project addresses that gap by combining empirical analysis, energy-systems modeling, trade and supply-chain analysis, and stakeholder engagement to generate policy-relevant insights on the effectiveness and consequences of domestic clean energy manufacturing strategies.
 
 
-**Interdisciplinary and Cross Institutional Research Team**
+**Interdisciplinary and Cross-Institutional Research Team**
 
 This project brings together an interdisciplinary team of experts, including Associate Professor Gang He, director of the Deep Energy and Climate Policy Lab, also a faculty member in Baruch College’s Marxe School of Public and International Affairs, the CUNY Graduate Center, and CUNY Institute for Demographic Research, will serve as Lead Principal Investigator. 
 
@@ -117,15 +117,15 @@ The research team's expertise includes industrial policy, trade economics, energ
 
 [Ilaria Mazzocco](https://csis.org/people/ilaria-mazzocco), Center for Strategic and International Studies (CSIS)
 
->“Effective industrial strategy requires more than data—it requires dialogue. This project will bring policymakers, industry leaders, and community stakeholders together through workshop and collaborative engagement to ensure that our research directly informs real-world decisions.”
+>“Effective industrial strategy requires more than data—it requires dialogue. This project will bring policymakers, industry leaders, and community stakeholders together through workshops and collaborative engagement to ensure that our research directly informs real-world decisions.”
 
 More about the project can be found at: <https://madeinamerica.netlify.app>
 
 **About Deep Energy and Climate Policy Lab**
 
-The Deep Energy and Climate Policy Lab aims to provide deep analysis and deep insights for deep decarbonization to address climate grand challenges. The Lab integrates modeling, empirical analysis, and stakeholder engagement to inform evidence-based decisions at local, national, and global scales. The mission is to advance effective energy and climate solutions through rigorous, data-driven analysis and collaborative dialogue. Website: <https://deeppolicylab.github.io>
+The Deep Energy and Climate Policy Lab aims to provide deep analysis and deep insights for deep decarbonization to address grand climate challenges. The Lab integrates modeling, empirical analysis, and stakeholder engagement to inform evidence-based decisions at local, national, and global scales. The mission is to advance effective energy and climate solutions through rigorous, data-driven analysis and collaborative dialogue. Website: <https://deeppolicylab.github.io>
 
-## Annoucements
+## Announcements
 
 :::{#releases}
 :::
