@@ -29,6 +29,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 2
+  max-items: 2
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -58,6 +59,7 @@ No one should be left behind in the transition to clean energy. This research th
 :::{#featured-projects}
 :::
 
+<p align="right">[More Projects »](/projects.qmd)</p>
 
 <!--Include social share buttons-->
 

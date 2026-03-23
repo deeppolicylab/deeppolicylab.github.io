@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.11">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Featured Publications – Deep Policy Lab</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -34,15 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-5947b73a06bce04bf1d622ae23e1ec5b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2ab0c76efacf72616ee6bc98aec9b576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-fulltext","listing-categories"],
+      searchColumns: ["listing-image","listing-year","listing-date","listing-title","listing-subtitle","listing-description","listing-fulltext","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -109,7 +111,7 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -141,11 +143,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Featured Publications – Deep Policy Lab">
 <meta property="og:description" content="Featured papers and articles">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/journal/est-50-11-cover-crop.jpg">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/journal/commsearth.jpg">
 <meta property="og:site_name" content="Deep Policy Lab">
 <meta name="twitter:title" content="Featured Publications – Deep Policy Lab">
 <meta name="twitter:description" content="Featured papers and articles">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/journal/est-50-11-cover-crop.jpg">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/journal/commsearth.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -166,41 +168,78 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
+        <li>
+    <a class="dropdown-item" href="./news.html">
+ <span class="dropdown-text">News</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
-<span class="menu-text">Events</span></a>
+        <li>
+    <a class="dropdown-item" href="./events.html">
+ <span class="dropdown-text">Events</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./support.html">
+ <span class="dropdown-text">Support</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./research.html">
+ <span class="dropdown-text">Themes &amp; Initiatives</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Projects</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./resources.html">
+ <span class="dropdown-text">Resources</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">Resources</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-impacts" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Impacts</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-impacts">    
+        <li>
+    <a class="dropdown-item" href="./media.html">
+ <span class="dropdown-text">Media Coverage</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://deeppolicylab.github.io/policy-citations/" target="_blank">
+ <span class="dropdown-text">Policy Influence</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://drganghe.github.io/posts.html#category=outreach" target="_blank">
+ <span class="dropdown-text">Policy Engagement</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
-<span class="menu-text">Support</span></a>
+    <a class="nav-link" href="./opportunities.html"> 
+<span class="menu-text">Opportunities</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -283,7 +322,31 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDZmVhdHVyZWQ=" data-listing-date-sort="1768885200000">
+<div class="g-col-1" data-index="0" data-categories="ZmVhdHVyZWQlMkN3aW5kJTJDY2hpbmElMkNwb3dlci1zeXN0ZW0=" data-listing-date-sort="1776744000000">
+<a href="https://www.nature.com/articles/s43247-026-03533-9" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/journal/commsearth.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Aligning offshore wind deployment with local priorities to accelerate power system decarbonization
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>Communications Earth &amp; Environment</em>
+</div>
+<div class="card-text listing-description delink">
+<p>Offshore wind can bolster the energy self-sufficiency of coastal provinces, shifting them from net electricity importers to exporters. It also reduces the need for energy…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 21, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="cG93ZXItc3lzdGVtJTJDZmVhdHVyZWQ=" data-listing-date-sort="1768885200000">
 <a href="https://doi.org/10.1038/s44359-025-00136-z" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -307,7 +370,7 @@ Jan 20, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="ZmVhdHVyZWQlMkNzb2xhciUyQ3N1cHBseS1jaGFpbiUyQ2VuZXJneS1uZXh1cyUyQ3VuaXRlZC1zdGF0ZXM=" data-listing-date-sort="1759896000000">
+<div class="g-col-1" data-index="2" data-categories="ZmVhdHVyZWQlMkNzb2xhciUyQ3N1cHBseS1jaGFpbiUyQ2VuZXJneS1uZXh1cyUyQ3VuaXRlZC1zdGF0ZXM=" data-listing-date-sort="1759896000000">
 <a href="https://doi.org/10.1016/j.oneear.2025.101467" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -331,7 +394,7 @@ Oct 8, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
+<div class="g-col-1" data-index="3" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
 <a href="https://doi.org/10.1038/d41586-025-02341-z" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -355,7 +418,7 @@ Jul 31, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000">
+<div class="g-col-1" data-index="4" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000">
 <a href="https://doi.org/10.1016/j.oneear.2024.10.006" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -379,7 +442,7 @@ Nov 5, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYSUyQ3N0b3JhZ2U=" data-listing-date-sort="1691726400000">
+<div class="g-col-1" data-index="5" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYSUyQ3N0b3JhZ2U=" data-listing-date-sort="1691726400000">
 <a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -403,7 +466,7 @@ Aug 11, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="ZmVhdHVyZWQlMkNjbGltYXRlLWltcGFjdCUyQ3NvbGFyJTJDd2luZA==" data-listing-date-sort="1690171200000">
+<div class="g-col-1" data-index="6" data-categories="ZmVhdHVyZWQlMkNjbGltYXRlLWltcGFjdCUyQ3NvbGFyJTJDd2luZA==" data-listing-date-sort="1690171200000">
 <a href="https://www.nature.com/articles/s41560-023-01304-w" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -427,7 +490,7 @@ Jul 24, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNzb2xhciUyQ3VuaXRlZC1zdGF0ZXMlMkNjaGluYSUyQ2dlcm1hbnk=" data-listing-date-sort="1666756800000">
+<div class="g-col-1" data-index="7" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNzb2xhciUyQ3VuaXRlZC1zdGF0ZXMlMkNjaGluYSUyQ2dlcm1hbnk=" data-listing-date-sort="1666756800000">
 <a href="https://www.nature.com/articles/s41586-022-05316-6" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -451,7 +514,7 @@ Oct 26, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NhcmJvbg==" data-listing-date-sort="1646110800000">
+<div class="g-col-1" data-index="8" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NhcmJvbg==" data-listing-date-sort="1646110800000">
 <a href="https://www.nature.com/articles/s43017-021-00244-x" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -475,7 +538,7 @@ Mar 1, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NvYWwlMkNqdXN0LXRyYW5zaXRpb24=" data-listing-date-sort="1597982400000">
+<div class="g-col-1" data-index="9" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NvYWwlMkNqdXN0LXRyYW5zaXRpb24=" data-listing-date-sort="1597982400000">
 <a href="https://doi.org/10.1016/j.oneear.2020.07.012" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -499,7 +562,7 @@ Aug 21, 2020
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1589860800000">
+<div class="g-col-1" data-index="10" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1589860800000">
 <a href="https://www.nature.com/articles/s41467-020-16184-x" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -523,7 +586,7 @@ May 19, 2020
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1498881600000">
+<div class="g-col-1" data-index="11" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1498881600000">
 <a href="https://doi.org/10.1016/j.resconrec.2017.03.011" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -542,30 +605,6 @@ Experiences and lessons from China’s success in providing electricity for all
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jul 1, 2017
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1462680000000">
-<a href="https://pubs.acs.org/doi/10.1021/acs.est.6b01345" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/est-50-11-cover-crop.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SWITCH-China: A Systems Approach to Decarbonizing China’s Power System
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Environmental Science &amp; Technology</em>
-</div>
-<div class="card-text listing-description delink">
-<p>SWITCH-China, an integrated model for power sector decarbonization.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 8, 2016
 </div>
 </div>
 </div>

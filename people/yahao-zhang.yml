@@ -1,0 +1,11 @@
+    - path: 
+      image: /files/images/we-need-you.png
+      title: "Yahao ZHANG"
+      lastname: "Zhang"
+      started: "2026-08" 
+      ended: "2027"
+#      author: 
+      subtitle: "Incoming Visiting Student/Ph.D. Candidate, Wuhan University"
+#      date: "2024-03-12"
+      categories: [Visiting Student, PhD Student] 
+#      status: [Alumni]

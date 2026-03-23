@@ -13,6 +13,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 2
+  max-items: 2
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -42,6 +43,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 2
+  max-items: 2
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -65,10 +67,14 @@ The Climate Leadership and Community Protection Act (CLCPA) aims to reduce green
 :::{#featured-news}
 :::
 
+<p align="right">[More News »](/more-news.qmd)</p>
+
 ## Featured projects
 
 :::{#featured-projects}
 :::
+
+<p align="right">[More Projects »](/projects.qmd)</p>
 
 <!--Include social share buttons-->
 

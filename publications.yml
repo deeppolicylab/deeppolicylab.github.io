@@ -1,3 +1,24 @@
+    - path: "https://www.nature.com/articles/s43247-026-03533-9"
+      image: /files/images/journal/commsearth.jpg
+#      authors: "Peng, Liqun, **Gang He**, Nikit Abhyankar, Haozhe Yang, Umed Paliwal, and Jiang Lin\\*"
+      year: 2026
+      date: 2026-04-21
+      title: "Aligning offshore wind deployment with local priorities to accelerate power system decarbonization"
+      subtitle: "*Communications Earth & Environment*"
+      description: "Offshore wind can bolster the energy self-sufficiency of coastal provinces, shifting them from net electricity importers to exporters. It also reduces the need for energy storage in a grid with high renewable penetration and drives substantial local investment and job creation."
+ #     doi: "10.1038/s43247-026-03533-9"
+      fulltext: "[pdf](https://www.nature.com/articles/s43247-026-03533-9.pdf)"
+      categories: [featured, wind, china, power-system]
+
+    - path: https://doi.org/10.1016/j.apenergy.2026.127726
+      image: /files/images/journal/applied-energy-logo.jpg
+      title: "Emission trading scheme reshapes the decarbonisation pathways of China's power sector"
+#      author: 
+      subtitle: "*Applied Energy*"
+      description: "Integrating the SWITCH-China capacity expansion model with a carbon trading module, we evaluate the potential carbon profits and costs of currently operating ETS-regulated units and enterprises from 2025 to 2050, and their impact on the decarbonisation pathways of China's power system."
+      date: "2026-03-21"
+      fulltext: "[pdf](https://authors.elsevier.com/c/1morx15eifJiHC)"
+      categories: [carbon, china, power-system] 
 
     - path: https://iopscience.iop.org/article/10.1088/1748-9326/ae3fb3
       image: /files/images/journal/erl.png

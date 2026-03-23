@@ -1,0 +1,66 @@
+---
+title: "Opportunities"
+subtitle: "Work with us"
+title-block-banner: false
+page-layout: full
+toc: true
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+
+We are always eager to work with committed researchers who are passionate about advancing interdisciplinary research in energy and climate.
+
+## Collaboration and Funding Agency: 
+We are actively seeking funding partners to support motivated students and interdisciplinary impactful [research](research.qmd). Your support will advance cutting-edge research and create the [policy impacts](https://deeppolicylab.github.io/policy-citations/) it aims to achieve.
+
+## Prospective Graduate Students: 
+We welcome highly motivated students with a strong interest in interdisciplinary energy and climate research to join our team. We have worked with [Marxe Assistants](https://marxe.baruch.cuny.edu/homepage/student-resources/current-marxe-assistantship-job-postings/) from the Marxe School [MPA/MIA programs](https://marxe.baruch.cuny.edu/homepage/academics/graduateprograms/), [QMSS](https://www.gc.cuny.edu/quantitative-methods-social-sciences) program at the Graduate Center, and Ph.D. students from the [Earth and Environmental Sciences](https://www.gc.cuny.edu/earth-and-environmental-sciences) Program at the Graduate Center. 
+
+## Undergraduate Students: 
+We welcome motivated undergraduate students to get involved in our research projects. The [CUNY Climate Scholars](https://blogs.baruch.cuny.edu/climateaction/cuny-climate-scholars-fellowship/) Program is an excellent starting point for students looking to contribute to energy and climate research. 
+
+## Visiting Ph.D. Students and Scholars: 
+We are open to hosting motivated visiting Ph.D. students and scholars from around the world. To apply, please provide the following documents for consideration: 
+
+- CV
+- Research plan
+- Language proficiency certificate (if applicable)
+- One reference letter (if available)
+
+We will provide a conditional invitation letter to support funding or scholarship applications if research interests match. An unofficial [paperwork guide](https://drganghe.github.io/notes/cuny-baruch-visiting-scholar-paperwork-guide.html) might be useful to learn the processes. 
+
+
+## Contact us
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+<center>
+
+**Dr. Gang He**
+
+E-mail: <gang.he@baruch.cuny.edu>
+
+
+</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+<center>
+
+**Deep Policy Lab**
+
+E-mail: <energy.climatechange@gmail.com>
+
+
+</center>
+
+:::
+
+:::

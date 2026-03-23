@@ -12,105 +12,15 @@
     "items": []
   },
   {
-    "listing": "/people.html",
+    "listing": "/news/2025-07-28-nature-comment-nuclear-costs.html",
     "items": []
   },
   {
-    "listing": "/news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html",
+    "listing": "/news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html",
     "items": []
   },
   {
-    "listing": "/publications.html",
-    "items": []
-  },
-  {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html",
-      "/news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html",
-      "/news/2025-07-28-nature-comment-nuclear-costs.html",
-      "/news/2024-11-06-one-earth-coal-jobs-transition.html"
-    ]
-  },
-  {
-    "listing": "/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html",
-    "items": []
-  },
-  {
-    "listing": "/more-events.html",
-    "items": [
-      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
-      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
-      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
-      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
-    ]
-  },
-  {
-    "listing": "/research/united-states-clean-energy-initiative/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/china-carbon-neutrality-initiative/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/power-systems-decarbonization/index.html",
-    "items": [
-      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
-      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
-    ]
-  },
-  {
-    "listing": "/research/clean-energy-supply-chains/index.html",
-    "items": [
-      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
-      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html"
-    ]
-  },
-  {
-    "listing": "/research/new-york-climate-initiative/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/climate-impacts-energy-systems/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/energy-climate-justice/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/energy-nexus-research/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/research/clean-energy-supply-chains/index.html",
-      "/research/power-systems-decarbonization/index.html",
-      "/research/climate-impacts-energy-systems/index.html",
-      "/research/energy-nexus-research/index.html",
-      "/research/energy-climate-justice/index.html",
-      "/research/china-carbon-neutrality-initiative/index.html",
-      "/research/new-york-climate-initiative/index.html",
-      "/research/united-states-clean-energy-initiative/index.html"
-    ]
-  },
-  {
-    "listing": "/events.html",
-    "items": [
-      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
-      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
-      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
-      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
-    ]
-  },
-  {
-    "listing": "/more-publications.html",
+    "listing": "/media.html",
     "items": []
   },
   {
@@ -135,11 +45,109 @@
     ]
   },
   {
-    "listing": "/news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html",
+    "listing": "/more-publications.html",
     "items": []
   },
   {
-    "listing": "/news/2025-07-28-nature-comment-nuclear-costs.html",
+    "listing": "/events.html",
+    "items": [
+      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
+      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/clean-energy-supply-chains/index.html",
+      "/research/power-systems-decarbonization/index.html",
+      "/research/climate-impacts-energy-systems/index.html",
+      "/research/energy-nexus-research/index.html",
+      "/research/energy-climate-justice/index.html",
+      "/research/china-carbon-neutrality-initiative/index.html",
+      "/research/new-york-climate-initiative/index.html",
+      "/research/united-states-clean-energy-initiative/index.html"
+    ]
+  },
+  {
+    "listing": "/research/energy-nexus-research/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/energy-climate-justice/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/climate-impacts-energy-systems/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/new-york-climate-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/clean-energy-supply-chains/index.html",
+    "items": [
+      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html"
+    ]
+  },
+  {
+    "listing": "/research/power-systems-decarbonization/index.html",
+    "items": [
+      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
+  },
+  {
+    "listing": "/research/china-carbon-neutrality-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/united-states-clean-energy-initiative/index.html",
+    "items": []
+  },
+  {
+    "listing": "/more-events.html",
+    "items": [
+      "/events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html",
+      "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
+      "/events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html",
+      "/events/2024-07-19-workshop-on-open-modeling-carbon-neutrality-of-the-power-sector/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html",
+    "items": []
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html",
+      "/news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html",
+      "/news/2025-07-28-nature-comment-nuclear-costs.html",
+      "/news/2024-11-06-one-earth-coal-jobs-transition.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/more-media.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
     "items": []
   },
   {

@@ -12,24 +12,40 @@ website:
     foreground: "#FFFFFF"
     left:
       - text: About
-        href: about.qmd
-      - text: News
-        href: news.qmd
-      - text: Events
-        href: events.qmd  
+        menu: 
+          - text: About
+            href: about.qmd
+          - text: News
+            href: news.qmd
+          - text: Events
+            href: events.qmd
+          - text: Support
+            href: support.qmd       
       - text: People
         href: people.qmd
       - text: Research
-        href: research.qmd
-      - text: Projects
-        href: projects.qmd 
+        menu:     
+          - text: Themes & Initiatives
+            href: research.qmd
+          - text: Projects
+            href: projects.qmd
+          - text: Resources
+            href: resources.qmd        
       - text: Publications
         href: publications.qmd
-      - text: Resources
-        href: resources.qmd        
-      - text: Support
-        href: support.qmd         
-       
+      - text: Impacts
+        menu:
+          - text: Media Coverage
+            href: media.qmd
+          - text: Policy Influence
+            href: https://deeppolicylab.github.io/policy-citations/
+            target: "_blank"
+          - text: Policy Engagement
+            href: https://drganghe.github.io/posts.html#category=outreach
+            target: "_blank"
+      - text: Opportunities
+        href: opportunities.qmd
+
     right:
       - text: 中文
         href: cn.qmd 

@@ -1,6 +1,6 @@
 ---
-title: "News"
-subtitle: "What's new"
+title: "Media"
+subtitle: "In the news"
 page-layout: full
 date-format: "YYYY-MM-DD"
 toc: false
@@ -10,25 +10,23 @@ toc: false
 #image: "featured.jpeg"
 #css: /custom.css
 listing: 
-- id: release
+- id: media
   sort: "date desc"
   type: table
-  fields: [image, title, date, description]
+  fields: [image, title, subtitle, author, date, description]
+  field-display-names: 
+      subtitle: "Media"
 #  grid-item-align: left
 #  grid-columns: 3
   image-height: 20px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: 
-    - /news/
-    - release.yml
+  contents: media.yml
 ---
 
-
-:::{#release}
+:::{#media}
 :::
-
 
 <!--Include social share buttons-->
 

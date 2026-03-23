@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.11">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>News – Deep Policy Lab</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -34,15 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-5947b73a06bce04bf1d622ae23e1ec5b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c8ef3655143aac8067dcfde6dfaba7ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2ab0c76efacf72616ee6bc98aec9b576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,34 +99,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-author","listing-description","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news'] = new List('listing-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -137,7 +111,7 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -168,13 +142,13 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="News – Deep Policy Lab">
-<meta property="og:description" content="Recent releases and media coverage">
+<meta property="og:description" content="Recent releases">
 <meta property="og:image" content="http://deeppolicylab.github.io/files/images/funders/sloan-logo.png">
 <meta property="og:site_name" content="Deep Policy Lab">
 <meta property="og:image:height" content="630">
 <meta property="og:image:width" content="1200">
 <meta name="twitter:title" content="News – Deep Policy Lab">
-<meta name="twitter:description" content="Recent releases and media coverage">
+<meta name="twitter:description" content="Recent releases">
 <meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/funders/sloan-logo.png">
 <meta name="twitter:image-height" content="630">
 <meta name="twitter:image-width" content="1200">
@@ -198,41 +172,78 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page"> 
-<span class="menu-text">News</span></a>
+        <li>
+    <a class="dropdown-item" href="./news.html">
+ <span class="dropdown-text">News</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
-<span class="menu-text">Events</span></a>
+        <li>
+    <a class="dropdown-item" href="./events.html">
+ <span class="dropdown-text">Events</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./support.html">
+ <span class="dropdown-text">Support</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./research.html">
+ <span class="dropdown-text">Themes &amp; Initiatives</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Projects</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./resources.html">
+ <span class="dropdown-text">Resources</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">Resources</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-impacts" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Impacts</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-impacts">    
+        <li>
+    <a class="dropdown-item" href="./media.html">
+ <span class="dropdown-text">Media Coverage</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://deeppolicylab.github.io/policy-citations/" target="_blank">
+ <span class="dropdown-text">Policy Influence</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://drganghe.github.io/posts.html#category=outreach" target="_blank">
+ <span class="dropdown-text">Policy Engagement</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
-<span class="menu-text">Support</span></a>
+    <a class="nav-link" href="./opportunities.html"> 
+<span class="menu-text">Opportunities</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -258,7 +269,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">News</h1>
-<p class="subtitle lead">Recent releases and media coverage</p>
+<p class="subtitle lead">Recent releases</p>
 </div>
 
 
@@ -275,11 +286,9 @@ window.Quarto = {
 </header>
 
 
-<section id="release" class="level2">
-<h2 class="anchored" data-anchor-id="release">Release</h2>
 <div id="listing-release" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1765947600000" data-listing-file-modified-sort="1772201372687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1765947600000" data-listing-file-modified-sort="1773402865033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
 <a href="./news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -300,7 +309,7 @@ Dec 17, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1759896000000" data-listing-file-modified-sort="1772201372710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="633">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1759896000000" data-listing-file-modified-sort="1773402865033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="633">
 <a href="./news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -321,7 +330,7 @@ Oct 8, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1772201372687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="709">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1773402865033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="709">
 <a href="./news/2025-07-28-nature-comment-nuclear-costs.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -342,7 +351,7 @@ Jul 28, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1730869200000" data-listing-file-modified-sort="1772201372686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1730869200000" data-listing-file-modified-sort="1773402865033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
 <a href="./news/2024-11-06-one-earth-coal-jobs-transition.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -409,162 +418,7 @@ Oct 22, 2024
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <p align="right">
-<a href="./more-news.html#release">More Releases »</a>
-</p>
-</section>
-<section id="media" class="level2">
-<h2 class="anchored" data-anchor-id="media">Media</h2>
-<div id="listing-news" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1762232400000">
-<a href="https://www.pv-magazine.com/2025/11/05/us-solar-tariffs-linked-to-preventable-deaths-claim-researchers/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/pv-magazine.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-US solar tariffs linked to preventable deaths, claim researchers
-</h5>
-<div class="card-subtitle listing-subtitle">
-PV Magazine
-</div>
-<div class="card-text listing-description delink">
-<p>A more rigorous—and encouraging—analysis from researchers at the City University of New York found that solar panel imports into the United States displaced 305 TWh of…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 4, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1761192000000">
-<a href="https://www.nytimes.com/interactive/2025/10/22/climate/china-us-nuclear-energy-race.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/new-york-times.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How China Raced Ahead of the U.S. on Nuclear Power
-</h5>
-<div class="card-subtitle listing-subtitle">
-The New York Times
-</div>
-<div class="card-text listing-description delink">
-<p><em>The New York Times</em> covered U.S. China’s nuclear power race and highlighted our work—reproducing our figure and citing our <em>Nature</em> Comment article on nuclear costs.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 23, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1756958400000">
-<a href="https://www.economist.com/business/2025/09/04/why-nuclear-is-now-a-booming-industry" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/the-economist.svg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why nuclear is now a booming industry
-</h5>
-<div class="card-subtitle listing-subtitle">
-The Economist
-</div>
-<div class="card-text listing-description delink">
-<p><em>The Economist</em> covered the nuclear industry’s resurgence and highlighted our work—reproducing our figure and citing our <em>Nature</em> Comment article on nuclear costs.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 4, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1700110800000">
-<a href="https://www.scientificamerican.com/article/what-the-u-s-china-agreement-means-for-greenhouse-gas-emissions/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/scientific-american.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What the U.S.-China Agreement Means for Greenhouse Gas Emissions
-</h5>
-<div class="card-subtitle listing-subtitle">
-Scientific American
-</div>
-<div class="card-text listing-description delink">
-<p>The two nations announced limited steps to address climate change. But even a modest agreement could have far-reaching effects.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 16, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1695268800000">
-<a href="https://foreignpolicy.com/2023/09/21/us-china-climate-cooperation-trade-ira-green-technology/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/foreign-policy.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Can the U.S. and China Cooperate on Green Technology Again?
-</h5>
-<div class="card-subtitle listing-subtitle">
-Foreign Policy
-</div>
-<div class="card-text listing-description delink">
-<p>A study published in <em>Nature</em> last year found that if the United States, Germany, and China all decided to shift to fully domestic solar production starting in 2020, by 2030…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 21, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1666843200000">
-<a href="https://www.eenews.net/articles/how-bidens-made-in-america-solar-strategy-may-backfire/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/ee-news.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How Biden’s made-in-America solar strategy may backfire
-</h5>
-<div class="card-subtitle listing-subtitle">
-E&amp;E News
-</div>
-<div class="card-text listing-description delink">
-<p>A new study in <em>Nature</em> concludes that policies similar to ones the administration is considering could make solar panels 30 percent more expensive by the end of the decade.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 27, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p align="right">
-<a href="./more-news.html#media">More Coverage »</a>
+<a href="./more-news.html">More Releases »</a>
 </p>
 <!--Include social share buttons-->
 <!-- 
@@ -579,7 +433,6 @@ https://quarto.org/docs/authoring/includes.html
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

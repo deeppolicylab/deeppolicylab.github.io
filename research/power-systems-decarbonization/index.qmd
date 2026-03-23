@@ -30,6 +30,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 2
+  max-items: 2
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -46,6 +47,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 2
+  max-items: 2
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -63,6 +65,7 @@ listing:
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
   grid-columns: 2
+  max-items: 4
   image-height: 200px
 #  categories: true
 #  sort-ui: true
@@ -93,15 +96,21 @@ listing:
 :::{#featured-resources}
 :::
 
+<p align="right">[More Resources »](/resources.qmd)</p>
+
 ## Featured events
 
 :::{#featured-events}
 :::
 
+<p align="right">[More Events »](/more-events.qmd#category=power-system)</p>
+
 ## Featured projects
 
 :::{#featured-projects}
 :::
+
+<p align="right">[More Projects »](/projects.qmd)</p>
 
 <!--Include social share buttons-->
 

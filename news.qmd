@@ -1,6 +1,6 @@
 ---
 title: "News"
-subtitle: "Recent releases and media coverage"
+subtitle: "Recent releases"
 page-layout: full
 toc: false
 #author: "DEEP Lab"
@@ -23,35 +23,13 @@ listing:
   contents: 
     - /news/
     - release.yml
-
-- id: news
-  sort: "date desc"
-  type: grid
-  fields: [image, title, subtitle, description, date]
-  grid-item-align: left
-  grid-columns: 3
-  max-items: 6
-  image-height: 200px
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: news.yml
 ---
-
-
-## Release
 
 :::{#release}
 :::
 
-<p align="right">[More Releases »](/more-news.qmd#release)</p>
+<p align="right">[More Releases »](/more-news.qmd)</p>
 
-## Media
-
-:::{#news}
-:::
-
-<p align="right">[More Coverage »](/more-news.qmd#media)</p>
 
 <!--Include social share buttons-->
 

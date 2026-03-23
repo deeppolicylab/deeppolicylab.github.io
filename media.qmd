@@ -1,8 +1,7 @@
 ---
-title: "News"
-subtitle: "What's new"
+title: "Media Coverage"
+subtitle: "Our work in the news"
 page-layout: full
-date-format: "YYYY-MM-DD"
 toc: false
 #author: "DEEP Lab"
 #date: "2023-03-20"
@@ -10,25 +9,24 @@ toc: false
 #image: "featured.jpeg"
 #css: /custom.css
 listing: 
-- id: release
+- id: media
   sort: "date desc"
-  type: table
-  fields: [image, title, date, description]
-#  grid-item-align: left
-#  grid-columns: 3
-  image-height: 20px
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 3
+  max-items: 6
+  image-height: 200px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: 
-    - /news/
-    - release.yml
+  contents: media.yml
 ---
 
-
-:::{#release}
+:::{#media}
 :::
 
+<p align="right">[More Coverage »](/more-media.qmd)</p>
 
 <!--Include social share buttons-->
 
