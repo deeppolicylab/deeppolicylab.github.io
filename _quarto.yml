@@ -37,7 +37,7 @@ website:
         menu:
           - text: Media Coverage
             href: media.qmd
-          - text: Policy Influence
+          - text: Policy Citations
             href: https://deeppolicylab.github.io/policy-citations/
             target: "_blank"
           - text: Policy Engagement
