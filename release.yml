@@ -1,3 +1,11 @@
+    - path: https://newscenter.baruch.cuny.edu/news/baruch-professor-gang-he-receives-cuny-research-award/
+      image: /files/images/baruch-college.webp
+      title: "Baruch Professor Gang He Receives CUNY Research Award "
+#      subtitle: "Baruch College"
+      author: Baruch College News Center
+      description: "Gang He, PhD, won the 2026 Sandi Cooper Award presented by the CUNY Academy."
+      date: "2026-07-02"  
+
 
     - path: https://deeppolicylab.github.io/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html
       image: "/files/images/nyc-mid-town.webp"
