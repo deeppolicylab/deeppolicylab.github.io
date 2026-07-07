@@ -24,3 +24,21 @@
       description: "An Excel-based tool for low-carbon city development with key indicators, benchmarks, and measurement methods."
       date: "2016-05-08"
       categories: [featured, china] 
+
+    - path: https://github.com/drganghe/quarto-academic-website-template
+      image: /files/images/quarto-academic-website-template.png
+      title: "Quarto Academic Website Template"
+#      author: 
+#      subtitle: "*Ecological Indicators*"
+      description: "A Quarto template for academic websites."
+      date: "2024-10-15"
+      categories: [tool] 
+
+    - path: https://policy-citations-dashboard.vercel.app/
+      image: /files/images/policy-citations-dashboard-builder.png
+      title: "Policy Citations Dashboard Builder"
+#      author: 
+#      subtitle: "*Ecological Indicators*"
+      description: "Create a dashboard for visualizing your policy citations and impact using Sage Policy Profiles data."
+      date: "2026-07-06"
+      categories: [tool]

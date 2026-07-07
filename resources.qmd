@@ -23,6 +23,18 @@ listing:
   include: 
     categories: "featured"
 
+- id: tools
+  sort: "date desc"
+  type: grid
+  fields: [image, title, subtitle, description, date]
+  grid-item-align: left
+  grid-columns: 2
+  image-height: 220px
+  contents:
+    - resources.yml
+  include:
+    categories: "tool"
+
 - id: teaching
   sort: "date desc"
   type: grid
@@ -66,7 +78,7 @@ listing:
 <!--Please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
-## Models & Tools
+## Models & Data
 
 :::{#model}
 :::
@@ -74,6 +86,11 @@ listing:
 ## Open Courses
 
 :::{#teaching}
+:::
+
+## Tools
+
+:::{#tools}
 :::
 
 <!--Include social share buttons-->

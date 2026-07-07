@@ -102,6 +102,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-tools .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-description","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-tools'] = new List('listing-tools', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-teaching .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -295,8 +323,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#models-tools" id="toc-models-tools" class="nav-link active" data-scroll-target="#models-tools">Models &amp; Tools</a></li>
+  <li><a href="#models-data" id="toc-models-data" class="nav-link active" data-scroll-target="#models-data">Models &amp; Data</a></li>
   <li><a href="#open-courses" id="toc-open-courses" class="nav-link" data-scroll-target="#open-courses">Open Courses</a></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
   </ul>
 </nav>
     </div>
@@ -334,8 +363,8 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<section id="models-tools" class="level2">
-<h2 class="anchored" data-anchor-id="models-tools">Models &amp; Tools</h2>
+<section id="models-data" class="level2">
+<h2 class="anchored" data-anchor-id="models-data">Models &amp; Data</h2>
 <div id="listing-model" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0=" data-listing-date-sort="1654056000000">
@@ -432,6 +461,56 @@ Climate Guest Speakers
 </h5>
 <div class="card-text listing-description delink">
 <p>We’re seeking guest speakers who are passionate about sharing their experiences and inspiring the next generation of climate leaders.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<div id="listing-tools" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="dG9vbA==" data-listing-date-sort="1783310400000">
+<a href="https://policy-citations-dashboard.vercel.app/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/policy-citations-dashboard-builder.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Policy Citations Dashboard Builder
+</h5>
+<div class="card-text listing-description delink">
+<p>Create a dashboard for visualizing your policy citations and impact using Sage Policy Profiles data.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 6, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="dG9vbA==" data-listing-date-sort="1728964800000">
+<a href="https://github.com/drganghe/quarto-academic-website-template" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/quarto-academic-website-template.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Quarto Academic Website Template
+</h5>
+<div class="card-text listing-description delink">
+<p>A Quarto template for academic websites.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 15, 2024
+</div>
 </div>
 </div>
 </div></a>
