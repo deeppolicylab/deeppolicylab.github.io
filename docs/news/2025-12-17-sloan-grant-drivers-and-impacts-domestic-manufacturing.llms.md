@@ -1,0 +1,109 @@
+# New Grant to Study the Drivers and Impacts of Domestic Clean Energy Manufacturing
+
+Gang He, Kaifang Luo, Michael Davidson, Ahmad Lashkaripour, Ilaria Mazzocco, and Minghao Qiu are awarded a \$750,000 new Alfred P. Sloan Foundation grant to study the drivers and impacts of domestic clean manufacturing interventions, resulting from an Open Call on Energy System Interactions in the United States.
+
+Published
+
+December 17, 2025
+
+## PI Team
+
+![](../files/headshots/gang-he.jpg)
+
+##### Gang HE
+
+Associate Professor, CUNY Baruch College
+
+![](../files/headshots/kaifang-luo.webp)
+
+##### Kaifang LUO
+
+Postdoctoral Researcher, CUNY Baruch College
+
+![](../files/headshots/michael-davidson.jpg)
+
+##### Michael DAVIDSON
+
+Associate Professor, University of California, San Diego
+
+![](../files/headshots/ahmad-lashkaripour.jpg)
+
+##### Ahmad LASHKARIPOUR
+
+Associate Professor, Indiana University
+
+![](../files/headshots/ilaria-mazzocco.jpg)
+
+##### Ilaria MAZZOCCO
+
+Senior Fellow, Center for Strategic and International Studies
+
+![](../files/headshots/minghao-qiu.jpg)
+
+##### Minghao QIU
+
+Assistant Professor, Stony Brook University
+
+## Release
+
+**New Grant to Study the Drivers and Impacts of Domestic Clean Energy Manufacturing**
+
+The Deep Energy and Climate Policy Lab (Deep Policy Lab) is proud to introduce the “[Made in America? Unpacking the Drivers and Impacts of Domestic Clean Energy Manufacturing](https://madeinamerica.netlify.app),” a \$750,000, three-year research project supported by the Alfred P. Sloan Foundation.
+
+In recent years, the U.S. has made historic investments to rebuild domestic manufacturing capacity for clean energy technologies such as solar, wind, batteries, and associated supply chains. Yet policymakers and practitioners continue to face a fundamental challenge: the lack of an integrated analytic framework to assess how policies operating across different scales and sectors interact with trade, energy systems, climate outcomes, and local economic development.
+
+This Sloan-funded project addresses that gap by combining empirical analysis, energy-systems modeling, trade and supply-chain analysis, and stakeholder engagement to generate policy-relevant insights on the effectiveness and consequences of domestic clean energy manufacturing strategies.
+
+**Interdisciplinary and Cross-Institutional Research Team**
+
+This project brings together an interdisciplinary team of experts, including Associate Professor Gang He, director of the Deep Energy and Climate Policy Lab, also a faculty member in Baruch College’s Marxe School of Public and International Affairs, the CUNY Graduate Center, and CUNY Institute for Demographic Research, will serve as Lead Principal Investigator.
+
+Co-PIs include Dr. Kaifang Luo, postdoctoral researcher at Baruch College, Associate Professor Michael Davidson from the University of California San Diego, Associate Professor Ahmad Lashkaripour from Indiana University, Assistant Professor Minghao Qiu from Stony Brook University, and Dr. Ilaria Mazzocco from Center for Strategic and International Studies (CSIS).
+
+The project will collaborate with experts from the University of Maryland Center for Global Sustainability, New York Climate Exchange, University of California Berkeley, University of Dayton, and Center for Climate and Energy Solutions, with additional partners for local implementation and policy impact.
+
+The research team’s expertise includes industrial policy, trade economics, energy systems, sustainability, and international supply chains. Each co-PI highlights the project’s unique contributions:
+
+[Gang He](https://drganghe.github.io), Baruch College
+
+> “This generous support from the Sloan Foundation enables us to take a rigorous, data-driven look at one of the most consequential industrial transformations underway in the United States. Understanding how domestic clean-energy manufacturing evolves, and who benefits, is essential for designing policies that support workers, communities, and a competitive low-carbon economy.”
+
+[Kaifang Luo](https://kaifangluo.com), Baruch College
+
+> “By coupling integrated assessment modeling with supply-chain analysis, we can better understand the technology evolution, cost trajectory, and decarbonization pathways associated with different combinations of industrial policies.”
+
+[Michael Davidson](https://gps.ucsd.edu/faculty-directory/michael-davidson.html), University of California San Diego
+
+> “Federal incentives are reshaping the geography of clean-energy manufacturing at a scale we haven’t seen in decades. This project will help identify which policy strategies create durable industrial ecosystems, and which may struggle to take root.”
+
+[Ahmad Lashkaripour](https://alashkar.pages.iu.edu/), Indiana University
+
+> “Domestic manufacturing is deeply intertwined with global trade dynamics. By examining how U.S. policies interact with international supply chains, our work will shed light on trade implications that are critical for long-term competitiveness and economic resilience.”
+
+[Minghao Qiu](https://www.stonybrook.edu/commcms/somas/people/_profiles/minghao-qiu.php), Stony Brook University
+
+> “Clean-energy supply chains have profound consequences for environmental sustainability and climate mitigation. Our analysis will quantify how different manufacturing pathways affect emissions, air quality, and broader environmental outcomes, insights that are essential for guiding responsible industrial transformation.”
+
+[Ilaria Mazzocco](https://csis.org/people/ilaria-mazzocco), Center for Strategic and International Studies (CSIS)
+
+> “Effective industrial strategy requires more than data—it requires dialogue. This project will bring policymakers, industry leaders, and community stakeholders together through workshops and collaborative engagement to ensure that our research directly informs real-world decisions.”
+
+More about the project can be found at: <https://madeinamerica.netlify.app>
+
+**About Deep Energy and Climate Policy Lab**
+
+The Deep Energy and Climate Policy Lab aims to provide deep analysis and deep insights for deep decarbonization to address grand climate challenges. The Lab integrates modeling, empirical analysis, and stakeholder engagement to inform evidence-based decisions at local, national, and global scales. The mission is to advance effective energy and climate solutions through rigorous, data-driven analysis and collaborative dialogue. Website: <https://deeppolicylab.github.io>
+
+## Announcements
+
+![](https://sloan.org/storage/app/media/programs/energy_and_environment/hero_energy%20interactions.png)
+
+##### Announcing the 2025 Grantees from the Energy System Interactions RFP
+
+Alfred P. Sloan Foundation
+
+![](../files/images/university/baruch.png)
+
+##### Baruch College Secures \$750,000 Sloan Foundation Grant to Advance U.S. Clean Energy Manufacturing Policy Research
+
+Baruch College
