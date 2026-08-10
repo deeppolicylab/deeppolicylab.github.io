@@ -10,6 +10,12 @@ Deep analysis, Deep insights, for Deep decarbonization
 
 What’s new
 
+![](./files/images/nyc-climate-week.jpg)
+
+##### NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy
+
+Sep 23, 2026
+
 ![](./files/images/baruch-college.webp)
 
 ##### Baruch Professor Gang He Receives CUNY Research Award
@@ -21,12 +27,6 @@ Jul 2, 2026
 ##### New Grant to Study the Drivers and Impacts of Domestic Clean Energy Manufacturing
 
 Dec 17, 2025
-
-![](./files/images/Holtsville-Ecology-Site-Solar-Farm.JPG)
-
-##### New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S.
-
-Oct 8, 2025
 
 [More News](more-news.llms.md)
 
@@ -70,6 +70,14 @@ What we do
 
 Read our work
 
+![](./files/images/journal/energy-economics.jpeg)
+
+##### Resilience planning for power systems under deep climate uncertainty
+
+*Energy Economics*
+
+Sep 1, 2026
+
 ![](./files/images/journal/commsearth.jpg)
 
 ##### Aligning offshore wind deployment with local priorities to accelerate power system decarbonization
@@ -85,13 +93,5 @@ Apr 21, 2026
 *Applied Energy*
 
 Mar 21, 2026
-
-![](./files/images/journal/erl.png)
-
-##### Coal Mine Workers in the Climate Transition: Subnational Vulnerability Disparities in China and India
-
-*Environmental Research Letters*
-
-Feb 12, 2026
 
 [Read more](more-publications.llms.md)

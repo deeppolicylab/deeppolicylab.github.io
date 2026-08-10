@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Marxe School">
+<meta name="dcterms.date" content="2026-09-23">
+<meta name="description" content="Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.">
 
-<title>Events – Deep Policy Lab</title>
+<title>NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy – Deep Policy Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +29,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-5947b73a06bce04bf1d622ae23e1ec5b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ab0c76efacf72616ee6bc98aec9b576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-5947b73a06bce04bf1d622ae23e1ec5b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2ab0c76efacf72616ee6bc98aec9b576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,20 +77,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-events .list');
+    const listingTargetEl = window.document.querySelector('#listing-welcome .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-events'] = new List('listing-events', options);
+    window['quarto-listings']['listing-welcome'] = new List('listing-welcome', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-moderator .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-moderator'] = new List('listing-moderator', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-panelists .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-panelists'] = new List('listing-panelists', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -140,18 +199,14 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Events – Deep Policy Lab">
-<meta property="og:description" content="What’s happening">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/2024-2025-speakers.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy – Deep Policy Lab">
+<meta property="og:description" content="Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/nyc-climate-week.jpg">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta property="og:image:height" content="463">
-<meta property="og:image:width" content="929">
-<meta name="twitter:title" content="Events – Deep Policy Lab">
-<meta name="twitter:description" content="What’s happening">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/2024-2025-speakers.png">
-<meta name="twitter:image-height" content="463">
-<meta name="twitter:image-width" content="929">
+<meta name="twitter:title" content="NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy – Deep Policy Lab">
+<meta name="twitter:description" content="Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/nyc-climate-week.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -162,7 +217,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
   </div>
@@ -178,25 +233,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="../../about.html">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./news.html">
+    <a class="dropdown-item" href="../../news.html">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./events.html">
+    <a class="dropdown-item" href="../../events.html">
  <span class="dropdown-text">Events</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./support.html">
+    <a class="dropdown-item" href="../../support.html">
  <span class="dropdown-text">Support</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -205,21 +260,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./research.html">
+    <a class="dropdown-item" href="../../research.html">
  <span class="dropdown-text">Themes &amp; Initiatives</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./projects.html">
+    <a class="dropdown-item" href="../../projects.html">
  <span class="dropdown-text">Projects</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources.html">
+    <a class="dropdown-item" href="../../resources.html">
  <span class="dropdown-text">Resources</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -228,7 +283,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-impacts">    
         <li>
-    <a class="dropdown-item" href="./media.html">
+    <a class="dropdown-item" href="../../media.html">
  <span class="dropdown-text">Media Coverage</span></a>
   </li>  
         <li>
@@ -242,13 +297,13 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./opportunities.html"> 
+    <a class="nav-link" href="../../opportunities.html"> 
 <span class="menu-text">Opportunities</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
+    <a class="nav-link" href="../../cn.html"> 
 <span class="menu-text">中文</span></a>
   </li>  
 </ul>
@@ -259,26 +314,61 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a>
+  <ul class="collapse">
+  <li><a href="#time" id="toc-time" class="nav-link" data-scroll-target="#time">Time</a></li>
+  <li><a href="#venue" id="toc-venue" class="nav-link" data-scroll-target="#venue">Venue</a></li>
+  </ul></li>
+  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#moderator" id="toc-moderator" class="nav-link" data-scroll-target="#moderator">Moderator</a></li>
+  <li><a href="#panelists" id="toc-panelists" class="nav-link" data-scroll-target="#panelists">Panelists</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#acknowledgment" id="toc-acknowledgment" class="nav-link" data-scroll-target="#acknowledgment">Acknowledgment</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Events</h1>
-<p class="subtitle lead">What’s happening</p>
+<h1 class="title">NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">supply-chain</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Marxe School </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 23, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -288,136 +378,39 @@ window.Quarto = {
 </header>
 
 
-<!--Please delete or replace with your own clarity-->
-<!-- 
-https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
--->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ktfar1v3c9");
-</script>
-<div id="listing-events" class="quarto-listing quarto-listing-container-grid">
+<section id="title" class="level2">
+<h2 class="anchored" data-anchor-id="title">Title</h2>
+<p>Clean Energy Supply Chains in the Era of Industrial Policy</p>
+<section id="time" class="level3">
+<h3 class="anchored" data-anchor-id="time">Time</h3>
+<p>September 23, 2026</p>
+<p>9:00AM - 10:15AM ET</p>
+</section>
+<section id="venue" class="level3">
+<h3 class="anchored" data-anchor-id="venue">Venue</h3>
+<p>Online via Zoom.</p>
+</section>
+</section>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>Achieving global climate goals requires deploying clean energy technologies at unprecedented speed, which relies on building supply chains that are resilient, sustainable, and economically beneficial. Recent geopolitical tensions, industrial policies, trade disputes, and national security concerns have fundamentally reshaped how governments and businesses think about clean energy manufacturing and international cooperation. This panel will examine one of the defining challenges of the energy transition: how can countries strengthen energy security and domestic industries without slowing the deployment of affordable clean technologies? Drawing on new research on solar photovoltaics, offshore wind, and electric vehicles, the discussion will explore the evolving relationship between climate policy, industrial competitiveness, and international development. Topics include the trade-offs between resilience and cost, the opportunities and challenges of Chinese participation in global clean energy industries, the future of industrial policy in North America and Europe, and pathways toward more diversified and cooperative supply chains that can accelerate, not hinder, the global energy transition.</p>
+</section>
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
+<div id="listing-welcome" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Z3Vlc3Qtc3BlYWtlcnM=">
-<a href="https://drganghe.github.io/climate-guest-speakers/speakers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="0">
+<a href="https://www.baruch.cuny.edu/faculty/profile/sherry-ryan" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/2024-2025-speakers.png" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../../files/headshots/sherry-ryan.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Climate Guest Speakers Series
+Sherry RYAN
 </h5>
-<div class="card-text listing-description delink">
-<p>Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to…</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1790136000000" data-listing-file-modified-sort="1786179679024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="334">
-<a href="./events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/nyc-climate-week.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 23, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVtJTJDbnVjbGVhcg==" data-listing-date-sort="1758600000000" data-listing-file-modified-sort="1764930952144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
-<a href="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 23, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1773402865032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./events/2025-07-01-mes-supply-chains-in-energy-systems-panel/flyer-small.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Macro-Energy Systems Speaker Series: Supply Chains in Energy Systems
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1750392000000">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/xjtu.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2025 Workshop on Open Modeling Carbon Neutrality of the Power Sector
-</h5>
-<div class="card-text listing-description delink">
-<p>The second workshop on open modeling carbon neutrality of the power sector is held at Xi’an Jiaotong University in China.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 20, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1727323200000" data-listing-file-modified-sort="1764930952064" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="150">
-<a href="./events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Week NYC 2024: Clean Energy Global Supply Chains Panel
-</h5>
-<div class="card-text listing-description delink">
-<p>Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during Climate Week NYC 2024.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 26, 2024
-</div>
+<div class="card-subtitle listing-subtitle">
+Dean and Professor, Marxe School of Public and International Affairs, CUNY Baruch College
 </div>
 </div>
 </div></a>
@@ -425,9 +418,116 @@ Sep 26, 2024
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p align="right">
-<a href="./more-events.html">More Events »</a>
+</section>
+<section id="moderator" class="level2">
+<h2 class="anchored" data-anchor-id="moderator">Moderator</h2>
+<div id="listing-moderator" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RGlyZWN0b3I=">
+<a href="https://drganghe.github.io" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gang HE
+</h5>
+<div class="card-subtitle listing-subtitle">
+Associate Professor, CUNY Baruch College
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="panelists" class="level2">
+<h2 class="anchored" data-anchor-id="panelists">Panelists</h2>
+<div id="listing-panelists" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="">
+<a href="https://asiasociety.org/policy-institute/kate-logan" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/kate-logan.jpg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kate LOGAN
+</h5>
+<div class="card-subtitle listing-subtitle">
+Fellow, Asia Society Policy Institute
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">
+<a href="https://kaifangluo.com" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/kaifang-luo.webp" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kaifang LUO
+</h5>
+<div class="card-subtitle listing-subtitle">
+Postdoctoral Researcher, CUNY Baruch College
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="">
+<a href="https://www.oxfordenergy.org/authors/michal-meidan/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/michal-meidan.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Michal MEIDAN
+</h5>
+<div class="card-subtitle listing-subtitle">
+Head of China Energy Research, Oxford Institute for Energy Studies
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="">
+<a href="https://yixiansun.com/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/yixian-sun.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yixian SUN
+</h5>
+<div class="card-subtitle listing-subtitle">
+Professor, University of Bath
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li>Sun, Yixian, Freya Chant, Ciara O’Brien, et al.&nbsp;2025. China and Global Sustainability Transition Outlook 2025: China’s Emerging Leadership in Global Sustainability Governance amid Geopolitical Turbulence. SGAIN Policy Report. University of Bath. <a href="https://sgain.org/china-and-global-sustainability-transition-outlook-2025" class="uri">https://sgain.org/china-and-global-sustainability-transition-outlook-2025</a>.</li>
+<li>Michal Meidan, Anders Hove. 2025. Chinese participation in Europe’s offshore wind sector: the good, the bad and the unknown. <a href="https://www.oxfordenergy.org/publications/chinese-participation-in-europes-offshore-wind-sector-the-good-the-bad-and-the-unknown/" class="uri">https://www.oxfordenergy.org/publications/chinese-participation-in-europes-offshore-wind-sector-the-good-the-bad-and-the-unknown/</a></li>
+<li>Kate Logan, Taylah Bland. 2026. Plugging In, Charging Ahead: Comparing EU and Canadian Approaches to Chinese Investment in the Electric Vehicle Sector. <a href="https://asiasociety.org/policy-institute/plugging-charging-ahead-comparing-eu-and-canadian-approaches-chinese-investment-electric-vehicle" class="uri">https://asiasociety.org/policy-institute/plugging-charging-ahead-comparing-eu-and-canadian-approaches-chinese-investment-electric-vehicle</a></li>
+<li>Kaifang Luo, Fan Dai, Jessica Gordon, Xueqin Cui, Fredrich Kahrl, and Gang He. 2026. The solar supply chain trilemma: Sustainability, resilience, and economic opportunity in an era of industrial policy. Submitted.</li>
+</ul>
+</section>
+<section id="acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgment">Acknowledgment</h2>
+<p>Hosted by the Marxe School of Public and International Affairs at Baruch College, City University of New York.</p>
+<p>With support from the National Committee on U.S.-China Relations’ Public Intellectuals Program, which is generously funded by The Andrew Carnegie Foundation.</p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -441,6 +541,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -809,43 +910,6 @@ https://quarto.org/docs/authoring/includes.html
             }
           });
         }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
   });
   </script>
 </div> <!-- /content -->

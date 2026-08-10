@@ -8,6 +8,14 @@ What’s happening
 
 Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to…
 
+![](./files/images/nyc-climate-week.jpg)
+
+##### NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy
+
+Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.
+
+Sep 23, 2026
+
 ![](./events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp)
 
 ##### Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
@@ -39,13 +47,5 @@ Jun 20, 2025
 Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during Climate Week NYC 2024.
 
 Sep 26, 2024
-
-![](https://drganghe.github.io/posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/featured.jpg)
-
-##### ICAE 2024 Keynote: Cost Saving, Climate, and Health Effects of Solar PV Global Supply Chains
-
-Dr. Gang He is invited to give an online keynote speech in the International Conference on Applied Energy 2024.
-
-Sep 3, 2024
 
 [More Events »](more-events.llms.md)

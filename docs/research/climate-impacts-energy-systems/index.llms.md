@@ -12,6 +12,16 @@ Climate change poses growing risks and challenges to energy systems. This resear
 
 ## Featured publications
 
+![](../../files/images/journal/energy-economics.jpeg)
+
+##### Resilience planning for power systems under deep climate uncertainty
+
+*Energy Economics*
+
+A hybrid framework combining a Graph Neural Network and a Conditional Generative Adversarial Network (GNN-cGAN) is utilized to capture the spatiotemporal couplings of…
+
+Sep 1, 2026
+
 ![](../../files/images/journal/nature-energy.jpg)
 
 ##### Climate change impacts on planned supply–demand match in global wind and solar energy systems

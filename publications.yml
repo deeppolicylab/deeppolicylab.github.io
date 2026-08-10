@@ -1,3 +1,13 @@
+    - path: https://doi.org/10.1016/j.eneco.2026.109527
+      image: /files/images/journal/energy-economics.jpeg
+      title: "Resilience planning for power systems under deep climate uncertainty"
+#      author: 
+      subtitle: "*Energy Economics*"
+      description: "A hybrid framework combining a Graph Neural Network and a Conditional Generative Adversarial Network (GNN-cGAN) is utilized to capture the spatiotemporal couplings of multiple meteorological variables, which provides a more realistic characterization of deep climate uncertainties and compound extreme events."
+      date: "2026-09-01"
+      fulltext: "[pdf](https://www.sciencedirect.com/science/article/pii/S0140988326004068)"
+      categories: [climate-impact, china, power-system] 
+
     - path: "https://www.nature.com/articles/s43247-026-03533-9"
       image: /files/images/journal/commsearth.jpg
 #      authors: "Peng, Liqun, **Gang He**, Nikit Abhyankar, Haozhe Yang, Umed Paliwal, and Jiang Lin\\*"
