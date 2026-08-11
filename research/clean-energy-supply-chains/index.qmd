@@ -36,8 +36,7 @@ listing:
 #  sort-ui: true
 #  filter-ui: true
   contents: 
-    - ../../events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/index.qmd  
-    - ../../events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.qmd
+    - ../../events/**/*.qmd
     - ../../events.yml
   include: 
     categories: "supply-chain"

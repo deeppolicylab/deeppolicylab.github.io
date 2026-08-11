@@ -12,6 +12,16 @@ China is the world’s largest emitter of greenhouse gases. It has set a target 
 
 ## Featured publications
 
+![](../../files/images/journal/energy-economics.jpeg)
+
+##### Resilience planning for power systems under deep climate uncertainty
+
+*Energy Economics*
+
+A hybrid framework combining a Graph Neural Network and a Conditional Generative Adversarial Network (GNN-cGAN) is utilized to capture the spatiotemporal couplings of…
+
+Sep 1, 2026
+
 ![](../../files/images/journal/commsearth.jpg)
 
 ##### Aligning offshore wind deployment with local priorities to accelerate power system decarbonization
@@ -41,16 +51,6 @@ Mar 21, 2026
 Beyond national climate ambitions, differences in mining productivity, local economic diversification, labour concentration, and employment patterns drive subnational…
 
 Feb 12, 2026
-
-![](../../files/images/journal/nature.avif)
-
-##### Can China break the ‘cost curse’ of nuclear power?
-
-*Nature*
-
-Strengthening regulations and domestic supply chains could be key to making nuclear power more economically viable.
-
-Jul 31, 2025
 
 [More Publications »](../../more-publications.llms.md#category=china)
 

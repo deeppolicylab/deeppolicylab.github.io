@@ -56,21 +56,21 @@ Oct 11, 2023
 
 ## Featured events
 
-![](../../events/2025-07-01-mes-supply-chains-in-energy-systems-panel/flyer-small.png)
+![](../../files/images/nyc-climate-week.jpg)
 
-##### Macro-Energy Systems Speaker Series: Supply Chains in Energy Systems
+##### NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy
 
-Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.
+Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.
 
-Jul 1, 2025
+Sep 23, 2026
 
-![](../../events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png)
+![](../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp)
 
-##### Climate Week NYC 2024: Clean Energy Global Supply Chains Panel
+##### Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
 
-Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during Climate Week NYC 2024.
+Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025.
 
-Sep 26, 2024
+Sep 23, 2025
 
 [More Events »](../../more-events.llms.md#category=supply-chain)
 
