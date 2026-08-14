@@ -12,7 +12,7 @@ What’s new
 
 ![](./files/images/nyc-climate-week.jpg)
 
-##### NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy
+##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
 
 Sep 23, 2026
 

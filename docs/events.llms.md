@@ -10,7 +10,7 @@ Join climate doers and thinkers from frontiers of science, policy, and markets t
 
 ![](./files/images/nyc-climate-week.jpg)
 
-##### NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy
+##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
 
 Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.
 

@@ -1,0 +1,48 @@
+
+/*https://github.com/quarto-dev/quarto-web/blob/main/index.css*/
+/*#447099*/
+
+
+.button {
+  text-align: left;
+}
+
+.hero-banner {
+  position: relative;
+  background-color: rgb(240,245,249);
+  display: flex;
+  justify-content: center;
+}
+
+
+.alt-background {
+  background-color: rgb(247,249,251);
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
+.btn-action-primary {
+  color: white;
+  background-color: #FFB71B !important;
+}
+
+.btn-action-primary:hover {
+  color: white;
+}
+
+.btn-action {
+  min-width: 165px;
+  border-radius: 20px;
+  border: none;
+}
+
+
+
+.content-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
