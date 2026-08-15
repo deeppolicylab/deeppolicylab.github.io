@@ -158,6 +158,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-related-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-author","listing-description","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-related-events'] = new List('listing-related-events', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -335,6 +363,7 @@ window.Quarto = {
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
   <li><a href="#acknowledgment" id="toc-acknowledgment" class="nav-link" data-scroll-target="#acknowledgment">Acknowledgment</a></li>
+  <li><a href="#past-climate-week-nyc-events" id="toc-past-climate-week-nyc-events" class="nav-link" data-scroll-target="#past-climate-week-nyc-events">Past Climate Week NYC Events</a></li>
   </ul>
 </nav>
     </div>
@@ -403,12 +432,12 @@ window.Quarto = {
 <section id="welcome" class="level2">
 <h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
 <div id="listing-welcome" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0">
 <a href="https://www.baruch.cuny.edu/faculty/profile/sherry-ryan" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/sherry-ryan.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../../files/headshots/sherry-ryan.jpg" class="thumbnail-image card-img" style="height: 350px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -427,12 +456,12 @@ Dean and Professor, Marxe School of Public and International Affairs, CUNY Baruc
 <section id="moderator" class="level2">
 <h2 class="anchored" data-anchor-id="moderator">Moderator</h2>
 <div id="listing-moderator" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="RGlyZWN0b3I=">
 <a href="https://drganghe.github.io" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../../files/headshots/gang-he.jpg" class="thumbnail-image card-img" style="height: 350px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -451,12 +480,12 @@ Associate Professor, CUNY Baruch College
 <section id="panelists" class="level2">
 <h2 class="anchored" data-anchor-id="panelists">Panelists</h2>
 <div id="listing-panelists" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="">
 <a href="https://asiasociety.org/policy-institute/kate-logan" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/kate-logan-hi.jpg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../../files/headshots/kate-logan-hi.jpg" class="thumbnail-image card-img" style="height: 350px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -472,7 +501,7 @@ Fellow, Asia Society Policy Institute
 <a href="https://kaifangluo.com" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/kaifang-luo.webp" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../../files/headshots/kaifang-luo.webp" class="thumbnail-image card-img" style="height: 350px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -488,7 +517,7 @@ Postdoctoral Researcher, CUNY Baruch College
 <a href="https://www.oxfordenergy.org/authors/michal-meidan/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/michal-meidan.jpeg" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../../files/headshots/michal-meidan.jpeg" class="thumbnail-image card-img" style="height: 350px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -504,7 +533,7 @@ Head of China Energy Research, Oxford Institute for Energy Studies
 <a href="https://yixiansun.com/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/yixian-sun.png" class="thumbnail-image card-img" style="height: 250px;">
+<img loading="lazy" src="../../files/headshots/yixian-sun.png" class="thumbnail-image card-img" style="height: 350px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -526,19 +555,53 @@ Professor, University of Bath
 <li>Sun, Yixian, Freya Chant, Ciara O’Brien, et al.&nbsp;2025. China and Global Sustainability Transition Outlook 2025: China’s Emerging Leadership in Global Sustainability Governance amid Geopolitical Turbulence. SGAIN Policy Report. University of Bath. <a href="https://sgain.org/china-and-global-sustainability-transition-outlook-2025" class="uri">https://sgain.org/china-and-global-sustainability-transition-outlook-2025</a>.</li>
 <li>Michal Meidan, Anders Hove. 2025. Chinese participation in Europe’s offshore wind sector: the good, the bad and the unknown. <a href="https://www.oxfordenergy.org/publications/chinese-participation-in-europes-offshore-wind-sector-the-good-the-bad-and-the-unknown/" class="uri">https://www.oxfordenergy.org/publications/chinese-participation-in-europes-offshore-wind-sector-the-good-the-bad-and-the-unknown/</a></li>
 <li>Kate Logan, Taylah Bland. 2026. Plugging In, Charging Ahead: Comparing EU and Canadian Approaches to Chinese Investment in the Electric Vehicle Sector. <a href="https://asiasociety.org/policy-institute/plugging-charging-ahead-comparing-eu-and-canadian-approaches-chinese-investment-electric-vehicle" class="uri">https://asiasociety.org/policy-institute/plugging-charging-ahead-comparing-eu-and-canadian-approaches-chinese-investment-electric-vehicle</a></li>
-<li>Kaifang Luo, Fan Dai, Jessica Gordon, Xueqin Cui, Fredrich Kahrl, and Gang He. 2026. The solar supply chain trilemma: Sustainability, resilience, and economic opportunity in an era of industrial policy. Submitted.</li>
+<li>Kaifang Luo, Fan Dai, Jessica Gordon, Xueqin Cui, Fredrich Kahrl, and Gang He. 2026. The solar supply chain trilemma: Sustainability, resilience, and economic opportunity in the era of industrial policy. Submitted.</li>
 </ul>
 </section>
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
 <ul>
-<li>Marxe Event Page: <a href="https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/">Climate Week NYC 2026 Webinar</a></li>
+<li>Marxe SchoolEvent Page: <a href="https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/">Climate Week NYC 2026 Webinar</a></li>
 </ul>
 </section>
 <section id="acknowledgment" class="level2">
 <h2 class="anchored" data-anchor-id="acknowledgment">Acknowledgment</h2>
 <p>Hosted by the Marxe School of Public and International Affairs at Baruch College, City University of New York.</p>
 <p>With support from the National Committee on U.S.-China Relations’ Public Intellectuals Program, which is generously funded by The Andrew Carnegie Foundation.</p>
+</section>
+<section id="past-climate-week-nyc-events" class="level2">
+<h2 class="anchored" data-anchor-id="past-climate-week-nyc-events">Past Climate Week NYC Events</h2>
+<div id="listing-related-events" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1758600000000">
+<a href="../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
+</h5>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1727323200000">
+<a href="../../events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Climate Week NYC 2024: Clean Energy Global Supply Chains Panel
+</h5>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
