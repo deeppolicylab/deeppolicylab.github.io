@@ -83,7 +83,7 @@ Professor, University of Bath
 
 ## Links
 
-- Marxe SchoolEvent Page: [Climate Week NYC 2026 Webinar](https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/)
+- Marxe School Event Page: [Climate Week NYC 2026 Webinar](https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/)
 
 ## Acknowledgment
 
