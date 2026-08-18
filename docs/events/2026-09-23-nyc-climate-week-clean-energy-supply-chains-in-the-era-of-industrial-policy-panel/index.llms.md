@@ -26,7 +26,7 @@ September 23, 2026
 
 Online via Zoom.
 
-[Register here](https://baruch.zoom.us/meeting/register/r9ugnvMMSOOsn0fUPUZh2g#/registration)
+[Register here](https://baruch.zoom.us/meeting/register/44nAYUH6TGGdKIJ4Jmmpww#/registration)
 
 ## About
 
