@@ -1,7 +1,7 @@
 ---
 title: "Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy"
 description: "Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026."
-image: /files/images/nyc-climate-week.jpg
+image: featured.jpg
 author: "Marxe School"
 date: "2026-09-23"
 #page-layout: full
@@ -14,18 +14,6 @@ citations-hover: false
 css: /registerbutton.css
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
-- id: welcome
-  sort: "date asc"
-  type: grid
-  fields: [image, title, subtitle]
-  grid-item-align: center
-  grid-columns: 2
-  image-height: 350px
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents:
-    - ../../people/sherry-ryan.yml
 
 - id: moderator
   sort: "date asc"
@@ -85,6 +73,7 @@ title-block-banner: false
 #toc: false
 ---
 
+[![](featured.jpg)](https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/)
 
 ## Title
 
@@ -106,11 +95,6 @@ Online via Zoom.
 
 ## About
 Achieving global climate goals requires deploying clean energy technologies at unprecedented speed and scale, which relies on building supply chains that are resilient, sustainable, and economically beneficial. Recent geopolitical tensions, industrial policies, trade disputes, and national security concerns have fundamentally reshaped how governments and businesses think about clean energy manufacturing and international cooperation. This panel will examine one of the defining challenges of the energy transition: how can countries strengthen energy security and domestic industries without slowing the deployment of affordable clean technologies? Drawing on new research on solar photovoltaics, offshore wind, and electric vehicles, the discussion will explore the evolving relationship between climate policy, industrial competitiveness, and international development. Topics include the trade-offs between resilience and cost, the opportunities and challenges of Chinese participation in global clean energy industries, the future of industrial policy in North America and Europe, and pathways toward more diversified and cooperative supply chains that can accelerate, not hinder, the global energy transition.
-
-## Welcome
-
-:::{#welcome}
-:::
 
 
 ## Moderator

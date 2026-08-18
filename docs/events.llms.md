@@ -8,7 +8,7 @@ What’s happening
 
 Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to…
 
-![](./files/images/nyc-climate-week.jpg)
+![](./events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg)
 
 ##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
 

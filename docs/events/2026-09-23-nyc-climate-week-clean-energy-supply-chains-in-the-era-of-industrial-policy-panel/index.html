@@ -77,34 +77,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-welcome .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-welcome'] = new List('listing-welcome', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-moderator .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -231,11 +203,11 @@ window.Quarto = {
 <link rel="stylesheet" href="../../registerbutton.css">
 <meta property="og:title" content="Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy – Deep Policy Lab">
 <meta property="og:description" content="Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/nyc-climate-week.jpg">
+<meta property="og:image" content="http://deeppolicylab.github.io/events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg">
 <meta property="og:site_name" content="Deep Policy Lab">
 <meta name="twitter:title" content="Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy – Deep Policy Lab">
 <meta name="twitter:description" content="Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/nyc-climate-week.jpg">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -357,7 +329,6 @@ window.Quarto = {
   <li><a href="#venue" id="toc-venue" class="nav-link" data-scroll-target="#venue">Venue</a></li>
   </ul></li>
   <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link" data-scroll-target="#welcome">Welcome</a></li>
   <li><a href="#moderator" id="toc-moderator" class="nav-link" data-scroll-target="#moderator">Moderator</a></li>
   <li><a href="#panelists" id="toc-panelists" class="nav-link" data-scroll-target="#panelists">Panelists</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
@@ -409,6 +380,7 @@ window.Quarto = {
 </header>
 
 
+<p><a href="https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/"><img src="featured.jpg" class="img-fluid"></a></p>
 <section id="title" class="level2">
 <h2 class="anchored" data-anchor-id="title">Title</h2>
 <p>Clean Energy Supply Chains in the Era of Industrial Policy</p>
@@ -428,30 +400,6 @@ window.Quarto = {
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
 <p>Achieving global climate goals requires deploying clean energy technologies at unprecedented speed and scale, which relies on building supply chains that are resilient, sustainable, and economically beneficial. Recent geopolitical tensions, industrial policies, trade disputes, and national security concerns have fundamentally reshaped how governments and businesses think about clean energy manufacturing and international cooperation. This panel will examine one of the defining challenges of the energy transition: how can countries strengthen energy security and domestic industries without slowing the deployment of affordable clean technologies? Drawing on new research on solar photovoltaics, offshore wind, and electric vehicles, the discussion will explore the evolving relationship between climate policy, industrial competitiveness, and international development. Topics include the trade-offs between resilience and cost, the opportunities and challenges of Chinese participation in global clean energy industries, the future of industrial policy in North America and Europe, and pathways toward more diversified and cooperative supply chains that can accelerate, not hinder, the global energy transition.</p>
-</section>
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<div id="listing-welcome" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0">
-<a href="https://www.baruch.cuny.edu/faculty/profile/sherry-ryan" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="../../files/headshots/sherry-ryan.jpg" class="thumbnail-image card-img" style="height: 350px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sherry RYAN
-</h5>
-<div class="card-subtitle listing-subtitle">
-Dean and Professor, Marxe School of Public and International Affairs, CUNY Baruch College
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
 </section>
 <section id="moderator" class="level2">
 <h2 class="anchored" data-anchor-id="moderator">Moderator</h2>
