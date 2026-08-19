@@ -12,6 +12,16 @@ Pakini Nui Wind Farm in Hawaii, Photo by Gang He
 
 ## Featured publications
 
+![](../../files/images/journal/energy-economics.jpeg)
+
+##### Resilience planning for power systems under deep climate uncertainty
+
+*Energy Economics*
+
+A hybrid framework combining a Graph Neural Network and a Conditional Generative Adversarial Network (GNN-cGAN) is utilized to capture the spatiotemporal couplings of…
+
+Sep 1, 2026
+
 ![](../../files/images/journal/commsearth.jpg)
 
 ##### Aligning offshore wind deployment with local priorities to accelerate power system decarbonization
@@ -41,16 +51,6 @@ Mar 21, 2026
 The importance of renewable integration into grids came to the forefront in 2025. New challenges in stability, storage, artificial intelligence demand and policy changes…
 
 Jan 20, 2026
-
-![](../../files/images/journal/nature.avif)
-
-##### Can China break the ‘cost curse’ of nuclear power?
-
-*Nature*
-
-Strengthening regulations and domestic supply chains could be key to making nuclear power more economically viable.
-
-Jul 31, 2025
 
 [More Publications »](../../more-publications.llms.md#category=power-system)
 

@@ -14,7 +14,7 @@ We welcome highly motivated students with a strong interest in interdisciplinary
 
 ## Undergraduate Students:
 
-We welcome motivated undergraduate students to get involved in our research projects. The [CUNY Climate Scholars](https://blogs.baruch.cuny.edu/climateaction/cuny-climate-scholars-fellowship/) Program is an excellent starting point for students looking to contribute to energy and climate research.
+We welcome motivated undergraduate students to get involved in our research projects. The [CUNY Climate Scholars](https://www.cuny.edu/research/research-development-programs/student-programs/crsp/climate-scholars-crsp-cs/) Program is an excellent starting point for students looking to contribute to energy and climate research.
 
 ## Visiting Ph.D. Students and Scholars:
 

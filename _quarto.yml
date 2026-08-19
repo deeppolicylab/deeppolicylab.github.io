@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Deep Policy Lab"
+  title: "DEEP Policy Lab"
   image: "/files/images/deeplab.png"
   description: "Deep Energy and Climate Policy Lab: data-driven, evidence-based energy, environmental, and climate policy; deep analysis and deep insights for deep decarbonization. Aliases: DEEP Lab, DEEP Energy Lab, DEEP Climate Lab. Keywords: deep energy systems, deep decarbonization, deep modeling, deep policy, energy and climate policy, energy systems, energy policy, climate policy, energy transition."
   llms-txt: true
@@ -58,7 +58,7 @@ website:
     #     target: _blank
   page-navigation: true
   page-footer: 
-    center: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "[DEEP Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
     # left: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
     # right:  
     #   - icon: github

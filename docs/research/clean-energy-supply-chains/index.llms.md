@@ -56,9 +56,9 @@ Oct 11, 2023
 
 ## Featured events
 
-![](../../files/images/nyc-climate-week.jpg)
+![](../../events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg)
 
-##### NYC Climate Week 2026: Clean Energy Supply Chains in the Era of Industrial Policy
+##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
 
 Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.
 
