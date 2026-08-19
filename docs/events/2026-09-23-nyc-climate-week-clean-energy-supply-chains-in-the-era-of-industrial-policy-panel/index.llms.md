@@ -78,6 +78,7 @@ Professor, University of Bath
 ## Links
 
 - Marxe School Event Page: [Climate Week NYC 2026 Webinar](https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/)
+- Official Climate Week NYC 2026 Event Page: [Clean Energy Supply Chains in the Era of Industrial Policy](https://www.climateweeknyc.org/event-search/clean-energy-supply-chains-in-the-era-of-industrial-policy), [Archive](official-listing.png)
 
 ## Acknowledgment
 
