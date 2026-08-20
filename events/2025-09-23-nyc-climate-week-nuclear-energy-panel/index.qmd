@@ -127,10 +127,13 @@ As nations target to meet net-zero goals, nuclear energy is reemerging as an ess
 -	Hultman, Nathan E., Jonathan G. Koomey, and Daniel M. Kammen. 2007. “What History Can Teach Us About the Future Costs of U.S. Nuclear Power.” *Environmental Science & Technology* 41 (7): 2087–94. <https://doi.org/10.1021/es0725089>.  
 
 
+## Links
 
-## Acknowledgments
+- Marxe School Event Page: [Climate Week NYC 2025 Webinar](https://marxe.baruch.cuny.edu/nyc-climate-week-webinar/)
+- Official Climate Week NYC 2025 Event Page: [The Role of Nuclear Energy in Decarbonization and Powering the AI Era](https://www.climateweeknyc.org/event-search/role-nuclear-energy-decarbonization-and-powering-ai-era), [Archive](official-listing.png)
 
-Climate Week NYC 2025 [official program listing](https://www.climateweeknyc.org/events/role-nuclear-energy-decarbonization-and-powering-ai-era).
+
+## Acknowledgment
 
 This program is sponsored by the [Marxe School of Public and International Affairs](https://marxe.baruch.cuny.edu/).   
 

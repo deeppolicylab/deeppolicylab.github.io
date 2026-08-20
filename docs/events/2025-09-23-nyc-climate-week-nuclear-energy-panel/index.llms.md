@@ -94,9 +94,12 @@ Unable to execute JavaScript.
 - Lovering, Jessica R., Arthur Yip, and Ted Nordhaus. 2016. “Historical Construction Costs of Global Nuclear Power Reactors.” *Energy Policy* 91: 371–82. <https://doi.org/10.1016/j.enpol.2016.01.011>.
 - Hultman, Nathan E., Jonathan G. Koomey, and Daniel M. Kammen. 2007. “What History Can Teach Us About the Future Costs of U.S. Nuclear Power.” *Environmental Science & Technology* 41 (7): 2087–94. <https://doi.org/10.1021/es0725089>.
 
-## Acknowledgments
+## Links
 
-Climate Week NYC 2025 [official program listing](https://www.climateweeknyc.org/events/role-nuclear-energy-decarbonization-and-powering-ai-era).
+- Marxe School Event Page: [Climate Week NYC 2025 Webinar](https://marxe.baruch.cuny.edu/nyc-climate-week-webinar/)
+- Official Climate Week NYC 2025 Event Page: [The Role of Nuclear Energy in Decarbonization and Powering the AI Era](https://www.climateweeknyc.org/event-search/role-nuclear-energy-decarbonization-and-powering-ai-era), [Archive](official-listing.png)
+
+## Acknowledgment
 
 This program is sponsored by the [Marxe School of Public and International Affairs](https://marxe.baruch.cuny.edu/).
 
