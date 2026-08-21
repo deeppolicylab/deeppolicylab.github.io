@@ -78,6 +78,14 @@ Read our work
 
 Sep 1, 2026
 
+![](./files/images/journal/one-earth-logo.jpg)
+
+##### How Hard Are Hard-to-Abate Sectors? Rethinking Industrial Decarbonization Pathways
+
+*One Earth*
+
+Aug 21, 2026
+
 ![](./files/images/journal/commsearth.jpg)
 
 ##### Aligning offshore wind deployment with local priorities to accelerate power system decarbonization
@@ -85,13 +93,5 @@ Sep 1, 2026
 *Communications Earth & Environment*
 
 Apr 21, 2026
-
-![](./files/images/journal/applied-energy-logo.jpg)
-
-##### Emission trading scheme reshapes the decarbonisation pathways of China’s power sector
-
-*Applied Energy*
-
-Mar 21, 2026
 
 [Read more](more-publications.llms.md)

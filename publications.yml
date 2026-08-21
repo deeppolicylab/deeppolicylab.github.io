@@ -1,3 +1,14 @@
+
+    - path: https://doi.org/10.1016/j.oneear.2026.101784
+      image: /files/images/journal/one-earth-logo.jpg
+      title: "How Hard Are Hard-to-Abate Sectors? Rethinking Industrial Decarbonization Pathways"
+#      author: 
+      subtitle: "*One Earth*"
+      description: "Coordinated, system-wide transitions can accelerate learning, lower costs, strengthen competitiveness, and offer implications for global industrial decarbonization."
+      date: "2026-08-21"
+      fulltext: "[preprint](https://drganghe.github.io/files/papers/2026-One-Earth-How-hard-are-hard-to-abate-sectors.pdf)"
+      categories: [industry] 
+
     - path: https://doi.org/10.1016/j.eneco.2026.109527
       image: /files/images/journal/energy-economics.jpeg
       title: "Resilience planning for power systems under deep climate uncertainty"
