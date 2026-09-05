@@ -4,12 +4,6 @@ Who we are
 
 ## Team
 
-![](./files/headshots/mariah-galindo.jpeg)
-
-##### Mariah GALINDO
-
-Marxe Assistant/ MIA Student, CUNY Baruch College
-
 ![](./files/headshots/gang-he.jpg)
 
 ##### Gang HE
@@ -21,6 +15,12 @@ Associate Professor, CUNY Baruch College
 ##### Kaifang LUO
 
 Postdoctoral Researcher, CUNY Baruch College
+
+![](./files/headshots/leslieann-peers-roman.jpg)
+
+##### Leslieann PEERS-ROMAN
+
+CUNY Undergraduate Climate Scholar, CUNY Brooklyn College
 
 ![](./files/headshots/daniel-yadgarov.webp)
 
@@ -46,6 +46,7 @@ Incoming Visiting Student/Ph.D. Candidate, Wuhan University
 | ![](./files/headshots/tiffany-hugh.jpeg) | [Tiffany HUGH](https://www.linkedin.com/in/tiffany-hugh-90878b237) | QMSS Master’s Student, CUNY Graduate Center | 2024-12 | 2025-08 |
 | ![](https://giselle1119.github.io/images/WengeRao.png) | [Wenge RAO](https://giselle1119.github.io/) | Visiting Student/Ph.D. Candidate, Peking University | 2024-12 | 2025-06 |
 | ![](./files/headshots/oliver-niedbala.webp) | Oliver NIEDBALA | Student, Saint Francis Preparatory School | 2024-11 | 2025-05 |
+| ![](./files/headshots/mariah-galindo.jpeg) | [Mariah GALINDO](https://www.linkedin.com/in/mariah-galindo12101/) | Marxe Assistant/ MIA Student, CUNY Baruch College | 2024-10 | 2025-10 |
 | ![](./files/headshots/tenzin-sinon.jpg) | [Tenzin SINON](https://www.linkedin.com/in/10sinon/) | CUNY Undergraduate Climate Scholar, Hunter College | 2024-09 | 2024-12 |
 | ![](./files/headshots/tamara-valderrama.jpg) | [Tamara VALDERRAMA](https://cl.linkedin.com/in/tamara-valderrama-242289207) | CUNY Undergraduate Climate Scholar, City College | 2024-09 | 2024-12 |
 | ![](./files/headshots/nicolo-antonucci.jpeg) | [Nicolo ANTONUCCI](https://www.linkedin.com/in/nicolo-antonucci-73a89a216) | Research Assistant/MIA Student, CUNY Baruch College | 2023-09 | 2023-12 |

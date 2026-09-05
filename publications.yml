@@ -16,7 +16,7 @@
       subtitle: "*Energy Economics*"
       description: "A hybrid framework combining a Graph Neural Network and a Conditional Generative Adversarial Network (GNN-cGAN) is utilized to capture the spatiotemporal couplings of multiple meteorological variables, which provides a more realistic characterization of deep climate uncertainties and compound extreme events."
       date: "2026-09-01"
-      fulltext: "[pdf](https://www.sciencedirect.com/science/article/pii/S0140988326004068)"
+      fulltext: "[preprint](https://drganghe.github.io/files/papers/2026-EnergyEconomics-ResiliencePlanningForPowerSystemsUnderDeepClimateUncertainty.pdf)"
       categories: [climate-impact, china, power-system] 
 
     - path: "https://www.nature.com/articles/s43247-026-03533-9"

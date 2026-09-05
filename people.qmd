@@ -19,10 +19,10 @@ listing:  #an example of listing external links
   contents: 
 #    - labmembers.yml
     - /people/gang-he-associate.yml
-    - /people/kaifang-luo.yml
-    - /people/mariah-galindo.yml  
+    - /people/kaifang-luo.yml 
     - /people/daniel-yadgarov.yml
     - /people/yahao-zhang.yml
+    - /people/leslieann-peers-roman.yml
 
 - id: lab-alumni
   sort: 
@@ -58,6 +58,7 @@ listing:  #an example of listing external links
     - /people/tiffany-hugh.yml
     - /people/oliver-niedbala.yml   
     - /people/samid-rahman.yml
+    - /people/mariah-galindo.yml 
 
 page-navigation: false
 title-block-banner: false
