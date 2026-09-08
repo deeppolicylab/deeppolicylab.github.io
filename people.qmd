@@ -23,6 +23,7 @@ listing:  #an example of listing external links
     - /people/daniel-yadgarov.yml
     - /people/yahao-zhang.yml
     - /people/leslieann-peers-roman.yml
+    - /people/kyaw-san-win.yml
 
 - id: lab-alumni
   sort: 

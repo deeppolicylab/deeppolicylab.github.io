@@ -45,6 +45,7 @@ listing:
     - ../people/mariah-galindo.yml
     - ../people/arielle-canate.yml
     - ../people/tiffany-hugh.yml
+    - ../people/kyaw-san-win.yml
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->

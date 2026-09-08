@@ -22,6 +22,12 @@ Postdoctoral Researcher, CUNY Baruch College
 
 CUNY Undergraduate Climate Scholar, CUNY Brooklyn College
 
+![](./files/headshots/kyaw-san-win.webp)
+
+##### Kyaw San Win
+
+CUNY Undergraduate Climate Scholar, CUNY Borough of Manhattan Community College
+
 ![](./files/headshots/daniel-yadgarov.webp)
 
 ##### Daniel YADGAROV
