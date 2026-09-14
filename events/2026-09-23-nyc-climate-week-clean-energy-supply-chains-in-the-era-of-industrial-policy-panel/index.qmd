@@ -111,10 +111,10 @@ Achieving global climate goals requires deploying clean energy technologies at u
 
 ## References
 
-- Sun, Yixian, Freya Chant, Ciara O’Brien, et al. 2025. China and Global Sustainability Transition Outlook 2025: China’s Emerging Leadership in Global Sustainability Governance amid Geopolitical Turbulence. SGAIN Policy Report. University of Bath. <https://sgain.org/china-and-global-sustainability-transition-outlook-2025>.
+- Sun, Yixian, Freya Chant, Ciara O’Brien, et al. 2025. China and Global Sustainability Transition Outlook 2025: China’s Emerging Leadership in Global Sustainability Governance amid Geopolitical Turbulence. SGAIN Policy Report. University of Bath. <https://researchportal.bath.ac.uk/en/publications/china-and-global-sustainability-transition-outlook-2025-chinas-em/>.
 - Michal Meidan, Anders Hove. 2025. Chinese participation in Europe’s offshore wind sector: the good, the bad and the unknown. <https://www.oxfordenergy.org/publications/chinese-participation-in-europes-offshore-wind-sector-the-good-the-bad-and-the-unknown/>
 - Kate Logan, Taylah Bland. 2026. Plugging In, Charging Ahead: Comparing EU and Canadian Approaches to Chinese Investment in the Electric Vehicle Sector. <https://asiasociety.org/policy-institute/plugging-charging-ahead-comparing-eu-and-canadian-approaches-chinese-investment-electric-vehicle>
-- Kaifang Luo, Fan Dai, Jessica Gordon, Xueqin Cui, Fredrich Kahrl, and Gang He. 2026.  The solar supply chain trilemma: Sustainability, resilience, and economic opportunity in the era of industrial policy. Submitted.
+- Kaifang Luo, Fan Dai, Jessica Gordon, Xueqin Cui, Fredrich Kahrl, and Gang He. 2026.  The solar supply chain trilemma: Sustainability, resilience, and economic opportunity in the era of industrial policy. Working Paper.
 
 
 ## Links
@@ -128,6 +128,8 @@ Achieving global climate goals requires deploying clean energy technologies at u
 Hosted by the Marxe School of Public and International Affairs at Baruch College, City University of New York.
 
 With support from the National Committee on U.S.-China Relations’ Public Intellectuals Program, which is generously funded by The Andrew Carnegie Foundation.
+
+We are grateful to the ClimateWorks Foundation, Alfred P. Sloan Foundation, and California China Climate Institute for their support of research in the Deep Energy and Climate Policy Lab.
 
 
 ## Past Climate Week NYC Events
