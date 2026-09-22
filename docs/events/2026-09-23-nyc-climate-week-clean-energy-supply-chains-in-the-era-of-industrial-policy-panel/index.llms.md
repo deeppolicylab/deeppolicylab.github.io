@@ -12,7 +12,7 @@ Published
 
 September 23, 2026
 
-[![](featured.jpg)](https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/)
+[![](../../files/images/Climate-Week-2026-Flyer.webp)](https://marxe.baruch.cuny.edu/climate-week-nyc-2026-webinar/)
 
 ## Title
 
