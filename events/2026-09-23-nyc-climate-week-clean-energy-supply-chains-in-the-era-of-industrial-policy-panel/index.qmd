@@ -109,6 +109,11 @@ Achieving global climate goals requires deploying clean energy technologies at u
 :::
 
 
+## Video
+
+{{< video https://www.youtube.com/watch?v=Aduh4YMaM-s >}}
+
+
 ## References
 
 - Sun, Yixian, Freya Chant, Ciara O’Brien, et al. 2025. China and Global Sustainability Transition Outlook 2025: China’s Emerging Leadership in Global Sustainability Governance amid Geopolitical Turbulence. SGAIN Policy Report. University of Bath. <https://researchportal.bath.ac.uk/en/publications/china-and-global-sustainability-transition-outlook-2025-chinas-em/>.

@@ -68,6 +68,12 @@ Head of China Energy Research, Oxford Institute for Energy Studies
 
 Professor, University of Bath
 
+## Video
+
+# An error occurred.
+
+Unable to execute JavaScript.
+
 ## References
 
 - Sun, Yixian, Freya Chant, Ciara O’Brien, et al. 2025. China and Global Sustainability Transition Outlook 2025: China’s Emerging Leadership in Global Sustainability Governance amid Geopolitical Turbulence. SGAIN Policy Report. University of Bath. <https://researchportal.bath.ac.uk/en/publications/china-and-global-sustainability-transition-outlook-2025-chinas-em/>.
