@@ -36,8 +36,8 @@ listing:
   type: grid
   fields: [image, title, subtitle]
   grid-item-align: center  
-  grid-columns: 4
-  image-height: 200px
+  grid-columns: 3
+  image-height: 250px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -46,6 +46,7 @@ listing:
     - ../people/arielle-canate.yml
     - ../people/tiffany-hugh.yml
     - ../people/kyaw-san-win.yml
+    - ../people/jacob-fain.yml
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->

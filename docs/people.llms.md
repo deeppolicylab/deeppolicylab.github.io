@@ -4,6 +4,12 @@ Who we are
 
 ## Team
 
+![](./files/headshots/jacob-fain.jpeg)
+
+##### Jacob FAIN
+
+Research Assistant/MPA Student, CUNY Baruch College
+
 ![](./files/headshots/gang-he.jpg)
 
 ##### Gang HE

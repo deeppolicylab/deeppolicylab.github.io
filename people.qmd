@@ -24,6 +24,7 @@ listing:  #an example of listing external links
     - /people/yahao-zhang.yml
     - /people/leslieann-peers-roman.yml
     - /people/kyaw-san-win.yml
+    - /people/jacob-fain.yml
 
 - id: lab-alumni
   sort: 
