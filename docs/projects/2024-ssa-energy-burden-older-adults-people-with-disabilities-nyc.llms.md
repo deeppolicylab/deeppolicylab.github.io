@@ -83,5 +83,3 @@ We are grateful for the support and collaboration from the NYCHA team. We thank 
 ## About NYRDRC
 
 > The [New York Retirement and Disability Research Center (NYRDRC)](https://www.nyrdrc.org/) brings together the CUNY Institute for Demographic Research, the CUNY Brookdale Center for Healthy Aging, and The New School’s Schwartz Center for Economic Policy Analysis to illuminate the multifaceted challenges facing older adults and people with disabilities, caused by the political economy, geographical divides, the changing workplace, and climate instability. NYRDRC is one of six centers funded by a cooperative agreement with the Social Security Administration as part of its [Retirement and Disability Research Consortium (RDRC)](https://www.ssa.gov/policy/extramural/index.html).
-
-Note: This project was awarded by the Social Security Administration then canceled by the Trump Administration.
