@@ -1,6 +1,14 @@
+    - path: https://newscenter.baruch.cuny.edu/news/baruch-alumni-selected-for-legislative-fellowships-in-albany/
+      image: /files/images/New-York-State-Senate.jpg
+      title: "Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow"
+#      subtitle: "Baruch College"
+      author: Baruch College News Center
+      description: "Lab alumni Nico Antonucci (Marxe Assistant, Fall 2023) selected as New York State Senate Legislative Fellow. Congratulations to Nico!"
+      date: "2026-09-30" 
+
     - path: https://newscenter.baruch.cuny.edu/news/baruch-professor-gang-he-receives-cuny-research-award/
       image: /files/images/baruch-college.webp
-      title: "Baruch Professor Gang He Receives CUNY Research Award "
+      title: "Baruch Professor Gang He Receives CUNY Research Award"
 #      subtitle: "Baruch College"
       author: Baruch College News Center
       description: "Gang He, PhD, won the 2026 Sandi Cooper Award presented by the CUNY Academy."
@@ -11,7 +19,7 @@
       image: "/files/images/nyc-mid-town.webp"
       title: "New Grant: Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities"
 #      author: 
-      description: "Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant"
+      description: "Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant."
       date: "2024-11-01"
  #     categories: [Scientific American, E&E News] 
 
@@ -19,15 +27,15 @@
       image: "/files/images/baruch-college.webp"
       title: "Baruch College Faculty Included in World’s Top Scientist List"
 #      author: 
-      description: "Dr. Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024"
+      description: "Dr. Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024."
       date: "2024-10-22"
  #     categories: [Scientific American, E&E News]  
 
     - path: https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/
       image: "/files/images/dry-cooling.webp"
-      title: "Taking a Global Look at Dry and Alternative Water Cooling of Power Plants"
+      title: "Taking a Global Look at Dry and Alternative Water Cooling of Power Plants."
 #      author: 
-      description: "Study published in *Nature Water* suggests integrating planning may reduce carbon emissions in the future"
+      description: "Study published in *Nature Water* suggests integrating planning may reduce carbon emissions in the future."
       date: "2023-08-09"
  #     categories: [Scientific American, E&E News]  
 

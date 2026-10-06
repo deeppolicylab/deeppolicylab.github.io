@@ -10,6 +10,12 @@ Deep analysis, Deep insights, for Deep decarbonization
 
 What’s new
 
+![](./files/images/New-York-State-Senate.jpg)
+
+##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
+
+Sep 30, 2026
+
 ![](./events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg)
 
 ##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
@@ -21,12 +27,6 @@ Sep 23, 2026
 ##### Baruch Professor Gang He Receives CUNY Research Award
 
 Jul 2, 2026
-
-![](./files/images/funders/sloan-logo.png)
-
-##### New Grant to Study the Drivers and Impacts of Domestic Clean Energy Manufacturing
-
-Dec 17, 2025
 
 [More News](more-news.llms.md)
 

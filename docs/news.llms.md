@@ -2,6 +2,14 @@
 
 Recent releases
 
+![](./files/images/New-York-State-Senate.jpg)
+
+##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
+
+Lab alumni Nico Antonucci (Marxe Assistant, Fall 2023) selected as New York State Senate Legislative Fellow. Congratulations to Nico!
+
+Sep 30, 2026
+
 ![](./files/images/baruch-college.webp)
 
 ##### Baruch Professor Gang He Receives CUNY Research Award
@@ -41,13 +49,5 @@ Jul 28, 2025
 Study published in *One Earth* shows that fewer than 15% of China’s coal power plant workforce will find it easy to shift into green jobs; a coal power worker needs to…
 
 Nov 6, 2024
-
-![](./files/images/nyc-mid-town.webp)
-
-##### New Grant: Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities
-
-Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant
-
-Nov 1, 2024
 
 [More Releases »](more-news.llms.md)
