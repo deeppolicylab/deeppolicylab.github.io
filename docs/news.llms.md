@@ -2,7 +2,7 @@
 
 Recent releases
 
-![](./files/images/New-York-State-Senate.jpg)
+![](./files/images/Nico-Antonucci.png)
 
 ##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
 
