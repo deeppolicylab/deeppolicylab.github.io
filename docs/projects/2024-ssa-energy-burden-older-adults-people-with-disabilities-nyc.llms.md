@@ -1,5 +1,7 @@
 # Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities
 
+project
+
 The goal of this project is to investigate the energy burden faced by older adults (ages 62 and older) and people with disabilities in New York City to better understand its impact on their well-being.
 
 Published

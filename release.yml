@@ -5,6 +5,7 @@
       author: Baruch College News Center
       description: "Lab alumni Nico Antonucci (Marxe Assistant, Fall 2023) selected as New York State Senate Legislative Fellow. Congratulations to Nico!"
       date: "2026-09-30" 
+      categories: [people]
 
     - path: https://newscenter.baruch.cuny.edu/news/baruch-professor-gang-he-receives-cuny-research-award/
       image: /files/images/baruch-college.webp
@@ -13,7 +14,16 @@
       author: Baruch College News Center
       description: "Gang He, PhD, won the 2026 Sandi Cooper Award presented by the CUNY Academy."
       date: "2026-07-02"  
+      categories: [people, featured, award]
 
+    - path: https://www.uu.nl/staff/XChe
+      image: /files/headshots/xinyang-che.jpg
+      title: "Lab Alumni Xinyang Che Moving On to PhD Program at the Utrecht University"
+#      subtitle: "Baruch College"
+      author: DEEP Policy Lab
+      description: "Lab alumni Xinyang Che (Research Assistant, 2025) moving on to PhD program at the Utrecht University. Congratulations to Xinyang!"
+      date: "2025-12-01" 
+      categories: [people]
 
     - path: https://deeppolicylab.github.io/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html
       image: "/files/images/nyc-mid-town.webp"
@@ -21,7 +31,7 @@
 #      author: 
       description: "Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant."
       date: "2024-11-01"
- #     categories: [Scientific American, E&E News] 
+      categories: [project] 
 
     - path: https://newscenter.baruch.cuny.edu/news/baruch-college-faculty-included-in-worlds-top-scientist-list/
       image: "/files/images/baruch-college.webp"
@@ -29,7 +39,7 @@
 #      author: 
       description: "Dr. Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024."
       date: "2024-10-22"
- #     categories: [Scientific American, E&E News]  
+      categories: [people, award, featured]  
 
     - path: https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/
       image: "/files/images/dry-cooling.webp"
@@ -37,7 +47,7 @@
 #      author: 
       description: "Study published in *Nature Water* suggests integrating planning may reduce carbon emissions in the future."
       date: "2023-08-09"
- #     categories: [Scientific American, E&E News]  
+      categories: [paper]  
 
     - path: https://news.stonybrook.edu/newsroom/global-collaboration-is-key-to-saving-billions-for-solar-module-production/
       image: "/research/clean-energy-supply-chains/featured.jpeg"
@@ -45,7 +55,7 @@
 #      author: 
       description: "Study published in *Nature* quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains."
       date: "2022-10-26"
- #     categories: [Scientific American, E&E News]  
+      categories: [paper, featured]  
 
     - path: https://news.stonybrook.edu/newsroom/study-shows-decrease-in-renewable-energy-costs-may-serve-as-an-accelerator-for-clean-energy-expansion/
       image: "/files/images/wind-farm.jpg"
@@ -53,7 +63,7 @@
 #      author: 
       description: "The study reveals fast decarbonization is both technically feasible and economically beneficial, which offers the prospect of large emissions mitigation with a global environmental impact."
       date: "2020-06-01"
- #     categories: [Scientific American, E&E News]  
+      categories: [paper]  
 
     - path: https://news.stonybrook.edu/newsroom/energy-transition-away-from-coal-in-china-will-yield-benefits/
       image: "/files/images/coal-transfer-hub.jpg"
@@ -61,7 +71,7 @@
 #      author: 
       description: "In a perspective paper published in *One Earth*, an international scientific team contends that China needs to transition away from coal to help the world achieve global decarbonization and improve the nation’s environmental and human health."
       date: "2020-08-21"
- #     categories: [Scientific American, E&E News]  
+      categories: [paper]  
 
     - path: https://news.stonybrook.edu/homespotlight/stony-brook-university-hosts-nsf-funded-data-science-workshop/ 
       image: "/files/images/NSF-Workshop.jpg"
@@ -69,4 +79,4 @@
 #      author: 
       description: "On January 9-10, 2020, we hosted the NSF funded workshop entitled “Data Science Across the Undergraduate Curriculum: University-Industry Online Case Studies on Applications of Data Science.” "
       date: "2020-01-19"
- #     categories: [Scientific American, E&E News]  
+      categories: [event]  

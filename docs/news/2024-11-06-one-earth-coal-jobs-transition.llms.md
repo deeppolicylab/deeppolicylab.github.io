@@ -1,5 +1,7 @@
 # New Study Shows Fewer Than 15% of China’s Coal Power Plant Workers Can Easily Transition to Green Jobs by 2060
 
+paper
+
 Study published in *One Earth* shows that fewer than 15% of China’s coal power plant workforce will find it easy to shift into green jobs; a coal power worker needs to travel 194 (178–242) km on average to access a green job.
 
 Published

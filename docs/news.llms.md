@@ -1,14 +1,6 @@
 # News
 
-Recent releases
-
-![](./files/images/Nico-Antonucci.png)
-
-##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
-
-Lab alumni Nico Antonucci (Marxe Assistant, Fall 2023) selected as New York State Senate Legislative Fellow. Congratulations to Nico!
-
-Sep 30, 2026
+Featured releases
 
 ![](./files/images/baruch-college.webp)
 
@@ -42,12 +34,20 @@ Comment published in *Nature* shows escalating construction expenses threaten to
 
 Jul 28, 2025
 
-![](./files/images/coal-power.JPG)
+![](./files/images/baruch-college.webp)
 
-##### New Study Shows Fewer Than 15% of China’s Coal Power Plant Workers Can Easily Transition to Green Jobs by 2060
+##### Baruch College Faculty Included in World’s Top Scientist List
 
-Study published in *One Earth* shows that fewer than 15% of China’s coal power plant workforce will find it easy to shift into green jobs; a coal power worker needs to…
+Dr. Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024.
 
-Nov 6, 2024
+Oct 22, 2024
+
+![](./research/clean-energy-supply-chains/featured.jpeg)
+
+##### Global Collaboration is Key to Saving Billions for Solar Module Production
+
+Study published in *Nature* quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains.
+
+Oct 26, 2022
 
 [More Releases »](more-news.llms.md)

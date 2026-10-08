@@ -3,7 +3,7 @@ title: "New Study Finds Imported Solar Panels Deliver Major Climate and Health B
 image: "/files/images/Holtsville-Ecology-Site-Solar-Farm.JPG"
 description: "New study published in *One Earth* showing that imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States."
 #author: "Gang He"
-#categories: [research]
+categories: [paper, featured]
 date: "2025-10-08"
 title-block-banner: false
 #page-layout: full

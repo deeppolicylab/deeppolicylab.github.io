@@ -1,6 +1,6 @@
 ---
 title: "News"
-subtitle: "Recent releases"
+subtitle: "Featured releases"
 page-layout: full
 toc: false
 #author: "DEEP Lab"
@@ -23,6 +23,8 @@ listing:
   contents: 
     - /news/
     - release.yml
+  include:
+    categories: "featured"  
 ---
 
 :::{#release}

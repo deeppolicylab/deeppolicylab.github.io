@@ -1,5 +1,9 @@
 # New Grant to Study the Drivers and Impacts of Domestic Clean Energy Manufacturing
 
+project
+
+featured
+
 Gang He, Kaifang Luo, Michael Davidson, Ahmad Lashkaripour, Ilaria Mazzocco, and Minghao Qiu are awarded a \$750,000 new Alfred P. Sloan Foundation grant to study the drivers and impacts of domestic clean manufacturing interventions, resulting from an Open Call on Energy System Interactions in the United States.
 
 Published

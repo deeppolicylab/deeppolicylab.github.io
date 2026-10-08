@@ -1,5 +1,9 @@
 # Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?
 
+paper
+
+featured
+
 Comment published in *Nature* shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.
 
 Published

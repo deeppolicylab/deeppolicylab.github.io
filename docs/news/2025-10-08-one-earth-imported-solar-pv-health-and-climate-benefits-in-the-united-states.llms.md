@@ -1,5 +1,9 @@
 # New Study Finds Imported Solar Panels Deliver Major Climate and Health Benefits to the U.S.
 
+paper
+
+featured
+
 New study published in *One Earth* showing that imported solar panels prevented nearly 600 premature deaths and delivered \$28 billion in climate and health benefits to the United States.
 
 Published
