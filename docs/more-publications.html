@@ -82,8 +82,7 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-date','listing-description','listing-fulltext',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      page: 30,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      
       searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-fulltext","listing-categories","listing-year"],
     };
 
@@ -1016,7 +1015,7 @@ Fulltext
 
 <tr data-index="30" data-categories="Y2hpbmElMkN3aW5k" data-listing-date-sort="1416027600000" data-listing-title-sort="Where, When and How Much Wind Is Available? A Provincial-Scale Wind Resource Assessment for China">
 <td>
-<span class="listing-image"><img loading="lazy" data-src="./files/images/journal/energy-policy-logo.jpg" style="height: 30px;"></span>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/energy-policy-logo.jpg" style="height: 30px;"></span>
 </td>
 <td>
 <a href="https://doi.org/10.1016/j.enpol.2014.07.003" class="title listing-title">Where, When and How Much Wind Is Available? A Provincial-Scale Wind Resource Assessment for China</a>
@@ -1038,7 +1037,7 @@ Fulltext
 
 <tr data-index="31" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NhcmJvbg==" data-listing-date-sort="1387083600000" data-listing-title-sort="Addressing carbon Offsetters’ Paradox: Lessons from Chinese wind CDM">
 <td>
-<span class="listing-image"><img loading="lazy" data-src="./files/images/journal/energy-policy-logo.jpg" style="height: 30px;"></span>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/energy-policy-logo.jpg" style="height: 30px;"></span>
 </td>
 <td>
 <a href="https://doi.org/10.1016/j.enpol.2013.09.021" class="title listing-title">Addressing carbon Offsetters’ Paradox: Lessons from Chinese wind CDM</a>
@@ -1061,9 +1060,6 @@ Fulltext
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
-<nav id="more-publications-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div>
 <!--Include social share buttons-->
 <!-- 

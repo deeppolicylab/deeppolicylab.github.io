@@ -19,6 +19,7 @@ listing:
 #  grid-item-align: left
 #  grid-columns: 3
   image-height: 20px
+  page-size: 100
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true

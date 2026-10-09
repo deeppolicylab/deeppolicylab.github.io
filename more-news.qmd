@@ -18,6 +18,7 @@ listing:
 #  grid-columns: 3
   image-height: 20px
   categories: true
+  page-size: 100
 #  sort-ui: true
 #  filter-ui: true
   contents: 
