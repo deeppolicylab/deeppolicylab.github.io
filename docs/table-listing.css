@@ -1,0 +1,7 @@
+/* Wrap the listing table container to allow horizontal scrolling */
+.quarto-listing-table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}

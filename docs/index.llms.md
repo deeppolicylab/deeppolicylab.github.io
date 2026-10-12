@@ -10,6 +10,12 @@ Deep analysis, Deep insights, for Deep decarbonization
 
 What’s new
 
+![](./files/images/ucsd.webp)
+
+##### 2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector
+
+Oct 8, 2026
+
 ![](./files/images/Nico-Antonucci.png)
 
 ##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
@@ -21,12 +27,6 @@ Sep 30, 2026
 ##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
 
 Sep 23, 2026
-
-![](./files/images/baruch-college.webp)
-
-##### Baruch Professor Gang He Receives CUNY Research Award
-
-Jul 2, 2026
 
 [More News](more-news.llms.md)
 

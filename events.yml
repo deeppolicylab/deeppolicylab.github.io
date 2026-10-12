@@ -1,3 +1,12 @@
+    - path: https://gps-ucsd.zohobackstage.com/WorkshoponOpenModelingCarbonNeutralityofthePowerSector
+      image: /files/images/ucsd.webp
+      title: "2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector"
+      author: Gang He
+#      subtitle: "*Nature Communications*"
+      description: "The third workshop on open modeling carbon neutrality of the power sector is hosted by the University of California, San Diego."
+      date: "2026-10-08"
+      categories: [power-system] 
+
 
     - path: 
       image: /files/images/xjtu.jpg

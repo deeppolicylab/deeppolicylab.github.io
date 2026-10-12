@@ -8,7 +8,7 @@ toc: false
 #date: "2023-03-20"
 #categories: [news, job]
 #image: "featured.jpeg"
-#css: /custom.css
+css: table-listing.css
 listing: 
 - id: events
   sort: "date desc"

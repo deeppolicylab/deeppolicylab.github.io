@@ -4,6 +4,7 @@ subtitle: "Who we are"
 image: /files/images/we-need-you.png
 page-layout: full
 date-format: "YYYY-MM"
+css: table-listing.css
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
 - id: lab-member

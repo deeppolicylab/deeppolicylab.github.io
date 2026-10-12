@@ -76,6 +76,14 @@ Jan 1, 2022
 
 ## Featured events
 
+![](../../files/images/ucsd.webp)
+
+##### 2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector
+
+The third workshop on open modeling carbon neutrality of the power sector is hosted by the University of California, San Diego.
+
+Oct 8, 2026
+
 ![](../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp)
 
 ##### Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
@@ -83,14 +91,6 @@ Jan 1, 2022
 Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025.
 
 Sep 23, 2025
-
-![](../../files/images/xjtu.jpg)
-
-##### 2025 Workshop on Open Modeling Carbon Neutrality of the Power Sector
-
-The second workshop on open modeling carbon neutrality of the power sector is held at Xi’an Jiaotong University in China.
-
-Jun 20, 2025
 
 [More Events »](../../more-events.llms.md#category=power-system)
 

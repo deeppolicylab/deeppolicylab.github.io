@@ -8,6 +8,14 @@ What’s happening
 
 Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to…
 
+![](./files/images/ucsd.webp)
+
+##### 2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector
+
+The third workshop on open modeling carbon neutrality of the power sector is hosted by the University of California, San Diego.
+
+Oct 8, 2026
+
 ![](./events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg)
 
 ##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
@@ -39,13 +47,5 @@ Jul 1, 2025
 The second workshop on open modeling carbon neutrality of the power sector is held at Xi’an Jiaotong University in China.
 
 Jun 20, 2025
-
-![](./events/2024-09-26-nyc-climate-week-clean-energy-global-supply-chains-panel/flyer.png)
-
-##### Climate Week NYC 2024: Clean Energy Global Supply Chains Panel
-
-Join us to discuss Role of Clean Energy Global Supply Chains in Achieving Climate Goals during Climate Week NYC 2024.
-
-Sep 26, 2024
 
 [More Events »](more-events.llms.md)
