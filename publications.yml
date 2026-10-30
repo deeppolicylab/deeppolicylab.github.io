@@ -1,3 +1,12 @@
+    - path: https://doi.org/10.1016/10.1016/j.ynexs.2026.100177
+      image: /files/images/journal/nexus.jpg
+      title: "Health and climate benefits of solar photovoltaics in Europe and the role of imports"
+#      author: 
+      subtitle: "*Nexus*"
+      description: "Solar generation avoided 47 million tonnes of carbon dioxide and more than 13,000 premature deaths, yielding $116.2 billion in monetized benefits (about $150 per installed kilowatt per year) across eight European countries from 2015 to 2021. An estimated 40% of these benefits is associated with imported solar panels on a benefit-weighted basis."
+      date: "2026-10-29"
+      fulltext: "[pdf](https://www.cell.com/nexus/pdf/S2950-1601(26)00060-4.pdf)"
+      categories: [featured, solar, supply-chain, energy-nexus, united-states, germany, united-kingdom] 
 
     - path: https://doi.org/10.1016/j.oneear.2026.101784
       image: /files/images/journal/one-earth-logo.jpg

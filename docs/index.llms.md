@@ -70,6 +70,14 @@ What we do
 
 Read our work
 
+![](./files/images/journal/nexus.jpg)
+
+##### Health and climate benefits of solar photovoltaics in Europe and the role of imports
+
+*Nexus*
+
+Oct 29, 2026
+
 ![](./files/images/journal/energy-economics.jpeg)
 
 ##### Resilience planning for power systems under deep climate uncertainty
@@ -85,13 +93,5 @@ Sep 1, 2026
 *One Earth*
 
 Aug 21, 2026
-
-![](./files/images/journal/commsearth.jpg)
-
-##### Aligning offshore wind deployment with local priorities to accelerate power system decarbonization
-
-*Communications Earth & Environment*
-
-Apr 21, 2026
 
 [Read more](more-publications.llms.md)
