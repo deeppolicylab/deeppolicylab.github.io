@@ -12,6 +12,16 @@ Global clean energy supply chains stand at a critical intersection of integratio
 
 ## Featured publications
 
+![](../../files/images/journal/nexus.jpg)
+
+##### Health and climate benefits of solar photovoltaics in Europe and the role of imports
+
+*Nexus*
+
+Solar generation avoided 47 million tonnes of carbon dioxide and more than 13,000 premature deaths, yielding \$116.2 billion in monetized benefits (about \$150 per installed…
+
+Oct 29, 2026
+
 ![](../../files/images/journal/one-earth-logo.jpg)
 
 ##### Imported solar photovoltaics contributed to health and climate benefits in the United States
@@ -41,16 +51,6 @@ Jul 31, 2025
 In addressing the challenges and maximizing the benefits, there is a pressing need for a commonly agreed framework for a just, resilient, and sustainable clean energy supply…
 
 Dec 5, 2023
-
-![](../../files/images/journal/commsearth.jpg)
-
-##### Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060
-
-*Communications Earth & Environment*
-
-A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing.
-
-Oct 11, 2023
 
 [More Publications »](../../more-publications.llms.md#category=supply-chain)
 

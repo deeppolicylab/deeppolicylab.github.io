@@ -2,6 +2,16 @@
 
 Featured papers and articles
 
+![](./files/images/journal/nexus.jpg)
+
+##### Health and climate benefits of solar photovoltaics in Europe and the role of imports
+
+*Nexus*
+
+Solar generation avoided 47 million tonnes of carbon dioxide and more than 13,000 premature deaths, yielding \$116.2 billion in monetized benefits (about \$150 per installed…
+
+Oct 29, 2026
+
 ![](./files/images/journal/commsearth.jpg)
 
 ##### Aligning offshore wind deployment with local priorities to accelerate power system decarbonization
@@ -111,15 +121,5 @@ Aug 21, 2020
 A renewable-dominant pathway is not just technologically sound, but also cost-effective.
 
 May 19, 2020
-
-![](./files/images/journal/rcr-logo.jpg)
-
-##### Experiences and lessons from China’s success in providing electricity for all
-
-*Resources, Conservation and Recycling*
-
-Key experiences and lessons to be learned from China’s successful program to provide electricity for all.
-
-Jul 1, 2017
 
 [More Publications »](more-publications.llms.md)

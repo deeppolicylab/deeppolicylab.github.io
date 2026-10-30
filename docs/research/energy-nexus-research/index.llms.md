@@ -12,6 +12,16 @@ This research theme focuses on understanding how energy nexus systems interact a
 
 ## Featured publications
 
+![](../../files/images/journal/nexus.jpg)
+
+##### Health and climate benefits of solar photovoltaics in Europe and the role of imports
+
+*Nexus*
+
+Solar generation avoided 47 million tonnes of carbon dioxide and more than 13,000 premature deaths, yielding \$116.2 billion in monetized benefits (about \$150 per installed…
+
+Oct 29, 2026
+
 ![](../../files/images/journal/one-earth-logo.jpg)
 
 ##### Imported solar photovoltaics contributed to health and climate benefits in the United States
@@ -41,16 +51,6 @@ Apr 22, 2024
 The value of climate and health benefits would exceed the additional costs, leading to \$824 billion net benefits from 2021 to 2050.
 
 Sep 25, 2023
-
-![](../../files/images/journal/nature-water.jpg)
-
-##### Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation
-
-*Nature Water*
-
-We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling.
-
-Aug 7, 2023
 
 [More Publications »](../../more-publications.llms.md#category=energy-nexus)
 
