@@ -63,4 +63,4 @@ Incoming Visiting Student/Ph.D. Candidate, Wuhan University
 | ![](./files/headshots/tamara-valderrama.jpg) | [Tamara VALDERRAMA](https://cl.linkedin.com/in/tamara-valderrama-242289207) | CUNY Undergraduate Climate Scholar, City College | 2024-09 | 2024-12 |
 | ![](./files/headshots/nicolo-antonucci.jpeg) | [Nicolo ANTONUCCI](https://www.linkedin.com/in/nicolo-antonucci-73a89a216) | Research Assistant/MIA Student, CUNY Baruch College | 2023-09 | 2023-12 |
 | ![](./files/headshots/kately-arriage.jpeg) | [Kately ARRIAGE](https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile) | Research Assistant/MPA Student, CUNY Baruch College | 2023-09 | 2023-12 |
-| ![](./files/images/we-need-you.png) | [Yun LI](https://www.linkedin.com/in/yun-li-0b96041b2/) | Research Assistant/M.S., KU Leuven | 2023-07 | 2024-08 |
+| ![](./files/headshots/yun-li.jpeg) | [Yun LI](https://www.linkedin.com/in/yunlileo7997/) | Research Assistant/M.S., KU Leuven | 2023-07 | 2024-08 |

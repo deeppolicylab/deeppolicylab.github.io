@@ -2,6 +2,14 @@
 
 Featured releases
 
+![](./files/images/Sweden-solar-farm.JPG)
+
+##### Ahead of COP31, New Study Finds Solar Helped Prevent 13,000 Premature Deaths in Europe
+
+New research finds \$116 billion in health and climate benefits across eight European countries between 2015 and 2021, with over 40% associated with imported solar panels.
+
+Oct 29, 2026
+
 ![](./files/images/baruch-college.webp)
 
 ##### Baruch Professor Gang He Receives CUNY Research Award
@@ -41,13 +49,5 @@ Jul 28, 2025
 Dr. Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024.
 
 Oct 22, 2024
-
-![](./research/clean-energy-supply-chains/featured.jpeg)
-
-##### Global Collaboration is Key to Saving Billions for Solar Module Production
-
-Study published in *Nature* quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains.
-
-Oct 26, 2022
 
 [More Releases »](more-news.llms.md)

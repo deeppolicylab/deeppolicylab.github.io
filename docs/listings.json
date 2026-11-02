@@ -14,6 +14,7 @@
   {
     "listing": "/more-news.html",
     "items": [
+      "/news/2026-10-29-nexus-health-and-climate-benefits-of-solar-pv-in-the-eu.html",
       "/news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html",
       "/news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html",
       "/news/2025-07-28-nature-comment-nuclear-costs.html",
@@ -43,6 +44,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/2026-10-29-nexus-health-and-climate-benefits-of-solar-pv-in-the-eu.html",
       "/news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html",
       "/news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html",
       "/news/2025-07-28-nature-comment-nuclear-costs.html"
@@ -140,6 +142,7 @@
       "/research/china-carbon-neutrality-initiative/index.html",
       "/research/new-york-climate-initiative/index.html",
       "/research/united-states-clean-energy-initiative/index.html",
+      "/news/2026-10-29-nexus-health-and-climate-benefits-of-solar-pv-in-the-eu.html",
       "/events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/index.html",
       "/news/2025-12-17-sloan-grant-drivers-and-impacts-domestic-manufacturing.html",
       "/news/2025-10-08-one-earth-imported-solar-pv-health-and-climate-benefits-in-the-united-states.html",
@@ -169,6 +172,10 @@
   },
   {
     "listing": "/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/2026-10-29-nexus-health-and-climate-benefits-of-solar-pv-in-the-eu.html",
     "items": []
   }
 ]

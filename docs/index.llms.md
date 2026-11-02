@@ -10,6 +10,12 @@ Deep analysis, Deep insights, for Deep decarbonization
 
 What’s new
 
+![](./files/images/Sweden-solar-farm.JPG)
+
+##### Ahead of COP31, New Study Finds Solar Helped Prevent 13,000 Premature Deaths in Europe
+
+Oct 29, 2026
+
 ![](./files/images/ucsd.webp)
 
 ##### 2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector
@@ -21,12 +27,6 @@ Oct 8, 2026
 ##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
 
 Sep 30, 2026
-
-![](./events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg)
-
-##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
-
-Sep 23, 2026
 
 [More News](more-news.llms.md)
 
