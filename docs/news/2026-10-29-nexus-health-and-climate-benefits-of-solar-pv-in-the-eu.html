@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-coauthors .list');
+    const listingTargetEl = window.document.querySelector('#listing-main-authors .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,6 +86,34 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-categories","listing-status","listing-author","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-main-authors'] = new List('listing-main-authors', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-coauthors .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-author","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -266,6 +294,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#main-authors" id="toc-main-authors" class="nav-link active" data-scroll-target="#main-authors">Main Authors</a></li>
+  <li><a href="#coauthors" id="toc-coauthors" class="nav-link" data-scroll-target="#coauthors">Coauthors</a></li>
   <li><a href="#release" id="toc-release" class="nav-link" data-scroll-target="#release">Release</a></li>
   </ul>
 </nav>
@@ -326,7 +355,7 @@ Publication date: October 29, 2026<br>
 Links: Published <a href="https://doi.org/10.1016/j.ynexs.2026.100177">paper</a>; Open-access <a href="https://www.cell.com/nexus/pdf/S2950-1601(26)00060-4.pdf">pdf</a>; Source <a href="https://zenodo.org/records/23480950">Code and Data</a></p>
 <section id="main-authors" class="level2">
 <h2 class="anchored" data-anchor-id="main-authors">Main Authors</h2>
-<div id="listing-coauthors" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-main-authors" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">
 <a href="https://kaifangluo.com" class="quarto-grid-link">
@@ -393,6 +422,73 @@ Associate Professor, CUNY Baruch College
 </div></a>
 </div>
 </div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="coauthors" class="level2">
+<h2 class="anchored" data-anchor-id="coauthors">Coauthors</h2>
+<div id="listing-coauthors" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+ 
+</th>
+
+<th>
+Name
+</th>
+
+<th>
+Affiliation
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-title-sort="Guochao CHEN">
+<td>
+<span class="listing-image"><img loading="lazy" src="../files/images/we-need-you.png" style="height: 20px;"></span>
+</td>
+<td>
+<span class="listing-title">Guochao CHEN</span>
+</td>
+<td>
+<span class="listing-subtitle">Ph.D.&nbsp;student, Fudan University</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-title-sort="Minghao QIU">
+<td>
+<span class="listing-image"><img loading="lazy" src="../files/headshots/minghao-qiu.jpg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://mhqiu.github.io/" class="title listing-title">Minghao QIU</a>
+</td>
+<td>
+<span class="listing-subtitle">Assistant Professor, Stony Brook University</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-date-sort="1793505600000" data-listing-title-sort="Froylan SIFUENTES">
+<td>
+<span class="listing-image"><img loading="lazy" src="../files/headshots/froylan-sifuentes.jpeg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://cenv.wwu.edu/people/froylan-sifuentes" class="title listing-title">Froylan SIFUENTES</a>
+</td>
+<td>
+<span class="listing-subtitle">Associate Professor, Western Washington University</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>

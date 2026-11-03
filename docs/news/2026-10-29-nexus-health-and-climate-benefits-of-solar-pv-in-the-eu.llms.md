@@ -43,6 +43,14 @@ Professor, Shanghai University of Science and Technology
 
 Associate Professor, CUNY Baruch College
 
+## Coauthors
+
+|  | Name | Affiliation |
+|----|----|----|
+| ![](../files/images/we-need-you.png) | Guochao CHEN | Ph.D. student, Fudan University |
+| ![](../files/headshots/minghao-qiu.jpg) | [Minghao QIU](https://mhqiu.github.io/) | Assistant Professor, Stony Brook University |
+| ![](../files/headshots/froylan-sifuentes.jpeg) | [Froylan SIFUENTES](https://cenv.wwu.edu/people/froylan-sifuentes) | Associate Professor, Western Washington University |
+
 ## Release
 
 As world leaders prepare to gather for the 31st United Nations Climate Change Conference (COP31), a new [study](ttps://doi.org/10.1016/j.ynexs.2026.100177) offers a timely reminder that the benefits of clean energy extend far beyond reducing carbon emissions—and that international trade can play an important role in delivering those benefits.

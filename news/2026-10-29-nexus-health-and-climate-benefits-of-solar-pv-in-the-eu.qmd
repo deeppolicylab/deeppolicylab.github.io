@@ -11,7 +11,7 @@ title-block-banner: false
 link-external-newwindow: true
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
-- id: coauthors
+- id: main-authors
 #  sort: "lastname asc"
   type: grid
   fields: [image, title, subtitle]
@@ -27,6 +27,23 @@ listing:  #an example of listing external links
     - ../../people/hongliang-zhang.yml
     - ../../people/gang-he-associate.yml
 
+- id: coauthors
+#  sort: "lastname asc"
+  type: table
+  fields: [image, title, subtitle]
+#  grid-item-align: center  
+#  grid-columns: 4
+  image-height: 20px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  field-display-names: 
+    title: "Name"
+    subtitle: "Affiliation"
+  contents:
+    - ../../people/guochao-chen.yml
+    - ../../people/minghao-qiu.yml
+    - ../../people/froylan-sifuentes.yml
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->
@@ -41,6 +58,11 @@ Links: Published [paper](https://doi.org/10.1016/j.ynexs.2026.100177); Open-acce
 
 
 ## Main Authors
+
+:::{#main-authors}
+:::
+
+## Coauthors
 
 :::{#coauthors}
 :::
