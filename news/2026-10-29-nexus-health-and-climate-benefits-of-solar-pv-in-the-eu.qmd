@@ -71,6 +71,17 @@ Links: Published [paper](https://doi.org/10.1016/j.ynexs.2026.100177); Open-acce
 
 As world leaders prepare to gather for the 31st United Nations Climate Change Conference (COP31), a new [study](ttps://doi.org/10.1016/j.ynexs.2026.100177) offers a timely reminder that the benefits of clean energy extend far beyond reducing carbon emissions—and that international trade can play an important role in delivering those benefits.
 
+| Category | Total Benefits (2015--2021) | Average Annual Benefits | 
+|-----------------|--------------|--------------|
+| Avoided fossil fuel generation | 418 TWh | 60 TWh/year |
+| Avoided CO₂ emissions | 47 million tonnes | 6.7 million tonnes/year |
+| Avoided air pollution | 13,025 premature deaths | 1,860 premature deaths/year | 
+| Monetized health and climate benefits | $116.2 billion | $16.6 billion/year | 
+| Average benefits per imported capacity |  | ~$150/kW⋅yr | 
+| Share of imports-associated benefits | 40% |  | 
+
+: Summary of benefits of solar photovoltaic (PV) electricity generation in Europe between 2015 and 2021
+
 The study, accepted for publication in the scientific journal *Nexus*, finds that solar photovoltaic (PV) electricity generation helped prevent more than 13,000 premature deaths and avoided nearly 47 million tonnes of carbon dioxide emissions across eight European countries between 2015 and 2021.
 
 Together, these health and climate benefits were valued at $116.2 billion, with more than 99% attributed to improved air quality under the study's valuation approach.
@@ -78,6 +89,7 @@ Together, these health and climate benefits were valued at $116.2 billion, with 
 The research also highlights an often-overlooked dimension of Europe's clean energy transition: the role of international solar supply chains. Using country-specific trade data, the researchers estimate that approximately $46.9 billion, or 40%, of the total benefits were associated with imported solar panels.
 
 The findings offer new evidence for policymakers weighing the benefits of global clean energy trade and supply chains.
+
 
 ![A solar farm near Vasteras, Sweden. Photo by Gang He](/files/images/Sweden-solar-farm-16-9.JPG)
 
