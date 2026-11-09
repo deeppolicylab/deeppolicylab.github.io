@@ -8,6 +8,14 @@ What’s happening
 
 Join climate doers and thinkers from frontiers of science, policy, and markets to share their insights and experiences on climate change, ask questions, and learn how to…
 
+![](./files/images/CSIS.jpg)
+
+##### Workshop: Made in America? Unpacking the Drivers and Impacts of Domestic Clean Energy Manufacturing
+
+This workshop brings together researchers, policymakers, industry representatives, and policy experts to examine the drivers and impacts of domestic clean energy…
+
+Nov 12, 2026
+
 ![](./files/images/ucsd.webp)
 
 ##### 2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector
@@ -39,13 +47,5 @@ Sep 23, 2025
 Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.
 
 Jul 1, 2025
-
-![](./files/images/xjtu.jpg)
-
-##### 2025 Workshop on Open Modeling Carbon Neutrality of the Power Sector
-
-The second workshop on open modeling carbon neutrality of the power sector is held at Xi’an Jiaotong University in China.
-
-Jun 20, 2025
 
 [More Events »](more-events.llms.md)

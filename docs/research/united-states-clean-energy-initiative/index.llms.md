@@ -36,6 +36,14 @@ Oct 26, 2022
 
 ## Featured news
 
+![](../../files/images/CSIS.jpg)
+
+##### Workshop: Made in America? Unpacking the Drivers and Impacts of Domestic Clean Energy Manufacturing
+
+This workshop brings together researchers, policymakers, industry representatives, and policy experts to examine the drivers and impacts of domestic clean energy…
+
+Nov 12, 2026
+
 ![](https://drganghe.github.io/files/images/handshake-sculpture.JPG)
 
 ##### U.S.-China Working Group on Enhancing Climate Action in the 2020s

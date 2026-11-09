@@ -1,0 +1,20 @@
+<%# hide-categories.ejs %>
+<div class="list grid quarto-listing-cols-3">
+  <% for (const item of items) { %>
+    <div class="g-col-1" <%= metadataAttrs(item) %>>
+      <div class="quarto-post image-right">
+        <% if (item.image) { %>
+          <div class="thumbnail">
+            <p><a href="<%= item.path %>"><img src="<%= item.image %>" class="thumbnail-image"></a></p>
+          </div>
+        <% } %>
+        <div class="body">
+          <h3 class="no-anchor listing-title"><a href="<%= item.path %>"><%= item.title %></a></h3>
+          <% if (item.description) { %>
+            <div class="listing-description"><%= item.description %></div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  <% } %>
+</div>

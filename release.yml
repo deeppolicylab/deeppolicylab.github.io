@@ -41,6 +41,14 @@
       date: "2024-10-22"
       categories: [people, award, featured]  
 
+    - path: https://drganghe.github.io/posts/2024-06-us-china-working-group-on-enhancing-climate-action/
+      image: https://drganghe.github.io/files/images/handshake-sculpture.JPG
+      title: "U.S.-China Working Group on Enhancing Climate Action in the 2020s"
+#      author: 
+      description: "Dr. Gang He is invited to serve as an external expert in the energy transition sub-working group of the U.S.-China Working Group on Enhancing Climate Action in the 2020s."
+      date: "2024-06-24"
+      categories: [united-states, china]
+
     - path: https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/
       image: "/files/images/dry-cooling.webp"
       title: "Taking a Global Look at Dry and Alternative Water Cooling of Power Plants."

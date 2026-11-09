@@ -1,3 +1,5 @@
+[Skip to main content](#quarto-content)
+
 Welcome to Deep Energy and Climate Policy Lab
 
 Data-driven, Evidence-based, Energy and Climate Solutions
@@ -10,6 +12,12 @@ Deep analysis, Deep insights, for Deep decarbonization
 
 What’s new
 
+![](./files/images/CSIS.jpg)
+
+##### Workshop: Made in America? Unpacking the Drivers and Impacts of Domestic Clean Energy Manufacturing
+
+Nov 12, 2026
+
 ![](./files/images/Sweden-solar-farm.JPG)
 
 ##### Ahead of COP31, New Study Finds Solar Helped Prevent 13,000 Premature Deaths in Europe
@@ -21,12 +29,6 @@ Oct 29, 2026
 ##### 2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector
 
 Oct 8, 2026
-
-![](./files/images/Nico-Antonucci.png)
-
-##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
-
-Sep 30, 2026
 
 [More News](more-news.llms.md)
 

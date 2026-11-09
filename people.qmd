@@ -63,6 +63,24 @@ listing:  #an example of listing external links
     - /people/samid-rahman.yml
     - /people/mariah-galindo.yml 
 
+- id: team-news
+  sort: "date desc"
+  type: grid
+#  template: /files/ejs/hide-categories.ejs
+  fields: [image, title, subtitle, date]
+  grid-item-align: left
+  grid-columns: 4
+  max-items: 4
+  image-height: 150px
+  categories: false
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+    - /news/
+    - release.yml
+  include:
+    categories: "people" 
+
 page-navigation: false
 title-block-banner: false
 toc: false
@@ -70,6 +88,9 @@ toc: false
 format:
   html:
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <script defer src="/files/js/people-categories.js"></script>
 ---
 
 <!--Please delete or replace with your own clarity-->
@@ -80,11 +101,53 @@ format:
 :::{#lab-member}
 :::
 
+## Team and Alumni News
+
+:::{#team-news}
+:::
+
+<p align="right">[More »](/more-news.qmd#category=people)</p>
 
 ## Alumni
 
 :::{#lab-alumni}
 :::
+
+
+```{=html}
+<script>
+(function () {
+  function hideCategories() {
+    document.querySelectorAll(
+      "#quarto-margin-sidebar .quarto-category, " +
+      "#quarto-margin-sidebar .category, " +
+      "#quarto-margin-sidebar .quarto-listing-category, " +
+      "#quarto-margin-sidebar a"
+    ).forEach(function (el) {
+      const name = el.textContent
+        .trim()
+        .replace(/\s*\(\d+\)\s*$/, "")
+        .trim()
+        .toLowerCase();
+
+      if (name === "award" || name === "people" || name === "featured") {
+        el.style.setProperty("display", "none", "important");
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", hideCategories);
+  window.addEventListener("load", hideCategories);
+
+  // Reapply if Quarto updates the sidebar dynamically.
+  const observer = new MutationObserver(hideCategories);
+  observer.observe(document.documentElement, {
+    childList: true,
+    subtree: true
+  });
+})();
+</script>
+```
 
 <!--
 ## Collaborators

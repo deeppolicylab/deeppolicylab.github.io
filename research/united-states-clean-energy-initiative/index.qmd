@@ -34,13 +34,10 @@ listing:
 #  sort-ui: true
 #  filter-ui: true
   contents:
-    - path: https://drganghe.github.io/posts/2024-06-us-china-working-group-on-enhancing-climate-action/
-      image: https://drganghe.github.io/files/images/handshake-sculpture.JPG
-      title: "U.S.-China Working Group on Enhancing Climate Action in the 2020s"
-#      author: 
-#      subtitle: "*Nature Reviews Earth & Environment*"
-      description: "Dr. Gang He is invited to serve as an external expert in the energy transition sub-working group of the U.S.-China Working Group on Enhancing Climate Action in the 2020s."
-      date: "2024-06-24"
+    - ../../events.yml
+    - ../../release.yml
+  include: 
+    categories: "united-states"
 #      categories: [] 
 
 - id: featured-projects

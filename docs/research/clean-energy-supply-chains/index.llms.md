@@ -56,6 +56,14 @@ Dec 5, 2023
 
 ## Featured events
 
+![](../../files/images/CSIS.jpg)
+
+##### Workshop: Made in America? Unpacking the Drivers and Impacts of Domestic Clean Energy Manufacturing
+
+This workshop brings together researchers, policymakers, industry representatives, and policy experts to examine the drivers and impacts of domestic clean energy…
+
+Nov 12, 2026
+
 ![](../../events/2026-09-23-nyc-climate-week-clean-energy-supply-chains-in-the-era-of-industrial-policy-panel/featured.jpg)
 
 ##### Climate Week NYC 2026: Clean Energy Supply Chains in the Era of Industrial Policy
@@ -63,14 +71,6 @@ Dec 5, 2023
 Join us to discuss Clean Energy Supply Chains in the Era of Industrial Policy during Climate Week NYC 2026.
 
 Sep 23, 2026
-
-![](../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp)
-
-##### Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
-
-Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025.
-
-Sep 23, 2025
 
 [More Events »](../../more-events.llms.md#category=supply-chain)
 

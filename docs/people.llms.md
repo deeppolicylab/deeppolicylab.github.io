@@ -46,6 +46,34 @@ Macaulay Honors Student, CUNY Baruch College
 
 Incoming Visiting Student/Ph.D. Candidate, Wuhan University
 
+## Team and Alumni News
+
+![](./files/images/Nico-Antonucci.png)
+
+##### Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
+
+2026-09
+
+![](./files/images/baruch-college.webp)
+
+##### Baruch Professor Gang He Receives CUNY Research Award
+
+2026-07
+
+![](./files/headshots/xinyang-che.jpg)
+
+##### Lab Alumni Xinyang Che Moving On to PhD Program at the Utrecht University
+
+2025-12
+
+![](./files/images/baruch-college.webp)
+
+##### Baruch College Faculty Included in World’s Top Scientist List
+
+2024-10
+
+[More »](more-news.llms.md#category=people)
+
 ## Alumni
 
 |  | Name | Role/Affiliation | Started | Ended |

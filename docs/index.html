@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.11">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,14 +40,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-5947b73a06bce04bf1d622ae23e1ec5b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ab0c76efacf72616ee6bc98aec9b576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-335b1477aeee27cd5985acdf700db36b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,12 +97,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
@@ -122,12 +120,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
@@ -151,12 +143,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -174,7 +160,7 @@ https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a
 <meta name="msvalidate.01" content="9C59F9F1BA58645E8B9B3CD7CF36F352">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -212,24 +198,21 @@ window.Quarto = {
 <meta property="og:image:width" content="1792">
 <meta name="twitter:title" content="DEEP Policy Lab">
 <meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/cover.png">
-<meta name="twitter:image-height" content="1024">
-<meta name="twitter:image-width" content="1792">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">DEEP Policy Lab</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -317,11 +300,12 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar" tabindex="-1">
 <!-- sidebar -->
 <!-- margin-sidebar -->
 <!-- main -->
@@ -370,8 +354,26 @@ What’s new
 </p>
 <div id="listing-news-events" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGFwZXIlMkNmZWF0dXJlZA==" data-listing-date-sort="1793246400000" data-listing-file-modified-sort="1793809946715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1176">
-<a href="./news/2026-10-29-nexus-health-and-climate-benefits-of-solar-pv-in-the-eu.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="c3VwcGx5LWNoYWluJTJDdW5pdGVkLXN0YXRlcw==" data-listing-date-sort="1794459600000">
+<a href="https://madeinamerica.netlify.app/workshop" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./files/images/CSIS.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop: Made in America? Unpacking the Drivers and Impacts of Domestic Clean Energy Manufacturing
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 12, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="cGFwZXIlMkNmZWF0dXJlZA==" data-listing-date-sort="1793246400000" data-listing-file-modified-sort="1794149212836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1175">
+<a href="./news/2026-10-29-nexus-health-and-climate-benefits-of-solar-pv-in-the-eu.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/Sweden-solar-farm.JPG" class="thumbnail-image card-img" style="height: 200px;">
@@ -388,8 +390,8 @@ Oct 29, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1791432000000">
-<a href="https://gps-ucsd.zohobackstage.com/WorkshoponOpenModelingCarbonNeutralityofthePowerSector#/symposiumagenda?lang=en" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1791432000000">
+<a href="https://gps-ucsd.zohobackstage.com/WorkshoponOpenModelingCarbonNeutralityofthePowerSector#/symposiumagenda?lang=en" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/ucsd.webp" class="thumbnail-image card-img" style="height: 200px;">
@@ -401,24 +403,6 @@ Oct 29, 2026
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Oct 8, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="cGVvcGxl" data-listing-date-sort="1790740800000">
-<a href="https://newscenter.baruch.cuny.edu/news/baruch-alumni-selected-for-legislative-fellowships-in-albany/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/Nico-Antonucci.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Lab Alumni Nico Antonucci Selected as New York State Senate Legislative Fellow
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 30, 2026
 </div>
 </div>
 </div>
@@ -449,7 +433,7 @@ What we do
 <div id="listing-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1786447442456" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
-<a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link">
+<a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./research/clean-energy-supply-chains/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
@@ -462,7 +446,7 @@ Clean Energy Supply Chains
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-listing-file-modified-sort="1774107734749" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
-<a href="./research/power-systems-decarbonization/index.html" class="quarto-grid-link">
+<a href="./research/power-systems-decarbonization/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./research/power-systems-decarbonization/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
@@ -475,7 +459,7 @@ Power Systems Decarbonization
 </div></a>
 </div>
 <div class="g-col-1" data-index="2" data-listing-file-modified-sort="1773402864455" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
-<a href="./research/climate-impacts-energy-systems/index.html" class="quarto-grid-link">
+<a href="./research/climate-impacts-energy-systems/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/Gemini-climate-impact-energy.jpg" class="thumbnail-image card-img" style="height: 150px;">
@@ -488,7 +472,7 @@ Climate Impacts on Energy Systems
 </div></a>
 </div>
 <div class="g-col-1" data-index="3" data-listing-file-modified-sort="1773402865035" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
-<a href="./research/energy-nexus-research/index.html" class="quarto-grid-link">
+<a href="./research/energy-nexus-research/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/Gemini-energy-nexus.jpg" class="thumbnail-image card-img" style="height: 150px;">
@@ -501,7 +485,7 @@ Energy Nexus Research
 </div></a>
 </div>
 <div class="g-col-1" data-index="4" data-listing-file-modified-sort="1774107935551" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<a href="./research/energy-climate-justice/index.html" class="quarto-grid-link">
+<a href="./research/energy-climate-justice/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/School-rooftop-solar.webp" class="thumbnail-image card-img" style="height: 150px;">
@@ -514,7 +498,7 @@ Energy and Climate Justice
 </div></a>
 </div>
 <div class="g-col-1" data-index="5" data-listing-file-modified-sort="1766755017222" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<a href="./research/china-carbon-neutrality-initiative/index.html" class="quarto-grid-link">
+<a href="./research/china-carbon-neutrality-initiative/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/Shenzhen-low-carbon-city.webp" class="thumbnail-image card-img" style="height: 150px;">
@@ -527,7 +511,7 @@ China Carbon Neutrality Initiative
 </div></a>
 </div>
 <div class="g-col-1" data-index="6" data-listing-file-modified-sort="1774108019518" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<a href="./research/new-york-climate-initiative/index.html" class="quarto-grid-link">
+<a href="./research/new-york-climate-initiative/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./research/new-york-climate-initiative/featured.JPG" class="thumbnail-image card-img" style="height: 150px;">
@@ -539,8 +523,8 @@ New York Climate Initiative
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1773402865035" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
-<a href="./research/united-states-clean-energy-initiative/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1794101315446" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<a href="./research/united-states-clean-energy-initiative/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./research/united-states-clean-energy-initiative/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
@@ -568,7 +552,7 @@ Read our work
 <div id="listing-publications" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="ZmVhdHVyZWQlMkNzb2xhciUyQ3N1cHBseS1jaGFpbiUyQ2VuZXJneS1uZXh1cyUyQ2V1cm9wZSUyQ2dlcm1hbnklMkN1bml0ZWQta2luZ2RvbQ==" data-listing-date-sort="1793246400000">
-<a href="https://doi.org/10.1016/j.ynexs.2026.100177" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.ynexs.2026.100177" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nexus.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -589,7 +573,7 @@ Oct 29, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="Y2xpbWF0ZS1pbXBhY3QlMkNjaGluYSUyQ3Bvd2VyLXN5c3RlbQ==" data-listing-date-sort="1788235200000">
-<a href="https://doi.org/10.1016/j.eneco.2026.109527" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.eneco.2026.109527" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/energy-economics.jpeg" class="thumbnail-image card-img" style="height: 200px;">
@@ -610,7 +594,7 @@ Sep 1, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="2" data-categories="aW5kdXN0cnk=" data-listing-date-sort="1787284800000">
-<a href="https://doi.org/10.1016/j.oneear.2026.101784" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.oneear.2026.101784" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -717,11 +701,30 @@ Aug 21, 2026
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -735,8 +738,70 @@ Aug 21, 2026
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -750,6 +815,7 @@ Aug 21, 2026
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -912,44 +978,54 @@ Aug 21, 2026
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1047,6 +1123,9 @@ Aug 21, 2026
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">
