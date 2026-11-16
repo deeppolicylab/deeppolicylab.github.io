@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.11">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -38,14 +41,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-5947b73a06bce04bf1d622ae23e1ec5b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-2ab0c76efacf72616ee6bc98aec9b576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-335b1477aeee27cd5985acdf700db36b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,12 +98,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
@@ -122,12 +120,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
@@ -150,12 +142,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
@@ -178,12 +164,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -196,7 +176,7 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -230,25 +210,26 @@ window.Quarto = {
 <meta property="og:description" content="Exploring the pathways, technology, market, impacts, and implications of clean power transition">
 <meta property="og:image" content="http://deeppolicylab.github.io/research/power-systems-decarbonization/featured.jpeg">
 <meta property="og:site_name" content="DEEP Policy Lab">
+<meta property="og:image:height" content="1026">
+<meta property="og:image:width" content="1824">
 <meta name="twitter:title" content="Power Systems Decarbonization – DEEP Policy Lab">
 <meta name="twitter:description" content="Exploring the pathways, technology, market, impacts, and implications of clean power transition">
 <meta name="twitter:image" content="http://deeppolicylab.github.io/research/power-systems-decarbonization/featured.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">DEEP Policy Lab</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -336,6 +317,7 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -344,7 +326,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -357,7 +339,7 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -398,7 +380,7 @@ window.Quarto = {
 <div id="listing-featured-publications" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="Y2xpbWF0ZS1pbXBhY3QlMkNjaGluYSUyQ3Bvd2VyLXN5c3RlbQ==" data-listing-date-sort="1788235200000">
-<a href="https://doi.org/10.1016/j.eneco.2026.109527" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.eneco.2026.109527" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/journal/energy-economics.jpeg" class="thumbnail-image card-img" style="height: 200px;">
@@ -410,7 +392,7 @@ Resilience planning for power systems under deep climate uncertainty
 <div class="card-subtitle listing-subtitle">
 <em>Energy Economics</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>A hybrid framework combining a Graph Neural Network and a Conditional Generative Adversarial Network (GNN-cGAN) is utilized to capture the spatiotemporal couplings of…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -422,7 +404,7 @@ Sep 1, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="ZmVhdHVyZWQlMkN3aW5kJTJDY2hpbmElMkNwb3dlci1zeXN0ZW0=" data-listing-date-sort="1776744000000">
-<a href="https://www.nature.com/articles/s43247-026-03533-9" class="quarto-grid-link">
+<a href="https://www.nature.com/articles/s43247-026-03533-9" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/journal/commsearth.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -434,7 +416,7 @@ Aligning offshore wind deployment with local priorities to accelerate power syst
 <div class="card-subtitle listing-subtitle">
 <em>Communications Earth &amp; Environment</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Offshore wind can bolster the energy self-sufficiency of coastal provinces, shifting them from net electricity importers to exporters. It also reduces the need for energy…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -446,7 +428,7 @@ Apr 21, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="2" data-categories="Y2FyYm9uJTJDY2hpbmElMkNwb3dlci1zeXN0ZW0=" data-listing-date-sort="1774065600000">
-<a href="https://doi.org/10.1016/j.apenergy.2026.127726" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.apenergy.2026.127726" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/journal/applied-energy-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -458,7 +440,7 @@ Emission trading scheme reshapes the decarbonisation pathways of China’s power
 <div class="card-subtitle listing-subtitle">
 <em>Applied Energy</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Integrating the SWITCH-China capacity expansion model with a carbon trading module, we evaluate the potential carbon profits and costs of currently operating ETS-regulated…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -470,7 +452,7 @@ Mar 21, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="3" data-categories="cG93ZXItc3lzdGVtJTJDZmVhdHVyZWQ=" data-listing-date-sort="1768885200000">
-<a href="https://doi.org/10.1038/s44359-025-00136-z" class="quarto-grid-link">
+<a href="https://doi.org/10.1038/s44359-025-00136-z" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/journal/nature-reviews-clean-tech.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -482,7 +464,7 @@ Renewable integration and AI demand reshaped power grids in 2025
 <div class="card-subtitle listing-subtitle">
 <em>Nature Reviews Clean Technology</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>The importance of renewable integration into grids came to the forefront in 2025. New challenges in stability, storage, artificial intelligence demand and policy changes…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -505,7 +487,7 @@ Jan 20, 2026
 <div id="listing-featured-resources" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0=" data-listing-date-sort="1654056000000">
-<a href="https://github.com/switch-model/switch-china-open-model" class="quarto-grid-link">
+<a href="https://github.com/switch-model/switch-china-open-model" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/switch-china.png" class="thumbnail-image card-img" style="height: 200px;">
@@ -514,7 +496,7 @@ Jan 20, 2026
 <h5 class="no-anchor card-title listing-title">
 SWITCH-China Open Model
 </h5>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>SWITCH-China: open source model for the world’s largest power system. Open data on power plants, transmission, costs, and demand by province.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -526,7 +508,7 @@ Jun 1, 2022
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1641013200000">
-<a href="https://www.mcet-network.org/mcet-network/china/" class="quarto-grid-link">
+<a href="https://www.mcet-network.org/mcet-network/china/" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/mcet-network.webp" class="thumbnail-image card-img" style="height: 200px;">
@@ -535,7 +517,7 @@ Jun 1, 2022
 <h5 class="no-anchor card-title listing-title">
 Multi-Country Electricity Transition (MCET) Network
 </h5>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>This global alliance of energy modelers, policymakers, and advocates leverages advanced, open-source energy planning tools to identify the best pathways, costs, and…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -558,7 +540,7 @@ Jan 1, 2022
 <div id="listing-featured-events" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1791432000000">
-<a href="https://gps-ucsd.zohobackstage.com/WorkshoponOpenModelingCarbonNeutralityofthePowerSector#/symposiumagenda?lang=en" class="quarto-grid-link">
+<a href="https://gps-ucsd.zohobackstage.com/WorkshoponOpenModelingCarbonNeutralityofthePowerSector#/symposiumagenda?lang=en" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/ucsd.webp" class="thumbnail-image card-img" style="height: 200px;">
@@ -567,7 +549,7 @@ Jan 1, 2022
 <h5 class="no-anchor card-title listing-title">
 2026 Workshop on Open Modeling Carbon Neutrality of the Power Sector
 </h5>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>The third workshop on open modeling carbon neutrality of the power sector is hosted by the University of California, San Diego.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -579,7 +561,7 @@ Oct 8, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVtJTJDbnVjbGVhcg==" data-listing-date-sort="1758600000000" data-listing-file-modified-sort="1787267924425" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
-<a href="../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html" class="quarto-grid-link">
+<a href="../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/index.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../events/2025-09-23-nyc-climate-week-nuclear-energy-panel/Flyer-small.webp" class="thumbnail-image card-img" style="height: 200px;">
@@ -588,7 +570,7 @@ Oct 8, 2026
 <h5 class="no-anchor card-title listing-title">
 Climate Week NYC 2025: The Role of Nuclear Energy in Decarbonization and Powering the AI Era
 </h5>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Join us to discuss the role of nuclear energy in decarbonization and powering the AI era during Climate Week NYC 2025.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -611,7 +593,7 @@ Sep 23, 2025
 <div id="listing-featured-projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="c3VwcGx5LWNoYWluJTJDcG93ZXItc3lzdGVt">
-<a href="https://ccci.berkeley.edu/research" class="quarto-grid-link">
+<a href="https://ccci.berkeley.edu/research" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/funders/ucb.webp" class="thumbnail-image card-img" style="height: 200px;">
@@ -623,14 +605,14 @@ Global Clean Energy Supply Chains Analysis and Power Systems Resources Adequacy 
 <div class="card-subtitle listing-subtitle">
 University of California, Berkeley
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>The goal of this project is to collaborate with CCCI team to study global clean energy supply chains and power system resources adequacy.</p>
 </div>
 </div>
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="cG93ZXItc3lzdGVt">
-<a href="https://emp.lbl.gov/" class="quarto-grid-link">
+<a href="https://emp.lbl.gov/" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/funders/ucb.webp" class="thumbnail-image card-img" style="height: 200px;">
@@ -642,14 +624,14 @@ Power system beyond coal
 <div class="card-subtitle listing-subtitle">
 University of California, Berkeley
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>The goal of this project is to collaborate with LBL team in modeling the decarbonization of China’s power sector.</p>
 </div>
 </div>
 </div></a>
 </div>
 <div class="g-col-1" data-index="2" data-categories="cG93ZXItc3lzdGVt">
-<a href="https://www.edf.org/work/economics-energy-transition" class="quarto-grid-link">
+<a href="https://www.edf.org/work/economics-energy-transition" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/funders/edf.png" class="thumbnail-image card-img" style="height: 200px;">
@@ -661,14 +643,14 @@ Multi-Country Electricity Transition Potential and Challenges Project (MCET)
 <div class="card-subtitle listing-subtitle">
 Environmental Defense Fund
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>The goal of this project is to provide technical support to the MCET team to assess the opportunities and barriers to decarbonize their electricity sectors using open data…</p>
 </div>
 </div>
 </div></a>
 </div>
 <div class="g-col-1" data-index="3" data-categories="cG93ZXItc3lzdGVt">
-<a href="https://energy.lbl.gov/people/gang-he" class="quarto-grid-link">
+<a href="https://energy.lbl.gov/people/gang-he" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../../files/images/funders/lbl.png" class="thumbnail-image card-img" style="height: 200px;">
@@ -680,7 +662,7 @@ Power Systems Modeling and Analysis
 <div class="card-subtitle listing-subtitle">
 Lawrence Berkeley National Laboratory
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Multiple projects to collaborate with LBL team modeling the technology and policy options of decarbonizing China’s power systems.</p>
 </div>
 </div>
@@ -782,11 +764,30 @@ https://quarto.org/docs/authoring/includes.html
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -800,8 +801,70 @@ https://quarto.org/docs/authoring/includes.html
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -815,6 +878,7 @@ https://quarto.org/docs/authoring/includes.html
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -977,44 +1041,54 @@ https://quarto.org/docs/authoring/includes.html
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1112,6 +1186,9 @@ https://quarto.org/docs/authoring/includes.html
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

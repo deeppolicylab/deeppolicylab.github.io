@@ -84,7 +84,7 @@ The research also highlights an often-overlooked dimension of Europe’s clean e
 
 The findings offer new evidence for policymakers weighing the benefits of global clean energy trade and supply chains.
 
-![](../files/images/Sweden-solar-farm-16-9.JPG)
+![](../files/images/Sweden-solar-farm-16-9.webp)
 
 A solar farm near Vasteras, Sweden. Photo by Gang He
 
@@ -153,3 +153,11 @@ This study is funded by the ClimateWorks Foundation under grant number 23-2515 a
 Luo, Kaifang, Yun Li, Guochao Chen, Minghao Qiu, Froylan E. Sifuentes, Hongliang Zhang, Gang He. 2026. Health and climate benefits of solar photovoltaics in Europe and the role of imports. *Nexus*: 100177. <https://doi.org/10.1016/j.ynexs.2026.100177>.
 
 Learn [more](https://drganghe.github.io/posts/2026-10-nexus-climate-health-benefits-of-solar-pv-in-eu-role-of-imports/index.html) about the research.
+
+## Press Releases
+
+![](../files/images/university/cuny-gc.png)
+
+##### Solar Power Prevented 13,000 Premature Deaths in Europe, Study Finds
+
+CUNY Graduate Center

@@ -99,6 +99,28 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-releases .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-author","listing-description","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-releases'] = new List('listing-releases', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -143,13 +165,11 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Ahead of COP31, New Study Finds Solar Helped Prevent 13,000 Premature Deaths in Europe – DEEP Policy Lab">
 <meta property="og:description" content="New research finds $116 billion in health and climate benefits across eight European countries between 2015 and 2021, with over 40% associated with imported solar panels.">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/Sweden-solar-farm.JPG">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/Sweden-solar-farm-16-9.webp">
 <meta property="og:site_name" content="DEEP Policy Lab">
-<meta property="og:image:height" content="1494">
-<meta property="og:image:width" content="1992">
 <meta name="twitter:title" content="Ahead of COP31, New Study Finds Solar Helped Prevent 13,000 Premature Deaths in Europe – DEEP Policy Lab">
 <meta name="twitter:description" content="New research finds $116 billion in health and climate benefits across eight European countries between 2015 and 2021, with over 40% associated with imported solar panels.">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/Sweden-solar-farm.JPG">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/Sweden-solar-farm-16-9.webp">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -267,6 +287,7 @@ window.Quarto = {
   <ul>
   <li><a href="#authors" id="toc-authors" class="nav-link active" data-scroll-target="#authors">Authors</a></li>
   <li><a href="#release" id="toc-release" class="nav-link" data-scroll-target="#release">Release</a></li>
+  <li><a href="#press-releases" id="toc-press-releases" class="nav-link" data-scroll-target="#press-releases">Press Releases</a></li>
   </ul>
 </nav>
     </div>
@@ -500,7 +521,7 @@ Associate Professor, CUNY Baruch College
 <p>The findings offer new evidence for policymakers weighing the benefits of global clean energy trade and supply chains.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../files/images/Sweden-solar-farm-16-9.JPG" class="img-fluid figure-img"></p>
+<p><img src="../files/images/Sweden-solar-farm-16-9.webp" class="img-fluid figure-img"></p>
 <figcaption>A solar farm near Vasteras, Sweden. Photo by Gang He</figcaption>
 </figure>
 </div>
@@ -537,6 +558,30 @@ Associate Professor, CUNY Baruch College
 <p><strong>Citation</strong></p>
 <p>Luo, Kaifang, Yun Li, Guochao Chen, Minghao Qiu, Froylan E. Sifuentes, Hongliang Zhang, Gang He. 2026. Health and climate benefits of solar photovoltaics in Europe and the role of imports. <em>Nexus</em>: 100177. <a href="https://doi.org/10.1016/j.ynexs.2026.100177" class="uri">https://doi.org/10.1016/j.ynexs.2026.100177</a>.</p>
 <p>Learn <a href="https://drganghe.github.io/posts/2026-10-nexus-climate-health-benefits-of-solar-pv-in-eu-role-of-imports/index.html">more</a> about the research.</p>
+</section>
+<section id="press-releases" class="level2">
+<h2 class="anchored" data-anchor-id="press-releases">Press Releases</h2>
+<div id="listing-releases" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1794546000000">
+<a href="https://www.gc.cuny.edu/news/solar-power-prevented-13000-premature-deaths-europe-study-finds" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../files/images/university/cuny-gc.png" class="thumbnail-image card-img" style="height: 100px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Solar Power Prevented 13,000 Premature Deaths in Europe, Study Finds
+</h5>
+<div class="card-subtitle listing-subtitle">
+CUNY Graduate Center
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 

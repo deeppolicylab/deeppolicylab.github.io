@@ -2,7 +2,7 @@
 
 Featured releases
 
-![](./files/images/Sweden-solar-farm.JPG)
+![](./files/images/Sweden-solar-farm-16-9.webp)
 
 ##### Ahead of COP31, New Study Finds Solar Helped Prevent 13,000 Premature Deaths in Europe
 

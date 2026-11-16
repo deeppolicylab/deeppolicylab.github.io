@@ -1,6 +1,6 @@
 ---
 title: "Ahead of COP31, New Study Finds Solar Helped Prevent 13,000 Premature Deaths in Europe"
-image: "/files/images/Sweden-solar-farm.JPG"
+image: "/files/images/Sweden-solar-farm-16-9.webp"
 description: "New research finds $116 billion in health and climate benefits across eight European countries between 2015 and 2021, with over 40% associated with imported solar panels."
 #author: "Gang He"
 categories: [paper, featured]
@@ -47,6 +47,25 @@ listing:  #an example of listing external links
 #     - ../../people/guochao-chen.yml
 #     - ../../people/minghao-qiu.yml
 #     - ../../people/froylan-sifuentes.yml
+
+- id: releases
+#  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+#  grid-item-align: center  
+  grid-columns: 2
+  image-height: 100px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - path: https://www.gc.cuny.edu/news/solar-power-prevented-13000-premature-deaths-europe-study-finds
+      image: /files/images/university/cuny-gc.png
+      title: "Solar Power Prevented 13,000 Premature Deaths in Europe, Study Finds"
+      subtitle: "CUNY Graduate Center"
+      author: Office of Communications and Marketing
+      description: "New research led by Professor Gang He shows that the benefits of solar energy extend far beyond reducing carbon emissions."
+      date: "2026-11-13"  
 ---
 
 <!--This is my personal clarity, please delete or replace with your own clarity-->
@@ -90,7 +109,7 @@ The research also highlights an often-overlooked dimension of Europe's clean ene
 The findings offer new evidence for policymakers weighing the benefits of global clean energy trade and supply chains.
 
 
-![A solar farm near Vasteras, Sweden. Photo by Gang He](/files/images/Sweden-solar-farm-16-9.JPG)
+![A solar farm near Vasteras, Sweden. Photo by Gang He](/files/images/Sweden-solar-farm-16-9.webp)
 
 **Cleaner electricity, healthier communities**
 
@@ -163,6 +182,10 @@ Luo, Kaifang, Yun Li, Guochao Chen, Minghao Qiu, Froylan E. Sifuentes, Hongliang
 
 Learn [more](https://drganghe.github.io/posts/2026-10-nexus-climate-health-benefits-of-solar-pv-in-eu-role-of-imports/index.html) about the research.
 
+## Press Releases
+
+:::{#releases}
+:::
 
 <!--Include social share buttons-->
 

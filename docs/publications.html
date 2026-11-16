@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.11">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,14 +40,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-5947b73a06bce04bf1d622ae23e1ec5b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ab0c76efacf72616ee6bc98aec9b576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-335b1477aeee27cd5985acdf700db36b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,12 +97,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TEC97F8RGK"></script>
 
@@ -111,7 +109,7 @@ gtag('config', 'G-TEC97F8RGK', { 'anonymize_ip': true});
 </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -145,25 +143,26 @@ window.Quarto = {
 <meta property="og:description" content="Featured papers and articles">
 <meta property="og:image" content="http://deeppolicylab.github.io/files/images/journal/nexus.jpg">
 <meta property="og:site_name" content="DEEP Policy Lab">
+<meta property="og:image:height" content="640">
+<meta property="og:image:width" content="640">
 <meta name="twitter:title" content="Featured Publications – DEEP Policy Lab">
 <meta name="twitter:description" content="Featured papers and articles">
 <meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/journal/nexus.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">DEEP Policy Lab</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -251,6 +250,7 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -262,7 +262,7 @@ window.Quarto = {
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -323,7 +323,7 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 </div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="ZmVhdHVyZWQlMkNzb2xhciUyQ3N1cHBseS1jaGFpbiUyQ2VuZXJneS1uZXh1cyUyQ2V1cm9wZSUyQ2dlcm1hbnklMkN1bml0ZWQta2luZ2RvbQ==" data-listing-date-sort="1793246400000">
-<a href="https://doi.org/10.1016/j.ynexs.2026.100177" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.ynexs.2026.100177" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nexus.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -335,7 +335,7 @@ Health and climate benefits of solar photovoltaics in Europe and the role of imp
 <div class="card-subtitle listing-subtitle">
 <em>Nexus</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Solar generation avoided 47 million tonnes of carbon dioxide and more than 13,000 premature deaths, yielding $116.2 billion in monetized benefits (about $150 per installed…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -347,7 +347,7 @@ Oct 29, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="ZmVhdHVyZWQlMkN3aW5kJTJDY2hpbmElMkNwb3dlci1zeXN0ZW0=" data-listing-date-sort="1776744000000">
-<a href="https://www.nature.com/articles/s43247-026-03533-9" class="quarto-grid-link">
+<a href="https://www.nature.com/articles/s43247-026-03533-9" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/commsearth.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -359,7 +359,7 @@ Aligning offshore wind deployment with local priorities to accelerate power syst
 <div class="card-subtitle listing-subtitle">
 <em>Communications Earth &amp; Environment</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Offshore wind can bolster the energy self-sufficiency of coastal provinces, shifting them from net electricity importers to exporters. It also reduces the need for energy…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -371,7 +371,7 @@ Apr 21, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="2" data-categories="cG93ZXItc3lzdGVtJTJDZmVhdHVyZWQ=" data-listing-date-sort="1768885200000">
-<a href="https://doi.org/10.1038/s44359-025-00136-z" class="quarto-grid-link">
+<a href="https://doi.org/10.1038/s44359-025-00136-z" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nature-reviews-clean-tech.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -383,7 +383,7 @@ Renewable integration and AI demand reshaped power grids in 2025
 <div class="card-subtitle listing-subtitle">
 <em>Nature Reviews Clean Technology</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>The importance of renewable integration into grids came to the forefront in 2025. New challenges in stability, storage, artificial intelligence demand and policy changes…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -395,7 +395,7 @@ Jan 20, 2026
 </div></a>
 </div>
 <div class="g-col-1" data-index="3" data-categories="ZmVhdHVyZWQlMkNzb2xhciUyQ3N1cHBseS1jaGFpbiUyQ2VuZXJneS1uZXh1cyUyQ3VuaXRlZC1zdGF0ZXM=" data-listing-date-sort="1759896000000">
-<a href="https://doi.org/10.1016/j.oneear.2025.101467" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.oneear.2025.101467" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -407,7 +407,7 @@ Imported solar photovoltaics contributed to health and climate benefits in the U
 <div class="card-subtitle listing-subtitle">
 <em>One Earth</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Imported solar panels prevented nearly 600 premature deaths and delivered $28 billion in climate and health benefits to the United States.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -419,7 +419,7 @@ Oct 8, 2025
 </div></a>
 </div>
 <div class="g-col-1" data-index="4" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
-<a href="https://doi.org/10.1038/d41586-025-02341-z" class="quarto-grid-link">
+<a href="https://doi.org/10.1038/d41586-025-02341-z" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nature.avif" class="thumbnail-image card-img" style="height: 200px;">
@@ -431,7 +431,7 @@ Can China break the ‘cost curse’ of nuclear power?
 <div class="card-subtitle listing-subtitle">
 <em>Nature</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Strengthening regulations and domestic supply chains could be key to making nuclear power more economically viable.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -443,7 +443,7 @@ Jul 31, 2025
 </div></a>
 </div>
 <div class="g-col-1" data-index="5" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000">
-<a href="https://doi.org/10.1016/j.oneear.2024.10.006" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.oneear.2024.10.006" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -455,7 +455,7 @@ Fewer than 15% of coal power plant workers in China can easily shift to green jo
 <div class="card-subtitle listing-subtitle">
 <em>One Earth</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>A coal power worker needs to travel 194 (178–242) km on average to access a green job. Only 11%–14% of existing coal power workers will transition to green jobs by 2060.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -467,7 +467,7 @@ Nov 5, 2024
 </div></a>
 </div>
 <div class="g-col-1" data-index="6" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYSUyQ3N0b3JhZ2U=" data-listing-date-sort="1691726400000">
-<a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link">
+<a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nature-comms.png" class="thumbnail-image card-img" style="height: 200px;">
@@ -479,7 +479,7 @@ Heterogeneous effects of battery storage deployment strategies on decarbonizatio
 <div class="card-subtitle listing-subtitle">
 <em>Nature Communications</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -491,7 +491,7 @@ Aug 11, 2023
 </div></a>
 </div>
 <div class="g-col-1" data-index="7" data-categories="ZmVhdHVyZWQlMkNjbGltYXRlLWltcGFjdCUyQ3NvbGFyJTJDd2luZA==" data-listing-date-sort="1690171200000">
-<a href="https://www.nature.com/articles/s41560-023-01304-w" class="quarto-grid-link">
+<a href="https://www.nature.com/articles/s41560-023-01304-w" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nature-energy.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -503,7 +503,7 @@ Climate change impacts on planned supply–demand match in global wind and solar
 <div class="card-subtitle listing-subtitle">
 <em>Nature Energy</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Up to 32% or 44% of non-Antarctic land areas for wind or solar, respectively, are projected to experience supply demand match reductions by the end of this century under an…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -515,7 +515,7 @@ Jul 24, 2023
 </div></a>
 </div>
 <div class="g-col-1" data-index="8" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNzb2xhciUyQ3VuaXRlZC1zdGF0ZXMlMkNjaGluYSUyQ2dlcm1hbnk=" data-listing-date-sort="1666756800000">
-<a href="https://www.nature.com/articles/s41586-022-05316-6" class="quarto-grid-link">
+<a href="https://www.nature.com/articles/s41586-022-05316-6" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nature.avif" class="thumbnail-image card-img" style="height: 200px;">
@@ -527,7 +527,7 @@ Quantifying the cost savings of global solar photovoltaic supply chains
 <div class="card-subtitle listing-subtitle">
 <em>Nature</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to…</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -539,7 +539,7 @@ Oct 26, 2022
 </div></a>
 </div>
 <div class="g-col-1" data-index="9" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NhcmJvbg==" data-listing-date-sort="1646110800000">
-<a href="https://www.nature.com/articles/s43017-021-00244-x" class="quarto-grid-link">
+<a href="https://www.nature.com/articles/s43017-021-00244-x" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nature-reviews-earth.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -551,7 +551,7 @@ Challenges and opportunities for carbon neutrality in China
 <div class="card-subtitle listing-subtitle">
 <em>Nature Reviews Earth &amp; Environment</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>In this Perspective, we summarize the key features of China’s CO<sub>2</sub> emissions, its reduction processes and successes in meeting climate targets.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -563,7 +563,7 @@ Mar 1, 2022
 </div></a>
 </div>
 <div class="g-col-1" data-index="10" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NvYWwlMkNqdXN0LXRyYW5zaXRpb24=" data-listing-date-sort="1597982400000">
-<a href="https://doi.org/10.1016/j.oneear.2020.07.012" class="quarto-grid-link">
+<a href="https://doi.org/10.1016/j.oneear.2020.07.012" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
@@ -575,7 +575,7 @@ Enabling a Rapid and Just Transition away from Coal in China
 <div class="card-subtitle listing-subtitle">
 <em>One Earth</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>An aggressive coal-transition pathway is needed to achieve the carbon neutrality goal while saving water and avoiding premature deaths.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -587,7 +587,7 @@ Aug 21, 2020
 </div></a>
 </div>
 <div class="g-col-1" data-index="11" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1589860800000">
-<a href="https://www.nature.com/articles/s41467-020-16184-x" class="quarto-grid-link">
+<a href="https://www.nature.com/articles/s41467-020-16184-x" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/journal/nature-comms.png" class="thumbnail-image card-img" style="height: 200px;">
@@ -599,7 +599,7 @@ Rapid cost decrease of renewables and storage accelerates the decarbonization of
 <div class="card-subtitle listing-subtitle">
 <em>Nature Communications</em>
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 <p>A renewable-dominant pathway is not just technologically sound, but also cost-effective.</p>
 </div>
 <div class="card-attribution card-text-small end">
@@ -705,11 +705,30 @@ https://quarto.org/docs/authoring/includes.html
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -723,8 +742,70 @@ https://quarto.org/docs/authoring/includes.html
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -738,6 +819,7 @@ https://quarto.org/docs/authoring/includes.html
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -900,44 +982,54 @@ https://quarto.org/docs/authoring/includes.html
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1035,6 +1127,9 @@ https://quarto.org/docs/authoring/includes.html
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">
