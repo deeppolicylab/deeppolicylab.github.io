@@ -95,7 +95,7 @@ As world leaders prepare to gather for the 31st United Nations Climate Change Co
 | Avoided CO₂ emissions | 47 million tonnes | 6.7 million tonnes/year |
 | Avoided air pollution | 13,025 premature deaths | 1,860 premature deaths/year | 
 | Monetized health and climate benefits | $116.2 billion | $16.6 billion/year | 
-| Average benefits per imported capacity |  | ~$150/kW⋅yr | 
+| Average benefits per imported capacity |  | ~$150/kW per year | 
 | Share of imports-associated benefits | 40% |  | 
 
 : Summary of benefits of solar photovoltaic (PV) electricity generation in Europe between 2015 and 2021
